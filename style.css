@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toggle-button button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toggle-button button:hover {
+    background-color: #2980b9;
+}
+
+.surah-list {
+    display: none;
+    text-align: center;
+}
+
+.surah-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.surah-item:last-child {
+    border-bottom: none;
+}
+
+.surah-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.surah-name-malay {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.surah-number {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.surah-name-arabic {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ayah {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arabic {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.translation {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
