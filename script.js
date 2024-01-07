@@ -58,7 +58,7 @@ var alFatihahData = {
 };
 
 function goToSuraPage() {
-    window.location.href = 'http://quranmobile.local/sura.html';
+    window.location.href = './sura.html';
 }
 
 // Global variable to keep track of the current ayat index
