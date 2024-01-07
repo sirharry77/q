@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laman Web Quran</title>
+</head>
+<body>
+    <div class="container">
+           <button onclick="goToSuraPage()">Senarai Surah</button>
+        <div class="surah-list" id="surahList">
+            <!-- Daftar surah akan ditambahkan di sini oleh JavaScript -->
+        </div>
+<!-- ... -->
+<div class="surah-info">
+    <div class="surah-name-malay">Al-Fatihah</div>
+    <div class="combined-number">1:1</div>
+    <div class="surah-name-arabic">الفاتحة</div>
+</div>
+<!-- ... -->
+
+
+        <div class="ayah">
+            <div class="arabic">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</div>
+            <div class="translation">Segala puji tertentu bagi Allah, Tuhan seru sekalian alam.</div>
+           <button id="playStopButton" onclick="togglePlayStop()">Play</button>
+            <!-- Tambahkan tombol "Next" -->
+			<button onclick="showPreviousAyat()">Back</button>
+            <button onclick="showNextAyat()">Next</button>
+        </div>
+        <audio id="audioPlayer" controls>
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="script.js?a=dsdsdds"></script>
+</body>
+</html>
