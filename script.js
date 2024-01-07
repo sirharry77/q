@@ -2,7 +2,7 @@
 var alFatihahData = {
     surahNameMalay: "Al-Fatihah",
     surahNumber: 1,
-    surahNameArabic: "الفاتحة",
+    surahNameArabic: "سورة الفاتحة",
     ayat: [
         {
             ayatNumber: 1,
@@ -56,6 +56,37 @@ var alFatihahData = {
         // ... Continue for the remaining ayat
     ]
 };
+
+// Deklarasikan variabel untuk elemen ayah
+var ayahElement = document.querySelector('.ayah');
+
+// Gunakan Hammer.js untuk menangani gestur sentuh
+var hammer = new Hammer(ayahElement);
+
+// Tentukan fungsi untuk menangani gesekan (swipe)
+hammer.on('swipeleft', function () {
+    showNextAyat();
+});
+
+hammer.on('swiperight', function () {
+    showPreviousAyat();
+});
+
+// Fungsi untuk menampilkan ayat berikutnya
+function showNextAyat() {
+    // Implementasi logika untuk menampilkan ayat berikutnya
+    console.log('Show next ayat');
+}
+
+// Fungsi untuk menampilkan ayat sebelumnya
+function showPreviousAyat() {
+    // Implementasi logika untuk menampilkan ayat sebelumnya
+    console.log('Show previous ayat');
+}
+
+// Fungsi lainnya seperti togglePlayStop() dapat Anda tambahkan di sini
+
+
 
 function goToSuraPage() {
     window.location.href = './sura.html';
@@ -165,3 +196,4 @@ window.onload = function () {
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
     updatePlayStopButtonText();
 };
+
