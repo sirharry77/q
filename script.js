@@ -9,7 +9,7 @@ var alFatihahData = {
             surahNumber: 1,
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji tertentu bagi Allah, Tuhan seru sekalian alam.",
-            audioUrl: "/data/001001.mp3"
+            audioUrl: "./data/001001.mp3"
         },
         {
             ayatNumber: 2,
