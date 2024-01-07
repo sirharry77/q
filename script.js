@@ -9,56 +9,56 @@ var alFatihahData = {
             surahNumber: 1,
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji tertentu bagi Allah, Tuhan seru sekalian alam.",
-            audioUrl: "./data/001001.mp3"
+            audioUrl: "http://quranmobile.local/data/001001.mp3"
         },
         {
             ayatNumber: 2,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "./data/001002.mp3"
+            audioUrl: "http://quranmobile.local/data/001002.mp3"
         },
         {
             ayatNumber: 3,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "./data/001003.mp3"
+            audioUrl: "http://quranmobile.local/data/001003.mp3"
         },
         {
             ayatNumber: 4,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "./data/001004.mp3"
+            audioUrl: "http://quranmobile.local/data/001004.mp3"
         },
         {
             ayatNumber: 5,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "./data/001005.mp3"
+            audioUrl: "http://quranmobile.local/data/001005.mp3"
         },
         {
             ayatNumber: 6,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "./data/001006.mp3"
+            audioUrl: "http://quranmobile.local/data/001006.mp3"
         },
         {
             ayatNumber: 7,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "./data/001007.mp3"
+            audioUrl: "http://quranmobile.local/data/001007.mp3"
         },		
         // ... Continue for the remaining ayat
     ]
 };
 
 function goToSuraPage() {
-    window.location.href = './sura.html';
+    window.location.href = 'http://quranmobile.local/sura.html';
 }
 
 // Global variable to keep track of the current ayat index
@@ -81,23 +81,48 @@ function selectAyat(ayatData) {
     updateNavigationButtonsVisibility();
 }
 
-// Function to show the next ayat
+// Tambahkan fungsi carian
+function searchAyat() {
+    var input = document.getElementById("searchAyat").value;
+    var ayatIndex = parseInt(input);
+
+    if (!isNaN(ayatIndex) && ayatIndex >= 1 && ayatIndex <= alFatihahData.ayat.length) {
+        // Validasi nombor ayat dan panggil fungsi untuk menunjukkan ayat
+        updateAyatByIndex(ayatIndex - 1); // Tolak satu kerana indeks bermula dari 0
+    } else {
+        alert("Sila masukkan nombor ayat yang sah.");
+    }
+}
+
+// Fungsi untuk menunjukkan ayat berdasarkan indeks
+function updateAyatByIndex(index) {
+    var audioPlayer = document.getElementById("audioPlayer");
+    audioPlayer.pause();
+
+    currentAyatIndex = index;
+    selectAyat(alFatihahData.ayat[currentAyatIndex]);
+
+    // Resetkan keadaan audio dan kemas kini teks butang main
+    isAudioPlaying = false;
+    updatePlayStopButtonText();
+}
+
+// Kemudian, perbarui fungsi showNextAyat dan showPreviousAyat untuk membenarkan pemainan semula audio
 function showNextAyat() {
     var audioPlayer = document.getElementById("audioPlayer");
     audioPlayer.pause();
-    
+
     currentAyatIndex++;
     if (currentAyatIndex >= alFatihahData.ayat.length) {
         currentAyatIndex = 0;
     }
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
 
-    // Reset the audio state and update the play button text
+    // Resetkan keadaan audio dan kemas kini teks butang main
     isAudioPlaying = false;
     updatePlayStopButtonText();
 }
 
-// Function to show the previous ayat
 function showPreviousAyat() {
     var audioPlayer = document.getElementById("audioPlayer");
     audioPlayer.pause();
@@ -108,10 +133,11 @@ function showPreviousAyat() {
     }
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
 
-    // Reset the audio state and update the play button text
+    // Resetkan keadaan audio dan kemas kini teks butang main
     isAudioPlaying = false;
     updatePlayStopButtonText();
 }
+
 
 
 // Function to update the visibility of "Back" and "Next" buttons
@@ -155,3 +181,5 @@ window.onload = function () {
     // Set the initial state of the play/stop button
     updatePlayStopButtonText();
 };
+
+
