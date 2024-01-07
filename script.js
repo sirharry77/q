@@ -191,8 +191,15 @@ function updatePlayStopButtonText() {
     playStopButton.textContent = isAudioPlaying ? "Stop" : "Play";
 }
 
+// Fungsi untuk menghilangkan gambar audio player
+function hideAudioPlayer() {
+    var audioPlayer = document.getElementById("audioPlayer");
+    audioPlayer.style.display = "none";
+}
+
 // Call updatePlayStopButtonText after the page has loaded
 window.onload = function () {
+    hideAudioPlayer();
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
     updatePlayStopButtonText();
 };
