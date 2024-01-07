@@ -7,50 +7,50 @@ var alFatihahData = {
         {
             ayatNumber: 1,
             surahNumber: 1,
-            arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-            translation: "Segala puji tertentu bagi Allah, Tuhan seru sekalian alam.",
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
             audioUrl: "./data/001001.mp3"
         },
         {
             ayatNumber: 2,
             surahNumber: 1,
-            arabicText: "الرَّحْمَنِ الرَّحِيمِ",
-            translation: "Yang Maha Pemurah, Maha Penyayang.",
+            arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+            translation: "Segala puji kepada TUHAN, Tuan alam semesta.",
             audioUrl: "./data/001002.mp3"
         },
         {
             ayatNumber: 3,
             surahNumber: 1,
-            arabicText: "الرَّحْمَنِ الرَّحِيمِ",
-            translation: "Yang Maha Pemurah, Maha Penyayang.",
+            arabicText: "الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Maha Pengasih, Maha Penyayang.",
             audioUrl: "./data/001003.mp3"
         },
         {
             ayatNumber: 4,
             surahNumber: 1,
-            arabicText: "الرَّحْمَنِ الرَّحِيمِ",
-            translation: "Yang Maha Pemurah, Maha Penyayang.",
+            arabicText: "مَالِكِ يَوْمِ الدِّينِ",
+            translation: "Ketua Hari Penghakiman.",
             audioUrl: "./data/001004.mp3"
         },
         {
             ayatNumber: 5,
             surahNumber: 1,
-            arabicText: "الرَّحْمَنِ الرَّحِيمِ",
-            translation: "Yang Maha Pemurah, Maha Penyayang.",
+            arabicText: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            translation: "Engkau sahaja kami sembah. Engkau sahaja kami minta untuk pertolongan.",
             audioUrl: "./data/001005.mp3"
         },
         {
             ayatNumber: 6,
             surahNumber: 1,
-            arabicText: "الرَّحْمَنِ الرَّحِيمِ",
-            translation: "Yang Maha Pemurah, Maha Penyayang.",
+            arabicText: "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+            translation: "Bimbing kami dalam laluan yang benar;",
             audioUrl: "./data/001006.mp3"
         },
         {
             ayatNumber: 7,
             surahNumber: 1,
-            arabicText: "الرَّحْمَنِ الرَّحِيمِ",
-            translation: "Yang Maha Pemurah, Maha Penyayang.",
+            arabicText: "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+            translation: "di laluan dari mereka yang Engkau telah kurniakan nikmat; bukan dari mereka yang telah dimurkai, bukan juga dari golongan yang sesat.",
             audioUrl: "./data/001007.mp3"
         },		
         // ... Continue for the remaining ayat
@@ -96,46 +96,33 @@ function searchAyat() {
 
 // Fungsi untuk menunjukkan ayat berdasarkan indeks
 function updateAyatByIndex(index) {
-    var audioPlayer = document.getElementById("audioPlayer");
-    audioPlayer.pause();
-
+    pauseAudio();
     currentAyatIndex = index;
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
-
-    // Resetkan keadaan audio dan kemas kini teks butang main
     isAudioPlaying = false;
     updatePlayStopButtonText();
 }
 
 // Kemudian, perbarui fungsi showNextAyat dan showPreviousAyat untuk membenarkan pemainan semula audio
 function showNextAyat() {
-    var audioPlayer = document.getElementById("audioPlayer");
-    audioPlayer.pause();
-
-    currentAyatIndex++;
-    if (currentAyatIndex >= alFatihahData.ayat.length) {
-        currentAyatIndex = 0;
-    }
+    pauseAudio();
+    currentAyatIndex = (currentAyatIndex + 1) % alFatihahData.ayat.length;
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
-
-    // Resetkan keadaan audio dan kemas kini teks butang main
     isAudioPlaying = false;
     updatePlayStopButtonText();
 }
 
 function showPreviousAyat() {
-    var audioPlayer = document.getElementById("audioPlayer");
-    audioPlayer.pause();
-
-    currentAyatIndex--;
-    if (currentAyatIndex < 0) {
-        currentAyatIndex = alFatihahData.ayat.length - 1;
-    }
+    pauseAudio();
+    currentAyatIndex = (currentAyatIndex - 1 + alFatihahData.ayat.length) % alFatihahData.ayat.length;
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
-
-    // Resetkan keadaan audio dan kemas kini teks butang main
     isAudioPlaying = false;
     updatePlayStopButtonText();
+}
+
+function pauseAudio() {
+    var audioPlayer = document.getElementById("audioPlayer");
+    audioPlayer.pause();
 }
 
 
@@ -175,11 +162,6 @@ function updatePlayStopButtonText() {
 
 // Call updatePlayStopButtonText after the page has loaded
 window.onload = function () {
-    // Display the initial ayat
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
-
-    // Set the initial state of the play/stop button
     updatePlayStopButtonText();
 };
-
-
