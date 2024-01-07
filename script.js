@@ -9,56 +9,56 @@ var alFatihahData = {
             surahNumber: 1,
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji tertentu bagi Allah, Tuhan seru sekalian alam.",
-            audioUrl: "http://quranmobile.local/data/001001.mp3"
+            audioUrl: "./data/001001.mp3"
         },
         {
             ayatNumber: 2,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "http://quranmobile.local/data/001002.mp3"
+            audioUrl: "./data/001002.mp3"
         },
         {
             ayatNumber: 3,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "http://quranmobile.local/data/001003.mp3"
+            audioUrl: "./data/001003.mp3"
         },
         {
             ayatNumber: 4,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "http://quranmobile.local/data/001004.mp3"
+            audioUrl: "./data/001004.mp3"
         },
         {
             ayatNumber: 5,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "http://quranmobile.local/data/001005.mp3"
+            audioUrl: "./data/001005.mp3"
         },
         {
             ayatNumber: 6,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "http://quranmobile.local/data/001006.mp3"
+            audioUrl: "./data/001006.mp3"
         },
         {
             ayatNumber: 7,
             surahNumber: 1,
             arabicText: "الرَّحْمَنِ الرَّحِيمِ",
             translation: "Yang Maha Pemurah, Maha Penyayang.",
-            audioUrl: "http://quranmobile.local/data/001007.mp3"
+            audioUrl: "./data/001007.mp3"
         },		
         // ... Continue for the remaining ayat
     ]
 };
 
 function goToSuraPage() {
-    window.location.href = 'http://quranmobile.local/sura.html';
+    window.location.href = './sura.html';
 }
 
 // Global variable to keep track of the current ayat index
