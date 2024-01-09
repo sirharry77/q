@@ -11,12 +11,17 @@
 <div id="searchContainer">
     <div id="surahInfo">
         <button id="surahListButton" onclick="goToSuraPage()">Sura</button>
-        <div class="surah-name-malay">Kunci (Al-Fãtehah)</div>
+        <button class="surah-name-malay" onclick="toggleSearchPopup()">Kunci (Al-Fãtehah)</button>
     </div>
-    <div id="searchBox">
-        <input type="text" id="searchAyat" placeholder="Masukkan nombor ayat">
-        <button id="searchButton" onclick="searchAyat()">GO</button>
+    <div class="search-popup" id="searchPopup">
+        <div class="search-popup-content">
+            <button class="close-button" onclick="toggleSearchPopup()">Close</button>
+            <input type="text" id="searchAyat" placeholder="Masukkan nombor ayat">
+            <button id="searchButton" onclick="searchAyat()">GO</button>
+        </div>
     </div>
+
+
 </div>
 
 
@@ -47,6 +52,6 @@
         </audio>
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="./script.js?2=cs"></script>
 </body>
 </html>
