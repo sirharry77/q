@@ -9,14 +9,17 @@ var alFatihahData = {
             surahNumber: 1,
             arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
             translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
-            audioUrl: "./data/001001.mp3"
+            audioUrl: "./data/001001.mp3",
+			footnote: "*1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan)."
         },
         {
             ayatNumber: 2,
             surahNumber: 1,
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji kepada TUHAN, Tuan alam semesta.",
-            audioUrl: "./data/001002.mp3"
+            audioUrl: "./data/001002.mp3",
+			subtitle: "Subtitle untuk Ayat 2",
+			footnote: "Catatan Kaki untuk Ayat 2"
         },
         {
             ayatNumber: 3,
@@ -30,7 +33,9 @@ var alFatihahData = {
             surahNumber: 1,
             arabicText: "مَالِكِ يَوْمِ الدِّينِ",
             translation: "Ketua Hari Penghakiman.",
-            audioUrl: "./data/001004.mp3"
+            audioUrl: "./data/001004.mp3",
+			subtitle: "Subtitle untuk Ayat 4",
+			footnote: "Catatan Kaki untuk Ayat 4"
         },
         {
             ayatNumber: 5,
@@ -44,14 +49,16 @@ var alFatihahData = {
             surahNumber: 1,
             arabicText: "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
             translation: "Bimbing kami dalam laluan yang benar;",
-            audioUrl: "./data/001006.mp3"
+            audioUrl: "./data/001006.mp3",
+			footnote: "Catatan Kaki untuk Ayat 6"
         },
         {
             ayatNumber: 7,
             surahNumber: 1,
             arabicText: "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
             translation: "di laluan dari mereka yang Engkau telah kurniakan nikmat; bukan dari mereka yang telah dimurkai, bukan juga dari golongan yang sesat.",
-            audioUrl: "./data/001007.mp3"
+            audioUrl: "./data/001007.mp3",
+			subtitle: "Subtitle untuk Ayat 7",
         },		
         // ... Continue for the remaining ayat
     ]
@@ -100,6 +107,7 @@ var isAudioPlaying = false;
 
 // Function to display the current ayat
 function selectAyat(ayatData) {
+	
     document.querySelector(".arabic").textContent = ayatData.arabicText;
     document.querySelector(".translation").textContent = ayatData.translation;
     document.querySelector("#audioPlayer").src = ayatData.audioUrl;
@@ -107,6 +115,13 @@ function selectAyat(ayatData) {
     // Update the combined number with the format "[surahNumber]:[ayatNumber]"
     var combinedNumberText = ayatData.surahNumber + ":" + ayatData.ayatNumber;
     document.querySelector(".combined-number").textContent = combinedNumberText;
+	
+ // Update the subtitle text
+    document.querySelector(".subtitle").textContent = ayatData.subtitle || ''; // Menampilkan subtitle atau string kosong jika tidak ada	
+	
+    // Update the footnote text
+    document.querySelector(".footnote").textContent = ayatData.footnote || ''; // Menampilkan footnote atau string kosong jika tidak ada
+	
 
     // Update the visibility of "Back" and "Next" buttons
     updateNavigationButtonsVisibility();
@@ -203,4 +218,3 @@ window.onload = function () {
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
     updatePlayStopButtonText();
 };
-
