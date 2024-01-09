@@ -10,7 +10,7 @@ var alFatihahData = {
             arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
             translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
             audioUrl: "./data/001001.mp3",
-	    footnote: "*1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan)."
+			footnote: "*1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan)."
         },
         {
             ayatNumber: 2,
@@ -18,8 +18,8 @@ var alFatihahData = {
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji kepada TUHAN, Tuan alam semesta.",
             audioUrl: "./data/001002.mp3",
-	    subtitle: "Subtitle untuk Ayat 2",
-	    footnote: "Catatan Kaki untuk Ayat 2"
+			subtitle: "Subtitle untuk Ayat 2",
+			footnote: "Catatan Kaki untuk Ayat 2"
         },
         {
             ayatNumber: 3,
@@ -34,8 +34,8 @@ var alFatihahData = {
             arabicText: "مَالِكِ يَوْمِ الدِّينِ",
             translation: "Ketua Hari Penghakiman.",
             audioUrl: "./data/001004.mp3",
-	    subtitle: "Subtitle untuk Ayat 4",
-	    footnote: "Catatan Kaki untuk Ayat 4"
+			subtitle: "Subtitle untuk Ayat 4",
+			footnote: "Catatan Kaki untuk Ayat 4"
         },
         {
             ayatNumber: 5,
@@ -50,7 +50,7 @@ var alFatihahData = {
             arabicText: "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
             translation: "Bimbing kami dalam laluan yang benar;",
             audioUrl: "./data/001006.mp3",
-            footnote: "Catatan Kaki untuk Ayat 6"
+			footnote: "Catatan Kaki untuk Ayat 6"
         },
         {
             ayatNumber: 7,
@@ -58,7 +58,7 @@ var alFatihahData = {
             arabicText: "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
             translation: "di laluan dari mereka yang Engkau telah kurniakan nikmat; bukan dari mereka yang telah dimurkai, bukan juga dari golongan yang sesat.",
             audioUrl: "./data/001007.mp3",
-	    subtitle: "Subtitle untuk Ayat 7"
+			subtitle: "Subtitle untuk Ayat 7"
         },		
         // ... Continue for the remaining ayat
     ]
@@ -211,6 +211,17 @@ function hideAudioPlayer() {
     var audioPlayer = document.getElementById("audioPlayer");
     audioPlayer.style.display = "none";
 }
+        function toggleSearchPopup() {
+            var searchPopup = document.getElementById("searchPopup");
+            searchPopup.style.display = (searchPopup.style.display === "none" || searchPopup.style.display === "") ? "flex" : "none";
+        }
+
+        function searchAndClose() {
+            // Lakukan logika pencarian di sini (sesuai kebutuhan)
+            
+            // Setelah itu, tutup popup
+            toggleSearchPopup();
+        }
 
 // Call updatePlayStopButtonText after the page has loaded
 window.onload = function () {
