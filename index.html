@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">	
     <link rel="stylesheet" href="./style.css">
     <title>Laman Web Quran</title>
 </head>
@@ -28,7 +27,9 @@
 
         <div class="ayah">
             <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
-            <div class="translation">Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*</div>
+			<div class="subtitle" id="subtitle"></div>
+            <div class="translation">Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.</div>
+			<div class="footnote" id="footnote">*Catatan Kaki: Ini adalah contoh footnote.</div>
            <button id="playStopButton" onclick="togglePlayStop()">Play</button>
             <!-- Tambahkan tombol "Next" -->
 			<button onclick="showPreviousAyat()">Back</button>
