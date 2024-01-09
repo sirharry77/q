@@ -79,6 +79,18 @@ input[type="text"] {
 .button-container button:hover {
     background-color: #2980b9;
 }
+#backButton {
+    margin-right: auto;
+}
+
+#nextButton {
+    margin: 0 auto;
+}
+
+#playStopButton {
+    margin-left: auto;
+}
+
 
 
 @media only screen and (max-width: 600px) {
