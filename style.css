@@ -97,6 +97,45 @@ input[type="text"] {
 #playStopButton {
     margin-left: auto;
 }
+#searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Atur sesuai kebutuhan */
+}
+
+#searchAyat {
+    width: 70%; /* Atur lebar sesuai kebutuhan */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    width: 25%; /* Atur lebar sesuai kebutuhan */
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #2980b9;
+}
+#surahListButton {
+    width: 30%; /* Sesuaikan lebar sesuai kebutuhan */
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#searchButton:hover, #surahListButton:hover {
+    background-color: #2980b9;
+}
 
 
 
