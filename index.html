@@ -5,15 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./test.css?3=c">
     <title>Laman Web Quran</title>
 </head>
 
 <body>
+    <!-- Fixed Header Container -->
+    <div class="fixed-header-container">
+        <!-- Header Content Goes Here -->
+
+        <!-- Search Container -->
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="input-group mb-3">
+                        <input type="text" id="searchAyat" class="form-control" placeholder="Ayat">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary btn-block" type="button" onclick="searchAyat()">GO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
-
                 <!-- ... Existing content ... -->
 
                 <div class="surah-info mt-3">
@@ -31,29 +49,15 @@
                 <!-- Centered Button Container -->
                 <div class="d-flex justify-content-center mt-3">
                     <div class="button-container">
-                        <button class="btn btn-secondary mr-1" id="backButton" onclick="showPreviousAyat()">Back</button>
+                        <button class="btn btn-secondary mr-1" style="display: none;" id="backButton" onclick="showPreviousAyat()">Back</button>
                         <button class="btn btn-secondary mr-1" id="nextButton" onclick="showNextAyat()">Next</button>
                         <button class="btn btn-primary" id="playStopButton" onclick="togglePlayStop()">Play</button>
                     </div>
                 </div>
 
-                <audio id="audioPlayer" controls class="mt-3">
+                <audio id="audioPlayer" controls hidden class="mt-3">
                     Your browser does not support the audio element.
                 </audio>
-            </div>
-        </div>
-    </div>
-
-    <!-- Redesigned Input and Button Section -->
-    <div class="container mt-3">
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-                <div class="input-group mb-3">
-                    <input type="text" id="searchAyat" class="form-control" placeholder="Ayat">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary btn-block" type="button" onclick="searchAyat()">GO</button>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
