@@ -17,14 +17,24 @@
         <!-- Search Container -->
         <div class="container mt-3">
             <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <div class="input-group mb-3">
-                        <input type="text" id="searchAyat" class="form-control" placeholder="Ayat">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary btn-block" type="button" onclick="searchAyat()">GO</button>
-                        </div>
-                    </div>
-                </div>
+<div class="col-md-6 offset-md-3">
+    <div class="input-group mb-3">
+        <!-- Tambahkan elemen untuk tanda ^ -->
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="toggleSearchBox" onclick="toggleSearchBox()">^</span>
+        </div>
+
+        <!-- Sorokkan kotak pencarian awalnya dan tambahkan kelas 'hidden' -->
+        <input type="text" id="searchAyat" class="form-control hidden" placeholder="Ayat">
+
+        <div class="input-group-append">
+            <!-- Sembunyikan tombol "GO" saat kotak pencarian disembunyikan -->
+            <button id="goButton" class="btn btn-primary btn-block hidden" type="button" onclick="searchAyat()">GO</button>
+        </div>
+    </div>
+</div>
+
+
             </div>
         </div>
     </div>
@@ -34,10 +44,13 @@
             <div class="col-md-6 offset-md-3">
                 <!-- ... Existing content ... -->
 
-                <div class="surah-info mt-3">
-                    <div class="combined-number">1:1</div>
-                    <div class="surah-name-arabic">سورة الفاتحة</div>
-                </div>
+<div class="surah-info mt-3">
+    <div class="combined-number">1:1</div>
+    <div class="surah-name-arabic">سورة الفاتحة</div>
+    <div class="ayat-info">
+        <span class="surah-number-arabic"></span>:<span class="ayat-number-arabic"></span>
+    </div>
+</div>
 
                 <div class="ayah mt-3">
                     <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
@@ -66,7 +79,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-    <script src="./script.js?2=d"></script>
+    <script src="./script.js?dddsd23=ddd"></script>
 </body>
 
 </html>
