@@ -120,11 +120,23 @@ input[type="text"] {
 }
 
 #searchAyat {
-    width: 150px;
+    width: 70%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-right: 10px;
+}
+#goButton {
+    width: 25%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#goButton:hover {
+    background-color: #2980b9;
 }
 
 #searchButton,
@@ -160,3 +172,79 @@ input[type="text"] {
 .hidden {
     display: none !important;
 }
+/* Gaya untuk tombol side navigation */
+#toggleSearchBox {
+    cursor: pointer;
+}
+
+/* Gaya untuk side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Gaya untuk menggeser konten utama saat side navigation menu terbuka */
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* Styles for Surah List */
+.surah-list {
+    max-height: 300px; /* Set a maximum height for the container */
+    overflow-y: auto; /* Enable vertical scrolling if the content exceeds the container height */
+    transition: max-height 0.5s;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+}
+
+.surah-list a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.surah-list a:hover {
+    background-color: #333;
+}
+
+
