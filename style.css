@@ -224,8 +224,8 @@ input[type="text"] {
 
 /* Styles for Surah List */
 .surah-list {
-    max-height: 300px; /* Set a maximum height for the container */
-    overflow-y: auto; /* Enable vertical scrolling if the content exceeds the container height */
+    max-height: 300px;
+    overflow-y: auto;
     transition: max-height 0.5s;
     position: fixed;
     bottom: 0;
@@ -233,7 +233,9 @@ input[type="text"] {
     width: 100%;
     background-color: #111;
     color: #fff;
+    z-index: 1; /* Set a higher z-index to bring it to the front */
 }
+
 
 .surah-list a {
     display: block;
