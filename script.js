@@ -78,6 +78,8 @@ var alFatihahData = {
         // ... Continue for the remaining ayat
     ]
 };
+
+
 function toggleSideNav() {
     var sideNav = document.getElementById("mySidenav");
     var mainContent = document.getElementById("main");
@@ -88,6 +90,9 @@ function toggleSideNav() {
     } else {
         sideNav.style.width = "250px";
         mainContent.style.marginLeft = "250px";
+
+        // Add event listener to close sideNav on outside click
+        document.addEventListener('click', closeSideNavOnOutsideClick);
     }
 }
 
@@ -97,7 +102,30 @@ function closeSideNav() {
 
     sideNav.style.width = "0";
     mainContent.style.marginLeft = "0";
+
+    // Remove event listener when sideNav is closed
+    document.removeEventListener('click', closeSideNavOnOutsideClick);
 }
+
+// Function to close sideNav on outside click
+function closeSideNavOnOutsideClick(event) {
+    var sideNav = document.getElementById("mySidenav");
+
+    // Check if the click target is not within the sideNav and not the toggle button
+    if (!sideNav.contains(event.target) && event.target.id !== 'toggleSideNav') {
+        closeSideNav();
+    }
+}
+
+
+function closeSideNav() {
+    var sideNav = document.getElementById("mySidenav");
+    var mainContent = document.getElementById("main");
+
+    sideNav.style.width = "0";
+    mainContent.style.marginLeft = "0";
+}
+
 
 // Initial setup when the page is loaded
 window.onload = function () {
@@ -106,7 +134,29 @@ window.onload = function () {
 
     surahList.style.height = "0";
     searchContainer.style.visibility = "hidden";
+
+    document.addEventListener('click', function (event) {
+        var surahList = document.getElementById("surahList");
+
+        // Check if the click target is not within the Surah list and not the toggle button
+        if (!surahList.contains(event.target) && event.target.id !== 'toggleSurahList') {
+            closeSurahList();
+        }
+    });
 };
+document.addEventListener('click', function (event) {
+    var surahList = document.getElementById("surahList");
+
+    // Log the clicked element
+    console.log('Clicked Element:', event.target);
+
+    // Check if the click target is not within the Surah list and not the toggle button
+    if (!surahList.contains(event.target) && event.target.id !== 'toggleSurahList') {
+        closeSurahList();
+    }
+});
+
+
 
 function toggleSurahList() {
     var surahList = document.getElementById("surahList");
@@ -128,6 +178,13 @@ function toggleSurahList() {
     goButton.classList.toggle("hidden");
 }
 
+function closeSurahList() {
+    var surahList = document.getElementById("surahList");
+    var searchContainer = document.getElementById("searchContainer");
+
+    surahList.style.height = "0";
+    searchContainer.style.visibility = "hidden";
+}
 
 
 
