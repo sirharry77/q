@@ -11,7 +11,7 @@
 
 <body>
     <!-- Fixed Header Container -->
-    <div class="fixed-header-container">
+    <div class="fixed-header-container" id="main">
         <!-- Header Content Goes Here -->
 
         <!-- Search Container -->
@@ -19,18 +19,48 @@
             <div class="row">
 <div class="col-md-6 offset-md-3">
     <div class="input-group mb-3">
-        <!-- Tambahkan elemen untuk tanda ^ -->
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="toggleSideNav" onclick="toggleSideNav()">^^</span>
+                        </div>
         <div class="input-group-prepend">
-            <span class="input-group-text" id="toggleSearchBox" onclick="toggleSearchBox()">^</span>
+            <span class="input-group-text">Kunci (Al-Fãtehah)</span>
         </div>
+<!-- Trigger button for Surah list -->
+<div class="input-group-prepend">
+    <span class="input-group-text" id="toggleSurahList" onclick="toggleSurahList()">^^^</span>
+</div>
 
-        <!-- Sorokkan kotak pencarian awalnya dan tambahkan kelas 'hidden' -->
+
+
+<!-- Surah List Container -->
+<div class="surah-list" id="surahList" style="height: 0;">
+    <div class="search-container" id="searchContainer" style="visibility: hidden;">
         <input type="text" id="searchAyat" class="form-control hidden" placeholder="Ayat">
+        <button id="goButton" class="btn btn-primary btn-block hidden" type="button" onclick="searchAyat()">GO</button>
+    </div>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>	
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 2: Al-Baqarah | سورة البقرة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <a href="#">Sura 1: Al-Fatihah | سورة الفاتحة</a>
+    <!-- Add links for other Surahs -->
+</div>
 
-        <div class="input-group-append">
-            <!-- Sembunyikan tombol "GO" saat kotak pencarian disembunyikan -->
-            <button id="goButton" class="btn btn-primary btn-block hidden" type="button" onclick="searchAyat()">GO</button>
-        </div>
+<!-- Side Navigation Menu -->
+<div class="sidenav" id="mySidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">×</a>
+    <a href="#">Getting Started</a>
+    <a href="#">Blog</a>
+    <!-- Tambahkan link lainnya sesuai kebutuhan -->
+</div>
+
     </div>
 </div>
 
