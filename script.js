@@ -2,11 +2,14 @@
 var alFatihahData = {
     surahNameMalay: "Al-Fatihah",
     surahNumber: 1,
+	surahNumberArabic: '١',
     surahNameArabic: "سورة الفاتحة",
     ayat: [
         {
             ayatNumber: 1,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '١',
             arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
             translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
             audioUrl: "./data/001001.mp3",
@@ -15,6 +18,8 @@ var alFatihahData = {
         {
             ayatNumber: 2,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '٢',
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji kepada TUHAN, Tuan alam semesta.",
             audioUrl: "./data/001002.mp3",
@@ -24,6 +29,8 @@ var alFatihahData = {
         {
             ayatNumber: 3,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '٣',		
             arabicText: "الرَّحْمَٰنِ الرَّحِيمِ",
             translation: "Maha Pengasih, Maha Penyayang.",
             audioUrl: "./data/001003.mp3"
@@ -31,6 +38,8 @@ var alFatihahData = {
         {
             ayatNumber: 4,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '٤',	
             arabicText: "مَالِكِ يَوْمِ الدِّينِ",
             translation: "Ketua Hari Penghakiman.",
             audioUrl: "./data/001004.mp3",
@@ -40,6 +49,8 @@ var alFatihahData = {
         {
             ayatNumber: 5,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '٥',	
             arabicText: "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
             translation: "Engkau sahaja kami sembah. Engkau sahaja kami minta untuk pertolongan.",
             audioUrl: "./data/001005.mp3"
@@ -47,6 +58,8 @@ var alFatihahData = {
         {
             ayatNumber: 6,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '٦',	
             arabicText: "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
             translation: "Bimbing kami dalam laluan yang benar;",
             audioUrl: "./data/001006.mp3",
@@ -55,6 +68,8 @@ var alFatihahData = {
         {
             ayatNumber: 7,
             surahNumber: 1,
+			surahNumberArabic: '١',
+			ayatNumberArabic: '٧',		
             arabicText: "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
             translation: "di laluan dari mereka yang Engkau telah kurniakan nikmat; bukan dari mereka yang telah dimurkai, bukan juga dari golongan yang sesat.",
             audioUrl: "./data/001007.mp3",
@@ -63,6 +78,18 @@ var alFatihahData = {
         // ... Continue for the remaining ayat
     ]
 };
+function toggleSearchBox() {
+    var searchBox = document.getElementById("searchAyat");
+    var goButton = document.getElementById("goButton");
+
+    // Toggle kelas 'hidden' pada kotak pencarian dan tombol "GO"
+    searchBox.classList.toggle("hidden");
+    goButton.classList.toggle("hidden");
+}
+
+
+
+
 
 // Deklarasikan variabel untuk elemen ayah
 var ayahElement = document.querySelector('.ayah');
@@ -107,7 +134,6 @@ var isAudioPlaying = false;
 
 // Function to display the current ayat
 function selectAyat(ayatData) {
-	
     document.querySelector(".arabic").textContent = ayatData.arabicText;
     document.querySelector(".translation").textContent = ayatData.translation;
     document.querySelector("#audioPlayer").src = ayatData.audioUrl;
@@ -115,17 +141,40 @@ function selectAyat(ayatData) {
     // Update the combined number with the format "[surahNumber]:[ayatNumber]"
     var combinedNumberText = ayatData.surahNumber + ":" + ayatData.ayatNumber;
     document.querySelector(".combined-number").textContent = combinedNumberText;
-	
- // Update the subtitle text
-    document.querySelector(".subtitle").textContent = ayatData.subtitle || ''; // Menampilkan subtitle atau string kosong jika tidak ada	
-	
+
+    // Update the Arabic ayat number
+    document.querySelector(".ayat-info .ayat-number-arabic").textContent = ayatData.ayatNumberArabic;
+
+    // Update the Arabic surah number
+    var surahNumberElement = document.querySelector(".surah-number-arabic");
+    
+    // Set surahNumberArabic based on the first ayat of each surah
+    if (ayatData.ayatNumber === 1) {
+        ayatData.surahNumberArabic = ayatData.surahNumberArabic;
+    }
+
+    // Show or hide surahNumberArabic based on its availability
+    surahNumberElement.textContent = ayatData.surahNumberArabic || "";
+    surahNumberElement.style.display = ayatData.surahNumberArabic ? "inline" : "none";
+
+    // Update the subtitle text
+    document.querySelector(".subtitle").textContent = ayatData.subtitle || '';
+
     // Update the footnote text
-    document.querySelector(".footnote").textContent = ayatData.footnote || ''; // Menampilkan footnote atau string kosong jika tidak ada
-	
+    document.querySelector(".footnote").textContent = ayatData.footnote || '';
 
     // Update the visibility of "Back" and "Next" buttons
     updateNavigationButtonsVisibility();
 }
+
+
+
+
+
+
+
+
+
 
 // Tambahkan fungsi carian
 function searchAyat() {
@@ -153,10 +202,19 @@ function updateAyatByIndex(index) {
 function showNextAyat() {
     pauseAudio();
     currentAyatIndex = (currentAyatIndex + 1) % alFatihahData.ayat.length;
-    selectAyat(alFatihahData.ayat[currentAyatIndex]);
+    var nextAyatData = alFatihahData.ayat[currentAyatIndex];
+
+    // Set surahNumberArabic based on the first ayat of each surah
+    if (nextAyatData.ayatNumber === 1) {
+        nextAyatData.surahNumberArabic = nextAyatData.surahNumberArabic;
+    }
+
+    selectAyat(nextAyatData);
     isAudioPlaying = false;
     updatePlayStopButtonText();
 }
+
+
 
 function showPreviousAyat() {
     pauseAudio();
@@ -211,21 +269,13 @@ function hideAudioPlayer() {
     var audioPlayer = document.getElementById("audioPlayer");
     audioPlayer.style.display = "none";
 }
-        function toggleSearchPopup() {
-            var searchPopup = document.getElementById("searchPopup");
-            searchPopup.style.display = (searchPopup.style.display === "none" || searchPopup.style.display === "") ? "flex" : "none";
-        }
 
-        function searchAndClose() {
-            // Lakukan logika pencarian di sini (sesuai kebutuhan)
-            
-            // Setelah itu, tutup popup
-            toggleSearchPopup();
-        }
+
+
+
 
 // Call updatePlayStopButtonText after the page has loaded
 window.onload = function () {
-    hideAudioPlayer();
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
     updatePlayStopButtonText();
 };
