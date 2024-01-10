@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./test.css">
     <title>Laman Web Quran</title>
 </head>
+
 <body>
-    <div class="container">
-<div id="searchContainer">
-    <div id="surahInfo">
-        <button id="surahListButton" onclick="goToSuraPage()">Sura</button>
-        <button class="surah-name-malay" onclick="toggleSearchPopup()">Kunci (Al-Fãtehah)</button>
-    </div>
-    <div class="search-popup" id="searchPopup">
-        <div class="search-popup-content">
-            <button class="close-button" onclick="toggleSearchPopup()">Close</button>
-            <input type="text" id="searchAyat" placeholder="Masukkan nombor ayat">
-            <button id="searchButton" onclick="searchAyat()">GO</button>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+
+                <!-- ... Existing content ... -->
+
+                <div class="surah-info mt-3">
+                    <div class="combined-number">1:1</div>
+                    <div class="surah-name-arabic">سورة الفاتحة</div>
+                </div>
+
+                <div class="ayah mt-3">
+                    <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+                    <div class="subtitle" id="subtitle"></div>
+                    <div class="translation mt-2">Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.</div>
+                    <div class="footnote mt-2" id="footnote">*Catatan Kaki: Ini adalah contoh footnote.</div>
+                </div>
+
+                <!-- Centered Button Container -->
+                <div class="d-flex justify-content-center mt-3">
+                    <div class="button-container">
+                        <button class="btn btn-secondary mr-1" id="backButton" onclick="showPreviousAyat()">Back</button>
+                        <button class="btn btn-secondary mr-1" id="nextButton" onclick="showNextAyat()">Next</button>
+                        <button class="btn btn-primary" id="playStopButton" onclick="togglePlayStop()">Play</button>
+                    </div>
+                </div>
+
+                <audio id="audioPlayer" controls class="mt-3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
         </div>
     </div>
 
-
-</div>
-
-
-
-<!-- ... -->
-<div class="surah-info">
-    <div class="combined-number">1:1</div>
-    <div class="surah-name-arabic">سورة الفاتحة</div>
-</div>
-<!-- ... -->
-
-
-        <div class="ayah">
-            <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
-			<div class="subtitle" id="subtitle"></div>
-            <div class="translation">Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.</div>
-			<div class="footnote" id="footnote">*Catatan Kaki: Ini adalah contoh footnote.</div>
+    <!-- Redesigned Input and Button Section -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="input-group mb-3">
+                    <input type="text" id="searchAyat" class="form-control" placeholder="Ayat">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary btn-block" type="button" onclick="searchAyat()">GO</button>
+                    </div>
+                </div>
+            </div>
         </div>
-
-<div class="button-container">
-    <button id="backButton" onclick="showPreviousAyat()">Back</button>
-    <button id="nextButton" onclick="showNextAyat()">Next</button>
-    <button id="playStopButton" onclick="togglePlayStop()">Play</button>
-</div>		
-		
-        <audio id="audioPlayer" controls>
-            Your browser does not support the audio element.
-        </audio>
     </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-    <script src="./script.js?2=cs"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="./script.js?2=d"></script>
 </body>
+
 </html>
