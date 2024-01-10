@@ -78,14 +78,64 @@ var alFatihahData = {
         // ... Continue for the remaining ayat
     ]
 };
-function toggleSearchBox() {
-    var searchBox = document.getElementById("searchAyat");
+function toggleSideNav() {
+    var sideNav = document.getElementById("mySidenav");
+    var mainContent = document.getElementById("main");
+
+    if (sideNav.style.width === "250px") {
+        sideNav.style.width = "0";
+        mainContent.style.marginLeft = "0";
+    } else {
+        sideNav.style.width = "250px";
+        mainContent.style.marginLeft = "250px";
+    }
+}
+
+function closeSideNav() {
+    var sideNav = document.getElementById("mySidenav");
+    var mainContent = document.getElementById("main");
+
+    sideNav.style.width = "0";
+    mainContent.style.marginLeft = "0";
+}
+
+// Initial setup when the page is loaded
+window.onload = function () {
+    var surahList = document.getElementById("surahList");
+    var searchContainer = document.getElementById("searchContainer");
+
+    surahList.style.height = "0";
+    searchContainer.style.visibility = "hidden";
+};
+
+function toggleSurahList() {
+    var surahList = document.getElementById("surahList");
+    var searchContainer = document.getElementById("searchContainer");
+
+    if (surahList.style.height === "300px") {
+        surahList.style.height = "0";
+        searchContainer.style.visibility = "hidden";
+    } else {
+        surahList.style.height = "300px";
+        searchContainer.style.visibility = "visible";
+    }
+
+    // Toggle the 'hidden' class for the child elements
+    var searchAyat = document.getElementById("searchAyat");
     var goButton = document.getElementById("goButton");
 
-    // Toggle kelas 'hidden' pada kotak pencarian dan tombol "GO"
-    searchBox.classList.toggle("hidden");
+    searchAyat.classList.toggle("hidden");
     goButton.classList.toggle("hidden");
 }
+
+
+
+
+
+
+
+
+
 
 
 
