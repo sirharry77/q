@@ -118,13 +118,7 @@ function closeSideNavOnOutsideClick(event) {
 }
 
 
-function closeSideNav() {
-    var sideNav = document.getElementById("mySidenav");
-    var mainContent = document.getElementById("main");
 
-    sideNav.style.width = "0";
-    mainContent.style.marginLeft = "0";
-}
 
 
 // Initial setup when the page is loaded
