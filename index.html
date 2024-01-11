@@ -17,29 +17,28 @@
         <!-- Header Content Goes Here -->
 
         <!-- Search Container -->
+
+
         <div class="container mt-3">
             <div class="row">
-<div class="col-md-6 offset-md-3">
-    <div class="input-group mb-3">
-<div class="container">
-  <div class="row">
-    <div class="col-4 text-left">
+			    <div class="col-4 text-left">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="toggleSideNav" onclick="toggleSideNav()">|||||||</span>
+        <span class="input-group-text" id="toggleSideNav" onclick="toggleSideNav()">|||</span>
       </div>
     </div>
     <div class="col-4 d-flex justify-content-center align-items-center">
       <div class="input-group-prepend">
-        <span class="input-group-text">Kunci (Al-Fãtehah)</span>
+        <span class="input-group-text" id="toggleSurahList" onclick="toggleSurahList()">Kunci (Al-Fãtehah)</span>
       </div>
     </div>
     <div class="col-4 text-right">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="toggleSurahList" onclick="toggleSurahList()">|||||||</span>
+        <span class="input-group-text" id="toggleSurahList" onclick="toggleSurahList()">&#8964;</span>
       </div>
     </div>
-  </div>
-</div>
+<div class="col-md-6 offset-md-3">
+    <div class="input-group mb-3">
+
 
 
 
@@ -80,20 +79,32 @@
 
             </div>
         </div>
+		
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-4 text-left">
+            <div class="input-group-prepend">
+                <div class="combined-number">1:1</div>
+            </div>
+        </div>
+        <div class="col-4 text-center">
+            <div class="surah-name-arabic">سورة الفاتحة</div>
+        </div>
+        <div class="col-4 text-right">
+            <div class="input-group-prepend">
+                    <div class="ayat-info">
+        <span class="surah-number-arabic"></span>:<span class="ayat-number-arabic"></span>
+    </div>
+            </div>
+        </div>
+    </div>
+</div>		
     </div>
 
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <!-- ... Existing content ... -->
-
-<div class="surah-info mt-3">
-    <div class="combined-number">1:1</div>
-    <div class="surah-name-arabic">سورة الفاتحة</div>
-    <div class="ayat-info">
-        <span class="surah-number-arabic"></span>:<span class="ayat-number-arabic"></span>
-    </div>
-</div>
 
                 <div class="ayah mt-3">
                     <div class="arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
@@ -104,11 +115,12 @@
 
                 <!-- Centered Button Container -->
                 <div class="d-flex justify-content-center mt-3">
-                    <div class="button-container">
-                        <button class="btn btn-secondary mr-1" style="display: none;" id="backButton" onclick="showPreviousAyat()">Back</button>
-                        <button class="btn btn-secondary mr-1" id="nextButton" onclick="showNextAyat()">Next</button>
-                        <button class="btn btn-primary" id="playStopButton" onclick="togglePlayStop()">Play</button>
-                    </div>
+<div class="button-container">
+    <button class="btn btn-secondary mr-1" style="display: none;" id="backButton" onclick="showPreviousAyat()">&lt;</button>
+    <button class="btn btn-secondary mr-1" id="nextButton" onclick="showNextAyat()">&gt;</button>
+    <button class="btn btn-secondary" id="playStopButton" onclick="togglePlayStop()">[L]</button>
+</div>
+
                 </div>
 
                 <audio id="audioPlayer" controls hidden class="mt-3">
