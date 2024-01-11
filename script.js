@@ -362,7 +362,7 @@ function togglePlayStop() {
 // Function to update the text of the play/stop button
 function updatePlayStopButtonText() {
     var playStopButton = document.getElementById("playStopButton");
-    playStopButton.textContent = isAudioPlaying ? "Stop" : "Play";
+    playStopButton.textContent = isAudioPlaying ? "[L]" : "[L]";
 }
 
 // Fungsi untuk menghilangkan gambar audio player
