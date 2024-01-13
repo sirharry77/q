@@ -13,7 +13,18 @@ var alFatihahData = {
             arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
             translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
             audioUrl: "./data/001001.mp3",
-			footnote: "*1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan). *1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan)."
+			subtitle: "",			
+            footnotes: [
+                "1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan).",
+                "1:1-7 Sura 1 adalah hadiah dari Tuhan kepada kita untuk menjalin hubungan dengan Dia melalui Sembahyang harian. Fakta ini disokong oleh susunan matematik yang menggemparkan dunia, mudah-difahami-tetapi-mustahil-untuk-ditiru yang mencabar ahli matematik terhebat dunia, dan membungkam mereka. Ia jauh di luar kemampuan manusia:",
+                "(1) Nombor sura, diikuti oleh nombor ayat, berturut-turut, menghasilkan 1 1 2 3 4 5 6 7. Nombor ini adalah gandaan 19.",
+                "(2) Jika kita gantikan jumlah huruf setiap ayat sebagai gantian untuk nombor ayat, kita mendapat 1 19 17 12 11 19 18 43. Nombor ini juga adalah gandaan 19.",
+                "(3) Jika kita masukkan jumlah nilai gematrikal setiap ayat, kita mendapat 1 19 786 17 581 12 618 11 241 19 836 18 1072 43 6009. Nombor ini adalah gandaan 19.",
+                "(4) Nombor yang ditunjukkan di atas merangkumi semua parameter Sura 1 dan terdiri daripada 38 digit (19x2).",
+                "(5) Perlu diperhatikan bahawa nombor 38 digit ini masih boleh dibahagi dengan 19 apabila kita menulis komponennya secara terbalik, dari kanan ke kiri, seperti yang diamalkan oleh orang Arab. Oleh itu, 6009 43 1072 18 836 19 241 11 618 12 581 17 786 19 1 juga merupakan gandaan 19.",
+                "(6) Representasi matematik yang disebutkan di atas turut serta dalam pelbagai fenomena matematik yang luar biasa untuk mengesahkan semua butiran Sembahyang harian lima kali sehari (Lampiran 15).",
+                "(7) Banyak lagi fenomena yang menakjubkan diberikan dalam Lampiran Satu. Dengan demikian, pembaca diberikan bukti yang nyata dari awal bahawa ini adalah mesej Tuhan kepada dunia."			
+            ]
         },
         {
             ayatNumber: 2,
@@ -263,6 +274,19 @@ function selectAyat(ayatData) {
 
     // Update the footnote text
     document.querySelector(".footnote").textContent = ayatData.footnote || '';
+	
+    // Update the footnote text
+    var footnotesContainer = document.getElementById("footnotes-container");
+    footnotesContainer.innerHTML = ""; // Clear existing footnotes
+
+    if (ayatData.footnotes && ayatData.footnotes.length > 0) {
+        // Display each footnote
+        ayatData.footnotes.forEach(function (footnote, index) {
+            var footnoteElement = document.createElement("p");
+            footnoteElement.textContent = '*' + footnote;
+            footnotesContainer.appendChild(footnoteElement);
+        });
+    }	
 
     // Update the visibility of "Back" and "Next" buttons
     updateNavigationButtonsVisibility();
