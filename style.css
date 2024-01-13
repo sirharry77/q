@@ -47,8 +47,7 @@ body {
 }
 
 .ayah {
-    height: 200px;
-    overflow: auto;
+ 
 }
 
 #playStopButton,
@@ -261,3 +260,7 @@ input[type="text"] {
   background-color: #e0e0e0; /* Adjust the background color on hover as needed */
 }
 
+.ayah-container {
+    max-height: calc(100vh - 120px); /* Adjust according to the height of the fixed header and bottom buttons */
+    overflow-y: auto;
+}
