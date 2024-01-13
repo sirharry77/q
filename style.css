@@ -36,14 +36,14 @@ body {
 
 .arabic {
     font-size: 24px;
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: right;
+    margin-bottom: 74px;
 }
 
 .translation {
     font-size: 16px;
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 74px;
 }
 
 .ayah {
