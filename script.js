@@ -34,8 +34,8 @@ var alFatihahData = {
             arabicText: "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "Segala puji kepada TUHAN, Tuan alam semesta.",
             audioUrl: "./data/001002.mp3",
-			subtitle: "Subtitle untuk Ayat 2",
-			footnote: "Catatan Kaki untuk Ayat 2"
+			subtitle: "",
+			footnote: ""
         },
         {
             ayatNumber: 3,
@@ -54,8 +54,8 @@ var alFatihahData = {
             arabicText: "مَالِكِ يَوْمِ الدِّينِ",
             translation: "Ketua Hari Penghakiman.",
             audioUrl: "./data/001004.mp3",
-			subtitle: "Subtitle untuk Ayat 4",
-			footnote: "Catatan Kaki untuk Ayat 4"
+			subtitle: "",
+			footnote: ""
         },
         {
             ayatNumber: 5,
@@ -74,7 +74,7 @@ var alFatihahData = {
             arabicText: "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
             translation: "Bimbing kami dalam laluan yang benar;",
             audioUrl: "./data/001006.mp3",
-			footnote: "Catatan Kaki untuk Ayat 6"
+			footnote: ""
         },
         {
             ayatNumber: 7,
@@ -84,7 +84,7 @@ var alFatihahData = {
             arabicText: "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
             translation: "di laluan dari mereka yang Engkau telah kurniakan nikmat; bukan dari mereka yang telah dimurkai, bukan juga dari golongan yang sesat.",
             audioUrl: "./data/001007.mp3",
-			subtitle: "Subtitle untuk Ayat 7"
+			subtitle: ""
         },		
         // ... Continue for the remaining ayat
     ]
