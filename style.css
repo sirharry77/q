@@ -1,5 +1,9 @@
+@font-face {
+    font-family: AR_def;
+    src: url(/data/ScheherazadeRegOT.ttf);
+}
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif, "Liberation Sans", Arial, Helvetica;
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -29,13 +33,17 @@ body {
 }
 
 .surah-name-arabic {
+	font-family: AR_def;
+	font-size: 130%;
     flex-grow: 1;
     text-align: center;
 }
 
 
 .arabic {
-    font-size: 24px;
+    font-family: AR_def;
+    font-style: normal;
+    font-size: 270%;	
     text-align: right;
     margin-bottom: 74px;
 }
