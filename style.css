@@ -12,7 +12,7 @@ body {
     margin-bottom: 7px;
     border-image: linear-gradient(to right, #dcdcdc, #a0a0a0); /* Change the colors to your desired gradient */
     border-image-slice: 1;
-    border-bottom: 2px solid;
+    border-bottom: 7px solid;
 }
 
 
@@ -216,6 +216,7 @@ input[type="text"] {
 #main {
     transition: margin-left .5s;
 }
+
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
