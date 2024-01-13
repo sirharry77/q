@@ -34,7 +34,7 @@ body {
 
 .surah-name-arabic {
 	font-family: AR_def;
-	font-size: 130%;
+	font-size: 100%;
     flex-grow: 1;
     text-align: center;
 }
@@ -43,7 +43,7 @@ body {
 .arabic {
     font-family: AR_def;
     font-style: normal;
-    font-size: 270%;	
+    font-size: 180%;	
     text-align: right;
     margin-bottom: 74px;
 }
