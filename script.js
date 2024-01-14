@@ -86,10 +86,102 @@ var alFatihahData = {
             audioUrl: "./data/001007.mp3",
 			subtitle: ""
         },		
+    ]
+};
+// Data for Surah Al-Baqarah
+var alBaqarahData = {
+    surahNameMalay: "Al-Baqarah",
+    surahNumber: 2,
+	surahNumberArabic: '٢',
+    surahNameArabic: "سورة البقرة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 2,
+			surahNumberArabic: '٢',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/002000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah kedua. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 2,
+			surahNumberArabic: '٢',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/002001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 2,
+			surahNumberArabic: '٢',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/002002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 2,
+			surahNumberArabic: '٢',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/002003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 2,
+			surahNumberArabic: '٢',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/002004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 2,
+			surahNumberArabic: '٢',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/002005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 2,
+			surahNumberArabic: '٢ ',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/002006.mp3",
+			subtitle: ""
+        },		
         // ... Continue for the remaining ayat
     ]
 };
+function showSurah(surahData) {
+    // Update the current Ayat index to the first Ayat of the selected Surah
+	currentSurahData = surahData;
+    currentAyatIndex = 0;
 
+    // Update the Surah content
+    selectAyat(surahData.ayat[currentAyatIndex]);
+
+    // Close the Surah list (optional)
+    closeSurahList();
+}
 
 function toggleSideNav() {
     var sideNav = document.getElementById("mySidenav");
@@ -246,6 +338,8 @@ var isAudioPlaying = false;
 
 // Function to display the current ayat
 function selectAyat(ayatData) {
+    console.log("Selected Ayat:", ayatData);
+
     document.querySelector(".arabic").textContent = ayatData.arabicText;
     document.querySelector(".translation").textContent = ayatData.translation;
     document.querySelector("#audioPlayer").src = ayatData.audioUrl;
@@ -259,7 +353,7 @@ function selectAyat(ayatData) {
 
     // Update the Arabic surah number
     var surahNumberElement = document.querySelector(".surah-number-arabic");
-    
+
     // Set surahNumberArabic based on the first ayat of each surah
     if (ayatData.ayatNumber === 1) {
         ayatData.surahNumberArabic = ayatData.surahNumberArabic;
@@ -274,7 +368,7 @@ function selectAyat(ayatData) {
 
     // Update the footnote text
     document.querySelector(".footnote").textContent = ayatData.footnote || '';
-	
+
     // Update the footnote text
     var footnotesContainer = document.getElementById("footnotes-container");
     footnotesContainer.innerHTML = ""; // Clear existing footnotes
@@ -286,11 +380,12 @@ function selectAyat(ayatData) {
             footnoteElement.textContent = '*' + footnote;
             footnotesContainer.appendChild(footnoteElement);
         });
-    }	
+    }
 
     // Update the visibility of "Back" and "Next" buttons
     updateNavigationButtonsVisibility();
 }
+
 
 
 
@@ -323,30 +418,87 @@ function updateAyatByIndex(index) {
     updatePlayStopButtonText();
 }
 
+var currentSurahData; 
 // Kemudian, perbarui fungsi showNextAyat dan showPreviousAyat untuk membenarkan pemainan semula audio
 function showNextAyat() {
     pauseAudio();
-    currentAyatIndex = (currentAyatIndex + 1) % alFatihahData.ayat.length;
-    var nextAyatData = alFatihahData.ayat[currentAyatIndex];
 
-    // Set surahNumberArabic based on the first ayat of each surah
-    if (nextAyatData.ayatNumber === 1) {
-        nextAyatData.surahNumberArabic = nextAyatData.surahNumberArabic;
+    // Check if currentSurahData is defined
+    if (currentSurahData) {
+        // Check if it's the last ayat of the current surah
+        if (currentAyatIndex === currentSurahData.ayat.length - 1) {
+            // If it's the last ayat, check if there is a next surah
+            var nextSurahIndex = alFatihahData.surahNumber; // Assuming alFatihah is the first surah
+            var nextSurahData = getSurahData(nextSurahIndex);
+
+            if (nextSurahData) {
+                // Switch to the next surah
+                currentSurahData = nextSurahData;
+                currentAyatIndex = 0;
+            } else {
+                // If there is no next surah, do nothing or handle as needed
+                return;
+            }
+        } else {
+            // Update the Surah content within the same surah
+            currentAyatIndex++;
+        }
+
+        // Update the Surah content
+        selectAyat(currentSurahData.ayat[currentAyatIndex]);
+        isAudioPlaying = false;
+        updatePlayStopButtonText();
+        updateNavigationButtonsVisibility(); // Add this line to update navigation button visibility
     }
-
-    selectAyat(nextAyatData);
-    isAudioPlaying = false;
-    updatePlayStopButtonText();
 }
+
 
 
 
 function showPreviousAyat() {
     pauseAudio();
-    currentAyatIndex = (currentAyatIndex - 1 + alFatihahData.ayat.length) % alFatihahData.ayat.length;
-    selectAyat(alFatihahData.ayat[currentAyatIndex]);
+
+    // Check if the currentAyatIndex is less than 0
+    if (currentAyatIndex > 0) {
+        // Update the Surah content within the same surah
+        currentAyatIndex--;
+        selectAyat(currentSurahData.ayat[currentAyatIndex]);
+    } else {
+        // Move to the previous surah if available
+        var previousSurahIndex = alFatihahData.surahNumber - 2; // Subtract 2 to move to the previous surah
+        var previousSurahData = getSurahData(previousSurahIndex);
+
+        if (previousSurahData) {
+            currentSurahData = previousSurahData;
+            currentAyatIndex = currentSurahData.ayat.length - 1;
+            selectAyat(currentSurahData.ayat[currentAyatIndex]);
+        }
+    }
+
     isAudioPlaying = false;
     updatePlayStopButtonText();
+}
+
+
+// Helper function to get surah data by surah index
+function getSurahData(surahIndex) {
+    // Adjust surah index to be within the valid range (1 to 114)
+    surahIndex = (surahIndex + 114) % 114 + 1;
+
+    // Construct the variable name for the surah data
+    var surahDataVariableName = "al" + getSurahName(surahIndex) + "Data";
+
+    // Retrieve the surah data using the variable name
+    return window[surahDataVariableName];
+}
+
+// Helper function to get surah name by surah index
+function getSurahName(surahIndex) {
+    if (surahIndex >= 1 && surahIndex <= 114) {
+        return "Surah" + surahIndex;
+    } else {
+        return "";
+    }
 }
 
 function pauseAudio() {
@@ -401,6 +553,8 @@ function hideAudioPlayer() {
 
 // Call updatePlayStopButtonText after the page has loaded
 window.onload = function () {
+    currentSurahData = alFatihahData;
+    currentAyatIndex = 0;	
     selectAyat(alFatihahData.ayat[currentAyatIndex]);
     updatePlayStopButtonText();
 };
