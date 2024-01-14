@@ -1,13 +1,13 @@
     @font-face {
       font-family: 'Vazir Matn';
-      src: url('../fonts/VazirMatn-Regular.ttf') format('truetype'); /* Adjust the path accordingly */
+      src: url('./fonts/VazirMatn-Regular.ttf') format('truetype'); /* Adjust the path accordingly */
       font-weight: normal;
       font-style: normal;
     }
 
     @font-face {
       font-family: 'Vazir Matn';
-      src: url('../fonts/VazirMatn-Bold.ttf') format('truetype'); /* Adjust the path accordingly */
+      src: url('./fonts/VazirMatn-Bold.ttf') format('truetype'); /* Adjust the path accordingly */
       font-weight: bold;
       font-style: normal;
     }
