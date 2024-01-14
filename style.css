@@ -1,7 +1,20 @@
 @font-face {
     font-family: AR_def;
-    src: url(/data/ScheherazadeRegOT.ttf);
+    src: url('data/ScheherazadeRegOT.ttf');
 }
+    @font-face {
+      font-family: 'Vazir Matn';
+      src: url('static/VazirMatn-Regular.ttf') format('truetype'); /* Adjust the path accordingly */
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Vazir Matn';
+      src: url('static/VazirMatn-Bold.ttf') format('truetype'); /* Adjust the path accordingly */
+      font-weight: bold;
+      font-style: normal;
+    }
 body {
     font-family: sans-serif, "Liberation Sans", Arial, Helvetica;
     margin: 0;
@@ -33,17 +46,17 @@ body {
 }
 
 .surah-name-arabic {
-	font-family: AR_def;
-	font-size: 170%;
+    font-family: 'Vazir Matn', sans-serif;
     flex-grow: 1;
     text-align: center;
 }
 
 
 .arabic {
-    font-family: AR_def;
+    font-family: 'Vazir Matn', sans-serif;
     font-style: normal;
-    font-size: 180%;	
+	font-weight: bold;
+    font-size: 150%;	
     text-align: right;
     margin-bottom: 74px;
 }
