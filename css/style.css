@@ -1,6 +1,6 @@
     @font-face {
       font-family: 'Vazir Matn';
-      src: url('../fonts/VazirMatn-Bold.ttf') format('truetype'); /* Adjust the path accordingly */
+      src: url('https://sirharry77.github.io/fonts/VazirMatn-Bold.ttf') format('truetype'); /* Adjust the path accordingly */
       font-weight: bold;
       font-style: normal;
     }
