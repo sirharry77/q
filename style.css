@@ -241,7 +241,7 @@ input[type="text"] {
 }
 
 /* Styles for Surah List */
-.surah-list {
+/*.surah-list {
     max-height: 300px;
     overflow-y: auto;
     transition: max-height 0.5s;
@@ -255,7 +255,7 @@ input[type="text"] {
 }
 
 
-.surah-list a {
+/*.surah-list a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -266,9 +266,43 @@ input[type="text"] {
 .surah-list a:hover {
     background-color: #333;
 }
+*/
 .container-fluid {
   padding-top: 10px; /* Adjust the top padding as needed */
 }
+.surah-list {
+    max-height: 300px;
+    overflow-y: auto;
+    transition: max-height 0.5s;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    z-index: 1; /* Set a higher z-index to bring it to the front */
+}
+
+.surah-list a {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff; /* Add bottom border */
+    transition: background-color 0.3s;
+}
+
+.surah-number,
+.surah-name,
+.surah-name-arabic {
+    flex: 1;
+}
+
+.surah-list a:hover {
+    background-color: #333;
+}
+
 
 .input-group-text {
   cursor: pointer;
