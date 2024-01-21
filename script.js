@@ -299,6 +299,13 @@ function updateAyatByIndex(surah, index) {
 	console.log("Ayat Data for Surah:", surah.ayat);
     selectAyat(surah.ayat[currentAyatIndex]);
 
+    // Update the Surah name display
+    document.getElementById("surahNameDisplay").innerText = surah.surahNameMalay;
+
+    // Update the Surah name Arabic display
+    document.getElementById("surahNameArabicDisplay").innerText = surah.surahNameArabic;
+
+
     // Set audio playing state
     isAudioPlaying = false;
     console.log("Audio Playing State:", isAudioPlaying);
