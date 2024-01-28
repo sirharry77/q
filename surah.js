@@ -17,8 +17,8 @@ surahData[1] = {
             audioUrl: "./data/001001.mp3",
 			subtitle: "",			
             footnotes: [
-                "1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan).",
-                "1:1-7 Sura 1 adalah hadiah dari Tuhan kepada kita untuk menjalin hubungan dengan Dia melalui Sembahyang harian. Fakta ini disokong oleh susunan matematik yang menggemparkan dunia, mudah-difahami-tetapi-mustahil-untuk-ditiru yang mencabar ahli matematik terhebat dunia, dan membungkam mereka. Ia jauh di luar kemampuan manusia:",
+                "*1:1 Ayat pertama dalam Quran mewakili asas dimana mukjizat matematik berasaskan 19 yang luar biasa dibina. Pernyataan penting ini terdiri daripada 19 huruf Arab, dan setiap perkataan didalamnya muncul dalam keseluruhan Quran dalam gandaan 19. (lihat Lampiran 1 & 29 untuk penjelasan).",
+                "*1:1-7 Sura 1 adalah hadiah dari Tuhan kepada kita untuk menjalin hubungan dengan Dia melalui Sembahyang harian. Fakta ini disokong oleh susunan matematik yang menggemparkan dunia, mudah-difahami-tetapi-mustahil-untuk-ditiru yang mencabar ahli matematik terhebat dunia, dan membungkam mereka. Ia jauh di luar kemampuan manusia:",
                 "(1) Nombor sura, diikuti oleh nombor ayat, berturut-turut, menghasilkan 1 1 2 3 4 5 6 7. Nombor ini adalah gandaan 19.",
                 "(2) Jika kita gantikan jumlah huruf setiap ayat sebagai gantian untuk nombor ayat, kita mendapat 1 19 17 12 11 19 18 43. Nombor ini juga adalah gandaan 19.",
                 "(3) Jika kita masukkan jumlah nilai gematrikal setiap ayat, kita mendapat 1 19 786 17 581 12 618 11 241 19 836 18 1072 43 6009. Nombor ini adalah gandaan 19.",
@@ -92,7 +92,7 @@ surahData[1] = {
 };
 
 surahData[2] = {
-    surahNameMalay: "Sapi Betina (Al-Baqarah)",
+    surahNameMalay: "Lembu Betina (Al-Baqarah)",
     surahNumber: 2,
     surahNumberArabic: '٢',
     surahNameArabic: "سورة البقرة",
@@ -105,10 +105,6 @@ surahData[2] = {
             arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
             translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
             audioUrl: "./data/002000.mp3",
-			subtitle: "",			
-            footnotes: [
-                "Surah 2. "		
-            ]
         },
         {
             ayatNumber: 1,
@@ -116,10 +112,9 @@ surahData[2] = {
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١',
             arabicText: "الم",
-            translation: "A.L.M",
+            translation: "A.L.M (Alif. Lam. Mim.)",
             audioUrl: "./data/002001.mp3",
-			subtitle: "",
-			footnote: ""
+			footnote: "*2:1 Huruf huruf pertama ini kekal menjadi satu rahsia ilahi yang dijaga selama 1400 tahun. Sekarang kita mengenalinya sebagai komponen utama dari mukjizat matematik Quran. (lihat Lampiran 1, 2, 24, dan 26). Makna A.L.M telah dijelaskan dalam Ayat 2: \"Kitab suci ini tidak ada keraguan di dalamnya.\" Ini terbukti dengan fakta tidak terbantah bahawa jumlah kemunculan ketiga huruf ini dalam sura ini adalah 4502, 3202, dan 2195, secara berasingan. Jumlah dari angka-angka ini adalah 9899, atau 19x521. Dengan demikian, huruf-huruf yang paling sering muncul dalam bahasa Arab ditempatkan secara matematik mengikuti pola yang luar biasa dan melebihi kemampuan manusia biasa. Inisial yang sama juga menjadi awalan Sura 3, 29, 30, 31, dan 32, dan jumlah kemunculannya bertambah sehingga gandaan 19 dalam setiap sura ini."
         },
         {
             ayatNumber: 2,
@@ -127,7 +122,7 @@ surahData[2] = {
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢',		
             arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
-            translation: "",
+            translation: "Ini adalah Kitab Suci yang tiada keraguan di dalamnya, sebagai petunjuk bagi golongan yang benar;",
             audioUrl: "./data/002002.mp3"
         },
         {
@@ -136,10 +131,13 @@ surahData[2] = {
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣',	
             arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
-            translation: "",
+            translation: "yang percaya kepada yang ghaib, mendirikan Sembahyang (Salat),* dan dari rezeki yang kami** berikan kepada mereka, mereka memberikan derma.",
             audioUrl: "./data/002003.mp3",
-			subtitle: "",
-			footnote: ""
+			subtitle: "Tiga Kategori Manusia (1) Golongan Yang Benar",
+            footnotes: [
+                "*2:3 Oleh kerana Sembahyang lima waktu sehari telah ditetapkan, ia menjadi sumber utama untuk menyuburkan roh kita. Bersama dengan semua amalan dalam Penyerahan diri sepenuhnya kepada Tuhan, Sembahyang harian lima waktu ini asalnya diturunkan melalui Nabi Ibrahim (21:73, 22:78). Walaupun Sembahyang harian lima waktu ini diamalkan sebelum pewahyuan Quran, setiap Sembahyang secara khusus disebut dalam Quran (24:58, 11:114, 17:78, & 2:238). Lampiran 1 & 15 menyediakan bukti fizikal yang menyokong semua butiran Sembahyang, termasuk bilangan rakaat dan jumlah rukuk, sujud, dan Tashahhud dalam setiap Sembahyang.",
+                "**2:3 Apabila Tuhan menggunakan bentuk jamak, ini menunjukkan bahawa entiti lain, biasanya malaikat, terlibat. Apabila Tuhan berbicara kepada Nabi Musa, bentuk tunggal digunakan (20:12-14). Sila rujuk Lampiran 10."
+            ]			
         },
         {
             ayatNumber: 4,
@@ -147,8 +145,9 @@ surahData[2] = {
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤',	
             arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
-            translation: "",
-            audioUrl: "./data/002004.mp3"
+            translation: "Dan mereka percaya kepada apa yang diturunkan kepada kamu, dan kepada apa yang diturunkan sebelum kamu, dan  berkenaan dengan Hari Kemudian, mereka yakin sepenuhnya.",
+            audioUrl: "./data/002004.mp3",
+			footnote: "*2:4 Walaupun Kitab-kitab sebelumnya mengalami penyimpangan yang serius, kebenaran Tuhan masih boleh ditemui di dalamnya. Sama ada dalam Perjanjian Lama mahupun Perjanjian Baru, masih ditekankan pengabdian mutlak kepada Tuhan SAHAJA (Ulangan 6:4-5, Markus 12:29-30). Semua penyimpangan mudah dikenal pasti."
         },
         {
             ayatNumber: 5,
@@ -158,7 +157,7 @@ surahData[2] = {
             arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
             translation: "",
             audioUrl: "./data/002005.mp3",
-			footnote: ""
+			footnote: "Mereka ini adalah yang diberi petunjuk oleh Tuan mereka, mereka adalah pemenang."
         },
         {
             ayatNumber: 6,
@@ -166,9 +165,10 @@ surahData[2] = {
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦',		
             arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
-            translation: "",
+            translation: "Sesungguhnya, bagi golongan yang tidak percaya, sama saja bagi mereka apakah kamu memberi peringatan atau tidak memberi peringatan; mereka tidak dapat percaya.",
             audioUrl: "./data/002006.mp3",
-			subtitle: ""
+			subtitle: "(2) Golongan Yang Tidak Percaya",
+			footnote: "*2:6-7 Mereka yang membuat keputusan untuk menolak Tuhan dibantu dalam arah itu; mereka dicegah oleh Tuhan daripada melihat sebarang bukti atau petunjuk selagi mereka mengekalkan keputusan sedemikian. Akibat dari keputusan yang merugikan ini dijelaskan dalam Ayat 7."
         },
         {
             ayatNumber: 7,
@@ -176,46 +176,43 @@ surahData[2] = {
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧',		
             arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
-            translation: "",
+            translation: "TUHAN menutup akal fikiran dan pendengaran mereka, dan mata mereka diselubungi. Mereka telah menanggung siksaan yang sangat berat.",
             audioUrl: "./data/002007.mp3",
-			subtitle: ""
         },		
         {
             ayatNumber: 8,
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨',		
-            arabicText: "Arabic text here",
-            translation: "",
+            arabicText: "وَمِنَ النَّاسِ مَنْ يَقُولُ آمَنَّا بِاللَّهِ وَبِالْيَوْمِ الْآخِرِ وَمَا هُمْ بِمُؤْمِنِينَ",
+            translation: "Dan di antara manusia ada yang berkata, \"Kami percaya kepada TUHAN dan Hari Akhirat,\" padahal mereka sebenarnya bukan golongan yang percaya.",
             audioUrl: "./data/002008.mp3",
-			subtitle: ""
+			subtitle: "(3) Golongan Hipokrit"
         },	
         {
             ayatNumber: 9,
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩',		
-            arabicText: "Arabic text here",
-            translation: "",
+            arabicText: "يُخَادِعُونَ اللَّهَ وَالَّذِينَ آمَنُوا وَمَا يَخْدَعُونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
+            translation: "Dalam usaha menipu TUHAN dan golongan yang percaya, mereka hanya menipu diri mereka sendiri tanpa menyedari.",
             audioUrl: "./data/002009.mp3",
-			subtitle: ""
         },	
         {
             ayatNumber: 10,
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠',		
-            arabicText: "Arabic text here",
-            translation: "",
+            arabicText: "فِي قُلُوبِهِمْ مَرَضٌ فَزَادَهُمُ اللَّهُ مَرَضًا وَلَهُمْ عَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْذِبُونَ",
+            translation: "Di dalam fikiran mereka terdapat penyakit. Oleh itu, TUHAN menambahkan penyakit mereka. Mereka telah menanggung azab yang pedih disebabkan kebohongan mereka.",
             audioUrl: "./data/002010.mp3",
-			subtitle: ""
         },	
         {
             ayatNumber: 11,
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا فِي الْأَرْضِ قَالُوا إِنَّمَا نَحْنُ مُصْلِحُونَ",
             translation: "",
             audioUrl: "./data/002011.mp3",
 			subtitle: ""
@@ -225,7 +222,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَا إِنَّهُمْ هُمُ الْمُفْسِدُونَ وَلَٰكِنْ لَا يَشْعُرُونَ",
             translation: "",
             audioUrl: "./data/002012.mp3",
 			subtitle: ""
@@ -235,7 +232,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُمْ آمِنُوا كَمَا آمَنَ النَّاسُ قَالُوا أَنُؤْمِنُ كَمَا آمَنَ السُّفَهَاءُ أَلَا إِنَّهُمْ هُمُ السُّفَهَاءُ وَلَٰكِنْ لَا يَعْلَمُونَ",
             translation: "",
             audioUrl: "./data/002013.mp3",
 			subtitle: ""
@@ -245,7 +242,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا لَقُوا الَّذِينَ آمَنُوا قَالُوا آمَنَّا وَإِذَا خَلَوْا إِلَىٰ شَيَاطِينِهِمْ قَالُوا إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِئُونَ",
             translation: "",
             audioUrl: "./data/002014.mp3",
 			subtitle: ""
@@ -255,7 +252,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "اللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ",
             translation: "",
             audioUrl: "./data/002015.mp3",
 			subtitle: ""
@@ -265,7 +262,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ اشْتَرَوُا الضَّلَالَةَ بِالْهُدَىٰ فَمَا رَبِحَتْ تِجَارَتُهُمْ وَمَا كَانُوا مُهْتَدِينَ",
             translation: "",
             audioUrl: "./data/002016.mp3",
 			subtitle: ""
@@ -275,7 +272,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "مَثَلُهُمْ كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا فَلَمَّا أَضَاءَتْ مَا حَوْلَهُ ذَهَبَ اللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِي ظُلُمَاتٍ لَا يُبْصِرُونَ",
             translation: "",
             audioUrl: "./data/002017.mp3",
 			subtitle: ""
@@ -285,7 +282,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَرْجِعُونَ",
             translation: "",
             audioUrl: "./data/002018.mp3",
 			subtitle: ""
@@ -295,7 +292,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوْ كَصَيِّبٍ مِنَ السَّمَاءِ فِيهِ ظُلُمَاتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَابِعَهُمْ فِي آذَانِهِمْ مِنَ الصَّوَاعِقِ حَذَرَ الْمَوْتِ وَاللَّهُ مُحِيطٌ بِالْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002019.mp3",
 			subtitle: ""
@@ -305,7 +302,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ كُلَّمَا أَضَاءَ لَهُمْ مَشَوْا فِيهِ وَإِذَا أَظْلَمَ عَلَيْهِمْ قَامُوا وَلَوْ شَاءَ اللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَارِهِمْ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002020.mp3",
 			subtitle: ""
@@ -315,7 +312,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا النَّاسُ اعْبُدُوا رَبَّكُمُ الَّذِي خَلَقَكُمْ وَالَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002021.mp3",
 			subtitle: ""
@@ -325,7 +322,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا وَالسَّمَاءَ بِنَاءً وَأَنْزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجَ بِهِ مِنَ الثَّمَرَاتِ رِزْقًا لَكُمْ فَلَا تَجْعَلُوا لِلَّهِ أَنْدَادًا وَأَنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002022.mp3",
 			subtitle: ""
@@ -335,7 +332,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ كُنْتُمْ فِي رَيْبٍ مِمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا بِسُورَةٍ مِنْ مِثْلِهِ وَادْعُوا شُهَدَاءَكُمْ مِنْ دُونِ اللَّهِ إِنْ كُنْتُمْ صَادِقِين",
             translation: "verse 19",
             audioUrl: "./data/002023.mp3",
 			subtitle: ""
@@ -345,16 +342,17 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤',		
-            arabicText: "Arabic text here",
-            translation: "verse 19",
+            arabicText: "فَإِنْ لَمْ تَفْعَلُوا وَلَنْ تَفْعَلُوا فَاتَّقُوا النَّارَ الَّتِي وَقُودُهَا النَّاسُ وَالْحِجَارَةُ أُعِدَّتْ لِلْكَافِرِينَ",			
+            translation: "",
             audioUrl: "./data/002024.mp3",
 			subtitle: ""
-        },	        {
+        },
+		{
             ayatNumber: 25,
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِزْقًا قَالُوا هَٰذَا الَّذِي رُزِقْنَا مِنْ قَبْلُ وَأُتُوا بِهِ مُتَشَابِهًا وَلَهُمْ فِيهَا أَزْوَاجٌ مُطَهَّرَةٌ وَهُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002025.mp3",
 			subtitle: ""
@@ -364,7 +362,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ لَا يَسْتَحْيِي أَنْ يَضْرِبَ مَثَلًا مَا بَعُوضَةً فَمَا فَوْقَهَا فَأَمَّا الَّذِينَ آمَنُوا فَيَعْلَمُونَ أَنَّهُ الْحَقُّ مِنْ رَبِّهِمْ وَأَمَّا الَّذِينَ كَفَرُوا فَيَقُولُونَ مَاذَا أَرَادَ اللَّهُ بِهَٰذَا مَثَلًا يُضِلُّ بِهِ كَثِيرًا وَيَهْدِي بِهِ كَثِيرًا وَمَا يُضِلُّ بِهِ إِلَّا الْفَاسِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002026.mp3",
 			subtitle: ""
@@ -374,7 +372,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَنْقُضُونَ عَهْدَ اللَّهِ مِنْ بَعْدِ مِيثَاقِهِ وَيَقْطَعُونَ مَا أَمَرَ اللَّهُ بِهِ أَنْ يُوصَلَ وَيُفْسِدُونَ فِي الْأَرْضِ أُولَٰئِكَ هُمُ الْخَاسِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002027.mp3",
 			subtitle: ""
@@ -384,7 +382,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "كَيْفَ تَكْفُرُونَ بِاللَّهِ وَكُنْتُمْ أَمْوَاتًا فَأَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
             translation: "verse 19",
             audioUrl: "./data/002028.mp3",
 			subtitle: ""
@@ -394,7 +392,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "هُوَ الَّذِي خَلَقَ لَكُمْ مَا فِي الْأَرْضِ جَمِيعًا ثُمَّ اسْتَوَىٰ إِلَى السَّمَاءِ فَسَوَّاهُنَّ سَبْعَ سَمَاوَاتٍ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002029.mp3",
 			subtitle: ""
@@ -404,7 +402,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً قَالُوا أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ قَالَ إِنِّي أَعْلَمُ مَا لَا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002030.mp3",
 			subtitle: ""
@@ -414,7 +412,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى الْمَلَائِكَةِ فَقَالَ أَنْبِئُونِي بِأَسْمَاءِ هَٰؤُلَاءِ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002031.mp3",
 			subtitle: ""
@@ -424,7 +422,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا سُبْحَانَكَ لَا عِلْمَ لَنَا إِلَّا مَا عَلَّمْتَنَا إِنَّكَ أَنْتَ الْعَلِيمُ الْحَكِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002032.mp3",
 			subtitle: ""
@@ -434,7 +432,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ يَاآدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002033.mp3",
 			subtitle: ""
@@ -444,7 +442,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ أَبَىٰ وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002034.mp3",
 			subtitle: ""
@@ -454,7 +452,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقُلْنَا يَاآدَمُ اسْكُنْ أَنْتَ وَزَوْجُكَ الْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002035.mp3",
 			subtitle: ""
@@ -464,7 +462,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ وَقُلْنَا اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ",
             translation: "verse 19",
             audioUrl: "./data/002036.mp3",
 			subtitle: ""
@@ -474,7 +472,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فَتَلَقَّىٰ آدَمُ مِنْ رَبِّهِ كَلِمَاتٍ فَتَابَ عَلَيْهِ إِنَّهُ هُوَ التَّوَّابُ الرَّحِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002037.mp3",
 			subtitle: ""
@@ -484,7 +482,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا فَإِمَّا يَأْتِيَنَّكُمْ مِنِّي هُدًى فَمَنْ تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002038.mp3",
 			subtitle: ""
@@ -494,7 +492,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002039.mp3",
 			subtitle: ""
@@ -504,7 +502,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَابَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا بِعَهْدِي أُوفِ بِعَهْدِكُمْ وَإِيَّايَ فَارْهَبُونِ",
             translation: "verse 19",
             audioUrl: "./data/002040.mp3",
 			subtitle: ""
@@ -514,7 +512,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَآمِنُوا بِمَا أَنْزَلْتُ مُصَدِّقًا لِمَا مَعَكُمْ وَلَا تَكُونُوا أَوَّلَ كَافِرٍ بِهِ وَلَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا وَإِيَّايَ فَاتَّقُونِ",
             translation: "verse 19",
             audioUrl: "./data/002041.mp3",
 			subtitle: ""
@@ -524,7 +522,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ وَأَنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002042.mp3",
 			subtitle: ""
@@ -534,7 +532,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
             translation: "verse 19",
             audioUrl: "./data/002043.mp3",
 			subtitle: ""
@@ -544,7 +542,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ وَتَنْسَوْنَ أَنْفُسَكُمْ وَأَنْتُمْ تَتْلُونَ الْكِتَابَ أَفَلَا تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002044.mp3",
 			subtitle: ""
@@ -554,7 +552,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى الْخَاشِعِينَ",
             translation: "verse 19",
             audioUrl: "./data/002045.mp3",
 			subtitle: ""
@@ -564,7 +562,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَظُنُّونَ أَنَّهُمْ مُلَاقُو رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَاجِعُونَ",
             translation: "verse 19",
             audioUrl: "./data/002046.mp3",
 			subtitle: ""
@@ -574,7 +572,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَابَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002047.mp3",
 			subtitle: ""
@@ -584,7 +582,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاتَّقُوا يَوْمًا لَا تَجْزِي نَفْسٌ عَنْ نَفْسٍ شَيْئًا وَلَا يُقْبَلُ مِنْهَا شَفَاعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنْصَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002048.mp3",
 			subtitle: ""
@@ -594,7 +592,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ نَجَّيْنَاكُمْ مِنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوءَ الْعَذَابِ يُذَبِّحُونَ أَبْنَاءَكُمْ وَيَسْتَحْيُونَ نِسَاءَكُمْ وَفِي ذَٰلِكُمْ بَلَاءٌ مِنْ رَبِّكُمْ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002049.mp3",
 			subtitle: ""
@@ -604,7 +602,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنْجَيْنَاكُمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ وَأَنْتُمْ تَنْظُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002050.mp3",
 			subtitle: ""
@@ -614,7 +612,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ وَاعَدْنَا مُوسَىٰ أَرْبَعِينَ لَيْلَةً ثُمَّ اتَّخَذْتُمُ الْعِجْلَ مِنْ بَعْدِهِ وَأَنْتُمْ ظَالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002051.mp3",
 			subtitle: ""
@@ -624,7 +622,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ عَفَوْنَا عَنْكُمْ مِنْ بَعْدِ ذَٰلِكَ لَعَلَّكُمْ تَشْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002052.mp3",
 			subtitle: ""
@@ -634,7 +632,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002053.mp3",
 			subtitle: ""
@@ -644,7 +642,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَاقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنْفُسَكُمْ بِاتِّخَاذِكُمُ الْعِجْلَ فَتُوبُوا إِلَىٰ بَارِئِكُمْ فَاقْتُلُوا أَنْفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَكُمْ عِنْدَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ إِنَّهُ هُوَ التَّوَّابُ الرَّحِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002054.mp3",
 			subtitle: ""
@@ -654,7 +652,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قُلْتُمْ يَامُوسَىٰ لَنْ نُؤْمِنَ لَكَ حَتَّىٰ نَرَى اللَّهَ جَهْرَةً فَأَخَذَتْكُمُ الصَّاعِقَةُ وَأَنْتُمْ تَنْظُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002055.mp3",
 			subtitle: ""
@@ -664,7 +662,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ بَعَثْنَاكُمْ مِنْ بَعْدِ مَوْتِكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002056.mp3",
 			subtitle: ""
@@ -674,7 +672,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَظَلَّلْنَا عَلَيْكُمُ الْغَمَامَ وَأَنْزَلْنَا عَلَيْكُمُ الْمَنَّ وَالسَّلْوَىٰ كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَمَا ظَلَمُونَا وَلَٰكِنْ كَانُوا أَنْفُسَهُمْ يَظْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002057.mp3",
 			subtitle: ""
@@ -684,7 +682,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قُلْنَا ادْخُلُوا هَٰذِهِ الْقَرْيَةَ فَكُلُوا مِنْهَا حَيْثُ شِئْتُمْ رَغَدًا وَادْخُلُوا الْبَابَ سُجَّدًا وَقُولُوا حِطَّةٌ نَغْفِرْ لَكُمْ خَطَايَاكُمْ وَسَنَزِيدُ الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002058.mp3",
 			subtitle: ""
@@ -694,7 +692,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَبَدَّلَ الَّذِينَ ظَلَمُوا قَوْلًا غَيْرَ الَّذِي قِيلَ لَهُمْ فَأَنْزَلْنَا عَلَى الَّذِينَ ظَلَمُوا رِجْزًا مِنَ السَّمَاءِ بِمَا كَانُوا يَفْسُقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002059.mp3",
 			subtitle: ""
@@ -704,7 +702,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذِ اسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِ فَقُلْنَا اضْرِبْ بِعَصَاكَ الْحَجَرَ فَانْفَجَرَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَيْنًا قَدْ عَلِمَ كُلُّ أُنَاسٍ مَشْرَبَهُمْ كُلُوا وَاشْرَبُوا مِنْ رِزْقِ اللَّهِ وَلَا تَعْثَوْا فِي الْأَرْضِ مُفْسِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/002060.mp3",
 			subtitle: ""
@@ -714,7 +712,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قُلْتُمْ يَامُوسَىٰ لَنْ نَصْبِرَ عَلَىٰ طَعَامٍ وَاحِدٍ فَادْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنْبِتُ الْأَرْضُ مِنْ بَقْلِهَا وَقِثَّائِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا قَالَ أَتَسْتَبْدِلُونَ الَّذِي هُوَ أَدْنَىٰ بِالَّذِي هُوَ خَيْرٌ اهْبِطُوا مِصْرًا فَإِنَّ لَكُمْ مَا سَأَلْتُمْ وَضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ وَالْمَسْكَنَةُ وَبَاءُوا بِغَضَبٍ مِنَ اللَّهِ ذَٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ الْحَقِّ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002061.mp3",
 			subtitle: ""
@@ -724,7 +722,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا وَالنَّصَارَىٰ وَالصَّابِئِينَ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَعَمِلَ صَالِحًا فَلَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002062.mp3",
 			subtitle: ""
@@ -734,7 +732,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ وَاذْكُرُوا مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002063.mp3",
 			subtitle: ""
@@ -744,7 +742,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ تَوَلَّيْتُمْ مِنْ بَعْدِ ذَٰلِكَ فَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَكُنْتُمْ مِنَ الْخَاسِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002064.mp3",
 			subtitle: ""
@@ -754,7 +752,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ عَلِمْتُمُ الَّذِينَ اعْتَدَوْا مِنْكُمْ فِي السَّبْتِ فَقُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ",
             translation: "verse 19",
             audioUrl: "./data/002065.mp3",
 			subtitle: ""
@@ -764,7 +762,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "فَجَعَلْنَاهَا نَكَالًا لِمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِلْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002066.mp3",
 			subtitle: ""
@@ -774,8 +772,8 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٧',		
-            arabicText: "Arabic text here",
-            translation: "verse 19",
+            arabicText: "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تَذْبَحُوا بَقَرَةً قَالُوا أَتَتَّخِذُنَا هُزُوًا قَالَ أَعُوذُ بِاللَّهِ أَنْ أَكُونَ مِنَ الْجَاهِلِينَ",
+            translation: "2:67 Musa berkata kepada kaumnya, \"TUHAN memerintahkan kamu mengorbankan seekor lembu betina.\" Mereka berkata, \"Adakah engkau mengejek kami?\" Dia berkata, \"Aku mencari perlindungan TUHAN agar aku tidak termasuk dalam golongan yang jahil.\"",
             audioUrl: "./data/002067.mp3",
 			subtitle: ""
         },
@@ -784,7 +782,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ لَنَا مَا هِيَ قَالَ إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لَا فَارِضٌ وَلَا بِكْرٌ عَوَانٌ بَيْنَ ذَٰلِكَ فَافْعَلُوا مَا تُؤْمَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002068.mp3",
 			subtitle: ""
@@ -794,7 +792,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ لَنَا مَا لَوْنُهَا قَالَ إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَاءُ فَاقِعٌ لَوْنُهَا تَسُرُّ النَّاظِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002069.mp3",
 			subtitle: ""
@@ -804,7 +802,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا ادْعُ لَنَا رَبَّكَ يُبَيِّنْ لَنَا مَا هِيَ إِنَّ الْبَقَرَ تَشَابَهَ عَلَيْنَا وَإِنَّا إِنْ شَاءَ اللَّهُ لَمُهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002070.mp3",
 			subtitle: ""
@@ -814,7 +812,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لَا ذَلُولٌ تُثِيرُ الْأَرْضَ وَلَا تَسْقِي الْحَرْثَ مُسَلَّمَةٌ لَا شِيَةَ فِيهَا قَالُوا الْآنَ جِئْتَ بِالْحَقِّ فَذَبَحُوهَا وَمَا كَادُوا يَفْعَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002071.mp3",
 			subtitle: ""
@@ -824,7 +822,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَتَلْتُمْ نَفْسًا فَادَّارَأْتُمْ فِيهَا وَاللَّهُ مُخْرِجٌ مَا كُنْتُمْ تَكْتُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002072.mp3",
 			subtitle: ""
@@ -834,7 +832,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "فَقُلْنَا اضْرِبُوهُ بِبَعْضِهَا كَذَٰلِكَ يُحْيِي اللَّهُ الْمَوْتَىٰ وَيُرِيكُمْ آيَاتِهِ لَعَلَّكُمْ تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002073.mp3",
 			subtitle: ""
@@ -844,7 +842,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ قَسَتْ قُلُوبُكُمْ مِنْ بَعْدِ ذَٰلِكَ فَهِيَ كَالْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً وَإِنَّ مِنَ الْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ الْأَنْهَارُ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ الْمَاءُ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ اللَّهِ وَمَا اللَّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002074.mp3",
 			subtitle: ""
@@ -854,7 +852,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَتَطْمَعُونَ أَنْ يُؤْمِنُوا لَكُمْ وَقَدْ كَانَ فَرِيقٌ مِنْهُمْ يَسْمَعُونَ كَلَامَ اللَّهِ ثُمَّ يُحَرِّفُونَهُ مِنْ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002075.mp3",
 			subtitle: ""
@@ -864,7 +862,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا لَقُوا الَّذِينَ آمَنُوا قَالُوا آمَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوا أَتُحَدِّثُونَهُمْ بِمَا فَتَحَ اللَّهُ عَلَيْكُمْ لِيُحَاجُّوكُمْ بِهِ عِنْدَ رَبِّكُمْ أَفَلَا تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002076.mp3",
 			subtitle: ""
@@ -874,7 +872,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوَلَا يَعْلَمُونَ أَنَّ اللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002077.mp3",
 			subtitle: ""
@@ -884,7 +882,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ الْكِتَابَ إِلَّا أَمَانِيَّ وَإِنْ هُمْ إِلَّا يَظُنُّونَ",
             translation: "verse 19",
             audioUrl: "./data/002078.mp3",
 			subtitle: ""
@@ -894,7 +892,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَوَيْلٌ لِلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ ثُمَّ يَقُولُونَ هَٰذَا مِنْ عِنْدِ اللَّهِ لِيَشْتَرُوا بِهِ ثَمَنًا قَلِيلًا فَوَيْلٌ لَهُمْ مِمَّا كَتَبَتْ أَيْدِيهِمْ وَوَيْلٌ لَهُمْ مِمَّا يَكْسِبُونَ",
             translation: "verse 19",
             audioUrl: "./data/002079.mp3",
 			subtitle: ""
@@ -904,7 +902,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا لَنْ تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا مَعْدُودَةً قُلْ أَتَّخَذْتُمْ عِنْدَ اللَّهِ عَهْدًا فَلَنْ يُخْلِفَ اللَّهُ عَهْدَهُ أَمْ تَقُولُونَ عَلَى اللَّهِ مَا لَا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002080.mp3",
 			subtitle: ""
@@ -914,7 +912,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلَىٰ مَنْ كَسَبَ سَيِّئَةً وَأَحَاطَتْ بِهِ خَطِيئَتُهُ فَأُولَٰئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002081.mp3",
 			subtitle: ""
@@ -924,7 +922,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ أَصْحَابُ الْجَنَّةِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002082.mp3",
 			subtitle: ""
@@ -934,7 +932,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ لَا تَعْبُدُونَ إِلَّا اللَّهَ وَبِالْوَالِدَيْنِ إِحْسَانًا وَذِي الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينِ وَقُولُوا لِلنَّاسِ حُسْنًا وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًا مِنْكُمْ وَأَنْتُمْ مُعْرِضُونَ",
             translation: "verse 19",
             audioUrl: "./data/002083.mp3",
 			subtitle: ""
@@ -944,7 +942,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ لَا تَسْفِكُونَ دِمَاءَكُمْ وَلَا تُخْرِجُونَ أَنْفُسَكُمْ مِنْ دِيَارِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنْتُمْ تَشْهَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002084.mp3",
 			subtitle: ""
@@ -954,7 +952,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ أَنْتُمْ هَٰؤُلَاءِ تَقْتُلُونَ أَنْفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِنْكُمْ مِنْ دِيَارِهِمْ تَظَاهَرُونَ عَلَيْهِمْ بِالْإِثْمِ وَالْعُدْوَانِ وَإِنْ يَأْتُوكُمْ أُسَارَىٰ تُفَادُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ أَفَتُؤْمِنُونَ بِبَعْضِ الْكِتَابِ وَتَكْفُرُونَ بِبَعْضٍ فَمَا جَزَاءُ مَنْ يَفْعَلُ ذَٰلِكَ مِنْكُمْ إِلَّا خِزْيٌ فِي الْحَيَاةِ الدُّنْيَا وَيَوْمَ الْقِيَامَةِ يُرَدُّونَ إِلَىٰ أَشَدِّ الْعَذَابِ وَمَا اللَّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002085.mp3",
 			subtitle: ""
@@ -964,7 +962,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ اشْتَرَوُا الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ فَلَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنْصَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002086.mp3",
 			subtitle: ""
@@ -974,7 +972,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ وَقَفَّيْنَا مِنْ بَعْدِهِ بِالرُّسُلِ وَآتَيْنَا عِيسَى ابْنَ مَرْيَمَ الْبَيِّنَاتِ وَأَيَّدْنَاهُ بِرُوحِ الْقُدُسِ أَفَكُلَّمَا جَاءَكُمْ رَسُولٌ بِمَا لَا تَهْوَىٰ أَنْفُسُكُمُ اسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002087.mp3",
 			subtitle: ""
@@ -984,7 +982,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا قُلُوبُنَا غُلْفٌ بَلْ لَعَنَهُمُ اللَّهُ بِكُفْرِهِمْ فَقَلِيلًا مَا يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002088.mp3",
 			subtitle: ""
@@ -994,7 +992,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَمَّا جَاءَهُمْ كِتَابٌ مِنْ عِنْدِ اللَّهِ مُصَدِّقٌ لِمَا مَعَهُمْ وَكَانُوا مِنْ قَبْلُ يَسْتَفْتِحُونَ عَلَى الَّذِينَ كَفَرُوا فَلَمَّا جَاءَهُمْ مَا عَرَفُوا كَفَرُوا بِهِ فَلَعْنَةُ اللَّهِ عَلَى الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002089.mp3",
 			subtitle: ""
@@ -1004,7 +1002,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "بِئْسَمَا اشْتَرَوْا بِهِ أَنْفُسَهُمْ أَنْ يَكْفُرُوا بِمَا أَنْزَلَ اللَّهُ بَغْيًا أَنْ يُنَزِّلَ اللَّهُ مِنْ فَضْلِهِ عَلَىٰ مَنْ يَشَاءُ مِنْ عِبَادِهِ فَبَاءُوا بِغَضَبٍ عَلَىٰ غَضَبٍ وَلِلْكَافِرِينَ عَذَابٌ مُهِينٌ",
             translation: "verse 19",
             audioUrl: "./data/002090.mp3",
 			subtitle: ""
@@ -1014,7 +1012,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُمْ آمِنُوا بِمَا أَنْزَلَ اللَّهُ قَالُوا نُؤْمِنُ بِمَا أُنْزِلَ عَلَيْنَا وَيَكْفُرُونَ بِمَا وَرَاءَهُ وَهُوَ الْحَقُّ مُصَدِّقًا لِمَا مَعَهُمْ قُلْ فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللَّهِ مِنْ قَبْلُ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002091.mp3",
 			subtitle: ""
@@ -1024,7 +1022,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ جَاءَكُمْ مُوسَىٰ بِالْبَيِّنَاتِ ثُمَّ اتَّخَذْتُمُ الْعِجْلَ مِنْ بَعْدِهِ وَأَنْتُمْ ظَالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002092.mp3",
 			subtitle: ""
@@ -1034,7 +1032,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ وَاسْمَعُوا قَالُوا سَمِعْنَا وَعَصَيْنَا وَأُشْرِبُوا فِي قُلُوبِهِمُ الْعِجْلَ بِكُفْرِهِمْ قُلْ بِئْسَمَا يَأْمُرُكُمْ بِهِ إِيمَانُكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002093.mp3",
 			subtitle: ""
@@ -1044,7 +1042,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنْ كَانَتْ لَكُمُ الدَّارُ الْآخِرَةُ عِنْدَ اللَّهِ خَالِصَةً مِنْ دُونِ النَّاسِ فَتَمَنَّوُا الْمَوْتَ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002094.mp3",
 			subtitle: ""
@@ -1054,7 +1052,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَنْ يَتَمَنَّوْهُ أَبَدًا بِمَا قَدَّمَتْ أَيْدِيهِمْ وَاللَّهُ عَلِيمٌ بِالظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002095.mp3",
 			subtitle: ""
@@ -1064,7 +1062,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَتَجِدَنَّهُمْ أَحْرَصَ النَّاسِ عَلَىٰ حَيَاةٍ وَمِنَ الَّذِينَ أَشْرَكُوا يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِ مِنَ الْعَذَابِ أَنْ يُعَمَّرَ وَاللَّهُ بَصِيرٌ بِمَا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002096.mp3",
 			subtitle: ""
@@ -1074,7 +1072,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ مَنْ كَانَ عَدُوًّا لِجِبْرِيلَ فَإِنَّهُ نَزَّلَهُ عَلَىٰ قَلْبِكَ بِإِذْنِ اللَّهِ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ وَهُدًى وَبُشْرَىٰ لِلْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002097.mp3",
 			subtitle: ""
@@ -1084,7 +1082,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ كَانَ عَدُوًّا لِلَّهِ وَمَلَائِكَتِهِ وَرُسُلِهِ وَجِبْرِيلَ وَمِيكَالَ فَإِنَّ اللَّهَ عَدُوٌّ لِلْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002098.mp3",
 			subtitle: ""
@@ -1094,7 +1092,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ أَنْزَلْنَا إِلَيْكَ آيَاتٍ بَيِّنَاتٍ وَمَا يَكْفُرُ بِهَا إِلَّا الْفَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002099.mp3",
 			subtitle: ""
@@ -1104,7 +1102,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوَكُلَّمَا عَاهَدُوا عَهْدًا نَبَذَهُ فَرِيقٌ مِنْهُمْ بَلْ أَكْثَرُهُمْ لَا يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002100.mp3",
 			subtitle: ""
@@ -1114,7 +1112,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَمَّا جَاءَهُمْ رَسُولٌ مِنْ عِنْدِ اللَّهِ مُصَدِّقٌ لِمَا مَعَهُمْ نَبَذَ فَرِيقٌ مِنَ الَّذِينَ أُوتُوا الْكِتَابَ كِتَابَ اللَّهِ وَرَاءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002101.mp3",
 			subtitle: ""
@@ -1124,7 +1122,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاتَّبَعُوا مَا تَتْلُو الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَٰكِنَّ الشَّيَاطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنْزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَا إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُمْ بِضَارِّينَ بِهِ مِنْ أَحَدٍ إِلَّا بِإِذْنِ اللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنْفَعُهُمْ وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الْآخِرَةِ مِنْ خَلَاقٍ وَلَبِئْسَ مَا شَرَوْا بِهِ أَنْفُسَهُمْ لَوْ كَانُوا يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002102.mp3",
 			subtitle: ""
@@ -1134,7 +1132,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ أَنَّهُمْ آمَنُوا وَاتَّقَوْا لَمَثُوبَةٌ مِنْ عِنْدِ اللَّهِ خَيْرٌ لَوْ كَانُوا يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002103.mp3",
 			subtitle: ""
@@ -1144,7 +1142,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَقُولُوا رَاعِنَا وَقُولُوا انْظُرْنَا وَاسْمَعُوا وَلِلْكَافِرِينَ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002104.mp3",
 			subtitle: ""
@@ -1154,7 +1152,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٥',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا يَوَدُّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَلَا الْمُشْرِكِينَ أَنْ يُنَزَّلَ عَلَيْكُمْ مِنْ خَيْرٍ مِنْ رَبِّكُمْ وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
             translation: "verse 19",
             audioUrl: "./data/002105.mp3",
 			subtitle: ""
@@ -1164,7 +1162,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٦',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا نَنْسَخْ مِنْ آيَةٍ أَوْ نُنْسِهَا نَأْتِ بِخَيْرٍ مِنْهَا أَوْ مِثْلِهَا أَلَمْ تَعْلَمْ أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002106.mp3",
 			subtitle: ""
@@ -1174,7 +1172,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَعْلَمْ أَنَّ اللَّهَ لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَمَا لَكُمْ مِنْ دُونِ اللَّهِ مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
             translation: "verse 19",
             audioUrl: "./data/002107.mp3",
 			subtitle: ""
@@ -1184,7 +1182,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٨',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ تُرِيدُونَ أَنْ تَسْأَلُوا رَسُولَكُمْ كَمَا سُئِلَ مُوسَىٰ مِنْ قَبْلُ وَمَنْ يَتَبَدَّلِ الْكُفْرَ بِالْإِيمَانِ فَقَدْ ضَلَّ سَوَاءَ السَّبِيلِ",
             translation: "verse 19",
             audioUrl: "./data/002108.mp3",
 			subtitle: ""
@@ -1194,7 +1192,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٠٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُمُ الْحَقُّ فَاعْفُوا وَاصْفَحُوا حَتَّىٰ يَأْتِيَ اللَّهُ بِأَمْرِهِ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002109.mp3",
 			subtitle: ""
@@ -1204,7 +1202,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَمَا تُقَدِّمُوا لِأَنْفُسِكُمْ مِنْ خَيْرٍ تَجِدُوهُ عِنْدَ اللَّهِ إِنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002110.mp3",
 			subtitle: ""
@@ -1213,7 +1211,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا لَنْ يَدْخُلَ الْجَنَّةَ إِلَّا مَنْ كَانَ هُودًا أَوْ نَصَارَىٰ تِلْكَ أَمَانِيُّهُمْ قُلْ هَاتُوا بُرْهَانَكُمْ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002111.mp3",
 			subtitle: ""
@@ -1223,7 +1221,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُ لِلَّهِ وَهُوَ مُحْسِنٌ فَلَهُ أَجْرُهُ عِنْدَ رَبِّهِ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002112.mp3",
 			subtitle: ""
@@ -1233,7 +1231,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَتِ الْيَهُودُ لَيْسَتِ النَّصَارَىٰ عَلَىٰ شَيْءٍ وَقَالَتِ النَّصَارَىٰ لَيْسَتِ الْيَهُودُ عَلَىٰ شَيْءٍ وَهُمْ يَتْلُونَ الْكِتَابَ كَذَٰلِكَ قَالَ الَّذِينَ لَا يَعْلَمُونَ مِثْلَ قَوْلِهِمْ فَاللَّهُ يَحْكُمُ بَيْنَهُمْ يَوْمَ الْقِيَامَةِ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/002113.mp3",
 			subtitle: ""
@@ -1243,7 +1241,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢:١١٤)',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَىٰ فِي خَرَابِهَا أُولَٰئِكَ مَا كَانَ لَهُمْ أَنْ يَدْخُلُوهَا إِلَّا خَائِفِينَ لَهُمْ فِي الدُّنْيَا خِزْيٌ وَلَهُمْ فِي الْآخِرَةِ عَذَابٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002114.mp3",
 			subtitle: ""
@@ -1253,7 +1251,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢:١١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ إِنَّ اللَّهَ وَاسِعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002115.mp3",
 			subtitle: ""
@@ -1262,7 +1260,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا اتَّخَذَ اللَّهُ وَلَدًا سُبْحَانَهُ بَلْ لَهُ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ كُلٌّ لَهُ قَانِتُونَ",
             translation: "verse 19",
             audioUrl: "./data/002116.mp3",
 			subtitle: ""
@@ -1272,7 +1270,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ وَإِذَا قَضَىٰ أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُنْ فَيَكُونُ",
             translation: "verse 19",
             audioUrl: "./data/002117.mp3",
 			subtitle: ""
@@ -1282,7 +1280,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَ الَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا اللَّهُ أَوْ تَأْتِينَا آيَةٌ كَذَٰلِكَ قَالَ الَّذِينَ مِنْ قَبْلِهِمْ مِثْلَ قَوْلِهِمْ تَشَابَهَتْ قُلُوبُهُمْ قَدْ بَيَّنَّا الْآيَاتِ لِقَوْمٍ يُوقِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002118.mp3",
 			subtitle: ""
@@ -1292,7 +1290,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّا أَرْسَلْنَاكَ بِالْحَقِّ بَشِيرًا وَنَذِيرًا وَلَا تُسْأَلُ عَنْ أَصْحَابِ الْجَحِيمِ",
             translation: "verse 19",
             audioUrl: "./data/002119.mp3",
 			subtitle: ""
@@ -1302,7 +1300,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَنْ تَرْضَىٰ عَنْكَ الْيَهُودُ وَلَا النَّصَارَىٰ حَتَّىٰ تَتَّبِعَ مِلَّتَهُمْ قُلْ إِنَّ هُدَى اللَّهِ هُوَ الْهُدَىٰ وَلَئِنِ اتَّبَعْتَ أَهْوَاءَهُمْ بَعْدَ الَّذِي جَاءَكَ مِنَ الْعِلْمِ مَا لَكَ مِنَ اللَّهِ مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
             translation: "verse 19",
             audioUrl: "./data/002120.mp3",
 			subtitle: ""
@@ -1312,7 +1310,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَتْلُونَهُ حَقَّ تِلَاوَتِهِ أُولَٰئِكَ يُؤْمِنُونَ بِهِ وَمَنْ يَكْفُرْ بِهِ فَأُولَٰئِكَ هُمُ الْخَاسِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002121.mp3",
 			subtitle: ""
@@ -1322,7 +1320,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "يَابَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002122.mp3",
 			subtitle: ""
@@ -1332,7 +1330,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاتَّقُوا يَوْمًا لَا تَجْزِي نَفْسٌ عَنْ نَفْسٍ شَيْئًا وَلَا يُقْبَلُ مِنْهَا عَدْلٌ وَلَا تَنْفَعُهَا شَفَاعَةٌ وَلَا هُمْ يُنْصَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002123.mp3",
 			subtitle: ""
@@ -1342,7 +1340,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذِ ابْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِنْ ذُرِّيَّتِي قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002124.mp3",
 			subtitle: ""
@@ -1352,7 +1350,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ جَعَلْنَا الْبَيْتَ مَثَابَةً لِلنَّاسِ وَأَمْنًا وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى وَعَهِدْنَا إِلَىٰ إِبْرَاهِيمَ وَإِسْمَاعِيلَ أَنْ طَهِّرَا بَيْتِيَ لِلطَّائِفِينَ وَالْعَاكِفِينَ وَالرُّكَّعِ السُّجُودِ",
             translation: "verse 19",
             audioUrl: "./data/002125.mp3",
 			subtitle: ""
@@ -1362,7 +1360,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ اجْعَلْ هَٰذَا بَلَدًا آمِنًا وَارْزُقْ أَهْلَهُ مِنَ الثَّمَرَاتِ مَنْ آمَنَ مِنْهُمْ بِاللَّهِ وَالْيَوْمِ الْآخِرِ قَالَ وَمَنْ كَفَرَ فَأُمَتِّعُهُ قَلِيلًا ثُمَّ أَضْطَرُّهُ إِلَىٰ عَذَابِ النَّارِ وَبِئْسَ الْمَصِيرُ",
             translation: "verse 19",
             audioUrl: "./data/002126.mp3",
 			subtitle: ""
@@ -1372,7 +1370,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002127.mp3",
 			subtitle: ""
@@ -1382,7 +1380,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا وَاجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِنْ ذُرِّيَّتِنَا أُمَّةً مُسْلِمَةً لَكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَا إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002128.mp3",
 			subtitle: ""
@@ -1392,7 +1390,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا وَابْعَثْ فِيهِمْ رَسُولًا مِنْهُمْ يَتْلُو عَلَيْهِمْ آيَاتِكَ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُزَكِّيهِمْ إِنَّكَ أَنْتَ الْعَزِيزُ الْحَكِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002129.mp3",
 			subtitle: ""
@@ -1402,7 +1400,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَرْغَبُ عَنْ مِلَّةِ إِبْرَاهِيمَ إِلَّا مَنْ سَفِهَ نَفْسَهُ وَلَقَدِ اصْطَفَيْنَاهُ فِي الدُّنْيَا وَإِنَّهُ فِي الْآخِرَةِ لَمِنَ الصَّالِحِينَ",
             translation: "verse 19",
             audioUrl: "./data/002130.mp3",
 			subtitle: ""
@@ -1412,7 +1410,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ قَالَ لَهُ رَبُّهُ أَسْلِمْ قَالَ أَسْلَمْتُ لِرَبِّ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002131.mp3",
 			subtitle: ""
@@ -1422,7 +1420,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَوَصَّىٰ بِهَا إِبْرَاهِيمُ بَنِيهِ وَيَعْقُوبُ يَابَنِيَّ إِنَّ اللَّهَ اصْطَفَىٰ لَكُمُ الدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002132.mp3",
 			subtitle: ""
@@ -1432,7 +1430,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ كُنْتُمْ شُهَدَاءَ إِذْ حَضَرَ يَعْقُوبَ الْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنْ بَعْدِي قَالُوا نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ آبَائِكَ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ إِلَٰهًا وَاحِدًا وَنَحْنُ لَهُ مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002133.mp3",
 			subtitle: ""
@@ -1441,7 +1439,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "تِلْكَ أُمَّةٌ قَدْ خَلَتْ لَهَا مَا كَسَبَتْ وَلَكُمْ مَا كَسَبْتُمْ وَلَا تُسْأَلُونَ عَمَّا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002134.mp3",
 			subtitle: ""
@@ -1451,7 +1449,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا كُونُوا هُودًا أَوْ نَصَارَىٰ تَهْتَدُوا قُلْ بَلْ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/002135.mp3",
 			subtitle: ""
@@ -1461,7 +1459,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "قُولُوا آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ إِلَىٰ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَمَا أُوتِيَ مُوسَىٰ وَعِيسَىٰ وَمَا أُوتِيَ النَّبِيُّونَ مِنْ رَبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْهُمْ وَنَحْنُ لَهُ مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002136.mp3",
 			subtitle: ""
@@ -1471,7 +1469,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ آمَنُوا بِمِثْلِ مَا آمَنْتُمْ بِهِ فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا فَإِنَّمَا هُمْ فِي شِقَاقٍ فَسَيَكْفِيكَهُمُ اللَّهُ وَهُوَ السَّمِيعُ الْعَلِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002137.mp3",
 			subtitle: ""
@@ -1481,7 +1479,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "صِبْغَةَ اللَّهِ وَمَنْ أَحْسَنُ مِنَ اللَّهِ صِبْغَةً وَنَحْنُ لَهُ عَابِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002138.mp3",
 			subtitle: ""
@@ -1490,7 +1488,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَتُحَاجُّونَنَا فِي اللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ وَنَحْنُ لَهُ مُخْلِصُونَ",
             translation: "verse 19",
             audioUrl: "./data/002139.mp3",
 			subtitle: ""
@@ -1500,7 +1498,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ تَقُولُونَ إِنَّ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطَ كَانُوا هُودًا أَوْ نَصَارَىٰ قُلْ أَأَنْتُمْ أَعْلَمُ أَمِ اللَّهُ وَمَنْ أَظْلَمُ مِمَّنْ كَتَمَ شَهَادَةً عِنْدَهُ مِنَ اللَّهِ وَمَا اللَّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002140.mp3",
 			subtitle: ""
@@ -1510,7 +1508,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "تِلْكَ أُمَّةٌ قَدْ خَلَتْ لَهَا مَا كَسَبَتْ وَلَكُمْ مَا كَسَبْتُمْ وَلَا تُسْأَلُونَ عَمَّا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002141.mp3",
 			subtitle: ""
@@ -1520,7 +1518,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "سَيَقُولُ السُّفَهَاءُ مِنَ النَّاسِ مَا وَلَّاهُمْ عَنْ قِبْلَتِهِمُ الَّتِي كَانُوا عَلَيْهَا قُلْ لِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ يَهْدِي مَنْ يَشَاءُ إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/002142.mp3",
 			subtitle: ""
@@ -1530,7 +1528,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا لِتَكُونُوا شُهَدَاءَ عَلَى النَّاسِ وَيَكُونَ الرَّسُولُ عَلَيْكُمْ شَهِيدًا وَمَا جَعَلْنَا الْقِبْلَةَ الَّتِي كُنْتَ عَلَيْهَا إِلَّا لِنَعْلَمَ مَنْ يَتَّبِعُ الرَّسُولَ مِمَّنْ يَنْقَلِبُ عَلَىٰ عَقِبَيْهِ وَإِنْ كَانَتْ لَكَبِيرَةً إِلَّا عَلَى الَّذِينَ هَدَى اللَّهُ وَمَا كَانَ اللَّهُ لِيُضِيعَ إِيمَانَكُمْ إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002143.mp3",
 			subtitle: ""
@@ -1540,7 +1538,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِي السَّمَاءِ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَاهَا فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنْتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ وَإِنَّ الَّذِينَ أُوتُوا الْكِتَابَ لَيَعْلَمُونَ أَنَّهُ الْحَقُّ مِنْ رَبِّهِمْ وَمَا اللَّهُ بِغَافِلٍ عَمَّا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002144.mp3",
 			subtitle: ""
@@ -1550,7 +1548,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَئِنْ أَتَيْتَ الَّذِينَ أُوتُوا الْكِتَابَ بِكُلِّ آيَةٍ مَا تَبِعُوا قِبْلَتَكَ وَمَا أَنْتَ بِتَابِعٍ قِبْلَتَهُمْ وَمَا بَعْضُهُمْ بِتَابِعٍ قِبْلَةَ بَعْضٍ وَلَئِنِ اتَّبَعْتَ أَهْوَاءَهُمْ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ إِنَّكَ إِذًا لَمِنَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002145.mp3",
 			subtitle: ""
@@ -1560,7 +1558,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَعْرِفُونَهُ كَمَا يَعْرِفُونَ أَبْنَاءَهُمْ وَإِنَّ فَرِيقًا مِنْهُمْ لَيَكْتُمُونَ الْحَقَّ وَهُمْ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002146.mp3",
 			subtitle: ""
@@ -1570,7 +1568,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002147.mp3",
 			subtitle: ""
@@ -1580,7 +1578,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا فَاسْتَبِقُوا الْخَيْرَاتِ أَيْنَ مَا تَكُونُوا يَأْتِ بِكُمُ اللَّهُ جَمِيعًا إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002148.mp3",
 			subtitle: ""
@@ -1590,7 +1588,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَإِنَّهُ لَلْحَقُّ مِنْ رَبِّكَ وَمَا اللَّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002149.mp3",
 			subtitle: ""
@@ -1600,7 +1598,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ وَحَيْثُ مَا كُنْتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ إِلَّا الَّذِينَ ظَلَمُوا مِنْهُمْ فَلَا تَخْشَوْهُمْ وَاخْشَوْنِي وَلِأُتِمَّ نِعْمَتِي عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002150.mp3",
 			subtitle: ""
@@ -1610,7 +1608,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِنْكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُعَلِّمُكُمْ مَا لَمْ تَكُونُوا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002151.mp3",
 			subtitle: ""
@@ -1620,7 +1618,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
             translation: "verse 19",
             audioUrl: "./data/002152.mp3",
 			subtitle: ""
@@ -1630,7 +1628,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002153.mp3",
 			subtitle: ""
@@ -1640,7 +1638,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَقُولُوا لِمَنْ يُقْتَلُ فِي سَبِيلِ اللَّهِ أَمْوَاتٌ بَلْ أَحْيَاءٌ وَلَٰكِنْ لَا تَشْعُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002154.mp3",
 			subtitle: ""
@@ -1650,7 +1648,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِنَ الْأَمْوَالِ وَالْأَنْفُسِ وَالثَّمَرَاتِ وَبَشِّرِ الصَّابِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002155.mp3",
 			subtitle: ""
@@ -1660,7 +1658,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
             translation: "verse 19",
             audioUrl: "./data/002156.mp3",
 			subtitle: ""
@@ -1669,7 +1667,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَبِّهِمْ وَرَحْمَةٌ وَأُولَٰئِكَ هُمُ الْمُهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002157.mp3",
 			subtitle: ""
@@ -1679,7 +1677,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ فَمَنْ حَجَّ الْبَيْتَ أَوِ اعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَنْ يَطَّوَّفَ بِهِمَا وَمَنْ تَطَوَّعَ خَيْرًا فَإِنَّ اللَّهَ شَاكِرٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002158.mp3",
 			subtitle: ""
@@ -1689,7 +1687,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنْزَلْنَا مِنَ الْبَيِّنَاتِ وَالْهُدَىٰ مِنْ بَعْدِ مَا بَيَّنَّاهُ لِلنَّاسِ فِي الْكِتَابِ أُولَٰئِكَ يَلْعَنُهُمُ اللَّهُ وَيَلْعَنُهُمُ اللَّاعِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002159.mp3",
 			subtitle: ""
@@ -1699,7 +1697,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَبَيَّنُوا فَأُولَٰئِكَ أَتُوبُ عَلَيْهِمْ وَأَنَا التَّوَّابُ الرَّحِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002160.mp3",
 			subtitle: ""
@@ -1709,7 +1707,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ أُولَٰئِكَ عَلَيْهِمْ لَعْنَةُ اللَّهِ وَالْمَلَائِكَةِ وَالنَّاسِ أَجْمَعِينَ",
             translation: "verse 19",
             audioUrl: "./data/002161.mp3",
 			subtitle: ""
@@ -1718,7 +1716,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "خَالِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنْظَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002162.mp3",
 			subtitle: ""
@@ -1728,7 +1726,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ لَا إِلَٰهَ إِلَّا هُوَ الرَّحْمَٰنُ الرَّحِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002163.mp3",
 			subtitle: ""
@@ -1738,7 +1736,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ الَّيْلِ وَالنَّهَارِ وَالْفُلْكِ الَّتِي تَجْرِي فِي الْبَحْرِ بِمَا يَنْفَعُ النَّاسَ وَمَا أَنْزَلَ اللَّهُ مِنَ السَّمَاءِ مِنْ مَاءٍ فَأَحْيَا بِهِ الْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِنْ كُلِّ دَابَّةٍ وَتَصْرِيفِ الرِّيَاحِ وَالسَّحَابِ الْمُسَخَّرِ بَيْنَ السَّمَاءِ وَالْأَرْضِ لَآيَاتٍ لِقَوْمٍ يَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002164.mp3",
 			subtitle: ""
@@ -1748,7 +1746,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنَ النَّاسِ مَنْ يَتَّخِذُ مِنْ دُونِ اللَّهِ أَنْدَادًا يُحِبُّونَهُمْ كَحُبِّ اللَّهِ وَالَّذِينَ آمَنُوا أَشَدُّ حُبًّا لِلَّهِ وَلَوْ يَرَى الَّذِينَ ظَلَمُوا إِذْ يَرَوْنَ الْعَذَابَ أَنَّ الْقُوَّةَ لِلَّهِ جَمِيعًا وَأَنَّ اللَّهَ شَدِيدُ الْعَذَابِ",
             translation: "verse 19",
             audioUrl: "./data/002165.mp3",
 			subtitle: ""
@@ -1758,7 +1756,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا وَرَأَوُا الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الْأَسْبَابُ",
             translation: "verse 19",
             audioUrl: "./data/002166.mp3",
 			subtitle: ""
@@ -1768,7 +1766,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّءُوا مِنَّا كَذَٰلِكَ يُرِيهِمُ اللَّهُ أَعْمَالَهُمْ حَسَرَاتٍ عَلَيْهِمْ وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ",
             translation: "verse 19",
             audioUrl: "./data/002167.mp3",
 			subtitle: ""
@@ -1778,7 +1776,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا النَّاسُ كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ إِنَّهُ لَكُمْ عَدُوٌّ مُبِينٌ",
             translation: "verse 19",
             audioUrl: "./data/002168.mp3",
 			subtitle: ""
@@ -1788,7 +1786,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ وَأَنْ تَقُولُوا عَلَى اللَّهِ مَا لَا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002169.mp3",
 			subtitle: ""
@@ -1798,7 +1796,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنْزَلَ اللَّهُ قَالُوا بَلْ نَتَّبِعُ مَا أَلْفَيْنَا عَلَيْهِ آبَاءَنَا أَوَلَوْ كَانَ آبَاؤُهُمْ لَا يَعْقِلُونَ شَيْئًا وَلَا يَهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002170.mp3",
 			subtitle: ""
@@ -1808,7 +1806,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَاءً وَنِدَاءً صُمٌّ بُكْمٌ عُمْيٌ فَهُمْ لَا يَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002171.mp3",
 			subtitle: ""
@@ -1818,7 +1816,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ إِنْ كُنْتُمْ إِيَّاهُ تَعْبُدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002172.mp3",
 			subtitle: ""
@@ -1828,7 +1826,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا حَرَّمَ عَلَيْكُمُ الْمَيْتَةَ وَالدَّمَ وَلَحْمَ الْخِنْزِيرِ وَمَا أُهِلَّ بِهِ لِغَيْرِ اللَّهِ فَمَنِ اضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَلَا إِثْمَ عَلَيْهِ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002173.mp3",
 			subtitle: ""
@@ -1838,7 +1836,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ يَكْتُمُونَ مَا أَنْزَلَ اللَّهُ مِنَ الْكِتَابِ وَيَشْتَرُونَ بِهِ ثَمَنًا قَلِيلًا أُولَٰئِكَ مَا يَأْكُلُونَ فِي بُطُونِهِمْ إِلَّا النَّارَ وَلَا يُكَلِّمُهُمُ اللَّهُ يَوْمَ الْقِيَامَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002174.mp3",
 			subtitle: ""
@@ -1848,7 +1846,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ اشْتَرَوُا الضَّلَالَةَ بِالْهُدَىٰ وَالْعَذَابَ بِالْمَغْفِرَةِ فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
             translation: "verse 19",
             audioUrl: "./data/002175.mp3",
 			subtitle: ""
@@ -1858,7 +1856,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ بِأَنَّ اللَّهَ نَزَّلَ الْكِتَابَ بِالْحَقِّ وَإِنَّ الَّذِينَ اخْتَلَفُوا فِي الْكِتَابِ لَفِي شِقَاقٍ بَعِيدٍ",
             translation: "verse 19",
             audioUrl: "./data/002176.mp3",
 			subtitle: ""
@@ -1868,7 +1866,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسَ الْبِرَّ أَنْ تُوَلُّوا وُجُوهَكُمْ قِبَلَ الْمَشْرِقِ وَالْمَغْرِبِ وَلَٰكِنَّ الْبِرَّ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَالْمَلَائِكَةِ وَالْكِتَابِ وَالنَّبِيِّينَ وَآتَى الْمَالَ عَلَىٰ حُبِّهِ ذَوِي الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينَ وَابْنَ السَّبِيلِ وَالسَّائِلِينَ وَفِي الرِّقَابِ وَأَقَامَ الصَّلَاةَ وَآتَى الزَّكَاةَ وَالْمُوفُونَ بِعَهْدِهِمْ إِذَا عَاهَدُوا وَالصَّابِرِينَ فِي الْبَأْسَاءِ وَالضَّرَّاءِ وَحِينَ الْبَأْسِ أُولَٰئِكَ الَّذِينَ صَدَقُوا وَأُولَٰئِكَ هُمُ الْمُتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002177.mp3",
 			subtitle: ""
@@ -1878,7 +1876,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَى الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ وَالْأُنْثَىٰ بِالْأُنْثَىٰ فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ ذَٰلِكَ تَخْفِيفٌ مِنْ رَبِّكُمْ وَرَحْمَةٌ فَمَنِ اعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002178.mp3",
 			subtitle: ""
@@ -1888,7 +1886,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَكُمْ فِي الْقِصَاصِ حَيَاةٌ يَاأُولِي الْأَلْبَابِ لَعَلَّكُمْ تَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002179.mp3",
 			subtitle: ""
@@ -1897,7 +1895,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ الْمَوْتُ إِنْ تَرَكَ خَيْرًا الْوَصِيَّةُ لِلْوَالِدَيْنِ وَالْأَقْرَبِينَ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002180.mp3",
 			subtitle: ""
@@ -1907,7 +1905,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنْ بَدَّلَهُ بَعْدَمَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002181.mp3",
 			subtitle: ""
@@ -1917,7 +1915,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنْ خَافَ مِنْ مُوصٍ جَنَفًا أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَا إِثْمَ عَلَيْهِ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002182.mp3",
 			subtitle: ""
@@ -1927,7 +1925,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002183.mp3",
 			subtitle: ""
@@ -1937,7 +1935,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "أَيَّامًا مَعْدُودَاتٍ فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ وَعَلَى الَّذِينَ يُطِيقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ فَمَنْ تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَهُ وَأَنْ تَصُومُوا خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002184.mp3",
 			subtitle: ""
@@ -1946,7 +1944,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "شَهْرُ رَمَضَانَ الَّذِي أُنْزِلَ فِيهِ الْقُرْآنُ هُدًى لِلنَّاسِ وَبَيِّنَاتٍ مِنَ الْهُدَىٰ وَالْفُرْقَانِ فَمَنْ شَهِدَ مِنْكُمُ الشَّهْرَ فَلْيَصُمْهُ وَمَنْ كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ بِكُمُ الْعُسْرَ وَلِتُكْمِلُوا الْعِدَّةَ وَلِتُكَبِّرُوا اللَّهَ عَلَىٰ مَا هَدَاكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002185.mp3",
 			subtitle: ""
@@ -1956,7 +1954,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ فَلْيَسْتَجِيبُوا لِي وَلْيُؤْمِنُوا بِي لَعَلَّهُمْ يَرْشُدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002186.mp3",
 			subtitle: ""
@@ -1966,7 +1964,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أُحِلَّ لَكُمْ لَيْلَةَ الصِّيَامِ الرَّفَثُ إِلَىٰ نِسَائِكُمْ هُنَّ لِبَاسٌ لَكُمْ وَأَنْتُمْ لِبَاسٌ لَهُنَّ عَلِمَ اللَّهُ أَنَّكُمْ كُنْتُمْ تَخْتَانُونَ أَنْفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنْكُمْ فَالْآنَ بَاشِرُوهُنَّ وَابْتَغُوا مَا كَتَبَ اللَّهُ لَكُمْ وَكُلُوا وَاشْرَبُوا حَتَّىٰ يَتَبَيَّنَ لَكُمُ الْخَيْطُ الْأَبْيَضُ مِنَ الْخَيْطِ الْأَسْوَدِ مِنَ الْفَجْرِ ثُمَّ أَتِمُّوا الصِّيَامَ إِلَى الَّيْلِ وَلَا تُبَاشِرُوهُنَّ وَأَنْتُمْ عَاكِفُونَ فِي الْمَسَاجِدِ تِلْكَ حُدُودُ اللَّهِ فَلَا تَقْرَبُوهَا كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/002187.mp3",
 			subtitle: ""
@@ -1976,7 +1974,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ وَتُدْلُوا بِهَا إِلَى الْحُكَّامِ لِتَأْكُلُوا فَرِيقًا مِنْ أَمْوَالِ النَّاسِ بِالْإِثْمِ وَأَنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002188.mp3",
 			subtitle: ""
@@ -1986,7 +1984,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْأَلُونَكَ عَنِ الْأَهِلَّةِ قُلْ هِيَ مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ وَلَيْسَ الْبِرُّ بِأَنْ تَأْتُوا الْبُيُوتَ مِنْ ظُهُورِهَا وَلَٰكِنَّ الْبِرَّ مَنِ اتَّقَىٰ وَأْتُوا الْبُيُوتَ مِنْ أَبْوَابِهَا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/002189.mp3",
 			subtitle: ""
@@ -1996,7 +1994,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ",
             translation: "verse 19",
             audioUrl: "./data/002190.mp3",
 			subtitle: ""
@@ -2006,7 +2004,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُمْ مِنْ حَيْثُ أَخْرَجُوكُمْ وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ وَلَا تُقَاتِلُوهُمْ عِنْدَ الْمَسْجِدِ الْحَرَامِ حَتَّىٰ يُقَاتِلُوكُمْ فِيهِ فَإِنْ قَاتَلُوكُمْ فَاقْتُلُوهُمْ كَذَٰلِكَ جَزَاءُ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002191.mp3",
 			subtitle: ""
@@ -2016,7 +2014,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنِ انْتَهَوْا فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002192.mp3",
 			subtitle: ""
@@ -2026,7 +2024,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَاتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ لِلَّهِ فَإِنِ انْتَهَوْا فَلَا عُدْوَانَ إِلَّا عَلَى الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002193.mp3",
 			subtitle: ""
@@ -2036,7 +2034,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "الشَّهْرُ الْحَرَامُ بِالشَّهْرِ الْحَرَامِ وَالْحُرُمَاتُ قِصَاصٌ فَمَنِ اعْتَدَىٰ عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَىٰ عَلَيْكُمْ وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّ اللَّهَ مَعَ الْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002194.mp3",
 			subtitle: ""
@@ -2046,7 +2044,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَنْفِقُوا فِي سَبِيلِ اللَّهِ وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ وَأَحْسِنُوا إِنَّ اللَّهَ يُحِبُّ الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002195.mp3",
 			subtitle: ""
@@ -2056,7 +2054,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ فَإِنْ أُحْصِرْتُمْ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ وَلَا تَحْلِقُوا رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ الْهَدْيُ مَحِلَّهُ فَمَنْ كَانَ مِنْكُمْ مَرِيضًا أَوْ بِهِ أَذًى مِنْ رَأْسِهِ فَفِدْيَةٌ مِنْ صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ فَإِذَا أَمِنْتُمْ فَمَنْ تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ فَمَنْ لَمْ يَجِدْ فَصِيَامُ ثَلَاثَةِ أَيَّامٍ فِي الْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ تِلْكَ عَشَرَةٌ كَامِلَةٌ ذَٰلِكَ لِمَنْ لَمْ يَكُنْ أَهْلُهُ حَاضِرِي الْمَسْجِدِ الْحَرَامِ وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
             translation: "verse 19",
             audioUrl: "./data/002196.mp3",
 			subtitle: ""
@@ -2066,7 +2064,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "الْحَجُّ أَشْهُرٌ مَعْلُومَاتٌ فَمَنْ فَرَضَ فِيهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ وَمَا تَفْعَلُوا مِنْ خَيْرٍ يَعْلَمْهُ اللَّهُ وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ وَاتَّقُونِ يَاأُولِي الْأَلْبَابِ",
             translation: "verse 19",
             audioUrl: "./data/002197.mp3",
 			subtitle: ""
@@ -2076,7 +2074,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَنْ تَبْتَغُوا فَضْلًا مِنْ رَبِّكُمْ فَإِذَا أَفَضْتُمْ مِنْ عَرَفَاتٍ فَاذْكُرُوا اللَّهَ عِنْدَ الْمَشْعَرِ الْحَرَامِ وَاذْكُرُوهُ كَمَا هَدَاكُمْ وَإِنْ كُنْتُمْ مِنْ قَبْلِهِ لَمِنَ الضَّالِّينَ",
             translation: "verse 19",
             audioUrl: "./data/002198.mp3",
 			subtitle: ""
@@ -2086,7 +2084,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '١٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ أَفِيضُوا مِنْ حَيْثُ أَفَاضَ النَّاسُ وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002199.mp3",
 			subtitle: ""
@@ -2096,7 +2094,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِذَا قَضَيْتُمْ مَنَاسِكَكُمْ فَاذْكُرُوا اللَّهَ كَذِكْرِكُمْ آبَاءَكُمْ أَوْ أَشَدَّ ذِكْرًا فَمِنَ النَّاسِ مَنْ يَقُولُ رَبَّنَا آتِنَا فِي الدُّنْيَا وَمَا لَهُ فِي الْآخِرَةِ مِنْ خَلَاقٍ",
             translation: "verse 19",
             audioUrl: "./data/002200.mp3",
 			subtitle: ""
@@ -2106,7 +2104,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْهُمْ مَنْ يَقُولُ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
             translation: "verse 19",
             audioUrl: "./data/002201.mp3",
 			subtitle: ""
@@ -2116,7 +2114,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ لَهُمْ نَصِيبٌ مِمَّا كَسَبُوا وَاللَّهُ سَرِيعُ الْحِسَابِ",
             translation: "verse 19",
             audioUrl: "./data/002202.mp3",
 			subtitle: ""
@@ -2125,7 +2123,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاذْكُرُوا اللَّهَ فِي أَيَّامٍ مَعْدُودَاتٍ فَمَنْ تَعَجَّلَ فِي يَوْمَيْنِ فَلَا إِثْمَ عَلَيْهِ وَمَنْ تَأَخَّرَ فَلَا إِثْمَ عَلَيْهِ لِمَنِ اتَّقَىٰ وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّكُمْ إِلَيْهِ تُحْشَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002203.mp3",
 			subtitle: ""
@@ -2135,7 +2133,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنَ النَّاسِ مَنْ يُعْجِبُكَ قَوْلُهُ فِي الْحَيَاةِ الدُّنْيَا وَيُشْهِدُ اللَّهَ عَلَىٰ مَا فِي قَلْبِهِ وَهُوَ أَلَدُّ الْخِصَامِ",
             translation: "verse 19",
             audioUrl: "./data/002204.mp3",
 			subtitle: ""
@@ -2145,7 +2143,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا تَوَلَّىٰ سَعَىٰ فِي الْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ الْحَرْثَ وَالنَّسْلَ وَاللَّهُ لَا يُحِبُّ الْفَسَادَ",
             translation: "verse 19",
             audioUrl: "./data/002205.mp3",
 			subtitle: ""
@@ -2155,7 +2153,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُ اتَّقِ اللَّهَ أَخَذَتْهُ الْعِزَّةُ بِالْإِثْمِ فَحَسْبُهُ جَهَنَّمُ وَلَبِئْسَ الْمِهَادُ",
             translation: "verse 19",
             audioUrl: "./data/002206.mp3",
 			subtitle: ""
@@ -2165,7 +2163,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنَ النَّاسِ مَنْ يَشْرِي نَفْسَهُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ",
             translation: "verse 19",
             audioUrl: "./data/002207.mp3",
 			subtitle: ""
@@ -2174,7 +2172,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا ادْخُلُوا فِي السِّلْمِ كَافَّةً وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ إِنَّهُ لَكُمْ عَدُوٌّ مُبِينٌ",
             translation: "verse 19",
             audioUrl: "./data/002208.mp3",
 			subtitle: ""
@@ -2184,7 +2182,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٠٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ زَلَلْتُمْ مِنْ بَعْدِ مَا جَاءَتْكُمُ الْبَيِّنَاتُ فَاعْلَمُوا أَنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002209.mp3",
 			subtitle: ""
@@ -2194,7 +2192,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "هَلْ يَنْظُرُونَ إِلَّا أَنْ يَأْتِيَهُمُ اللَّهُ فِي ظُلَلٍ مِنَ الْغَمَامِ وَالْمَلَائِكَةُ وَقُضِيَ الْأَمْرُ وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ",
             translation: "verse 19",
             audioUrl: "./data/002210.mp3",
 			subtitle: ""
@@ -2204,7 +2202,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١١',		
-            arabicText: "Arabic text here",
+            arabicText: "سَلْ بَنِي إِسْرَائِيلَ كَمْ آتَيْنَاهُمْ مِنْ آيَةٍ بَيِّنَةٍ وَمَنْ يُبَدِّلْ نِعْمَةَ اللَّهِ مِنْ بَعْدِ مَا جَاءَتْهُ فَإِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
             translation: "verse 19",
             audioUrl: "./data/002211.mp3",
 			subtitle: ""
@@ -2214,7 +2212,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "زُيِّنَ لِلَّذِينَ كَفَرُوا الْحَيَاةُ الدُّنْيَا وَيَسْخَرُونَ مِنَ الَّذِينَ آمَنُوا وَالَّذِينَ اتَّقَوْا فَوْقَهُمْ يَوْمَ الْقِيَامَةِ وَاللَّهُ يَرْزُقُ مَنْ يَشَاءُ بِغَيْرِ حِسَابٍ",
             translation: "verse 19",
             audioUrl: "./data/002212.mp3",
 			subtitle: ""
@@ -2224,7 +2222,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "كَانَ النَّاسُ أُمَّةً وَاحِدَةً فَبَعَثَ اللَّهُ النَّبِيِّينَ مُبَشِّرِينَ وَمُنْذِرِينَ وَأَنْزَلَ مَعَهُمُ الْكِتَابَ بِالْحَقِّ لِيَحْكُمَ بَيْنَ النَّاسِ فِيمَا اخْتَلَفُوا فِيهِ وَمَا اخْتَلَفَ فِيهِ إِلَّا الَّذِينَ أُوتُوهُ مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَاتُ بَغْيًا بَيْنَهُمْ فَهَدَى اللَّهُ الَّذِينَ آمَنُوا لِمَا اخْتَلَفُوا فِيهِ مِنَ الْحَقِّ بِإِذْنِهِ وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/002213.mp3",
 			subtitle: ""
@@ -2234,7 +2232,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٤',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا الْجَنَّةَ وَلَمَّا يَأْتِكُمْ مَثَلُ الَّذِينَ خَلَوْا مِنْ قَبْلِكُمْ مَسَّتْهُمُ الْبَأْسَاءُ وَالضَّرَّاءُ وَزُلْزِلُوا حَتَّىٰ يَقُولَ الرَّسُولُ وَالَّذِينَ آمَنُوا مَعَهُ مَتَىٰ نَصْرُ اللَّهِ أَلَا إِنَّ نَصْرَ اللَّهِ قَرِيبٌ",
             translation: "verse 19",
             audioUrl: "./data/002214.mp3",
 			subtitle: ""
@@ -2244,7 +2242,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْأَلُونَكَ مَاذَا يُنْفِقُونَ قُلْ مَا أَنْفَقْتُمْ مِنْ خَيْرٍ فَلِلْوَالِدَيْنِ وَالْأَقْرَبِينَ وَالْيَتَامَىٰ وَالْمَسَاكِينِ وَابْنِ السَّبِيلِ وَمَا تَفْعَلُوا مِنْ خَيْرٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002215.mp3",
 			subtitle: ""
@@ -2254,7 +2252,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ وَعَسَىٰ أَنْ تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَكُمْ وَعَسَىٰ أَنْ تُحِبُّوا شَيْئًا وَهُوَ شَرٌّ لَكُمْ وَاللَّهُ يَعْلَمُ وَأَنْتُمْ لَا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002216.mp3",
 			subtitle: ""
@@ -2264,7 +2262,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْأَلُونَكَ عَنِ الشَّهْرِ الْحَرَامِ قِتَالٍ فِيهِ قُلْ قِتَالٌ فِيهِ كَبِيرٌ وَصَدٌّ عَنْ سَبِيلِ اللَّهِ وَكُفْرٌ بِهِ وَالْمَسْجِدِ الْحَرَامِ وَإِخْرَاجُ أَهْلِهِ مِنْهُ أَكْبَرُ عِنْدَ اللَّهِ وَالْفِتْنَةُ أَكْبَرُ مِنَ الْقَتْلِ وَلَا يَزَالُونَ يُقَاتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَنْ دِينِكُمْ إِنِ اسْتَطَاعُوا وَمَنْ يَرْتَدِدْ مِنْكُمْ عَنْ دِينِهِ فَيَمُتْ وَهُوَ كَافِرٌ فَأُولَٰئِكَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَأُولَٰئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002217.mp3",
 			subtitle: ""
@@ -2274,7 +2272,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَاجَرُوا وَجَاهَدُوا فِي سَبِيلِ اللَّهِ أُولَٰئِكَ يَرْجُونَ رَحْمَتَ اللَّهِ وَاللَّهُ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002218.mp3",
 			subtitle: ""
@@ -2284,7 +2282,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْأَلُونَكَ عَنِ الْخَمْرِ وَالْمَيْسِرِ قُلْ فِيهِمَا إِثْمٌ كَبِيرٌ وَمَنَافِعُ لِلنَّاسِ وَإِثْمُهُمَا أَكْبَرُ مِنْ نَفْعِهِمَا وَيَسْأَلُونَكَ مَاذَا يُنْفِقُونَ قُلِ الْعَفْوَ كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمُ الْآيَاتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002219.mp3",
 			subtitle: ""
@@ -2294,7 +2292,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فِي الدُّنْيَا وَالْآخِرَةِ وَيَسْأَلُونَكَ عَنِ الْيَتَامَىٰ قُلْ إِصْلَاحٌ لَهُمْ خَيْرٌ وَإِنْ تُخَالِطُوهُمْ فَإِخْوَانُكُمْ وَاللَّهُ يَعْلَمُ الْمُفْسِدَ مِنَ الْمُصْلِحِ وَلَوْ شَاءَ اللَّهُ لَأَعْنَتَكُمْ إِنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002220.mp3",
 			subtitle: ""
@@ -2304,7 +2302,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَنْكِحُوا الْمُشْرِكَاتِ حَتَّىٰ يُؤْمِنَّ وَلَأَمَةٌ مُؤْمِنَةٌ خَيْرٌ مِنْ مُشْرِكَةٍ وَلَوْ أَعْجَبَتْكُمْ وَلَا تُنْكِحُوا الْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا وَلَعَبْدٌ مُؤْمِنٌ خَيْرٌ مِنْ مُشْرِكٍ وَلَوْ أَعْجَبَكُمْ أُولَٰئِكَ يَدْعُونَ إِلَى النَّارِ وَاللَّهُ يَدْعُو إِلَى الْجَنَّةِ وَالْمَغْفِرَةِ بِإِذْنِهِ وَيُبَيِّنُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002221.mp3",
 			subtitle: ""
@@ -2314,7 +2312,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيَسْأَلُونَكَ عَنِ الْمَحِيضِ قُلْ هُوَ أَذًى فَاعْتَزِلُوا النِّسَاءَ فِي الْمَحِيضِ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ اللَّهُ إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ وَيُحِبُّ الْمُتَطَهِّرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002222.mp3",
 			subtitle: ""
@@ -2324,7 +2322,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّىٰ شِئْتُمْ وَقَدِّمُوا لِأَنْفُسِكُمْ وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّكُمْ مُلَاقُوهُ وَبَشِّرِ الْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002223.mp3",
 			subtitle: ""
@@ -2334,7 +2332,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَجْعَلُوا اللَّهَ عُرْضَةً لِأَيْمَانِكُمْ أَنْ تَبَرُّوا وَتَتَّقُوا وَتُصْلِحُوا بَيْنَ النَّاسِ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002224.mp3",
 			subtitle: ""
@@ -2344,7 +2342,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يُؤَاخِذُكُمُ اللَّهُ بِاللَّغْوِ فِي أَيْمَانِكُمْ وَلَٰكِنْ يُؤَاخِذُكُمْ بِمَا كَسَبَتْ قُلُوبُكُمْ وَاللَّهُ غَفُورٌ حَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002225.mp3",
 			subtitle: ""
@@ -2353,7 +2351,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لِلَّذِينَ يُؤْلُونَ مِنْ نِسَائِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ فَإِنْ فَاءُوا فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002226.mp3",
 			subtitle: ""
@@ -2363,7 +2361,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ عَزَمُوا الطَّلَاقَ فَإِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002227.mp3",
 			subtitle: ""
@@ -2373,7 +2371,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالْمُطَلَّقَاتُ يَتَرَبَّصْنَ بِأَنْفُسِهِنَّ ثَلَاثَةَ قُرُوءٍ وَلَا يَحِلُّ لَهُنَّ أَنْ يَكْتُمْنَ مَا خَلَقَ اللَّهُ فِي أَرْحَامِهِنَّ إِنْ كُنَّ يُؤْمِنَّ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِي ذَٰلِكَ إِنْ أَرَادُوا إِصْلَاحًا وَلَهُنَّ مِثْلُ الَّذِي عَلَيْهِنَّ بِالْمَعْرُوفِ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ وَاللَّهُ عَزِيزٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002228.mp3",
 			subtitle: ""
@@ -2383,7 +2381,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "الطَّلَاقُ مَرَّتَانِ فَإِمْسَاكٌ بِمَعْرُوفٍ أَوْ تَسْرِيحٌ بِإِحْسَانٍ وَلَا يَحِلُّ لَكُمْ أَنْ تَأْخُذُوا مِمَّا آتَيْتُمُوهُنَّ شَيْئًا إِلَّا أَنْ يَخَافَا أَلَّا يُقِيمَا حُدُودَ اللَّهِ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ اللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا افْتَدَتْ بِهِ تِلْكَ حُدُودُ اللَّهِ فَلَا تَعْتَدُوهَا وَمَنْ يَتَعَدَّ حُدُودَ اللَّهِ فَأُولَٰئِكَ هُمُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002229.mp3",
 			subtitle: ""
@@ -2393,7 +2391,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ طَلَّقَهَا فَلَا تَحِلُّ لَهُ مِنْ بَعْدُ حَتَّىٰ تَنْكِحَ زَوْجًا غَيْرَهُ فَإِنْ طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَا أَنْ يَتَرَاجَعَا إِنْ ظَنَّا أَنْ يُقِيمَا حُدُودَ اللَّهِ وَتِلْكَ حُدُودُ اللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002230.mp3",
 			subtitle: ""
@@ -2402,7 +2400,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا طَلَّقْتُمُ النِّسَاءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍ وَلَا تُمْسِكُوهُنَّ ضِرَارًا لِتَعْتَدُوا وَمَنْ يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُ وَلَا تَتَّخِذُوا آيَاتِ اللَّهِ هُزُوًا وَاذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ وَمَا أَنْزَلَ عَلَيْكُمْ مِنَ الْكِتَابِ وَالْحِكْمَةِ يَعِظُكُمْ بِهِ وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002231.mp3",
 			subtitle: ""
@@ -2412,7 +2410,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا طَلَّقْتُمُ النِّسَاءَ فَبَلَغْنَ أَجَلَهُنَّ فَلَا تَعْضُلُوهُنَّ أَنْ يَنْكِحْنَ أَزْوَاجَهُنَّ إِذَا تَرَاضَوْا بَيْنَهُمْ بِالْمَعْرُوفِ ذَٰلِكَ يُوعَظُ بِهِ مَنْ كَانَ مِنْكُمْ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ وَاللَّهُ يَعْلَمُ وَأَنْتُمْ لَا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002232.mp3",
 			subtitle: ""
@@ -2422,7 +2420,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالْوَالِدَاتُ يُرْضِعْنَ أَوْلَادَهُنَّ حَوْلَيْنِ كَامِلَيْنِ لِمَنْ أَرَادَ أَنْ يُتِمَّ الرَّضَاعَةَ وَعَلَى الْمَوْلُودِ لَهُ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِالْمَعْرُوفِ لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا لَا تُضَارَّ وَالِدَةٌ بِوَلَدِهَا وَلَا مَوْلُودٌ لَهُ بِوَلَدِهِ وَعَلَى الْوَارِثِ مِثْلُ ذَٰلِكَ فَإِنْ أَرَادَا فِصَالًا عَنْ تَرَاضٍ مِنْهُمَا وَتَشَاوُرٍ فَلَا جُنَاحَ عَلَيْهِمَا وَإِنْ أَرَدْتُمْ أَنْ تَسْتَرْضِعُوا أَوْلَادَكُمْ فَلَا جُنَاحَ عَلَيْكُمْ إِذَا سَلَّمْتُمْ مَا آتَيْتُمْ بِالْمَعْرُوفِ وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002233.mp3",
 			subtitle: ""
@@ -2432,7 +2430,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ يُتَوَفَّوْنَ مِنْكُمْ وَيَذَرُونَ أَزْوَاجًا يَتَرَبَّصْنَ بِأَنْفُسِهِنَّ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَلَا جُنَاحَ عَلَيْكُمْ فِيمَا فَعَلْنَ فِي أَنْفُسِهِنَّ بِالْمَعْرُوفِ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002234.mp3",
 			subtitle: ""
@@ -2442,7 +2440,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُمْ بِهِ مِنْ خِطْبَةِ النِّسَاءِ أَوْ أَكْنَنْتُمْ فِي أَنْفُسِكُمْ عَلِمَ اللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِنْ لَا تُوَاعِدُوهُنَّ سِرًّا إِلَّا أَنْ تَقُولُوا قَوْلًا مَعْرُوفًا وَلَا تَعْزِمُوا عُقْدَةَ النِّكَاحِ حَتَّىٰ يَبْلُغَ الْكِتَابُ أَجَلَهُ وَاعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ مَا فِي أَنْفُسِكُمْ فَاحْذَرُوهُ وَاعْلَمُوا أَنَّ اللَّهَ غَفُورٌ حَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002235.mp3",
 			subtitle: ""
@@ -2452,7 +2450,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا جُنَاحَ عَلَيْكُمْ إِنْ طَلَّقْتُمُ النِّسَاءَ مَا لَمْ تَمَسُّوهُنَّ أَوْ تَفْرِضُوا لَهُنَّ فَرِيضَةً وَمَتِّعُوهُنَّ عَلَى الْمُوسِعِ قَدَرُهُ وَعَلَى الْمُقْتِرِ قَدَرُهُ مَتَاعًا بِالْمَعْرُوفِ حَقًّا عَلَى الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002236.mp3",
 			subtitle: ""
@@ -2462,7 +2460,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ طَلَّقْتُمُوهُنَّ مِنْ قَبْلِ أَنْ تَمَسُّوهُنَّ وَقَدْ فَرَضْتُمْ لَهُنَّ فَرِيضَةً فَنِصْفُ مَا فَرَضْتُمْ إِلَّا أَنْ يَعْفُونَ أَوْ يَعْفُوَ الَّذِي بِيَدِهِ عُقْدَةُ النِّكَاحِ وَأَنْ تَعْفُوا أَقْرَبُ لِلتَّقْوَىٰ وَلَا تَنْسَوُا الْفَضْلَ بَيْنَكُمْ إِنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002237.mp3",
 			subtitle: ""
@@ -2472,7 +2470,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ وَقُومُوا لِلَّهِ قَانِتِينَ",
             translation: "verse 19",
             audioUrl: "./data/002238.mp3",
 			subtitle: ""
@@ -2482,7 +2480,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا فَإِذَا أَمِنْتُمْ فَاذْكُرُوا اللَّهَ كَمَا عَلَّمَكُمْ مَا لَمْ تَكُونُوا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002239.mp3",
 			subtitle: ""
@@ -2492,7 +2490,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ يُتَوَفَّوْنَ مِنْكُمْ وَيَذَرُونَ أَزْوَاجًا وَصِيَّةً لِأَزْوَاجِهِمْ مَتَاعًا إِلَى الْحَوْلِ غَيْرَ إِخْرَاجٍ فَإِنْ خَرَجْنَ فَلَا جُنَاحَ عَلَيْكُمْ فِي مَا فَعَلْنَ فِي أَنْفُسِهِنَّ مِنْ مَعْرُوفٍ وَاللَّهُ عَزِيزٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002240.mp3",
 			subtitle: ""
@@ -2502,7 +2500,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/002241.mp3",
 			subtitle: ""
@@ -2512,7 +2510,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/002242.mp3",
 			subtitle: ""
@@ -2522,7 +2520,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ خَرَجُوا مِنْ دِيَارِهِمْ وَهُمْ أُلُوفٌ حَذَرَ الْمَوْتِ فَقَالَ لَهُمُ اللَّهُ مُوتُوا ثُمَّ أَحْيَاهُمْ إِنَّ اللَّهَ لَذُو فَضْلٍ عَلَى النَّاسِ وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَشْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002243.mp3",
 			subtitle: ""
@@ -2532,7 +2530,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَاتِلُوا فِي سَبِيلِ اللَّهِ وَاعْلَمُوا أَنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002244.mp3",
 			subtitle: ""
@@ -2542,7 +2540,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ ذَا الَّذِي يُقْرِضُ اللَّهَ قَرْضًا حَسَنًا فَيُضَاعِفَهُ لَهُ أَضْعَافًا كَثِيرَةً وَاللَّهُ يَقْبِضُ وَيَبْسُطُ وَإِلَيْهِ تُرْجَعُونَ",
             translation: "verse 19",
             audioUrl: "./data/002245.mp3",
 			subtitle: ""
@@ -2552,7 +2550,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الْمَلَإِ مِنْ بَنِي إِسْرَائِيلَ مِنْ بَعْدِ مُوسَىٰ إِذْ قَالُوا لِنَبِيٍّ لَهُمُ ابْعَثْ لَنَا مَلِكًا نُقَاتِلْ فِي سَبِيلِ اللَّهِ قَالَ هَلْ عَسَيْتُمْ إِنْ كُتِبَ عَلَيْكُمُ الْقِتَالُ أَلَّا تُقَاتِلُوا قَالُوا وَمَا لَنَا أَلَّا نُقَاتِلَ فِي سَبِيلِ اللَّهِ وَقَدْ أُخْرِجْنَا مِنْ دِيَارِنَا وَأَبْنَائِنَا فَلَمَّا كُتِبَ عَلَيْهِمُ الْقِتَالُ تَوَلَّوْا إِلَّا قَلِيلًا مِنْهُمْ وَاللَّهُ عَلِيمٌ بِالظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002246.mp3",
 			subtitle: ""
@@ -2562,7 +2560,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ اللَّهَ قَدْ بَعَثَ لَكُمْ طَالُوتَ مَلِكًا قَالُوا أَنَّىٰ يَكُونُ لَهُ الْمُلْكُ عَلَيْنَا وَنَحْنُ أَحَقُّ بِالْمُلْكِ مِنْهُ وَلَمْ يُؤْتَ سَعَةً مِنَ الْمَالِ قَالَ إِنَّ اللَّهَ اصْطَفَاهُ عَلَيْكُمْ وَزَادَهُ بَسْطَةً فِي الْعِلْمِ وَالْجِسْمِ وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002247.mp3",
 			subtitle: ""
@@ -2572,7 +2570,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ آيَةَ مُلْكِهِ أَنْ يَأْتِيَكُمُ التَّابُوتُ فِيهِ سَكِينَةٌ مِنْ رَبِّكُمْ وَبَقِيَّةٌ مِمَّا تَرَكَ آلُ مُوسَىٰ وَآلُ هَارُونَ تَحْمِلُهُ الْمَلَائِكَةُ إِنَّ فِي ذَٰلِكَ لَآيَةً لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002248.mp3",
 			subtitle: ""
@@ -2581,7 +2579,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا فَصَلَ طَالُوتُ بِالْجُنُودِ قَالَ إِنَّ اللَّهَ مُبْتَلِيكُمْ بِنَهَرٍ فَمَنْ شَرِبَ مِنْهُ فَلَيْسَ مِنِّي وَمَنْ لَمْ يَطْعَمْهُ فَإِنَّهُ مِنِّي إِلَّا مَنِ اغْتَرَفَ غُرْفَةً بِيَدِهِ فَشَرِبُوا مِنْهُ إِلَّا قَلِيلًا مِنْهُمْ فَلَمَّا جَاوَزَهُ هُوَ وَالَّذِينَ آمَنُوا مَعَهُ قَالُوا لَا طَاقَةَ لَنَا الْيَوْمَ بِجَالُوتَ وَجُنُودِهِ قَالَ الَّذِينَ يَظُنُّونَ أَنَّهُمْ مُلَاقُو اللَّهِ كَمْ مِنْ فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةً بِإِذْنِ اللَّهِ وَاللَّهُ مَعَ الصَّابِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002249.mp3",
 			subtitle: ""
@@ -2591,7 +2589,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَمَّا بَرَزُوا لِجَالُوتَ وَجُنُودِهِ قَالُوا رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002250.mp3",
 			subtitle: ""
@@ -2601,7 +2599,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَٰكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002251.mp3",
 			subtitle: ""
@@ -2611,7 +2609,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ وَإِنَّكَ لَمِنَ الْمُرْسَلِينَ",
             translation: "verse 19",
             audioUrl: "./data/002252.mp3",
 			subtitle: ""
@@ -2621,7 +2619,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "تِلْكَ الرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ مِنْهُمْ مَنْ كَلَّمَ اللَّهُ وَرَفَعَ بَعْضَهُمْ دَرَجَاتٍ وَآتَيْنَا عِيسَى ابْنَ مَرْيَمَ الْبَيِّنَاتِ وَأَيَّدْنَاهُ بِرُوحِ الْقُدُسِ وَلَوْ شَاءَ اللَّهُ مَا اقْتَتَلَ الَّذِينَ مِنْ بَعْدِهِمْ مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَاتُ وَلَٰكِنِ اخْتَلَفُوا فَمِنْهُمْ مَنْ آمَنَ وَمِنْهُمْ مَنْ كَفَرَ وَلَوْ شَاءَ اللَّهُ مَا اقْتَتَلُوا وَلَٰكِنَّ اللَّهَ يَفْعَلُ مَا يُرِيدُ",
             translation: "verse 19",
             audioUrl: "./data/002253.mp3",
 			subtitle: ""
@@ -2630,7 +2628,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا أَنْفِقُوا مِمَّا رَزَقْنَاكُمْ مِنْ قَبْلِ أَنْ يَأْتِيَ يَوْمٌ لَا بَيْعٌ فِيهِ وَلَا خُلَّةٌ وَلَا شَفَاعَةٌ وَالْكَافِرُونَ هُمُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002254.mp3",
 			subtitle: ""
@@ -2640,7 +2638,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ",
             translation: "verse 19",
             audioUrl: "./data/002255.mp3",
 			subtitle: ""
@@ -2650,7 +2648,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا إِكْرَاهَ فِي الدِّينِ قَدْ تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ فَمَنْ يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِنْ بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ لَا انْفِصَامَ لَهَا وَاللَّهُ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002256.mp3",
 			subtitle: ""
@@ -2660,7 +2658,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُمْ مِنَ الظُّلُمَاتِ إِلَى النُّورِ وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّاغُوتُ يُخْرِجُونَهُمْ مِنَ النُّورِ إِلَى الظُّلُمَاتِ أُولَٰئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002257.mp3",
 			subtitle: ""
@@ -2670,7 +2668,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِي حَاجَّ إِبْرَاهِيمَ فِي رَبِّهِ أَنْ آتَاهُ اللَّهُ الْمُلْكَ إِذْ قَالَ إِبْرَاهِيمُ رَبِّيَ الَّذِي يُحْيِي وَيُمِيتُ قَالَ أَنَا أُحْيِي وَأُمِيتُ قَالَ إِبْرَاهِيمُ فَإِنَّ اللَّهَ يَأْتِي بِالشَّمْسِ مِنَ الْمَشْرِقِ فَأْتِ بِهَا مِنَ الْمَغْرِبِ فَبُهِتَ الَّذِي كَفَرَ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/002258.mp3",
 			subtitle: ""
@@ -2680,7 +2678,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوْ كَالَّذِي مَرَّ عَلَىٰ قَرْيَةٍ وَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْيِي هَٰذِهِ اللَّهُ بَعْدَ مَوْتِهَا فَأَمَاتَهُ اللَّهُ مِائَةَ عَامٍ ثُمَّ بَعَثَهُ قَالَ كَمْ لَبِثْتَ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍ قَالَ بَلْ لَبِثْتَ مِائَةَ عَامٍ فَانْظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ وَانْظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ آيَةً لِلنَّاسِ وَانْظُرْ إِلَى الْعِظَامِ كَيْفَ نُنْشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًا فَلَمَّا تَبَيَّنَ لَهُ قَالَ أَعْلَمُ أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002259.mp3",
 			subtitle: ""
@@ -2690,7 +2688,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ إِبْرَاهِيمُ رَبِّ أَرِنِي كَيْفَ تُحْيِي الْمَوْتَىٰ قَالَ أَوَلَمْ تُؤْمِنْ قَالَ بَلَىٰ وَلَٰكِنْ لِيَطْمَئِنَّ قَلْبِي قَالَ فَخُذْ أَرْبَعَةً مِنَ الطَّيْرِ فَصُرْهُنَّ إِلَيْكَ ثُمَّ اجْعَلْ عَلَىٰ كُلِّ جَبَلٍ مِنْهُنَّ جُزْءًا ثُمَّ ادْعُهُنَّ يَأْتِينَكَ سَعْيًا وَاعْلَمْ أَنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002260.mp3",
 			subtitle: ""
@@ -2700,7 +2698,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "مَثَلُ الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمْ فِي سَبِيلِ اللَّهِ كَمَثَلِ حَبَّةٍ أَنْبَتَتْ سَبْعَ سَنَابِلَ فِي كُلِّ سُنْبُلَةٍ مِائَةُ حَبَّةٍ وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002261.mp3",
 			subtitle: ""
@@ -2710,7 +2708,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمْ فِي سَبِيلِ اللَّهِ ثُمَّ لَا يُتْبِعُونَ مَا أَنْفَقُوا مَنًّا وَلَا أَذًى لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002262.mp3",
 			subtitle: ""
@@ -2720,7 +2718,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ يَتْبَعُهَا أَذًى وَاللَّهُ غَنِيٌّ حَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002263.mp3",
 			subtitle: ""
@@ -2730,7 +2728,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تُبْطِلُوا صَدَقَاتِكُمْ بِالْمَنِّ وَالْأَذَىٰ كَالَّذِي يُنْفِقُ مَالَهُ رِئَاءَ النَّاسِ وَلَا يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَمَثَلُهُ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌ فَأَصَابَهُ وَابِلٌ فَتَرَكَهُ صَلْدًا لَا يَقْدِرُونَ عَلَىٰ شَيْءٍ مِمَّا كَسَبُوا وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002264.mp3",
 			subtitle: ""
@@ -2740,7 +2738,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَثَلُ الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَتَثْبِيتًا مِنْ أَنْفُسِهِمْ كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ فَآتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِنْ لَمْ يُصِبْهَا وَابِلٌ فَطَلٌّ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002265.mp3",
 			subtitle: ""
@@ -2750,7 +2748,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أَيَوَدُّ أَحَدُكُمْ أَنْ تَكُونَ لَهُ جَنَّةٌ مِنْ نَخِيلٍ وَأَعْنَابٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ لَهُ فِيهَا مِنْ كُلِّ الثَّمَرَاتِ وَأَصَابَهُ الْكِبَرُ وَلَهُ ذُرِّيَّةٌ ضُعَفَاءُ فَأَصَابَهَا إِعْصَارٌ فِيهِ نَارٌ فَاحْتَرَقَتْ كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمُ الْآيَاتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/002266.mp3",
 			subtitle: ""
@@ -2760,7 +2758,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا أَنْفِقُوا مِنْ طَيِّبَاتِ مَا كَسَبْتُمْ وَمِمَّا أَخْرَجْنَا لَكُمْ مِنَ الْأَرْضِ وَلَا تَيَمَّمُوا الْخَبِيثَ مِنْهُ تُنْفِقُونَ وَلَسْتُمْ بِآخِذِيهِ إِلَّا أَنْ تُغْمِضُوا فِيهِ وَاعْلَمُوا أَنَّ اللَّهَ غَنِيٌّ حَمِيدٌ",
             translation: "verse 19",
             audioUrl: "./data/002267.mp3",
 			subtitle: ""
@@ -2770,7 +2768,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "الشَّيْطَانُ يَعِدُكُمُ الْفَقْرَ وَيَأْمُرُكُمْ بِالْفَحْشَاءِ وَاللَّهُ يَعِدُكُمْ مَغْفِرَةً مِنْهُ وَفَضْلًا وَاللَّهُ وَاسِعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002268.mp3",
 			subtitle: ""
@@ -2780,7 +2778,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يُؤْتِي الْحِكْمَةَ مَنْ يَشَاءُ وَمَنْ يُؤْتَ الْحِكْمَةَ فَقَدْ أُوتِيَ خَيْرًا كَثِيرًا وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ",
             translation: "verse 19",
             audioUrl: "./data/002269.mp3",
 			subtitle: ""
@@ -2790,7 +2788,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا أَنْفَقْتُمْ مِنْ نَفَقَةٍ أَوْ نَذَرْتُمْ مِنْ نَذْرٍ فَإِنَّ اللَّهَ يَعْلَمُهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ",
             translation: "verse 19",
             audioUrl: "./data/002270.mp3",
 			subtitle: ""
@@ -2800,7 +2798,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ تُبْدُوا الصَّدَقَاتِ فَنِعِمَّا هِيَ وَإِنْ تُخْفُوهَا وَتُؤْتُوهَا الْفُقَرَاءَ فَهُوَ خَيْرٌ لَكُمْ وَيُكَفِّرُ عَنْكُمْ مِنْ سَيِّئَاتِكُمْ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002271.mp3",
 			subtitle: ""
@@ -2809,7 +2807,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسَ عَلَيْكَ هُدَاهُمْ وَلَٰكِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ وَمَا تُنْفِقُوا مِنْ خَيْرٍ فَلِأَنْفُسِكُمْ وَمَا تُنْفِقُونَ إِلَّا ابْتِغَاءَ وَجْهِ اللَّهِ وَمَا تُنْفِقُوا مِنْ خَيْرٍ يُوَفَّ إِلَيْكُمْ وَأَنْتُمْ لَا تُظْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002272.mp3",
 			subtitle: ""
@@ -2819,7 +2817,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لِلْفُقَرَاءِ الَّذِينَ أُحْصِرُوا فِي سَبِيلِ اللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِي الْأَرْضِ يَحْسَبُهُمُ الْجَاهِلُ أَغْنِيَاءَ مِنَ التَّعَفُّفِ تَعْرِفُهُمْ بِسِيمَاهُمْ لَا يَسْأَلُونَ النَّاسَ إِلْحَافًا وَمَا تُنْفِقُوا مِنْ خَيْرٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002273.mp3",
 			subtitle: ""
@@ -2829,7 +2827,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمْ بِالَّيْلِ وَالنَّهَارِ سِرًّا وَعَلَانِيَةً فَلَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002274.mp3",
 			subtitle: ""
@@ -2839,7 +2837,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَأْكُلُونَ الرِّبَا لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ الَّذِي يَتَخَبَّطُهُ الشَّيْطَانُ مِنَ الْمَسِّ ذَٰلِكَ بِأَنَّهُمْ قَالُوا إِنَّمَا الْبَيْعُ مِثْلُ الرِّبَا وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا فَمَنْ جَاءَهُ مَوْعِظَةٌ مِنْ رَبِّهِ فَانْتَهَىٰ فَلَهُ مَا سَلَفَ وَأَمْرُهُ إِلَى اللَّهِ وَمَنْ عَادَ فَأُولَٰئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/002275.mp3",
 			subtitle: ""
@@ -2849,7 +2847,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَمْحَقُ اللَّهُ الرِّبَا وَيُرْبِي الصَّدَقَاتِ وَاللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/002276.mp3",
 			subtitle: ""
@@ -2858,7 +2856,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/002277.mp3",
 			subtitle: ""
@@ -2868,7 +2866,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَذَرُوا مَا بَقِيَ مِنَ الرِّبَا إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/002278.mp3",
 			subtitle: ""
@@ -2878,7 +2876,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ لَمْ تَفْعَلُوا فَأْذَنُوا بِحَرْبٍ مِنَ اللَّهِ وَرَسُولِهِ وَإِنْ تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَالِكُمْ لَا تَظْلِمُونَ وَلَا تُظْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002279.mp3",
 			subtitle: ""
@@ -2888,7 +2886,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ وَأَنْ تَصَدَّقُوا خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002280.mp3",
 			subtitle: ""
@@ -2898,7 +2896,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاتَّقُوا يَوْمًا تُرْجَعُونَ فِيهِ إِلَى اللَّهِ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/002281.mp3",
 			subtitle: ""
@@ -2908,7 +2906,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنْتُمْ بِدَيْنٍ إِلَىٰ أَجَلٍ مُسَمًّى فَاكْتُبُوهُ وَلْيَكْتُبْ بَيْنَكُمْ كَاتِبٌ بِالْعَدْلِ وَلَا يَأْبَ كَاتِبٌ أَنْ يَكْتُبَ كَمَا عَلَّمَهُ اللَّهُ فَلْيَكْتُبْ وَلْيُمْلِلِ الَّذِي عَلَيْهِ الْحَقُّ وَلْيَتَّقِ اللَّهَ رَبَّهُ وَلَا يَبْخَسْ مِنْهُ شَيْئًا فَإِنْ كَانَ الَّذِي عَلَيْهِ الْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَنْ يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُ بِالْعَدْلِ وَاسْتَشْهِدُوا شَهِيدَيْنِ مِنْ رِجَالِكُمْ فَإِنْ لَمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌ وَامْرَأَتَانِ مِمَّنْ تَرْضَوْنَ مِنَ الشُّهَدَاءِ أَنْ تَضِلَّ إِحْدَاهُمَا فَتُذَكِّرَ إِحْدَاهُمَا الْأُخْرَىٰ وَلَا يَأْبَ الشُّهَدَاءُ إِذَا مَا دُعُوا وَلَا تَسْأَمُوا أَنْ تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَى أَجَلِهِ ذَٰلِكُمْ أَقْسَطُ عِنْدَ اللَّهِ وَأَقْوَمُ لِلشَّهَادَةِ وَأَدْنَى أَلَّا تَرْتَابُوا إِلَّا أَنْ تَكُونَ تِجَارَةً حَاضِرَةً تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا وَأَشْهِدُوا إِذَا تَبَايَعْتُمْ وَلَا يُضَارَّ كَاتِبٌ وَلَا شَهِيدٌ وَإِنْ تَفْعَلُوا فَإِنَّهُ فُسُوقٌ بِكُمْ وَاتَّقُوا اللَّهَ وَيُعَلِّمُكُمُ اللَّهُ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002282.mp3",
 			subtitle: ""
@@ -2918,7 +2916,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ كُنْتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا كَاتِبًا فَرِهَانٌ مَقْبُوضَةٌ فَإِنْ أَمِنَ بَعْضُكُمْ بَعْضًا فَلْيُؤَدِّ الَّذِي اؤْتُمِنَ أَمَانَتَهُ وَلْيَتَّقِ اللَّهَ رَبَّهُ وَلَا تَكْتُمُوا الشَّهَادَةَ وَمَنْ يَكْتُمْهَا فَإِنَّهُ آثِمٌ قَلْبُهُ وَاللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/002283.mp3",
 			subtitle: ""
@@ -2928,7 +2926,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَإِنْ تُبْدُوا مَا فِي أَنْفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُمْ بِهِ اللَّهُ فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/002284.mp3",
 			subtitle: ""
@@ -2938,7 +2936,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ وَقَالُوا سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ",
             translation: "verse 19",
             audioUrl: "./data/002285.mp3",
 			subtitle: ""
@@ -2948,7 +2946,7 @@ surahData[2] = {
             surahNumber: 2,
 			surahNumberArabic: '٢',
 			ayatNumberArabic: '٢٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/002286.mp3",
 			subtitle: ""
@@ -53076,307 +53074,11612 @@ surahData[62] = {
     ]
 };
 
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
-
-//surahData
+surahData[63] = {
+    surahNameMalay: "Golongan Hipokrit (Al-Munaafeqoon)",
+    surahNumber: 63,
+    surahNumberArabic: '٦٣',
+    surahNameArabic: "سورة الـمنافقون",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/063000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 63. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/063001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/063002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/063003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/063004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/063005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/063006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/063007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/063008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/063009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/063010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 63,
+			surahNumberArabic: '٦٣',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/063011.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[64] = {
+    surahNameMalay: "Saling Menyalahkan (Al-Taghaabun)",
+    surahNumber: 64,
+    surahNumberArabic: '٦٤',
+    surahNameArabic: "سورة الـتغابن",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/064000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 64. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/064001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/064002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/064003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/064004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/064005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/064006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/064007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 64,
+			surahNumberArabic: '٦٤',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/064018.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[65] = {
+    surahNameMalay: "Perceraian (Al-Talaaq)",
+    surahNumber: 65,
+    surahNumberArabic: '٦٥',
+    surahNameArabic: "سورة الـطلاق",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/065000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 65. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/065001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/065002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/065003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/065004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/065005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/065006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/065007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/065008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/065009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/065010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/065011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 65,
+			surahNumberArabic: '٦٥',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/065012.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[66] = {
+    surahNameMalay: "Larangan (Al-Tahreem)",
+    surahNumber: 66,
+    surahNumberArabic: '٦٦',
+    surahNameArabic: "سورة الـتحريم",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/066000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 66. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/066001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/066002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/066003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/066004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/066005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/066006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/066007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/066008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/066009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/066010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/066011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 66,
+			surahNumberArabic: '٦٦',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/066012.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[67] = {
+    surahNameMalay: "Yang Menguasai Kerajaan Kerajaan (Al-Mulk)",
+    surahNumber: 67,
+    surahNumberArabic: '٦٧',
+    surahNameArabic: "سورة الـملك",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/067000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 67. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/067001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/067002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/067003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/067004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/067005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/067006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/067007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/067018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 67,
+			surahNumberArabic: '٦٧',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/067030.mp3",
+			subtitle: ""
+        },					
+    ]
+};
+
+surahData[68] = {
+    surahNameMalay: "Pen (Al-Qalam)",
+    surahNumber: 68,
+    surahNumberArabic: '٦٨',
+    surahNameArabic: "سورة الـقـلـم",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/068000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 68. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/068001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/068002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/068003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/068004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/068005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/068006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/068007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/068018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068042.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 43,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068043.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 44,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068044.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 45,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068045.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 46,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068046.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 47,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068047.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 48,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068048.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 49,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٤٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068049.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 50,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٥٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068050.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 51,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٥١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068051.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 52,
+            surahNumber: 68,
+			surahNumberArabic: '٦٨',
+			ayatNumberArabic: '٥٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/068052.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[69] = {
+    surahNameMalay: "Tidak Dapat Di-Pertikaikan (Al-Haaqqah)",
+    surahNumber: 69,
+    surahNumberArabic: '٦٩',
+    surahNameArabic: "سورة الـحاقـة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/069000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 68. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/069001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/069002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/069003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/069004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/069005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/069006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/069007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/069018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069042.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 43,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069043.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 44,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069044.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 45,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069045.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 46,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069046.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 47,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069047.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 48,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069048.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 49,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٤٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069049.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 50,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٥٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069050.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 51,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٥١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069051.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 52,
+            surahNumber: 69,
+			surahNumberArabic: '٦٩',
+			ayatNumberArabic: '٥٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/069052.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[70] = {
+    surahNameMalay: "Ketinggian (Al-Ma’aarej)",
+    surahNumber: 70,
+    surahNumberArabic: '٧٠',
+    surahNameArabic: "سورة الـمعارج",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/070000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 70. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/070001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/070002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/070003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/070004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/070005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/070006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/070007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/070018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070042.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 43,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٤٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070043.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 44,
+            surahNumber: 70,
+			surahNumberArabic: '٧٠',
+			ayatNumberArabic: '٤٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/070044.mp3",
+			subtitle: ""
+        },		
+    ]
+};
+
+surahData[71] = {
+    surahNameMalay: "Nuh (Nuh)",
+    surahNumber: 71,
+    surahNumberArabic: '٧١',
+    surahNameArabic: "سورة نوح",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/071000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 71. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/071001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/071002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/071003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/071004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/071005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/071006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/071007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/071018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 71,
+			surahNumberArabic: '٧١',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/071028.mp3",
+			subtitle: ""
+        },	
+    ]
+};
+
+surahData[72] = {
+    surahNameMalay: "Jin (Al-Jinn)",
+    surahNumber: 72,
+    surahNumberArabic: '٧٢',
+    surahNameArabic: "سورة الجن",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/072000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 72. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/072001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/072002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/072003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/072004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/072005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/072006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/072007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/072018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 72,
+			surahNumberArabic: '٧٢',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/072028.mp3",
+			subtitle: ""
+        },	
+    ]
+};
+
+surahData[73] = {
+    surahNameMalay: "Terselubung (Al-Muzzammil)",
+    surahNumber: 73,
+    surahNumberArabic: '٧٣',
+    surahNameArabic: "سورة الـمـزمـل",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/073000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 73. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/073001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/073002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/073003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/073004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/073005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/073006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/073007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/073018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/073019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 73,
+			surahNumberArabic: '٧٣',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/073020.mp3",
+			subtitle: ""
+        },		
+    ]
+};
+
+surahData[74] = {
+    surahNameMalay: "Rahsia Yang Tersembunyi (Al-Muddath-thir)",
+    surahNumber: 74,
+    surahNumberArabic: '٧٤',
+    surahNameArabic: "سورة الـمـدثـر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/074000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 74. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/074001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/074002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/074003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/074004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/074005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/074006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/074007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/074018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074042.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 43,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074043.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 44,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074044.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 45,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074045.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 46,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074046.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 47,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074047.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 48,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074048.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 49,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٤٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074049.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 50,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074050.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 51,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074051.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 52,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074052.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 53,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074053.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 54,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074054.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 55,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074055.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 56,
+            surahNumber: 74,
+			surahNumberArabic: '٧٤',
+			ayatNumberArabic: '٥٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/074056.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[75] = {
+    surahNameMalay: "Hari Kebangkitan (Al-Qeyaamah)",
+    surahNumber: 75,
+    surahNumberArabic: '٧٥',
+    surahNameArabic: "سورة الـقـيامـة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/075000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 75. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/075001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/075002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/075003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/075004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/075005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/075006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/075007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/075018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 75,
+			surahNumberArabic: '٧٥',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/075040.mp3",
+			subtitle: ""
+        },		
+    ]
+};
+
+surahData[76] = {
+    surahNameMalay: "Manusia (Al-Insaan)",
+    surahNumber: 76,
+    surahNumberArabic: '٧٦',
+    surahNameArabic: "سورة الإنسان",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/076000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 76. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/076001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/076002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/076003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/076004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/076005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/076006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/076007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/076018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 76,
+			surahNumberArabic: '٧٦',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/076031.mp3",
+			subtitle: ""
+        },		
+    ]
+};
+
+surahData[77] = {
+    surahNameMalay: "Di-Hantar (Al-Mursalaat)",
+    surahNumber: 77,
+    surahNumberArabic: '٧٧',
+    surahNameArabic: "سورة الـمرسلات",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/077000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 77. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/077001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/077002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/077003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/077004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/077005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/077006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/077007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/077018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077042.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 43,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077043.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 44,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077044.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 45,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077045.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 46,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077046.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 47,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077047.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 48,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077048.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 49,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٤٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077049.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 50,
+            surahNumber: 77,
+			surahNumberArabic: '٧٧',
+			ayatNumberArabic: '٥٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/077050.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[78] = {
+    surahNameMalay: "Peristiwa (Al-Naba’)",
+    surahNumber: 78,
+    surahNumberArabic: '٧٨',
+    surahNameArabic: "سورة الـنبإ",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/078000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 78. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/078001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/078002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/078003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/078004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/078005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/078006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/078007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/078018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 78,
+			surahNumberArabic: '٧٨',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/078040.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[79] = {
+    surahNameMalay: "Para Peragut (Al-Naaze’aat)",
+    surahNumber: 79,
+    surahNumberArabic: '٧٩',
+    surahNameArabic: "سورة الـنازعات",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/079000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 79. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/079001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/079002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/079003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/079004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/079005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/079006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/079007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/079018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079042.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 43,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079043.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 44,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079044.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 45,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079045.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 46,
+            surahNumber: 79,
+			surahNumberArabic: '٧٩',
+			ayatNumberArabic: '٤٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/079046.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[80] = {
+    surahNameMalay: "Dia Berkerut Dahi (’Abasa)",
+    surahNumber: 80,
+    surahNumberArabic: '٨٠',
+    surahNameArabic: "سورة عبس",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/080000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 80. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/080001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/080002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/080003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/080004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/080005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/080006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/080007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/080018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080036.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 37,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080037.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 38,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080038.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 39,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٣٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080039.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 40,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٤٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080040.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 41,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٤١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080041.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 42,
+            surahNumber: 80,
+			surahNumberArabic: '٨٠',
+			ayatNumberArabic: '٤٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/080042.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[81] = {
+    surahNameMalay: "Menggulung (Al-Takweer)",
+    surahNumber: 81,
+    surahNumberArabic: '٨١',
+    surahNameArabic: "سورة التكوير",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/081000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 81. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/081001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/081002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/081003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/081004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/081005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/081006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/081007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/081018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 81,
+			surahNumberArabic: '٨١',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/081029.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[82] = {
+    surahNameMalay: "Menghancurkan (Al-Infitaar)",
+    surahNumber: 82,
+    surahNumberArabic: '٨٢',
+    surahNameArabic: "سورة الانفطار",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/082000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 82. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/082001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/082002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/082003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/082004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/082005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/082006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/082007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/082018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 82,
+			surahNumberArabic: '٨٢',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/082019.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[83] = {
+    surahNameMalay: "Para Penipu (Al-Mutaffifeen)",
+    surahNumber: 83,
+    surahNumberArabic: '٨٣',
+    surahNameArabic: "سورة المطـفـفين",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/083000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 83. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/083001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/083002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/083003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/083004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/083005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/083006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/083007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/083018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083030.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 31,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083031.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 32,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083032.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 33,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083033.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 34,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083034.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 35,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083035.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 36,
+            surahNumber: 83,
+			surahNumberArabic: '٨٣',
+			ayatNumberArabic: '٣٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/083036.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[84] = {
+    surahNameMalay: "Perpecahan (Al-Inshiqaaq)",
+    surahNumber: 84,
+    surahNumberArabic: '٨٤',
+    surahNameArabic: "سورة الانشقاق",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/084000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 84. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/084001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/084002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/084003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/084004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/084005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/084006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/084007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/084018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 84,
+			surahNumberArabic: '٨٤',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/084025.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[85] = {
+    surahNameMalay: "Galaksi (Al-Burooj)",
+    surahNumber: 85,
+    surahNumberArabic: '٨٥',
+    surahNameArabic: "سورة البروج",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/085000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 85. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/085001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/085002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/085003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/085004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/085005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/085006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/085007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/085018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/085019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/085020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/085021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 85,
+			surahNumberArabic: '٨٥',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/085022.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[86] = {
+    surahNameMalay: "Bintang Yang Terang (Al-Taareq)",
+    surahNumber: 86,
+    surahNumberArabic: '٨٦',
+    surahNameArabic: "سورة الـطارق",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/086000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 86. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/086001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/086002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/086003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/086004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/086005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/086006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/086007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 86,
+			surahNumberArabic: '٨٦',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/086017.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[87] = {
+    surahNameMalay: "Yang Maha Tinggi (Al-A’alaa)",
+    surahNumber: 87,
+    surahNumberArabic: '٨٧',
+    surahNameArabic: "سورة الأعـلى",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/087000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 87. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/087001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/087002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/087003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/087004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/087005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/087006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/087007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/087018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 87,
+			surahNumberArabic: '٨٧',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/087019.mp3",
+			subtitle: ""
+        },			
+    ]
+};
+
+surahData[88] = {
+    surahNameMalay: "Luar Biasa (Al-Ghaasheyah)",
+    surahNumber: 88,
+    surahNumberArabic: '٨٨',
+    surahNameArabic: "سورة الغاشـيـة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/088000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 88. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/088001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/088002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/088003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/088004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/088005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/088006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/088007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/088018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 88,
+			surahNumberArabic: '٨٨',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/088026.mp3",
+			subtitle: ""
+        },					
+    ]
+};
+
+surahData[89] = {
+    surahNameMalay: "Subuh (Al-Fajr)",
+    surahNumber: 89,
+    surahNumberArabic: '٨٩',
+    surahNameArabic: "سورة الفجر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/089000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 89. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/089001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/089002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/089003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/089004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/089005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/089006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/089007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/089018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089021.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 22,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٢',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089022.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 23,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٣',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089023.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 24,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٤',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089024.mp3",
+			subtitle: ""
+        },	        {
+            ayatNumber: 25,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٥',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089025.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 26,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٦',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089026.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 27,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٧',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089027.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 28,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٨',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089028.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 29,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٢٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089029.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 30,
+            surahNumber: 89,
+			surahNumberArabic: '٨٩',
+			ayatNumberArabic: '٣٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/089030.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[90] = {
+    surahNameMalay: "Bandar (Al-Balad)",
+    surahNumber: 90,
+    surahNumberArabic: '٩٠',
+    surahNameArabic: "سورة الـبلد",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/090000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 90. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/090001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/090002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/090003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/090004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/090005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/090006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/090007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/090018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/090019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 90,
+			surahNumberArabic: '٩٠',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/090020.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[91] = {
+    surahNameMalay: "Matahari (Al-Shams)",
+    surahNumber: 91,
+    surahNumberArabic: '٩١',
+    surahNameArabic: "سورة الـشـمـس",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/091000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 91. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/091001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/091002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/091003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/091004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/091005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/091006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/091007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 91,
+			surahNumberArabic: '٩١',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/091015.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[92] = {
+    surahNameMalay: "Malam (Al-Layl)",
+    surahNumber: 92,
+    surahNumberArabic: '٩٢',
+    surahNameArabic: "سورة الـيـل",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/092000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 92. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/092001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/092002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/092003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/092004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/092005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/092006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/092007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/092018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/092019.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 20,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٢٠',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/092020.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 21,
+            surahNumber: 92,
+			surahNumberArabic: '٩٢',
+			ayatNumberArabic: '٢١',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/092021.mp3",
+			subtitle: ""
+        },					
+    ]
+};
+
+surahData[93] = {
+    surahNameMalay: "Siang Hari (Al-Duhaa)",
+    surahNumber: 93,
+    surahNumberArabic: '٩٣',
+    surahNameArabic: "سورة الضـحى",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/093000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 93. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/093001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/093002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/093003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/093004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/093005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/093006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/093007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/093008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/093009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/093010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 93,
+			surahNumberArabic: '٩٣',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/093011.mp3",
+			subtitle: ""
+        },						
+    ]
+};
+
+surahData[94] = {
+    surahNameMalay: "Meredakan Perasaan Marah (Al-Sharrhh)",
+    surahNumber: 94,
+    surahNumberArabic: '٩٤',
+    surahNameArabic: "سورة الـشرح",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/094000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 94. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/094001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/094002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/094003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/094004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/094005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/094006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/094007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 94,
+			surahNumberArabic: '٩٤',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/094008.mp3",
+			subtitle: ""
+        },						
+    ]
+};
+
+surahData[95] = {
+    surahNameMalay: "Buah Tin (Al-Teen)",
+    surahNumber: 95,
+    surahNumberArabic: '٩٥',
+    surahNameArabic: "سورة الـتين",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/095000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 95. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/095001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/095002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/095003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/095004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/095005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/095006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/095007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 95,
+			surahNumberArabic: '٩٥',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/095008.mp3",
+			subtitle: ""
+        },						
+    ]
+};
+
+surahData[96] = {
+    surahNameMalay: "Embrio (Al-’Alaq)",
+    surahNumber: 96,
+    surahNumberArabic: '٩٦',
+    surahNameArabic: "سورة الـعلق",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/096000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 96. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/096001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/096002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/096003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/096004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/096005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/096006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/096007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096011.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 12,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٢',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096012.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 13,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٣',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096013.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 14,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٤',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096014.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 15,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٥',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096015.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 16,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٦',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096016.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 17,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٧',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096017.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 18,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/096018.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 19,
+            surahNumber: 96,
+			surahNumberArabic: '٩٦',
+			ayatNumberArabic: '١٩',		
+            arabicText: "Arabic text here",
+            translation: "verse 19",
+            audioUrl: "./data/096019.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[97] = {
+    surahNameMalay: "Takdir (Al-Qadr)",
+    surahNumber: 97,
+    surahNumberArabic: '٩٧',
+    surahNameArabic: "سورة الـقدر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 97,
+			surahNumberArabic: '٩٧',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/097000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 97. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 97,
+			surahNumberArabic: '٩٧',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/097001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 97,
+			surahNumberArabic: '٩٧',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/097002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 97,
+			surahNumberArabic: '٩٧',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/097003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 97,
+			surahNumberArabic: '٩٧',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/097004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 97,
+			surahNumberArabic: '٩٧',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/097005.mp3",
+			footnote: ""
+        },			
+    ]
+};
+
+surahData[98] = {
+    surahNameMalay: "Bukti (Al-Bayyinah)",
+    surahNumber: 98,
+    surahNumberArabic: '٩٨',
+    surahNameArabic: "سورة الـبينة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/098000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 98. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/098001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/098002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/098003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/098004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/098005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/098006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/098007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 98,
+			surahNumberArabic: '٩٨',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/098008.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[99] = {
+    surahNameMalay: "Gempa (Al-Zalzalah)",
+    surahNumber: 99,
+    surahNumberArabic: '٩٩',
+    surahNameArabic: "سورة الـزلزلة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/099000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 99. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/099001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/099002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/099003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/099004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/099005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/099006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/099007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 99,
+			surahNumberArabic: '٩٩',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/099008.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[100] = {
+    surahNameMalay: "Berlari Kencang (Al-’Aadeyaat)",
+    surahNumber: 100,
+    surahNumberArabic: '١٠٠',
+    surahNameArabic: "سورة الـعاديات",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/100000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 100. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/100001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/100002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/100003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/100004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/100005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/100006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/100007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/100008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/100009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/100010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 100,
+			surahNumberArabic: '١٠٠',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/100011.mp3",
+			subtitle: ""
+        },					
+    ]
+};
+
+surahData[101] = {
+    surahNameMalay: "Memeranjatkan (Al-Qaare’ah)",
+    surahNumber: 101,
+    surahNumberArabic: '١٠١',
+    surahNameArabic: "سورة الـقارعـة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/101000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 101. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/101001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/101002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/101003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/101004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/101005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/101006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/101007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/101008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/101009.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 10,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '١٠',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/101010.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 11,
+            surahNumber: 101,
+			surahNumberArabic: '١٠١',
+			ayatNumberArabic: '١١',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/101011.mp3",
+			subtitle: ""
+        },					
+    ]
+};
+
+surahData[102] = {
+    surahNameMalay: "Mengumpulkan (Al-Takaathur)",
+    surahNumber: 102,
+    surahNumberArabic: '١٠٢',
+    surahNameArabic: "سورة الـتكاثر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/102000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 102. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/102001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/102002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/102003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/102004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/102005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/102006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/102007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 102,
+			surahNumberArabic: '١٠٢',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/102008.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[103] = {
+    surahNameMalay: "Petang (Al-’Asr)",
+    surahNumber: 103,
+    surahNumberArabic: '١٠٣',
+    surahNameArabic: "سورة الـعصر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 103,
+			surahNumberArabic: '١٠٣',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/103000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 103. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 103,
+			surahNumberArabic: '١٠٣',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/103001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 103,
+			surahNumberArabic: '١٠٣',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/103002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 103,
+			surahNumberArabic: '١٠٣',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/103003.mp3",
+			subtitle: "",
+			footnote: ""
+        },			
+    ]
+};
+
+surahData[104] = {
+    surahNameMalay: "Pengumpat (Al-Humazah)",
+    surahNumber: 104,
+    surahNumberArabic: '١٠٤',
+    surahNameArabic: "سورة الـهمزة",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/104000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 104. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/104001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/104002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/104003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/104004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/104005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/104006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/104007.mp3",
+			subtitle: ""
+        },		
+        {
+            ayatNumber: 8,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٨',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/104008.mp3",
+			subtitle: ""
+        },	
+        {
+            ayatNumber: 9,
+            surahNumber: 104,
+			surahNumberArabic: '١٠٤',
+			ayatNumberArabic: '٩',		
+            arabicText: "Arabic text here",
+            translation: "",
+            audioUrl: "./data/104009.mp3",
+			subtitle: ""
+        },				
+    ]
+};
+
+surahData[105] = {
+    surahNameMalay: "Gajah (Al-Feel)",
+    surahNumber: 105,
+    surahNumberArabic: '١٠٥',
+    surahNameArabic: "سورة الـفيل",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 105,
+			surahNumberArabic: '١٠٥',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/105000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 105. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 105,
+			surahNumberArabic: '١٠٥',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/105001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 105,
+			surahNumberArabic: '١٠٥',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/105002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 105,
+			surahNumberArabic: '١٠٥',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/105003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 105,
+			surahNumberArabic: '١٠٥',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/105004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 105,
+			surahNumberArabic: '١٠٥',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/105005.mp3",
+			footnote: ""
+        },	
+    ]
+};
+
+surahData[106] = {
+    surahNameMalay: "Suku Kaum Quraish (Quraish)",
+    surahNumber: 106,
+    surahNumberArabic: '١٠٦',
+    surahNameArabic: "سورة قريش",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 106,
+			surahNumberArabic: '١٠٦',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/106000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 106. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 106,
+			surahNumberArabic: '١٠٦',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/106001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 106,
+			surahNumberArabic: '١٠٦',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/106002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 106,
+			surahNumberArabic: '١٠٦',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/106003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 106,
+			surahNumberArabic: '١٠٦',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/106004.mp3"
+        },
+    ]
+};
+
+surahData[107] = {
+    surahNameMalay: "Derma (Al-Maa’oon)",
+    surahNumber: 107,
+    surahNumberArabic: '١٠٧',
+    surahNameArabic: "سورة المـاعون",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/107000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 107. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/107001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/107002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/107003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/107004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/107005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/107006.mp3",
+			subtitle: ""
+        },
+        {
+            ayatNumber: 7,
+            surahNumber: 107,
+			surahNumberArabic: '١٠٧',
+			ayatNumberArabic: '٧',		
+            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            translation: "",
+            audioUrl: "./data/107007.mp3",
+			subtitle: ""
+        },					
+    ]
+};
+
+surahData[108] = {
+    surahNameMalay: "Pemberian Yang Banyak (Al-Kawthar)",
+    surahNumber: 108,
+    surahNumberArabic: '١٠٨',
+    surahNameArabic: "سورة الـكوثر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 108,
+			surahNumberArabic: '١٠٨',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/108000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 108. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 108,
+			surahNumberArabic: '١٠٨',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/108001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 108,
+			surahNumberArabic: '١٠٨',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/108002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 108,
+			surahNumberArabic: '١٠٨',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/108003.mp3",
+			subtitle: "",
+			footnote: ""
+        },			
+    ]
+};
+
+surahData[109] = {
+    surahNameMalay: "Golongan Yang Tidak Percaya (Al-Kaaferoon)",
+    surahNumber: 109,
+    surahNumberArabic: '١٠٩',
+    surahNameArabic: "سورة الـكافرون",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/109000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 109. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/109001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/109002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/109003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/109004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/109005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 109,
+			surahNumberArabic: '١٠٩',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/109006.mp3",
+			subtitle: ""
+        },		
+    ]
+};
+
+surahData[110] = {
+    surahNameMalay: "Kemenangan (Al-Nassr)",
+    surahNumber: 110,
+    surahNumberArabic: '١١٠',
+    surahNameArabic: "سورة الـنصر",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 109,
+			surahNumberArabic: '١١٠',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/110000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 110. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 109,
+			surahNumberArabic: '١١٠',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/110001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 109,
+			surahNumberArabic: '١١٠',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/110002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 109,
+			surahNumberArabic: '١١٠',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/110003.mp3",
+			subtitle: "",
+			footnote: ""
+        },	
+    ]
+};
+
+surahData[111] = {
+    surahNameMalay: "Duri Duri (Al-Masad)",
+    surahNumber: 111,
+    surahNumberArabic: '١١١',
+    surahNameArabic: "سورة الـمسد",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 111,
+			surahNumberArabic: '١١١',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/111000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 111. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 111,
+			surahNumberArabic: '١١١',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/111001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 111,
+			surahNumberArabic: '١١١',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/111002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 111,
+			surahNumberArabic: '١١١',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/111003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 111,
+			surahNumberArabic: '١١١',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/111004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 111,
+			surahNumberArabic: '١١١',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/111005.mp3",
+			footnote: ""
+        },			
+    ]
+};
+
+surahData[112] = {
+    surahNameMalay: "Kemutlakan (Al-Ikhlaas)",
+    surahNumber: 112,
+    surahNumberArabic: '١١٢',
+    surahNameArabic: "سورة الإخلاص",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 112,
+			surahNumberArabic: '١١٢',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/112000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 112. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 112,
+			surahNumberArabic: '١١٢',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/112001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 112,
+			surahNumberArabic: '١١٢',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/112002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 112,
+			surahNumberArabic: '١١٢',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/112003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 112,
+			surahNumberArabic: '١١٢',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/112004.mp3"
+        },		
+    ]
+};
+
+surahData[113] = {
+    surahNameMalay: "Matahari Terbit (Al-Falaq)",
+    surahNumber: 113,
+    surahNumberArabic: '١١٣',
+    surahNameArabic: "سورة الـفلق",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 113,
+			surahNumberArabic: '١١٣',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/113000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 113. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 113,
+			surahNumberArabic: '١١٣',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/113001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 113,
+			surahNumberArabic: '١١٣',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/113002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 113,
+			surahNumberArabic: '١١٣',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/113003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 113,
+			surahNumberArabic: '١١٣',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/113004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 113,
+			surahNumberArabic: '١١٣',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/113005.mp3",
+			footnote: ""
+        },				
+    ]
+};
+
+surahData[114] = {
+    surahNameMalay: "Manusia (Al-Naas)",
+    surahNumber: 114,
+    surahNumberArabic: '١١٤',
+    surahNameArabic: "سورة الـناس",
+    ayat: [
+        {
+            ayatNumber: 0,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '٠',
+            arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            translation: "Dengan nama TUHAN, Maha Pengasih, Maha Penyayang.*",
+            audioUrl: "./data/114000.mp3",
+			subtitle: "",			
+            footnotes: [
+                "Surah 114. "		
+            ]
+        },
+        {
+            ayatNumber: 1,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '١',
+            arabicText: "الم",
+            translation: "A.L.M",
+            audioUrl: "./data/114001.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 2,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '٢',		
+            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            translation: "",
+            audioUrl: "./data/114002.mp3"
+        },
+        {
+            ayatNumber: 3,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '٣',	
+            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            translation: "",
+            audioUrl: "./data/114003.mp3",
+			subtitle: "",
+			footnote: ""
+        },
+        {
+            ayatNumber: 4,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '٤',	
+            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            translation: "",
+            audioUrl: "./data/114004.mp3"
+        },
+        {
+            ayatNumber: 5,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '٥',	
+            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            translation: "",
+            audioUrl: "./data/114005.mp3",
+			footnote: ""
+        },
+        {
+            ayatNumber: 6,
+            surahNumber: 114,
+			surahNumberArabic: '١١٤',
+			ayatNumberArabic: '٦',		
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            translation: "",
+            audioUrl: "./data/114006.mp3",
+			subtitle: ""
+        },			
+    ]
+};
 
