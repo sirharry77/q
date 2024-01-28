@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./style.css?3s=c">
+    <link rel="stylesheet" href="./style.css?3ds=c">
     <title>Laman Web Quran</title>
 </head>
 
@@ -83,10 +83,6 @@
         <input type="text" id="searchAyat" class="form-control" placeholder="1:7">
         <button id="goButton" class="btn btn-primary btn-block" type="button" onclick="searchAyat()">GO</button>
     </div>
-    <!--a href="#" onclick="showSurah(1)">Sura 1: Al-Fatihah | سورة الفاتحة</a>
-    <a href="#" onclick="showSurah(2)">Sura 2: Al-Baqarah | سورة البقرة</a>
-    <a href="#" onclick="showSurah(3)">Sura 3: Keluarga Imran (Ãli-‘Imrãn)</a>
-	    <a href="#" onclick="showSurah(9)">Sura 9: Ultimatum (Barã’ah)</a-->
 
     <a href="#" onclick="showSurah(1)">
         <div class="surah-number">Sura 1:</div>
@@ -95,7 +91,7 @@
     </a>
     <a href="#" onclick="showSurah(2)">
         <div class="surah-number">Sura 2:</div>
-        <div class="surah-name">Sapi Betina<br>Al-Baqarah</div>
+        <div class="surah-name">Lembu Betina<br>Al-Baqarah</div>
         <div class="surah-name-arabic">سورة البقرة</div>
     </a>
     <a href="#" onclick="showSurah(3)">
@@ -115,12 +111,12 @@
     </a>
     <a href="#" onclick="showSurah(6)">
         <div class="surah-number">Sura 6:</div>
-        <div class="surah-name">Binatang Ternakan<br>Al-An ‘ãm</div>
+        <div class="surah-name">Binatang Ternakan<br>Al-An ’ãm</div>
         <div class="surah-name-arabic">سورة الأنعام</div>
     </a>
     <a href="#" onclick="showSurah(7)">
         <div class="surah-number">Sura 7:</div>
-        <div class="surah-name">Tempat Penungguan<br>Al-A‘arãf</div>
+        <div class="surah-name">Tempat Penungguan<br>Al-A’arãf</div>
         <div class="surah-name-arabic">سورة الأعراف</div>
     </a>
     <a href="#" onclick="showSurah(8)">
@@ -150,7 +146,7 @@
     </a>
     <a href="#" onclick="showSurah(13)">
         <div class="surah-number">Sura 13:</div>
-        <div class="surah-name">Guruh<br>Al-Ra‘ad</div>
+        <div class="surah-name">Guruh<br>Al-Ra’ad</div>
         <div class="surah-name-arabic">سورة الرعد</div>
     </a>
     <a href="#" onclick="showSurah(14)">
@@ -235,7 +231,7 @@
     </a>
     <a href="#" onclick="showSurah(30)">
         <div class="surah-number">Sura 30:</div>
-        <div class="surah-name">Orang Orang Rom<br>Al-Room</div>
+        <div class="surah-name">Bangsa Romawi<br>Al-Room</div>
         <div class="surah-name-arabic">سورة الروم</div>
     </a>	
     <a href="#" onclick="showSurah(31)">
@@ -631,7 +627,7 @@
     <a href="#" onclick="showSurah(109)">
         <div class="surah-number">Sura 109:</div>
         <div class="surah-name">Golongan Yang Tidak Percaya<br>Al-Kaaferoon</div>
-        <div class="surah-name-arabic">سورة الفاتحة</div>
+        <div class="surah-name-arabic">سورة الـكافرون</div>
     </a>
     <a href="#" onclick="showSurah(110)">
         <div class="surah-number">Sura 110:</div>
@@ -694,8 +690,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-    <script src="./surah.js?c=1d3d"></script>	
-    <script src="./script.js?c=1dd"></script>
+    <!--script src="./surah.js"></script>	
+    <script src="./script.js"></script-->
+    <!--script>
+        var script1 = document.createElement('script');
+        script1.src = 'surah.js?t=' + Date.now();
+        document.body.appendChild(script1);
+
+        var script2 = document.createElement('script');
+        script2.src = 'script.js?t=' + Date.now();
+        document.body.appendChild(script2);
+    </script-->	
+    <script>
+        document.body.appendChild(Object.assign(document.createElement('script'), {src: 'surah.js?t=' + Date.now()}));
+        document.body.appendChild(Object.assign(document.createElement('script'), {src: 'script.js?t=' + Date.now()}));
+    </script>	
 </body>
 
 </html>
