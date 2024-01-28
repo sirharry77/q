@@ -229,7 +229,7 @@ function selectAyat(ayatData) {
         // Display each footnote
         ayatData.footnotes.forEach(function (footnote, index) {
             var footnoteElement = document.createElement("p");
-            footnoteElement.textContent = '*' + footnote;
+            footnoteElement.textContent = footnote;
             footnotesContainer.appendChild(footnoteElement);
         });
     }
