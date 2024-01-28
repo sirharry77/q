@@ -316,3 +316,10 @@ input[type="text"] {
     max-height: calc(100vh - 120px); /* Adjust according to the height of the fixed header and bottom buttons */
     overflow-y: auto;
 }
+
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0em;
+    margin-top: 1em;
+	font-size: 90%
