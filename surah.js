@@ -2970,7 +2970,7 @@ surahData[3] = {
             audioUrl: "./data/003000.mp3",
 			subtitle: "",			
             footnotes: [
-                "Surah 3. "		
+                ""		
             ]
         },
         {
@@ -2989,7 +2989,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢',		
-            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
             translation: "",
             audioUrl: "./data/003002.mp3"
         },
@@ -2998,7 +2998,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣',	
-            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            arabicText: "نَزَّلَ عَلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ وَأَنْزَلَ التَّوْرَاةَ وَالْإِنْجِيلَ",
             translation: "",
             audioUrl: "./data/003003.mp3",
 			subtitle: "",
@@ -3009,7 +3009,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤',	
-            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            arabicText: "مِنْ قَبْلُ هُدًى لِلنَّاسِ وَأَنْزَلَ الْفُرْقَانَ إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ وَاللَّهُ عَزِيزٌ ذُو انْتِقَامٍ",
             translation: "",
             audioUrl: "./data/003004.mp3"
         },
@@ -3018,7 +3018,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥',	
-            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            arabicText: "إِنَّ اللَّهَ لَا يَخْفَىٰ عَلَيْهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ",
             translation: "",
             audioUrl: "./data/003005.mp3",
 			footnote: ""
@@ -3028,7 +3028,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦',		
-            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            arabicText: "هُوَ الَّذِي يُصَوِّرُكُمْ فِي الْأَرْحَامِ كَيْفَ يَشَاءُ لَا إِلَٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
             translation: "",
             audioUrl: "./data/003006.mp3",
 			subtitle: ""
@@ -3038,7 +3038,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧',		
-            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            arabicText: "هُوَ الَّذِي أَنْزَلَ عَلَيْكَ الْكِتَابَ مِنْهُ آيَاتٌ مُحْكَمَاتٌ هُنَّ أُمُّ الْكِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ فَأَمَّا الَّذِينَ فِي قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ ابْتِغَاءَ الْفِتْنَةِ وَابْتِغَاءَ تَأْوِيلِهِ وَمَا يَعْلَمُ تَأْوِيلَهُ إِلَّا اللَّهُ وَالرَّاسِخُونَ فِي الْعِلْمِ يَقُولُونَ آمَنَّا بِهِ كُلٌّ مِنْ عِنْدِ رَبِّنَا وَمَا يَذَّكَّرُ إِلَّا أُولُو الْأَلْبَابِ",
             translation: "",
             audioUrl: "./data/003007.mp3",
 			subtitle: ""
@@ -3048,7 +3048,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ",
             translation: "",
             audioUrl: "./data/003008.mp3",
 			subtitle: ""
@@ -3058,7 +3058,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَا رَيْبَ فِيهِ إِنَّ اللَّهَ لَا يُخْلِفُ الْمِيعَادَ",
             translation: "",
             audioUrl: "./data/003009.mp3",
 			subtitle: ""
@@ -3068,7 +3068,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا لَنْ تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُمْ مِنَ اللَّهِ شَيْئًا وَأُولَٰئِكَ هُمْ وَقُودُ النَّارِ",
             translation: "",
             audioUrl: "./data/003010.mp3",
 			subtitle: ""
@@ -3078,7 +3078,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١',		
-            arabicText: "Arabic text here",
+            arabicText: "كَدَأْبِ آلِ فِرْعَوْنَ وَالَّذِينَ مِنْ قَبْلِهِمْ كَذَّبُوا بِآيَاتِنَا فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ وَاللَّهُ شَدِيدُ الْعِقَابِ",
             translation: "",
             audioUrl: "./data/003011.mp3",
 			subtitle: ""
@@ -3088,7 +3088,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ لِلَّذِينَ كَفَرُوا سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ وَبِئْسَ الْمِهَادُ",
             translation: "",
             audioUrl: "./data/003012.mp3",
 			subtitle: ""
@@ -3098,7 +3098,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ كَانَ لَكُمْ آيَةٌ فِي فِئَتَيْنِ الْتَقَتَا فِئَةٌ تُقَاتِلُ فِي سَبِيلِ اللَّهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُمْ مِثْلَيْهِمْ رَأْيَ الْعَيْنِ وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَنْ يَشَاءُ إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِأُولِي الْأَبْصَارِ",
             translation: "",
             audioUrl: "./data/003013.mp3",
 			subtitle: ""
@@ -3108,7 +3108,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤',		
-            arabicText: "Arabic text here",
+            arabicText: "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا وَاللَّهُ عِنْدَهُ حُسْنُ الْمَآبِ",
             translation: "",
             audioUrl: "./data/003014.mp3",
 			subtitle: ""
@@ -3118,7 +3118,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَؤُنَبِّئُكُمْ بِخَيْرٍ مِنْ ذَٰلِكُمْ لِلَّذِينَ اتَّقَوْا عِنْدَ رَبِّهِمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَأَزْوَاجٌ مُطَهَّرَةٌ وَرِضْوَانٌ مِنَ اللَّهِ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ",
             translation: "",
             audioUrl: "./data/003015.mp3",
 			subtitle: ""
@@ -3128,7 +3128,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَقُولُونَ رَبَّنَا إِنَّنَا آمَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ النَّارِ",
             translation: "",
             audioUrl: "./data/003016.mp3",
 			subtitle: ""
@@ -3138,7 +3138,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "الصَّابِرِينَ وَالصَّادِقِينَ وَالْقَانِتِينَ وَالْمُنْفِقِينَ وَالْمُسْتَغْفِرِينَ بِالْأَسْحَارِ",
             translation: "",
             audioUrl: "./data/003017.mp3",
 			subtitle: ""
@@ -3148,7 +3148,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "شَهِدَ اللَّهُ أَنَّهُ لَا إِلَٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ لَا إِلَٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ",
             translation: "",
             audioUrl: "./data/003018.mp3",
 			subtitle: ""
@@ -3158,7 +3158,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ وَمَا اخْتَلَفَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِنْ بَعْدِ مَا جَاءَهُمُ الْعِلْمُ بَغْيًا بَيْنَهُمْ وَمَنْ يَكْفُرْ بِآيَاتِ اللَّهِ فَإِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
             translation: "verse 19",
             audioUrl: "./data/003019.mp3",
 			subtitle: ""
@@ -3168,7 +3168,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ حَاجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِيَ لِلَّهِ وَمَنِ اتَّبَعَنِ وَقُلْ لِلَّذِينَ أُوتُوا الْكِتَابَ وَالْأُمِّيِّينَ أَأَسْلَمْتُمْ فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ",
             translation: "verse 19",
             audioUrl: "./data/003020.mp3",
 			subtitle: ""
@@ -3178,7 +3178,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ الَّذِينَ يَأْمُرُونَ بِالْقِسْطِ مِنَ النَّاسِ فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/003021.mp3",
 			subtitle: ""
@@ -3188,7 +3188,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُمْ مِنْ نَاصِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003022.mp3",
 			subtitle: ""
@@ -3198,7 +3198,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِنَ الْكِتَابِ يُدْعَوْنَ إِلَىٰ كِتَابِ اللَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِنْهُمْ وَهُمْ مُعْرِضُونَ",
             translation: "verse 19",
             audioUrl: "./data/003023.mp3",
 			subtitle: ""
@@ -3208,7 +3208,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَنْ تَمَسَّنَا النَّارُ إِلَّا أَيَّامًا مَعْدُودَاتٍ وَغَرَّهُمْ فِي دِينِهِمْ مَا كَانُوا يَفْتَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003024.mp3",
 			subtitle: ""
@@ -3217,7 +3217,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَكَيْفَ إِذَا جَمَعْنَاهُمْ لِيَوْمٍ لَا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003025.mp3",
 			subtitle: ""
@@ -3227,7 +3227,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ بِيَدِكَ الْخَيْرُ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/003026.mp3",
 			subtitle: ""
@@ -3237,7 +3237,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "تُولِجُ الَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي الَّيْلِ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَتَرْزُقُ مَنْ تَشَاءُ بِغَيْرِ حِسَابٍ",
             translation: "verse 19",
             audioUrl: "./data/003027.mp3",
 			subtitle: ""
@@ -3247,7 +3247,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يَتَّخِذِ الْمُؤْمِنُونَ الْكَافِرِينَ أَوْلِيَاءَ مِنْ دُونِ الْمُؤْمِنِينَ وَمَنْ يَفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ اللَّهِ فِي شَيْءٍ إِلَّا أَنْ تَتَّقُوا مِنْهُمْ تُقَاةً وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ وَإِلَى اللَّهِ الْمَصِيرُ",
             translation: "verse 19",
             audioUrl: "./data/003028.mp3",
 			subtitle: ""
@@ -3257,7 +3257,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنْ تُخْفُوا مَا فِي صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ اللَّهُ وَيَعْلَمُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/003029.mp3",
 			subtitle: ""
@@ -3267,7 +3267,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَا عَمِلَتْ مِنْ خَيْرٍ مُحْضَرًا وَمَا عَمِلَتْ مِنْ سُوءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُ أَمَدًا بَعِيدًا وَيُحَذِّرُكُمُ اللَّهُ نَفْسَهُ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ",
             translation: "verse 19",
             audioUrl: "./data/003030.mp3",
 			subtitle: ""
@@ -3277,7 +3277,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003031.mp3",
 			subtitle: ""
@@ -3287,7 +3287,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَطِيعُوا اللَّهَ وَالرَّسُولَ فَإِنْ تَوَلَّوْا فَإِنَّ اللَّهَ لَا يُحِبُّ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003032.mp3",
 			subtitle: ""
@@ -3297,7 +3297,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ اصْطَفَىٰ آدَمَ وَنُوحًا وَآلَ إِبْرَاهِيمَ وَآلَ عِمْرَانَ عَلَى الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003033.mp3",
 			subtitle: ""
@@ -3307,7 +3307,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ذُرِّيَّةً بَعْضُهَا مِنْ بَعْضٍ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003034.mp3",
 			subtitle: ""
@@ -3317,7 +3317,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
             translation: "verse 19",
             audioUrl: "./data/003035.mp3",
 			subtitle: ""
@@ -3327,7 +3327,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنْثَىٰ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ الذَّكَرُ كَالْأُنْثَىٰ وَإِنِّي سَمَّيْتُهَا مَرْيَمَ وَإِنِّي أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ",
             translation: "verse 19",
             audioUrl: "./data/003036.mp3",
 			subtitle: ""
@@ -3337,7 +3337,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنْبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا الْمِحْرَابَ وَجَدَ عِنْدَهَا رِزْقًا قَالَ يَامَرْيَمُ أَنَّىٰ لَكِ هَٰذَا قَالَتْ هُوَ مِنْ عِنْدِ اللَّهِ إِنَّ اللَّهَ يَرْزُقُ مَنْ يَشَاءُ بِغَيْرِ حِسَابٍ",
             translation: "verse 19",
             audioUrl: "./data/003037.mp3",
 			subtitle: ""
@@ -3347,7 +3347,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ قَالَ رَبِّ هَبْ لِي مِنْ لَدُنْكَ ذُرِّيَّةً طَيِّبَةً إِنَّكَ سَمِيعُ الدُّعَاءِ",
             translation: "verse 19",
             audioUrl: "./data/003038.mp3",
 			subtitle: ""
@@ -3357,7 +3357,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِنَ الصَّالِحِينَ",
             translation: "verse 19",
             audioUrl: "./data/003039.mp3",
 			subtitle: ""
@@ -3367,7 +3367,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَقَدْ بَلَغَنِيَ الْكِبَرُ وَامْرَأَتِي عَاقِرٌ قَالَ كَذَٰلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ",
             translation: "verse 19",
             audioUrl: "./data/003040.mp3",
 			subtitle: ""
@@ -3377,7 +3377,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ رَبِّ اجْعَلْ لِي آيَةً قَالَ آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا وَاذْكُرْ رَبَّكَ كَثِيرًا وَسَبِّحْ بِالْعَشِيِّ وَالْإِبْكَارِ",
             translation: "verse 19",
             audioUrl: "./data/003041.mp3",
 			subtitle: ""
@@ -3387,7 +3387,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَتِ الْمَلَائِكَةُ يَامَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003042.mp3",
 			subtitle: ""
@@ -3397,7 +3397,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "يَامَرْيَمُ اقْنُتِي لِرَبِّكِ وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ",
             translation: "verse 19",
             audioUrl: "./data/003043.mp3",
 			subtitle: ""
@@ -3407,7 +3407,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ مِنْ أَنْبَاءِ الْغَيْبِ نُوحِيهِ إِلَيْكَ وَمَا كُنْتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَامَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنْتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003044.mp3",
 			subtitle: ""
@@ -3417,7 +3417,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ قَالَتِ الْمَلَائِكَةُ يَامَرْيَمُ إِنَّ اللَّهَ يُبَشِّرُكِ بِكَلِمَةٍ مِنْهُ اسْمُهُ الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ وَجِيهًا فِي الدُّنْيَا وَالْآخِرَةِ وَمِنَ الْمُقَرَّبِينَ",
             translation: "verse 19",
             audioUrl: "./data/003045.mp3",
 			subtitle: ""
@@ -3427,7 +3427,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيُكَلِّمُ النَّاسَ فِي الْمَهْدِ وَكَهْلًا وَمِنَ الصَّالِحِينَ",
             translation: "verse 19",
             audioUrl: "./data/003046.mp3",
 			subtitle: ""
@@ -3437,7 +3437,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِي وَلَدٌ وَلَمْ يَمْسَسْنِي بَشَرٌ قَالَ كَذَٰلِكِ اللَّهُ يَخْلُقُ مَا يَشَاءُ إِذَا قَضَىٰ أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُنْ فَيَكُونُ",
             translation: "verse 19",
             audioUrl: "./data/003047.mp3",
 			subtitle: ""
@@ -3447,7 +3447,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيُعَلِّمُهُ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنْجِيلَ",
             translation: "verse 19",
             audioUrl: "./data/003048.mp3",
 			subtitle: ""
@@ -3457,7 +3457,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَرَسُولًا إِلَىٰ بَنِي إِسْرَائِيلَ أَنِّي قَدْ جِئْتُكُمْ بِآيَةٍ مِنْ رَبِّكُمْ أَنِّي أَخْلُقُ لَكُمْ مِنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنْفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَىٰ بِإِذْنِ اللَّهِ وَأُنَبِّئُكُمْ بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمْ إِنَّ فِي ذَٰلِكَ لَآيَةً لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003049.mp3",
 			subtitle: ""
@@ -3467,7 +3467,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمُصَدِّقًا لِمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَلِأُحِلَّ لَكُمْ بَعْضَ الَّذِي حُرِّمَ عَلَيْكُمْ وَجِئْتُكُمْ بِآيَةٍ مِنْ رَبِّكُمْ فَاتَّقُوا اللَّهَ وَأَطِيعُونِ",
             translation: "verse 19",
             audioUrl: "./data/003050.mp3",
 			subtitle: ""
@@ -3477,7 +3477,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ رَبِّي وَرَبُّكُمْ فَاعْبُدُوهُ هَٰذَا صِرَاطٌ مُسْتَقِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003051.mp3",
 			subtitle: ""
@@ -3487,7 +3487,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا أَحَسَّ عِيسَىٰ مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنْصَارِي إِلَى اللَّهِ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنْصَارُ اللَّهِ آمَنَّا بِاللَّهِ وَاشْهَدْ بِأَنَّا مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003052.mp3",
 			subtitle: ""
@@ -3497,7 +3497,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا آمَنَّا بِمَا أَنْزَلْتَ وَاتَّبَعْنَا الرَّسُولَ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/003053.mp3",
 			subtitle: ""
@@ -3507,7 +3507,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَكَرُوا وَمَكَرَ اللَّهُ وَاللَّهُ خَيْرُ الْمَاكِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003054.mp3",
 			subtitle: ""
@@ -3517,7 +3517,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ قَالَ اللَّهُ يَاعِيسَىٰ إِنِّي مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنَ الَّذِينَ كَفَرُوا وَجَاعِلُ الَّذِينَ اتَّبَعُوكَ فَوْقَ الَّذِينَ كَفَرُوا إِلَىٰ يَوْمِ الْقِيَامَةِ ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنْتُمْ فِيهِ تَخْتَلِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/003055.mp3",
 			subtitle: ""
@@ -3527,7 +3527,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "فَأَمَّا الَّذِينَ كَفَرُوا فَأُعَذِّبُهُمْ عَذَابًا شَدِيدًا فِي الدُّنْيَا وَالْآخِرَةِ وَمَا لَهُمْ مِنْ نَاصِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003056.mp3",
 			subtitle: ""
@@ -3537,7 +3537,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003057.mp3",
 			subtitle: ""
@@ -3547,7 +3547,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ الْآيَاتِ وَالذِّكْرِ الْحَكِيمِ",
             translation: "verse 19",
             audioUrl: "./data/003058.mp3",
 			subtitle: ""
@@ -3557,7 +3557,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ مَثَلَ عِيسَىٰ عِنْدَ اللَّهِ كَمَثَلِ آدَمَ خَلَقَهُ مِنْ تُرَابٍ ثُمَّ قَالَ لَهُ كُنْ فَيَكُونُ",
             translation: "verse 19",
             audioUrl: "./data/003059.mp3",
 			subtitle: ""
@@ -3567,7 +3567,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003060.mp3",
 			subtitle: ""
@@ -3577,7 +3577,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنْ حَاجَّكَ فِيهِ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ وَأَنْفُسَنَا وَأَنْفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَلْ لَعْنَتَ اللَّهِ عَلَى الْكَاذِبِينَ",
             translation: "verse 19",
             audioUrl: "./data/003061.mp3",
 			subtitle: ""
@@ -3587,7 +3587,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ هَٰذَا لَهُوَ الْقَصَصُ الْحَقُّ وَمَا مِنْ إِلَٰهٍ إِلَّا اللَّهُ وَإِنَّ اللَّهَ لَهُوَ الْعَزِيزُ الْحَكِيمُ",
             translation: "verse 19",
             audioUrl: "./data/003062.mp3",
 			subtitle: ""
@@ -3597,7 +3597,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ تَوَلَّوْا فَإِنَّ اللَّهَ عَلِيمٌ بِالْمُفْسِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/003063.mp3",
 			subtitle: ""
@@ -3607,7 +3607,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاأَهْلَ الْكِتَابِ تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا اللَّهَ وَلَا نُشْرِكَ بِهِ شَيْئًا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِنْ دُونِ اللَّهِ فَإِنْ تَوَلَّوْا فَقُولُوا اشْهَدُوا بِأَنَّا مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003064.mp3",
 			subtitle: ""
@@ -3617,7 +3617,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ وَمَا أُنْزِلَتِ التَّوْرَاةُ وَالْإِنْجِيلُ إِلَّا مِنْ بَعْدِهِ أَفَلَا تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/003065.mp3",
 			subtitle: ""
@@ -3627,7 +3627,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "هَاأَنْتُمْ هَٰؤُلَاءِ حَاجَجْتُمْ فِيمَا لَكُمْ بِهِ عِلْمٌ فَلِمَ تُحَاجُّونَ فِيمَا لَيْسَ لَكُمْ بِهِ عِلْمٌ وَاللَّهُ يَعْلَمُ وَأَنْتُمْ لَا تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003066.mp3",
 			subtitle: ""
@@ -3637,7 +3637,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلَٰكِنْ كَانَ حَنِيفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/003067.mp3",
 			subtitle: ""
@@ -3647,7 +3647,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ أَوْلَى النَّاسِ بِإِبْرَاهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَٰذَا النَّبِيُّ وَالَّذِينَ آمَنُوا وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003068.mp3",
 			subtitle: ""
@@ -3657,7 +3657,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَدَّتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003069.mp3",
 			subtitle: ""
@@ -3667,7 +3667,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ وَأَنْتُمْ تَشْهَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/003070.mp3",
 			subtitle: ""
@@ -3677,7 +3677,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَهْلَ الْكِتَابِ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُونَ الْحَقَّ وَأَنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003071.mp3",
 			subtitle: ""
@@ -3687,7 +3687,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَتْ طَائِفَةٌ مِنْ أَهْلِ الْكِتَابِ آمِنُوا بِالَّذِي أُنْزِلَ عَلَى الَّذِينَ آمَنُوا وَجْهَ النَّهَارِ وَاكْفُرُوا آخِرَهُ لَعَلَّهُمْ يَرْجِعُونَ",
             translation: "verse 19",
             audioUrl: "./data/003072.mp3",
 			subtitle: ""
@@ -3697,7 +3697,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تُؤْمِنُوا إِلَّا لِمَنْ تَبِعَ دِينَكُمْ قُلْ إِنَّ الْهُدَىٰ هُدَى اللَّهِ أَنْ يُؤْتَىٰ أَحَدٌ مِثْلَ مَا أُوتِيتُمْ أَوْ يُحَاجُّوكُمْ عِنْدَ رَبِّكُمْ قُلْ إِنَّ الْفَضْلَ بِيَدِ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003073.mp3",
 			subtitle: ""
@@ -3707,7 +3707,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
             translation: "verse 19",
             audioUrl: "./data/003074.mp3",
 			subtitle: ""
@@ -3717,7 +3717,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ وَمِنْهُمْ مَنْ إِنْ تَأْمَنْهُ بِدِينَارٍ لَا يُؤَدِّهِ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَائِمًا ذَٰلِكَ بِأَنَّهُمْ قَالُوا لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003075.mp3",
 			subtitle: ""
@@ -3727,7 +3727,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلَىٰ مَنْ أَوْفَىٰ بِعَهْدِهِ وَاتَّقَىٰ فَإِنَّ اللَّهَ يُحِبُّ الْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003076.mp3",
 			subtitle: ""
@@ -3737,7 +3737,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا أُولَٰئِكَ لَا خَلَاقَ لَهُمْ فِي الْآخِرَةِ وَلَا يُكَلِّمُهُمُ اللَّهُ وَلَا يَنْظُرُ إِلَيْهِمْ يَوْمَ الْقِيَامَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003077.mp3",
 			subtitle: ""
@@ -3747,7 +3747,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنَّ مِنْهُمْ لَفَرِيقًا يَلْوُونَ أَلْسِنَتَهُمْ بِالْكِتَابِ لِتَحْسَبُوهُ مِنَ الْكِتَابِ وَمَا هُوَ مِنَ الْكِتَابِ وَيَقُولُونَ هُوَ مِنْ عِنْدِ اللَّهِ وَمَا هُوَ مِنْ عِنْدِ اللَّهِ وَيَقُولُونَ عَلَى اللَّهِ الْكَذِبَ وَهُمْ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003078.mp3",
 			subtitle: ""
@@ -3757,7 +3757,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا كَانَ لِبَشَرٍ أَنْ يُؤْتِيَهُ اللَّهُ الْكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا عِبَادًا لِي مِنْ دُونِ اللَّهِ وَلَٰكِنْ كُونُوا رَبَّانِيِّينَ بِمَا كُنْتُمْ تُعَلِّمُونَ الْكِتَابَ وَبِمَا كُنْتُمْ تَدْرُسُونَ",
             translation: "verse 19",
             audioUrl: "./data/003079.mp3",
 			subtitle: ""
@@ -3767,7 +3767,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا يَأْمُرَكُمْ أَنْ تَتَّخِذُوا الْمَلَائِكَةَ وَالنَّبِيِّينَ أَرْبَابًا أَيَأْمُرُكُمْ بِالْكُفْرِ بَعْدَ إِذْ أَنْتُمْ مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003080.mp3",
 			subtitle: ""
@@ -3777,7 +3777,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ النَّبِيِّينَ لَمَا آتَيْتُكُمْ مِنْ كِتَابٍ وَحِكْمَةٍ ثُمَّ جَاءَكُمْ رَسُولٌ مُصَدِّقٌ لِمَا مَعَكُمْ لَتُؤْمِنُنَّ بِهِ وَلَتَنْصُرُنَّهُ قَالَ أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي قَالُوا أَقْرَرْنَا قَالَ فَاشْهَدُوا وَأَنَا مَعَكُمْ مِنَ الشَّاهِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/003081.mp3",
 			subtitle: ""
@@ -3787,7 +3787,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنْ تَوَلَّىٰ بَعْدَ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الْفَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/003082.mp3",
 			subtitle: ""
@@ -3797,7 +3797,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَغَيْرَ دِينِ اللَّهِ يَبْغُونَ وَلَهُ أَسْلَمَ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ طَوْعًا وَكَرْهًا وَإِلَيْهِ يُرْجَعُونَ",
             translation: "verse 19",
             audioUrl: "./data/003083.mp3",
 			subtitle: ""
@@ -3807,7 +3807,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ عَلَيْنَا وَمَا أُنْزِلَ عَلَىٰ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَمَا أُوتِيَ مُوسَىٰ وَعِيسَىٰ وَالنَّبِيُّونَ مِنْ رَبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْهُمْ وَنَحْنُ لَهُ مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003084.mp3",
 			subtitle: ""
@@ -3817,7 +3817,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَبْتَغِ غَيْرَ الْإِسْلَامِ دِينًا فَلَنْ يُقْبَلَ مِنْهُ وَهُوَ فِي الْآخِرَةِ مِنَ الْخَاسِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003085.mp3",
 			subtitle: ""
@@ -3827,7 +3827,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "كَيْفَ يَهْدِي اللَّهُ قَوْمًا كَفَرُوا بَعْدَ إِيمَانِهِمْ وَشَهِدُوا أَنَّ الرَّسُولَ حَقٌّ وَجَاءَهُمُ الْبَيِّنَاتُ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003086.mp3",
 			subtitle: ""
@@ -3837,7 +3837,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ جَزَاؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَةَ اللَّهِ وَالْمَلَائِكَةِ وَالنَّاسِ أَجْمَعِينَ",
             translation: "verse 19",
             audioUrl: "./data/003087.mp3",
 			subtitle: ""
@@ -3847,7 +3847,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "خَالِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ الْعَذَابُ وَلَا هُمْ يُنْظَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003088.mp3",
 			subtitle: ""
@@ -3857,7 +3857,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا الَّذِينَ تَابُوا مِنْ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003089.mp3",
 			subtitle: ""
@@ -3867,7 +3867,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا بَعْدَ إِيمَانِهِمْ ثُمَّ ازْدَادُوا كُفْرًا لَنْ تُقْبَلَ تَوْبَتُهُمْ وَأُولَٰئِكَ هُمُ الضَّالُّونَ",
             translation: "verse 19",
             audioUrl: "./data/003090.mp3",
 			subtitle: ""
@@ -3877,7 +3877,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا وَمَاتُوا وَهُمْ كُفَّارٌ فَلَنْ يُقْبَلَ مِنْ أَحَدِهِمْ مِلْءُ الْأَرْضِ ذَهَبًا وَلَوِ افْتَدَىٰ بِهِ أُولَٰئِكَ لَهُمْ عَذَابٌ أَلِيمٌ وَمَا لَهُمْ مِنْ نَاصِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003091.mp3",
 			subtitle: ""
@@ -3887,7 +3887,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "لَنْ تَنَالُوا الْبِرَّ حَتَّىٰ تُنْفِقُوا مِمَّا تُحِبُّونَ وَمَا تُنْفِقُوا مِنْ شَيْءٍ فَإِنَّ اللَّهَ بِهِ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003092.mp3",
 			subtitle: ""
@@ -3897,7 +3897,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "كُلُّ الطَّعَامِ كَانَ حِلًّا لِبَنِي إِسْرَائِيلَ إِلَّا مَا حَرَّمَ إِسْرَائِيلُ عَلَىٰ نَفْسِهِ مِنْ قَبْلِ أَنْ تُنَزَّلَ التَّوْرَاةُ قُلْ فَأْتُوا بِالتَّوْرَاةِ فَاتْلُوهَا إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003093.mp3",
 			subtitle: ""
@@ -3907,7 +3907,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنِ افْتَرَىٰ عَلَى اللَّهِ الْكَذِبَ مِنْ بَعْدِ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003094.mp3",
 			subtitle: ""
@@ -3917,7 +3917,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ صَدَقَ اللَّهُ فَاتَّبِعُوا مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/003095.mp3",
 			subtitle: ""
@@ -3927,7 +3927,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكًا وَهُدًى لِلْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003096.mp3",
 			subtitle: ""
@@ -3937,7 +3937,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فِيهِ آيَاتٌ بَيِّنَاتٌ مَقَامُ إِبْرَاهِيمَ وَمَنْ دَخَلَهُ كَانَ آمِنًا وَلِلَّهِ عَلَى النَّاسِ حِجُّ الْبَيْتِ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا وَمَنْ كَفَرَ فَإِنَّ اللَّهَ غَنِيٌّ عَنِ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003097.mp3",
 			subtitle: ""
@@ -3947,7 +3947,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاأَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ وَاللَّهُ شَهِيدٌ عَلَىٰ مَا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/003098.mp3",
 			subtitle: ""
@@ -3957,7 +3957,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاأَهْلَ الْكِتَابِ لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللَّهِ مَنْ آمَنَ تَبْغُونَهَا عِوَجًا وَأَنْتُمْ شُهَدَاءُ وَمَا اللَّهُ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/003099.mp3",
 			subtitle: ""
@@ -3967,7 +3967,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا إِنْ تُطِيعُوا فَرِيقًا مِنَ الَّذِينَ أُوتُوا الْكِتَابَ يَرُدُّوكُمْ بَعْدَ إِيمَانِكُمْ كَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003100.mp3",
 			subtitle: ""
@@ -3977,7 +3977,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَيْفَ تَكْفُرُونَ وَأَنْتُمْ تُتْلَىٰ عَلَيْكُمْ آيَاتُ اللَّهِ وَفِيكُمْ رَسُولُهُ وَمَنْ يَعْتَصِمْ بِاللَّهِ فَقَدْ هُدِيَ إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/003101.mp3",
 			subtitle: ""
@@ -3987,7 +3987,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٢',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003102.mp3",
 			subtitle: ""
@@ -3997,7 +3997,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا وَاذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ إِذْ كُنْتُمْ أَعْدَاءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُمْ بِنِعْمَتِهِ إِخْوَانًا وَكُنْتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِنَ النَّارِ فَأَنْقَذَكُمْ مِنْهَا كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/003103.mp3",
 			subtitle: ""
@@ -4007,7 +4007,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلْتَكُنْ مِنْكُمْ أُمَّةٌ يَدْعُونَ إِلَى الْخَيْرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/003104.mp3",
 			subtitle: ""
@@ -4017,7 +4017,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَكُونُوا كَالَّذِينَ تَفَرَّقُوا وَاخْتَلَفُوا مِنْ بَعْدِ مَا جَاءَهُمُ الْبَيِّنَاتُ وَأُولَٰئِكَ لَهُمْ عَذَابٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003105.mp3",
 			subtitle: ""
@@ -4027,7 +4027,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ فَأَمَّا الَّذِينَ اسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُمْ بَعْدَ إِيمَانِكُمْ فَذُوقُوا الْعَذَابَ بِمَا كُنْتُمْ تَكْفُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003106.mp3",
 			subtitle: ""
@@ -4037,7 +4037,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَمَّا الَّذِينَ ابْيَضَّتْ وُجُوهُهُمْ فَفِي رَحْمَةِ اللَّهِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/003107.mp3",
 			subtitle: ""
@@ -4047,7 +4047,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٨',		
-            arabicText: "Arabic text here",
+            arabicText: "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ وَمَا اللَّهُ يُرِيدُ ظُلْمًا لِلْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003108.mp3",
 			subtitle: ""
@@ -4057,7 +4057,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٠٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ",
             translation: "verse 19",
             audioUrl: "./data/003109.mp3",
 			subtitle: ""
@@ -4067,7 +4067,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "كُنْتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنِ الْمُنْكَرِ وَتُؤْمِنُونَ بِاللَّهِ وَلَوْ آمَنَ أَهْلُ الْكِتَابِ لَكَانَ خَيْرًا لَهُمْ مِنْهُمُ الْمُؤْمِنُونَ وَأَكْثَرُهُمُ الْفَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/003110.mp3",
 			subtitle: ""
@@ -4076,7 +4076,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١١',		
-            arabicText: "Arabic text here",
+            arabicText: "لَنْ يَضُرُّوكُمْ إِلَّا أَذًى وَإِنْ يُقَاتِلُوكُمْ يُوَلُّوكُمُ الْأَدْبَارَ ثُمَّ لَا يُنْصَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003111.mp3",
 			subtitle: ""
@@ -4086,7 +4086,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "ضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ أَيْنَ مَا ثُقِفُوا إِلَّا بِحَبْلٍ مِنَ اللَّهِ وَحَبْلٍ مِنَ النَّاسِ وَبَاءُوا بِغَضَبٍ مِنَ اللَّهِ وَضُرِبَتْ عَلَيْهِمُ الْمَسْكَنَةُ ذَٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/003112.mp3",
 			subtitle: ""
@@ -4096,7 +4096,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسُوا سَوَاءً مِنْ أَهْلِ الْكِتَابِ أُمَّةٌ قَائِمَةٌ يَتْلُونَ آيَاتِ اللَّهِ آنَاءَ الَّيْلِ وَهُمْ يَسْجُدُونَ",
             translation: "verse 19",
             audioUrl: "./data/003113.mp3",
 			subtitle: ""
@@ -4106,7 +4106,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢:١١٤)',		
-            arabicText: "Arabic text here",
+            arabicText: "يُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ وَيُسَارِعُونَ فِي الْخَيْرَاتِ وَأُولَٰئِكَ مِنَ الصَّالِحِينَ",
             translation: "verse 19",
             audioUrl: "./data/003114.mp3",
 			subtitle: ""
@@ -4116,7 +4116,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢:١١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا يَفْعَلُوا مِنْ خَيْرٍ فَلَنْ يُكْفَرُوهُ وَاللَّهُ عَلِيمٌ بِالْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003115.mp3",
 			subtitle: ""
@@ -4125,7 +4125,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا لَنْ تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلَا أَوْلَادُهُمْ مِنَ اللَّهِ شَيْئًا وَأُولَٰئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/003116.mp3",
 			subtitle: ""
@@ -4135,7 +4135,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "مَثَلُ مَا يُنْفِقُونَ فِي هَٰذِهِ الْحَيَاةِ الدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوا أَنْفُسَهُمْ فَأَهْلَكَتْهُ وَمَا ظَلَمَهُمُ اللَّهُ وَلَٰكِنْ أَنْفُسَهُمْ يَظْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003117.mp3",
 			subtitle: ""
@@ -4145,7 +4145,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا بِطَانَةً مِنْ دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا مَا عَنِتُّمْ قَدْ بَدَتِ الْبَغْضَاءُ مِنْ أَفْوَاهِهِمْ وَمَا تُخْفِي صُدُورُهُمْ أَكْبَرُ قَدْ بَيَّنَّا لَكُمُ الْآيَاتِ إِنْ كُنْتُمْ تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/003118.mp3",
 			subtitle: ""
@@ -4155,7 +4155,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "هَاأَنْتُمْ أُولَاءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِالْكِتَابِ كُلِّهِ وَإِذَا لَقُوكُمْ قَالُوا آمَنَّا وَإِذَا خَلَوْا عَضُّوا عَلَيْكُمُ الْأَنَامِلَ مِنَ الْغَيْظِ قُلْ مُوتُوا بِغَيْظِكُمْ إِنَّ اللَّهَ عَلِيمٌ بِذَاتِ الصُّدُورِ",
             translation: "verse 19",
             audioUrl: "./data/003119.mp3",
 			subtitle: ""
@@ -4165,7 +4165,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِنْ تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا بِهَا وَإِنْ تَصْبِرُوا وَتَتَّقُوا لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْئًا إِنَّ اللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ",
             translation: "verse 19",
             audioUrl: "./data/003120.mp3",
 			subtitle: ""
@@ -4175,7 +4175,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ الْمُؤْمِنِينَ مَقَاعِدَ لِلْقِتَالِ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003121.mp3",
 			subtitle: ""
@@ -4185,7 +4185,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ هَمَّتْ طَائِفَتَانِ مِنْكُمْ أَنْ تَفْشَلَا وَاللَّهُ وَلِيُّهُمَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/003122.mp3",
 			subtitle: ""
@@ -4195,7 +4195,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ نَصَرَكُمُ اللَّهُ بِبَدْرٍ وَأَنْتُمْ أَذِلَّةٌ فَاتَّقُوا اللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003123.mp3",
 			subtitle: ""
@@ -4205,7 +4205,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَنْ يَكْفِيَكُمْ أَنْ يُمِدَّكُمْ رَبُّكُمْ بِثَلَاثَةِ آلَافٍ مِنَ الْمَلَائِكَةِ مُنْزَلِينَ",
             translation: "verse 19",
             audioUrl: "./data/003124.mp3",
 			subtitle: ""
@@ -4215,7 +4215,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلَىٰ إِنْ تَصْبِرُوا وَتَتَّقُوا وَيَأْتُوكُمْ مِنْ فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُمْ بِخَمْسَةِ آلَافٍ مِنَ الْمَلَائِكَةِ مُسَوِّمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003125.mp3",
 			subtitle: ""
@@ -4225,7 +4225,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا جَعَلَهُ اللَّهُ إِلَّا بُشْرَىٰ لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُمْ بِهِ وَمَا النَّصْرُ إِلَّا مِنْ عِنْدِ اللَّهِ الْعَزِيزِ الْحَكِيمِ",
             translation: "verse 19",
             audioUrl: "./data/003126.mp3",
 			subtitle: ""
@@ -4235,7 +4235,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "لِيَقْطَعَ طَرَفًا مِنَ الَّذِينَ كَفَرُوا أَوْ يَكْبِتَهُمْ فَيَنْقَلِبُوا خَائِبِينَ",
             translation: "verse 19",
             audioUrl: "./data/003127.mp3",
 			subtitle: ""
@@ -4245,7 +4245,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسَ لَكَ مِنَ الْأَمْرِ شَيْءٌ أَوْ يَتُوبَ عَلَيْهِمْ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003128.mp3",
 			subtitle: ""
@@ -4255,7 +4255,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ يَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ وَاللَّهُ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003129.mp3",
 			subtitle: ""
@@ -4265,7 +4265,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا الرِّبَا أَضْعَافًا مُضَاعَفَةً وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/003130.mp3",
 			subtitle: ""
@@ -4275,7 +4275,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاتَّقُوا النَّارَ الَّتِي أُعِدَّتْ لِلْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003131.mp3",
 			subtitle: ""
@@ -4285,7 +4285,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَطِيعُوا اللَّهَ وَالرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003132.mp3",
 			subtitle: ""
@@ -4295,7 +4295,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَسَارِعُوا إِلَىٰ مَغْفِرَةٍ مِنْ رَبِّكُمْ وَجَنَّةٍ عَرْضُهَا السَّمَاوَاتُ وَالْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003133.mp3",
 			subtitle: ""
@@ -4304,7 +4304,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يُنْفِقُونَ فِي السَّرَّاءِ وَالضَّرَّاءِ وَالْكَاظِمِينَ الْغَيْظَ وَالْعَافِينَ عَنِ النَّاسِ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003134.mp3",
 			subtitle: ""
@@ -4314,7 +4314,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ إِذَا فَعَلُوا فَاحِشَةً أَوْ ظَلَمُوا أَنْفُسَهُمْ ذَكَرُوا اللَّهَ فَاسْتَغْفَرُوا لِذُنُوبِهِمْ وَمَنْ يَغْفِرُ الذُّنُوبَ إِلَّا اللَّهُ وَلَمْ يُصِرُّوا عَلَىٰ مَا فَعَلُوا وَهُمْ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003135.mp3",
 			subtitle: ""
@@ -4324,7 +4324,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ جَزَاؤُهُمْ مَغْفِرَةٌ مِنْ رَبِّهِمْ وَجَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَنِعْمَ أَجْرُ الْعَامِلِينَ",
             translation: "verse 19",
             audioUrl: "./data/003136.mp3",
 			subtitle: ""
@@ -4334,7 +4334,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ خَلَتْ مِنْ قَبْلِكُمْ سُنَنٌ فَسِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كَانَ عَاقِبَةُ الْمُكَذِّبِينَ",
             translation: "verse 19",
             audioUrl: "./data/003137.mp3",
 			subtitle: ""
@@ -4344,7 +4344,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "هَٰذَا بَيَانٌ لِلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِلْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003138.mp3",
 			subtitle: ""
@@ -4353,7 +4353,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003139.mp3",
 			subtitle: ""
@@ -4363,7 +4363,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ الْقَوْمَ قَرْحٌ مِثْلُهُ وَتِلْكَ الْأَيَّامُ نُدَاوِلُهَا بَيْنَ النَّاسِ وَلِيَعْلَمَ اللَّهُ الَّذِينَ آمَنُوا وَيَتَّخِذَ مِنْكُمْ شُهَدَاءَ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003140.mp3",
 			subtitle: ""
@@ -4373,7 +4373,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِيُمَحِّصَ اللَّهُ الَّذِينَ آمَنُوا وَيَمْحَقَ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003141.mp3",
 			subtitle: ""
@@ -4383,7 +4383,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ حَسِبْتُمْ أَنْ تَدْخُلُوا الْجَنَّةَ وَلَمَّا يَعْلَمِ اللَّهُ الَّذِينَ جَاهَدُوا مِنْكُمْ وَيَعْلَمَ الصَّابِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003142.mp3",
 			subtitle: ""
@@ -4393,7 +4393,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ كُنْتُمْ تَمَنَّوْنَ الْمَوْتَ مِنْ قَبْلِ أَنْ تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنْتُمْ تَنْظُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003143.mp3",
 			subtitle: ""
@@ -4403,7 +4403,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ أَفَإِنْ مَاتَ أَوْ قُتِلَ انْقَلَبْتُمْ عَلَىٰ أَعْقَابِكُمْ وَمَنْ يَنْقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَنْ يَضُرَّ اللَّهَ شَيْئًا وَسَيَجْزِي اللَّهُ الشَّاكِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003144.mp3",
 			subtitle: ""
@@ -4413,7 +4413,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا كَانَ لِنَفْسٍ أَنْ تَمُوتَ إِلَّا بِإِذْنِ اللَّهِ كِتَابًا مُؤَجَّلًا وَمَنْ يُرِدْ ثَوَابَ الدُّنْيَا نُؤْتِهِ مِنْهَا وَمَنْ يُرِدْ ثَوَابَ الْآخِرَةِ نُؤْتِهِ مِنْهَا وَسَنَجْزِي الشَّاكِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003145.mp3",
 			subtitle: ""
@@ -4423,7 +4423,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَأَيِّنْ مِنْ نَبِيٍّ قَاتَلَ مَعَهُ رِبِّيُّونَ كَثِيرٌ فَمَا وَهَنُوا لِمَا أَصَابَهُمْ فِي سَبِيلِ اللَّهِ وَمَا ضَعُفُوا وَمَا اسْتَكَانُوا وَاللَّهُ يُحِبُّ الصَّابِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003146.mp3",
 			subtitle: ""
@@ -4433,7 +4433,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا كَانَ قَوْلَهُمْ إِلَّا أَنْ قَالُوا رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003147.mp3",
 			subtitle: ""
@@ -4443,7 +4443,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "فَآتَاهُمُ اللَّهُ ثَوَابَ الدُّنْيَا وَحُسْنَ ثَوَابِ الْآخِرَةِ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003148.mp3",
 			subtitle: ""
@@ -4453,7 +4453,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا إِنْ تُطِيعُوا الَّذِينَ كَفَرُوا يَرُدُّوكُمْ عَلَىٰ أَعْقَابِكُمْ فَتَنْقَلِبُوا خَاسِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003149.mp3",
 			subtitle: ""
@@ -4463,7 +4463,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلِ اللَّهُ مَوْلَاكُمْ وَهُوَ خَيْرُ النَّاصِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/003150.mp3",
 			subtitle: ""
@@ -4473,7 +4473,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "سَنُلْقِي فِي قُلُوبِ الَّذِينَ كَفَرُوا الرُّعْبَ بِمَا أَشْرَكُوا بِاللَّهِ مَا لَمْ يُنَزِّلْ بِهِ سُلْطَانًا وَمَأْوَاهُمُ النَّارُ وَبِئْسَ مَثْوَى الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/003151.mp3",
 			subtitle: ""
@@ -4483,7 +4483,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ صَدَقَكُمُ اللَّهُ وَعْدَهُ إِذْ تَحُسُّونَهُمْ بِإِذْنِهِ حَتَّىٰ إِذَا فَشِلْتُمْ وَتَنَازَعْتُمْ فِي الْأَمْرِ وَعَصَيْتُمْ مِنْ بَعْدِ مَا أَرَاكُمْ مَا تُحِبُّونَ مِنْكُمْ مَنْ يُرِيدُ الدُّنْيَا وَمِنْكُمْ مَنْ يُرِيدُ الْآخِرَةَ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ وَلَقَدْ عَفَا عَنْكُمْ وَاللَّهُ ذُو فَضْلٍ عَلَى الْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003152.mp3",
 			subtitle: ""
@@ -4493,7 +4493,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ تُصْعِدُونَ وَلَا تَلْوُونَ عَلَىٰ أَحَدٍ وَالرَّسُولُ يَدْعُوكُمْ فِي أُخْرَاكُمْ فَأَثَابَكُمْ غَمًّا بِغَمٍّ لِكَيْلَا تَحْزَنُوا عَلَىٰ مَا فَاتَكُمْ وَلَا مَا أَصَابَكُمْ وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/003153.mp3",
 			subtitle: ""
@@ -4503,7 +4503,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ أَنْزَلَ عَلَيْكُمْ مِنْ بَعْدِ الْغَمِّ أَمَنَةً نُعَاسًا يَغْشَىٰ طَائِفَةً مِنْكُمْ وَطَائِفَةٌ قَدْ أَهَمَّتْهُمْ أَنْفُسُهُمْ يَظُنُّونَ بِاللَّهِ غَيْرَ الْحَقِّ ظَنَّ الْجَاهِلِيَّةِ يَقُولُونَ هَلْ لَنَا مِنَ الْأَمْرِ مِنْ شَيْءٍ قُلْ إِنَّ الْأَمْرَ كُلَّهُ لِلَّهِ يُخْفُونَ فِي أَنْفُسِهِمْ مَا لَا يُبْدُونَ لَكَ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ الْأَمْرِ شَيْءٌ مَا قُتِلْنَا هَاهُنَا قُلْ لَوْ كُنْتُمْ فِي بُيُوتِكُمْ لَبَرَزَ الَّذِينَ كُتِبَ عَلَيْهِمُ الْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ وَلِيَبْتَلِيَ اللَّهُ مَا فِي صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِي قُلُوبِكُمْ وَاللَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
             translation: "verse 19",
             audioUrl: "./data/003154.mp3",
 			subtitle: ""
@@ -4513,7 +4513,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ تَوَلَّوْا مِنْكُمْ يَوْمَ الْتَقَى الْجَمْعَانِ إِنَّمَا اسْتَزَلَّهُمُ الشَّيْطَانُ بِبَعْضِ مَا كَسَبُوا وَلَقَدْ عَفَا اللَّهُ عَنْهُمْ إِنَّ اللَّهَ غَفُورٌ حَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003155.mp3",
 			subtitle: ""
@@ -4523,7 +4523,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَكُونُوا كَالَّذِينَ كَفَرُوا وَقَالُوا لِإِخْوَانِهِمْ إِذَا ضَرَبُوا فِي الْأَرْضِ أَوْ كَانُوا غُزًّى لَوْ كَانُوا عِنْدَنَا مَا مَاتُوا وَمَا قُتِلُوا لِيَجْعَلَ اللَّهُ ذَٰلِكَ حَسْرَةً فِي قُلُوبِهِمْ وَاللَّهُ يُحْيِي وَيُمِيتُ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/003156.mp3",
 			subtitle: ""
@@ -4532,7 +4532,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَئِنْ قُتِلْتُمْ فِي سَبِيلِ اللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌ مِنَ اللَّهِ وَرَحْمَةٌ خَيْرٌ مِمَّا يَجْمَعُونَ",
             translation: "verse 19",
             audioUrl: "./data/003157.mp3",
 			subtitle: ""
@@ -4542,7 +4542,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَئِنْ مُتُّمْ أَوْ قُتِلْتُمْ لَإِلَى اللَّهِ تُحْشَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003158.mp3",
 			subtitle: ""
@@ -4552,7 +4552,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَبِمَا رَحْمَةٍ مِنَ اللَّهِ لِنْتَ لَهُمْ وَلَوْ كُنْتَ فَظًّا غَلِيظَ الْقَلْبِ لَانْفَضُّوا مِنْ حَوْلِكَ فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ",
             translation: "verse 19",
             audioUrl: "./data/003159.mp3",
 			subtitle: ""
@@ -4562,7 +4562,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ يَنْصُرْكُمُ اللَّهُ فَلَا غَالِبَ لَكُمْ وَإِنْ يَخْذُلْكُمْ فَمَنْ ذَا الَّذِي يَنْصُرُكُمْ مِنْ بَعْدِهِ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/003160.mp3",
 			subtitle: ""
@@ -4572,7 +4572,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ وَمَنْ يَغْلُلْ يَأْتِ بِمَا غَلَّ يَوْمَ الْقِيَامَةِ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003161.mp3",
 			subtitle: ""
@@ -4581,7 +4581,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَمَنِ اتَّبَعَ رِضْوَانَ اللَّهِ كَمَنْ بَاءَ بِسَخَطٍ مِنَ اللَّهِ وَمَأْوَاهُ جَهَنَّمُ وَبِئْسَ الْمَصِيرُ",
             translation: "verse 19",
             audioUrl: "./data/003162.mp3",
 			subtitle: ""
@@ -4591,7 +4591,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "هُمْ دَرَجَاتٌ عِنْدَ اللَّهِ وَاللَّهُ بَصِيرٌ بِمَا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/003163.mp3",
 			subtitle: ""
@@ -4601,7 +4601,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "لَقَدْ مَنَّ اللَّهُ عَلَى الْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًا مِنْ أَنْفُسِهِمْ يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَإِنْ كَانُوا مِنْ قَبْلُ لَفِي ضَلَالٍ مُبِينٍ",
             translation: "verse 19",
             audioUrl: "./data/003164.mp3",
 			subtitle: ""
@@ -4611,7 +4611,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوَلَمَّا أَصَابَتْكُمْ مُصِيبَةٌ قَدْ أَصَبْتُمْ مِثْلَيْهَا قُلْتُمْ أَنَّىٰ هَٰذَا قُلْ هُوَ مِنْ عِنْدِ أَنْفُسِكُمْ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/003165.mp3",
 			subtitle: ""
@@ -4621,7 +4621,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا أَصَابَكُمْ يَوْمَ الْتَقَى الْجَمْعَانِ فَبِإِذْنِ اللَّهِ وَلِيَعْلَمَ الْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003166.mp3",
 			subtitle: ""
@@ -4631,7 +4631,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِيَعْلَمَ الَّذِينَ نَافَقُوا وَقِيلَ لَهُمْ تَعَالَوْا قَاتِلُوا فِي سَبِيلِ اللَّهِ أَوِ ادْفَعُوا قَالُوا لَوْ نَعْلَمُ قِتَالًا لَاتَّبَعْنَاكُمْ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَانِ يَقُولُونَ بِأَفْوَاهِهِمْ مَا لَيْسَ فِي قُلُوبِهِمْ وَاللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/003167.mp3",
 			subtitle: ""
@@ -4641,7 +4641,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ قَالُوا لِإِخْوَانِهِمْ وَقَعَدُوا لَوْ أَطَاعُونَا مَا قُتِلُوا قُلْ فَادْرَءُوا عَنْ أَنْفُسِكُمُ الْمَوْتَ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003168.mp3",
 			subtitle: ""
@@ -4651,7 +4651,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ",
             translation: "verse 19",
             audioUrl: "./data/003169.mp3",
 			subtitle: ""
@@ -4661,7 +4661,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فَرِحِينَ بِمَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ وَيَسْتَبْشِرُونَ بِالَّذِينَ لَمْ يَلْحَقُوا بِهِمْ مِنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/003170.mp3",
 			subtitle: ""
@@ -4671,7 +4671,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْتَبْشِرُونَ بِنِعْمَةٍ مِنَ اللَّهِ وَفَضْلٍ وَأَنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003171.mp3",
 			subtitle: ""
@@ -4681,7 +4681,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ اسْتَجَابُوا لِلَّهِ وَالرَّسُولِ مِنْ بَعْدِ مَا أَصَابَهُمُ الْقَرْحُ لِلَّذِينَ أَحْسَنُوا مِنْهُمْ وَاتَّقَوْا أَجْرٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003172.mp3",
 			subtitle: ""
@@ -4691,7 +4691,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ قَالَ لَهُمُ النَّاسُ إِنَّ النَّاسَ قَدْ جَمَعُوا لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمْ إِيمَانًا وَقَالُوا حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
             translation: "verse 19",
             audioUrl: "./data/003173.mp3",
 			subtitle: ""
@@ -4701,7 +4701,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "فَانْقَلَبُوا بِنِعْمَةٍ مِنَ اللَّهِ وَفَضْلٍ لَمْ يَمْسَسْهُمْ سُوءٌ وَاتَّبَعُوا رِضْوَانَ اللَّهِ وَاللَّهُ ذُو فَضْلٍ عَظِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/003174.mp3",
 			subtitle: ""
@@ -4711,7 +4711,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا ذَٰلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ وَخَافُونِ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/003175.mp3",
 			subtitle: ""
@@ -4721,7 +4721,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا يَحْزُنْكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ إِنَّهُمْ لَنْ يَضُرُّوا اللَّهَ شَيْئًا يُرِيدُ اللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّا فِي الْآخِرَةِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003176.mp3",
 			subtitle: ""
@@ -4731,7 +4731,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ اشْتَرَوُا الْكُفْرَ بِالْإِيمَانِ لَنْ يَضُرُّوا اللَّهَ شَيْئًا وَلَهُمْ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003177.mp3",
 			subtitle: ""
@@ -4741,7 +4741,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا يَحْسَبَنَّ الَّذِينَ كَفَرُوا أَنَّمَا نُمْلِي لَهُمْ خَيْرٌ لِأَنْفُسِهِمْ إِنَّمَا نُمْلِي لَهُمْ لِيَزْدَادُوا إِثْمًا وَلَهُمْ عَذَابٌ مُهِينٌ",
             translation: "verse 19",
             audioUrl: "./data/003178.mp3",
 			subtitle: ""
@@ -4751,7 +4751,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا كَانَ اللَّهُ لِيَذَرَ الْمُؤْمِنِينَ عَلَىٰ مَا أَنْتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ الْخَبِيثَ مِنَ الطَّيِّبِ وَمَا كَانَ اللَّهُ لِيُطْلِعَكُمْ عَلَى الْغَيْبِ وَلَٰكِنَّ اللَّهَ يَجْتَبِي مِنْ رُسُلِهِ مَنْ يَشَاءُ فَآمِنُوا بِاللَّهِ وَرُسُلِهِ وَإِنْ تُؤْمِنُوا وَتَتَّقُوا فَلَكُمْ أَجْرٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003179.mp3",
 			subtitle: ""
@@ -4760,7 +4760,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا يَحْسَبَنَّ الَّذِينَ يَبْخَلُونَ بِمَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ هُوَ خَيْرًا لَهُمْ بَلْ هُوَ شَرٌّ لَهُمْ سَيُطَوَّقُونَ مَا بَخِلُوا بِهِ يَوْمَ الْقِيَامَةِ وَلِلَّهِ مِيرَاثُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/003180.mp3",
 			subtitle: ""
@@ -4770,7 +4770,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "لَقَدْ سَمِعَ اللَّهُ قَوْلَ الَّذِينَ قَالُوا إِنَّ اللَّهَ فَقِيرٌ وَنَحْنُ أَغْنِيَاءُ سَنَكْتُبُ مَا قَالُوا وَقَتْلَهُمُ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ وَنَقُولُ ذُوقُوا عَذَابَ الْحَرِيقِ",
             translation: "verse 19",
             audioUrl: "./data/003181.mp3",
 			subtitle: ""
@@ -4780,7 +4780,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِلْعَبِيدِ",
             translation: "verse 19",
             audioUrl: "./data/003182.mp3",
 			subtitle: ""
@@ -4790,7 +4790,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ قَالُوا إِنَّ اللَّهَ عَهِدَ إِلَيْنَا أَلَّا نُؤْمِنَ لِرَسُولٍ حَتَّىٰ يَأْتِيَنَا بِقُرْبَانٍ تَأْكُلُهُ النَّارُ قُلْ قَدْ جَاءَكُمْ رُسُلٌ مِنْ قَبْلِي بِالْبَيِّنَاتِ وَبِالَّذِي قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمْ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/003183.mp3",
 			subtitle: ""
@@ -4800,7 +4800,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِنْ قَبْلِكَ جَاءُوا بِالْبَيِّنَاتِ وَالزُّبُرِ وَالْكِتَابِ الْمُنِيرِ",
             translation: "verse 19",
             audioUrl: "./data/003184.mp3",
 			subtitle: ""
@@ -4809,7 +4809,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ الْقِيَامَةِ فَمَنْ زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ",
             translation: "verse 19",
             audioUrl: "./data/003185.mp3",
 			subtitle: ""
@@ -4819,7 +4819,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لَتُبْلَوُنَّ فِي أَمْوَالِكُمْ وَأَنْفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ الَّذِينَ أُوتُوا الْكِتَابَ مِنْ قَبْلِكُمْ وَمِنَ الَّذِينَ أَشْرَكُوا أَذًى كَثِيرًا وَإِنْ تَصْبِرُوا وَتَتَّقُوا فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ الْأُمُورِ",
             translation: "verse 19",
             audioUrl: "./data/003186.mp3",
 			subtitle: ""
@@ -4829,7 +4829,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ الَّذِينَ أُوتُوا الْكِتَابَ لَتُبَيِّنُنَّهُ لِلنَّاسِ وَلَا تَكْتُمُونَهُ فَنَبَذُوهُ وَرَاءَ ظُهُورِهِمْ وَاشْتَرَوْا بِهِ ثَمَنًا قَلِيلًا فَبِئْسَ مَا يَشْتَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/003187.mp3",
 			subtitle: ""
@@ -4839,7 +4839,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا تَحْسَبَنَّ الَّذِينَ يَفْرَحُونَ بِمَا أَتَوْا وَيُحِبُّونَ أَنْ يُحْمَدُوا بِمَا لَمْ يَفْعَلُوا فَلَا تَحْسَبَنَّهُمْ بِمَفَازَةٍ مِنَ الْعَذَابِ وَلَهُمْ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/003188.mp3",
 			subtitle: ""
@@ -4849,7 +4849,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/003189.mp3",
 			subtitle: ""
@@ -4859,7 +4859,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ الَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ",
             translation: "verse 19",
             audioUrl: "./data/003190.mp3",
 			subtitle: ""
@@ -4869,7 +4869,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ",
             translation: "verse 19",
             audioUrl: "./data/003191.mp3",
 			subtitle: ""
@@ -4879,7 +4879,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا إِنَّكَ مَنْ تُدْخِلِ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ",
             translation: "verse 19",
             audioUrl: "./data/003192.mp3",
 			subtitle: ""
@@ -4889,7 +4889,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا إِنَّنَا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ",
             translation: "verse 19",
             audioUrl: "./data/003193.mp3",
 			subtitle: ""
@@ -4899,7 +4899,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "رَبَّنَا وَآتِنَا مَا وَعَدْتَنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ",
             translation: "verse 19",
             audioUrl: "./data/003194.mp3",
 			subtitle: ""
@@ -4909,7 +4909,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَاسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّي لَا أُضِيعُ عَمَلَ عَامِلٍ مِنْكُمْ مِنْ ذَكَرٍ أَوْ أُنْثَىٰ بَعْضُكُمْ مِنْ بَعْضٍ فَالَّذِينَ هَاجَرُوا وَأُخْرِجُوا مِنْ دِيَارِهِمْ وَأُوذُوا فِي سَبِيلِي وَقَاتَلُوا وَقُتِلُوا لَأُكَفِّرَنَّ عَنْهُمْ سَيِّئَاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ ثَوَابًا مِنْ عِنْدِ اللَّهِ وَاللَّهُ عِنْدَهُ حُسْنُ الثَّوَابِ",
             translation: "verse 19",
             audioUrl: "./data/003195.mp3",
 			subtitle: ""
@@ -4919,7 +4919,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يَغُرَّنَّكَ تَقَلُّبُ الَّذِينَ كَفَرُوا فِي الْبِلَادِ",
             translation: "verse 19",
             audioUrl: "./data/003196.mp3",
 			subtitle: ""
@@ -4929,7 +4929,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "مَتَاعٌ قَلِيلٌ ثُمَّ مَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمِهَادُ",
             translation: "verse 19",
             audioUrl: "./data/003197.mp3",
 			subtitle: ""
@@ -4939,7 +4939,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَٰكِنِ الَّذِينَ اتَّقَوْا رَبَّهُمْ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا نُزُلًا مِنْ عِنْدِ اللَّهِ وَمَا عِنْدَ اللَّهِ خَيْرٌ لِلْأَبْرَارِ",
             translation: "verse 19",
             audioUrl: "./data/003198.mp3",
 			subtitle: ""
@@ -4949,7 +4949,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '١٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنَّ مِنْ أَهْلِ الْكِتَابِ لَمَنْ يُؤْمِنُ بِاللَّهِ وَمَا أُنْزِلَ إِلَيْكُمْ وَمَا أُنْزِلَ إِلَيْهِمْ خَاشِعِينَ لِلَّهِ لَا يَشْتَرُونَ بِآيَاتِ اللَّهِ ثَمَنًا قَلِيلًا أُولَٰئِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
             translation: "verse 19",
             audioUrl: "./data/003199.mp3",
 			subtitle: ""
@@ -4959,7 +4959,7 @@ surahData[3] = {
             surahNumber: 3,
 			surahNumberArabic: '٣',
 			ayatNumberArabic: '٢٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا وَاتَّقُوا اللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/003200.mp3",
 			subtitle: ""
@@ -4983,7 +4983,7 @@ surahData[4] = {
             audioUrl: "./data/004000.mp3",
 			subtitle: "",			
             footnotes: [
-                "Surah 4. "		
+                ""		
             ]
         },
         {
@@ -4991,8 +4991,8 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١',
-            arabicText: "الم",
-            translation: "A.L.M",
+            arabicText: "ياأَيُّهَا النّاسُ اتَّقوا رَبَّكُمُ الَّذي خَلَقَكُم مِن نَفسٍ واحِدَةٍ وَخَلَقَ مِنها زَوجَها وَبَثَّ مِنهُما رِجالًا كَثيرًا وَنِساءً وَاتَّقُوا اللَّهَ الَّذي تَساءَلونَ بِهِ وَالأَرحامَ إِنَّ اللَّهَ كانَ عَلَيكُم رَقيبًا",
+            translation: "",
             audioUrl: "./data/004001.mp3",
 			subtitle: "",
 			footnote: ""
@@ -5002,7 +5002,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢',		
-            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            arabicText: "وَآتُوا الْيَتَامَىٰ أَمْوَالَهُمْ وَلَا تَتَبَدَّلُوا الْخَبِيثَ بِالطَّيِّبِ وَلَا تَأْكُلُوا أَمْوَالَهُمْ إِلَىٰ أَمْوَالِكُمْ إِنَّهُ كَانَ حُوبًا كَبِيرًا",
             translation: "",
             audioUrl: "./data/004002.mp3"
         },
@@ -5011,7 +5011,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣',	
-            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            arabicText: "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا فِي الْيَتَامَىٰ فَانْكِحُوا مَا طَابَ لَكُمْ مِنَ النِّسَاءِ مَثْنَىٰ وَثُلَاثَ وَرُبَاعَ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا فَوَاحِدَةً أَوْ مَا مَلَكَتْ أَيْمَانُكُمْ ذَٰلِكَ أَدْنَىٰ أَلَّا تَعُولُوا",
             translation: "",
             audioUrl: "./data/004003.mp3",
 			subtitle: "",
@@ -5022,7 +5022,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤',	
-            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            arabicText: "وَآتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً فَإِنْ طِبْنَ لَكُمْ عَنْ شَيْءٍ مِنْهُ نَفْسًا فَكُلُوهُ هَنِيئًا مَرِيئًا",
             translation: "",
             audioUrl: "./data/004004.mp3"
         },
@@ -5031,7 +5031,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥',	
-            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            arabicText: "وَلَا تُؤْتُوا السُّفَهَاءَ أَمْوَالَكُمُ الَّتِي جَعَلَ اللَّهُ لَكُمْ قِيَامًا وَارْزُقُوهُمْ فِيهَا وَاكْسُوهُمْ وَقُولُوا لَهُمْ قَوْلًا مَعْرُوفًا",
             translation: "",
             audioUrl: "./data/004005.mp3",
 			footnote: ""
@@ -5041,7 +5041,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦',		
-            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            arabicText: "وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ فَإِنْ آنَسْتُمْ مِنْهُمْ رُشْدًا فَادْفَعُوا إِلَيْهِمْ أَمْوَالَهُمْ وَلَا تَأْكُلُوهَا إِسْرَافًا وَبِدَارًا أَنْ يَكْبَرُوا وَمَنْ كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ وَمَنْ كَانَ فَقِيرًا فَلْيَأْكُلْ بِالْمَعْرُوفِ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَالَهُمْ فَأَشْهِدُوا عَلَيْهِمْ وَكَفَىٰ بِاللَّهِ حَسِيبًا",
             translation: "",
             audioUrl: "./data/004006.mp3",
 			subtitle: ""
@@ -5051,7 +5051,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧',		
-            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            arabicText: "لِلرِّجَالِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَلِلنِّسَاءِ نَصِيبٌ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ مِمَّا قَلَّ مِنْهُ أَوْ كَثُرَ نَصِيبًا مَفْرُوضًا",
             translation: "",
             audioUrl: "./data/004007.mp3",
 			subtitle: ""
@@ -5061,7 +5061,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا حَضَرَ الْقِسْمَةَ أُولُو الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينُ فَارْزُقُوهُمْ مِنْهُ وَقُولُوا لَهُمْ قَوْلًا مَعْرُوفًا",
             translation: "",
             audioUrl: "./data/004008.mp3",
 			subtitle: ""
@@ -5071,7 +5071,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلْيَخْشَ الَّذِينَ لَوْ تَرَكُوا مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَافًا خَافُوا عَلَيْهِمْ فَلْيَتَّقُوا اللَّهَ وَلْيَقُولُوا قَوْلًا سَدِيدًا",
             translation: "",
             audioUrl: "./data/004009.mp3",
 			subtitle: ""
@@ -5081,7 +5081,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوَالَ الْيَتَامَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِي بُطُونِهِمْ نَارًا وَسَيَصْلَوْنَ سَعِيرًا",
             translation: "",
             audioUrl: "./data/004010.mp3",
 			subtitle: ""
@@ -5091,7 +5091,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١',		
-            arabicText: "Arabic text here",
+            arabicText: "يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ فَإِنْ كُنَّ نِسَاءً فَوْقَ اثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ وَإِنْ كَانَتْ وَاحِدَةً فَلَهَا النِّصْفُ وَلِأَبَوَيْهِ لِكُلِّ وَاحِدٍ مِنْهُمَا السُّدُسُ مِمَّا تَرَكَ إِنْ كَانَ لَهُ وَلَدٌ فَإِنْ لَمْ يَكُنْ لَهُ وَلَدٌ وَوَرِثَهُ أَبَوَاهُ فَلِأُمِّهِ الثُّلُثُ فَإِنْ كَانَ لَهُ إِخْوَةٌ فَلِأُمِّهِ السُّدُسُ مِنْ بَعْدِ وَصِيَّةٍ يُوصِي بِهَا أَوْ دَيْنٍ آبَاؤُكُمْ وَأَبْنَاؤُكُمْ لَا تَدْرُونَ أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًا فَرِيضَةً مِنَ اللَّهِ إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
             translation: "",
             audioUrl: "./data/004011.mp3",
 			subtitle: ""
@@ -5101,7 +5101,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَكُمْ نِصْفُ مَا تَرَكَ أَزْوَاجُكُمْ إِنْ لَمْ يَكُنْ لَهُنَّ وَلَدٌ فَإِنْ كَانَ لَهُنَّ وَلَدٌ فَلَكُمُ الرُّبُعُ مِمَّا تَرَكْنَ مِنْ بَعْدِ وَصِيَّةٍ يُوصِينَ بِهَا أَوْ دَيْنٍ وَلَهُنَّ الرُّبُعُ مِمَّا تَرَكْتُمْ إِنْ لَمْ يَكُنْ لَكُمْ وَلَدٌ فَإِنْ كَانَ لَكُمْ وَلَدٌ فَلَهُنَّ الثُّمُنُ مِمَّا تَرَكْتُمْ مِنْ بَعْدِ وَصِيَّةٍ تُوصُونَ بِهَا أَوْ دَيْنٍ وَإِنْ كَانَ رَجُلٌ يُورَثُ كَلَالَةً أَوِ امْرَأَةٌ وَلَهُ أَخٌ أَوْ أُخْتٌ فَلِكُلِّ وَاحِدٍ مِنْهُمَا السُّدُسُ فَإِنْ كَانُوا أَكْثَرَ مِنْ ذَٰلِكَ فَهُمْ شُرَكَاءُ فِي الثُّلُثِ مِنْ بَعْدِ وَصِيَّةٍ يُوصَىٰ بِهَا أَوْ دَيْنٍ غَيْرَ مُضَارٍّ وَصِيَّةً مِنَ اللَّهِ وَاللَّهُ عَلِيمٌ حَلِيمٌ",
             translation: "",
             audioUrl: "./data/004012.mp3",
 			subtitle: ""
@@ -5111,7 +5111,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "تِلْكَ حُدُودُ اللَّهِ وَمَنْ يُطِعِ اللَّهَ وَرَسُولَهُ يُدْخِلْهُ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
             translation: "",
             audioUrl: "./data/004013.mp3",
 			subtitle: ""
@@ -5121,7 +5121,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَعْصِ اللَّهَ وَرَسُولَهُ وَيَتَعَدَّ حُدُودَهُ يُدْخِلْهُ نَارًا خَالِدًا فِيهَا وَلَهُ عَذَابٌ مُهِينٌ",
             translation: "",
             audioUrl: "./data/004014.mp3",
 			subtitle: ""
@@ -5131,7 +5131,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالّٰتِیۡ يَأْتِينَ الْفَاحِشَةَ مِنْ نِسَائِكُمْ فَاسْتَشْهِدُوا عَلَيْهِنَّ أَرْبَعَةً مِنْكُمْ فَإِنْ شَهِدُوا فَأَمْسِكُوهُنَّ فِي الْبُيُوتِ حَتَّىٰ يَتَوَفَّاهُنَّ الْمَوْتُ أَوْ يَجْعَلَ اللَّهُ لَهُنَّ سَبِيلًا",
             translation: "",
             audioUrl: "./data/004015.mp3",
 			subtitle: ""
@@ -5141,7 +5141,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذٰنِ يَأْتِيَانِهَا مِنْكُمْ فَآذُوهُمَا فَإِنْ تَابَا وَأَصْلَحَا فَأَعْرِضُوا عَنْهُمَا إِنَّ اللَّهَ كَانَ تَوَّابًا رَحِيمًا",
             translation: "",
             audioUrl: "./data/004016.mp3",
 			subtitle: ""
@@ -5151,7 +5151,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا التَّوْبَةُ عَلَى اللَّهِ لِلَّذِينَ يَعْمَلُونَ السُّوءَ بِجَهَالَةٍ ثُمَّ يَتُوبُونَ مِنْ قَرِيبٍ فَأُولَٰئِكَ يَتُوبُ اللَّهُ عَلَيْهِمْ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
             translation: "",
             audioUrl: "./data/004017.mp3",
 			subtitle: ""
@@ -5161,7 +5161,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَيْسَتِ التَّوْبَةُ لِلَّذِينَ يَعْمَلُونَ السَّيِّئَاتِ حَتَّىٰ إِذَا حَضَرَ أَحَدَهُمُ الْمَوْتُ قَالَ إِنِّي تُبْتُ الْآنَ وَلَا الَّذِينَ يَمُوتُونَ وَهُمْ كُفَّارٌ أُولَٰئِكَ أَعْتَدْنَا لَهُمْ عَذَابًا أَلِيمًا",
             translation: "",
             audioUrl: "./data/004018.mp3",
 			subtitle: ""
@@ -5171,7 +5171,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا يَحِلُّ لَكُمْ أَنْ تَرِثُوا النِّسَاءَ كَرْهًا وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا بِبَعْضِ مَا آتَيْتُمُوهُنَّ إِلَّا أَنْ يَأْتِينَ بِفَاحِشَةٍ مُبَيِّنَةٍ وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ فَإِنْ كَرِهْتُمُوهُنَّ فَعَسَىٰ أَنْ تَكْرَهُوا شَيْئًا وَيَجْعَلَ اللَّهُ فِيهِ خَيْرًا كَثِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004019.mp3",
 			subtitle: ""
@@ -5181,7 +5181,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ أَرَدْتُمُ اسْتِبْدَالَ زَوْجٍ مَكَانَ زَوْجٍ وَآتَيْتُمْ إِحْدَاهُنَّ قِنْطَارًا فَلَا تَأْخُذُوا مِنْهُ شَيْئًا أَتَأْخُذُونَهُ بُهْتَانًا وَإِثْمًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004020.mp3",
 			subtitle: ""
@@ -5191,7 +5191,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَيْفَ تَأْخُذُونَهُ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنْكُمْ مِيثَاقًا غَلِيظًا",
             translation: "verse 19",
             audioUrl: "./data/004021.mp3",
 			subtitle: ""
@@ -5201,7 +5201,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَنْكِحُوا مَا نَكَحَ آبَاؤُكُمْ مِنَ النِّسَاءِ إِلَّا مَا قَدْ سَلَفَ إِنَّهُ كَانَ فَاحِشَةً وَمَقْتًا وَسَاءَ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004022.mp3",
 			subtitle: ""
@@ -5211,7 +5211,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "حُرِّمَتْ عَلَيْكُمْ أُمَّهَاتُكُمْ وَبَنَاتُكُمْ وَأَخَوَاتُكُمْ وَعَمَّاتُكُمْ وَخَالَاتُكُمْ وَبَنَاتُ الْأَخِ وَبَنَاتُ الْأُخْتِ وَأُمَّهَاتُكُمُ الّٰتِیۡۤ أَرْضَعْنَكُمْ وَأَخَوَاتُكُمْ مِنَ الرَّضَاعَةِ وَأُمَّهَاتُ نِسَائِكُمْ وَرَبَائِبُكُمُ الّٰتِیۡۤ فِي حُجُورِكُمْ مِنْ نِسَائِكُمُ الّٰتِیۡۤ دَخَلْتُمْ بِهِنَّ فَإِنْ لَمْ تَكُونُوا دَخَلْتُمْ بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَائِلُ أَبْنَائِكُمُ الَّذِينَ مِنْ أَصْلَابِكُمْ وَأَنْ تَجْمَعُوا بَيْنَ الْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004023.mp3",
 			subtitle: ""
@@ -5221,7 +5221,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالْمُحْصَنَاتُ مِنَ النِّسَاءِ إِلَّا مَا مَلَكَتْ أَيْمَانُكُمْ كِتَابَ اللَّهِ عَلَيْكُمْ وَأُحِلَّ لَكُمْ مَا وَرَاءَ ذَٰلِكُمْ أَنْ تَبْتَغُوا بِأَمْوَالِكُمْ مُحْصِنِينَ غَيْرَ مُسَافِحِينَ فَمَا اسْتَمْتَعْتُمْ بِهِ مِنْهُنَّ فَآتُوهُنَّ أُجُورَهُنَّ فَرِيضَةً وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا تَرَاضَيْتُمْ بِهِ مِنْ بَعْدِ الْفَرِيضَةِ إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004024.mp3",
 			subtitle: ""
@@ -5230,7 +5230,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ لَمْ يَسْتَطِعْ مِنْكُمْ طَوْلًا أَنْ يَنْكِحَ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ فَمِنْ مَا مَلَكَتْ أَيْمَانُكُمْ مِنْ فَتَيَاتِكُمُ الْمُؤْمِنَاتِ وَاللَّهُ أَعْلَمُ بِإِيمَانِكُمْ بَعْضُكُمْ مِنْ بَعْضٍ فَانْكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَآتُوهُنَّ أُجُورَهُنَّ بِالْمَعْرُوفِ مُحْصَنَاتٍ غَيْرَ مُسَافِحَاتٍ وَلَا مُتَّخِذَاتِ أَخْدَانٍ فَإِذَا أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَاحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى الْمُحْصَنَاتِ مِنَ الْعَذَابِ ذَٰلِكَ لِمَنْ خَشِيَ الْعَنَتَ مِنْكُمْ وَأَنْ تَصْبِرُوا خَيْرٌ لَكُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/004025.mp3",
 			subtitle: ""
@@ -5240,7 +5240,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يُرِيدُ اللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ الَّذِينَ مِنْ قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/004026.mp3",
 			subtitle: ""
@@ -5250,7 +5250,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاللَّهُ يُرِيدُ أَنْ يَتُوبَ عَلَيْكُمْ وَيُرِيدُ الَّذِينَ يَتَّبِعُونَ الشَّهَوَاتِ أَنْ تَمِيلُوا مَيْلًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004027.mp3",
 			subtitle: ""
@@ -5260,7 +5260,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يُرِيدُ اللَّهُ أَنْ يُخَفِّفَ عَنْكُمْ وَخُلِقَ الْإِنْسَانُ ضَعِيفًا",
             translation: "verse 19",
             audioUrl: "./data/004028.mp3",
 			subtitle: ""
@@ -5270,7 +5270,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ إِلَّا أَنْ تَكُونَ تِجَارَةً عَنْ تَرَاضٍ مِنْكُمْ وَلَا تَقْتُلُوا أَنْفُسَكُمْ إِنَّ اللَّهَ كَانَ بِكُمْ رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004029.mp3",
 			subtitle: ""
@@ -5280,7 +5280,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَفْعَلْ ذَٰلِكَ عُدْوَانًا وَظُلْمًا فَسَوْفَ نُصْلِيهِ نَارًا وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004030.mp3",
 			subtitle: ""
@@ -5290,7 +5290,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ تَجْتَنِبُوا كَبَائِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنْكُمْ سَيِّئَاتِكُمْ وَنُدْخِلْكُمْ مُدْخَلًا كَرِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004031.mp3",
 			subtitle: ""
@@ -5300,7 +5300,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَتَمَنَّوْا مَا فَضَّلَ اللَّهُ بِهِ بَعْضَكُمْ عَلَىٰ بَعْضٍ لِلرِّجَالِ نَصِيبٌ مِمَّا اكْتَسَبُوا وَلِلنِّسَاءِ نَصِيبٌ مِمَّا اكْتَسَبْنَ وَاسْأَلُوا اللَّهَ مِنْ فَضْلِهِ إِنَّ اللَّهَ كَانَ بِكُلِّ شَيْءٍ عَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004032.mp3",
 			subtitle: ""
@@ -5310,7 +5310,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِكُلٍّ جَعَلْنَا مَوَالِيَ مِمَّا تَرَكَ الْوَالِدَانِ وَالْأَقْرَبُونَ وَالَّذِينَ عَقَدَتْ أَيْمَانُكُمْ فَآتُوهُمْ نَصِيبَهُمْ إِنَّ اللَّهَ كَانَ عَلَىٰ كُلِّ شَيْءٍ شَهِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004033.mp3",
 			subtitle: ""
@@ -5320,7 +5320,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "الرِّجَالُ قَوَّامُونَ عَلَى النِّسَاءِ بِمَا فَضَّلَ اللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَا أَنْفَقُوا مِنْ أَمْوَالِهِمْ فَالصَّالِحَاتُ قَانِتَاتٌ حَافِظَاتٌ لِلْغَيْبِ بِمَا حَفِظَ اللَّهُ وَالّٰتِیۡۤ تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَاهْجُرُوهُنَّ فِي الْمَضَاجِعِ وَاضْرِبُوهُنَّ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا عَلَيْهِنَّ سَبِيلًا إِنَّ اللَّهَ كَانَ عَلِيًّا كَبِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004034.mp3",
 			subtitle: ""
@@ -5330,7 +5330,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَابْعَثُوا حَكَمًا مِنْ أَهْلِهِ وَحَكَمًا مِنْ أَهْلِهَا إِنْ يُرِيدَا إِصْلَاحًا يُوَفِّقِ اللَّهُ بَيْنَهُمَا إِنَّ اللَّهَ كَانَ عَلِيمًا خَبِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004035.mp3",
 			subtitle: ""
@@ -5340,7 +5340,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا بِهِ شَيْئًا وَبِالْوَالِدَيْنِ إِحْسَانًا وَبِذِي الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينِ وَالْجَارِ ذِي الْقُرْبَىٰ وَالْجَارِ الْجُنُبِ وَالصَّاحِبِ بِالْجَنْبِ وَابْنِ السَّبِيلِ وَمَا مَلَكَتْ أَيْمَانُكُمْ إِنَّ اللَّهَ لَا يُحِبُّ مَنْ كَانَ مُخْتَالًا فَخُورًا",
             translation: "verse 19",
             audioUrl: "./data/004036.mp3",
 			subtitle: ""
@@ -5350,7 +5350,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ النَّاسَ بِالْبُخْلِ وَيَكْتُمُونَ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ وَأَعْتَدْنَا لِلْكَافِرِينَ عَذَابًا مُهِينًا",
             translation: "verse 19",
             audioUrl: "./data/004037.mp3",
 			subtitle: ""
@@ -5360,7 +5360,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ يُنْفِقُونَ أَمْوَالَهُمْ رِئَاءَ النَّاسِ وَلَا يُؤْمِنُونَ بِاللَّهِ وَلَا بِالْيَوْمِ الْآخِرِ وَمَنْ يَكُنِ الشَّيْطَانُ لَهُ قَرِينًا فَسَاءَ قَرِينًا",
             translation: "verse 19",
             audioUrl: "./data/004038.mp3",
 			subtitle: ""
@@ -5370,7 +5370,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَاذَا عَلَيْهِمْ لَوْ آمَنُوا بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَأَنْفَقُوا مِمَّا رَزَقَهُمُ اللَّهُ وَكَانَ اللَّهُ بِهِمْ عَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004039.mp3",
 			subtitle: ""
@@ -5380,7 +5380,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ وَإِنْ تَكُ حَسَنَةً يُضَاعِفْهَا وَيُؤْتِ مِنْ لَدُنْهُ أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004040.mp3",
 			subtitle: ""
@@ -5390,7 +5390,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "فَكَيْفَ إِذَا جِئْنَا مِنْ كُلِّ أُمَّةٍ بِشَهِيدٍ وَجِئْنَا بِكَ عَلَىٰ هَٰؤُلَاءِ شَهِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004041.mp3",
 			subtitle: ""
@@ -5400,7 +5400,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "يَوْمَئِذٍ يَوَدُّ الَّذِينَ كَفَرُوا وَعَصَوُا الرَّسُولَ لَوْ تُسَوَّىٰ بِهِمُ الْأَرْضُ وَلَا يَكْتُمُونَ اللَّهَ حَدِيثًا",
             translation: "verse 19",
             audioUrl: "./data/004042.mp3",
 			subtitle: ""
@@ -5410,7 +5410,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَقْرَبُوا الصَّلَاةَ وَأَنْتُمْ سُكَارَىٰ حَتَّىٰ تَعْلَمُوا مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا وَإِنْ كُنْتُمْ مَرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِنْكُمْ مِنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا",
             translation: "verse 19",
             audioUrl: "./data/004043.mp3",
 			subtitle: ""
@@ -5420,7 +5420,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِنَ الْكِتَابِ يَشْتَرُونَ الضَّلَالَةَ وَيُرِيدُونَ أَنْ تَضِلُّوا السَّبِيلَ",
             translation: "verse 19",
             audioUrl: "./data/004044.mp3",
 			subtitle: ""
@@ -5430,7 +5430,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُمْ وَكَفَىٰ بِاللَّهِ وَلِيًّا وَكَفَىٰ بِاللَّهِ نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004045.mp3",
 			subtitle: ""
@@ -5440,7 +5440,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "مِنَ الَّذِينَ هَادُوا يُحَرِّفُونَ الْكَلِمَ عَنْ مَوَاضِعِهِ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَاسْمَعْ غَيْرَ مُسْمَعٍ وَرَاعِنَا لَيًّا بِأَلْسِنَتِهِمْ وَطَعْنًا فِي الدِّينِ وَلَوْ أَنَّهُمْ قَالُوا سَمِعْنَا وَأَطَعْنَا وَاسْمَعْ وَانْظُرْنَا لَكَانَ خَيْرًا لَهُمْ وَأَقْوَمَ وَلَٰكِنْ لَعَنَهُمُ اللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004046.mp3",
 			subtitle: ""
@@ -5450,7 +5450,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ أُوتُوا الْكِتَابَ آمِنُوا بِمَا نَزَّلْنَا مُصَدِّقًا لِمَا مَعَكُمْ مِنْ قَبْلِ أَنْ نَطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰ أَدْبَارِهَا أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّا أَصْحَابَ السَّبْتِ وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
             translation: "verse 19",
             audioUrl: "./data/004047.mp3",
 			subtitle: ""
@@ -5460,7 +5460,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ لَا يَغْفِرُ أَنْ يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَنْ يَشَاءُ وَمَنْ يُشْرِكْ بِاللَّهِ فَقَدِ افْتَرَىٰ إِثْمًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004048.mp3",
 			subtitle: ""
@@ -5470,7 +5470,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ يُزَكُّونَ أَنْفُسَهُمْ بَلِ اللَّهُ يُزَكِّي مَنْ يَشَاءُ وَلَا يُظْلَمُونَ فَتِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004049.mp3",
 			subtitle: ""
@@ -5480,7 +5480,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "انْظُرْ كَيْفَ يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ وَكَفَىٰ بِهِ إِثْمًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004050.mp3",
 			subtitle: ""
@@ -5490,7 +5490,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ أُوتُوا نَصِيبًا مِنَ الْكِتَابِ يُؤْمِنُونَ بِالْجِبْتِ وَالطَّاغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا هَٰؤُلَاءِ أَهْدَىٰ مِنَ الَّذِينَ آمَنُوا سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004051.mp3",
 			subtitle: ""
@@ -5500,7 +5500,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ لَعَنَهُمُ اللَّهُ وَمَنْ يَلْعَنِ اللَّهُ فَلَنْ تَجِدَ لَهُ نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004052.mp3",
 			subtitle: ""
@@ -5510,7 +5510,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ لَهُمْ نَصِيبٌ مِنَ الْمُلْكِ فَإِذًا لَا يُؤْتُونَ النَّاسَ نَقِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004053.mp3",
 			subtitle: ""
@@ -5520,7 +5520,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "أَمْ يَحْسُدُونَ النَّاسَ عَلَىٰ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ فَقَدْ آتَيْنَا آلَ إِبْرَاهِيمَ الْكِتَابَ وَالْحِكْمَةَ وَآتَيْنَاهُمْ مُلْكًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004054.mp3",
 			subtitle: ""
@@ -5530,7 +5530,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمِنْهُمْ مَنْ آمَنَ بِهِ وَمِنْهُمْ مَنْ صَدَّ عَنْهُ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004055.mp3",
 			subtitle: ""
@@ -5540,7 +5540,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِنَا سَوْفَ نُصْلِيهِمْ نَارًا كُلَّمَا نَضِجَتْ جُلُودُهُمْ بَدَّلْنَاهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا الْعَذَابَ إِنَّ اللَّهَ كَانَ عَزِيزًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004056.mp3",
 			subtitle: ""
@@ -5550,7 +5550,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا لَهُمْ فِيهَا أَزْوَاجٌ مُطَهَّرَةٌ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004057.mp3",
 			subtitle: ""
@@ -5560,7 +5560,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُمْ بَيْنَ النَّاسِ أَنْ تَحْكُمُوا بِالْعَدْلِ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُمْ بِهِ إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004058.mp3",
 			subtitle: ""
@@ -5570,7 +5570,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنْكُمْ فَإِنْ تَنَازَعْتُمْ فِي شَيْءٍ فَرُدُّوهُ إِلَى اللَّهِ وَالرَّسُولِ إِنْ كُنْتُمْ تُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004059.mp3",
 			subtitle: ""
@@ -5580,7 +5580,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ يُرِيدُونَ أَنْ يَتَحَاكَمُوا إِلَى الطَّاغُوتِ وَقَدْ أُمِرُوا أَنْ يَكْفُرُوا بِهِ وَيُرِيدُ الشَّيْطَانُ أَنْ يُضِلَّهُمْ ضَلَالًا بَعِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004060.mp3",
 			subtitle: ""
@@ -5590,7 +5590,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا إِلَىٰ مَا أَنْزَلَ اللَّهُ وَإِلَى الرَّسُولِ رَأَيْتَ الْمُنَافِقِينَ يَصُدُّونَ عَنْكَ صُدُودًا",
             translation: "verse 19",
             audioUrl: "./data/004061.mp3",
 			subtitle: ""
@@ -5600,7 +5600,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَكَيْفَ إِذَا أَصَابَتْهُمْ مُصِيبَةٌ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَاءُوكَ يَحْلِفُونَ بِاللَّهِ إِنْ أَرَدْنَا إِلَّا إِحْسَانًا وَتَوْفِيقًا",
             translation: "verse 19",
             audioUrl: "./data/004062.mp3",
 			subtitle: ""
@@ -5610,7 +5610,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ يَعْلَمُ اللَّهُ مَا فِي قُلُوبِهِمْ فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ وَقُلْ لَهُمْ فِي أَنْفُسِهِمْ قَوْلًا بَلِيغًا",
             translation: "verse 19",
             audioUrl: "./data/004063.mp3",
 			subtitle: ""
@@ -5620,7 +5620,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا أَرْسَلْنَا مِنْ رَسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ اللَّهِ وَلَوْ أَنَّهُمْ إِذْ ظَلَمُوا أَنْفُسَهُمْ جَاءُوكَ فَاسْتَغْفَرُوا اللَّهَ وَاسْتَغْفَرَ لَهُمُ الرَّسُولُ لَوَجَدُوا اللَّهَ تَوَّابًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004064.mp3",
 			subtitle: ""
@@ -5630,7 +5630,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنْفُسِهِمْ حَرَجًا مِمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004065.mp3",
 			subtitle: ""
@@ -5640,7 +5640,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ اقْتُلُوا أَنْفُسَكُمْ أَوِ اخْرُجُوا مِنْ دِيَارِكُمْ مَا فَعَلُوهُ إِلَّا قَلِيلٌ مِنْهُمْ وَلَوْ أَنَّهُمْ فَعَلُوا مَا يُوعَظُونَ بِهِ لَكَانَ خَيْرًا لَهُمْ وَأَشَدَّ تَثْبِيتًا",
             translation: "verse 19",
             audioUrl: "./data/004066.mp3",
 			subtitle: ""
@@ -5650,7 +5650,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذًا لَآتَيْنَاهُمْ مِنْ لَدُنَّا أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004067.mp3",
 			subtitle: ""
@@ -5660,7 +5660,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَهَدَيْنَاهُمْ صِرَاطًا مُسْتَقِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004068.mp3",
 			subtitle: ""
@@ -5670,7 +5670,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يُطِعِ اللَّهَ وَالرَّسُولَ فَأُولَٰئِكَ مَعَ الَّذِينَ أَنْعَمَ اللَّهُ عَلَيْهِمْ مِنَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ وَحَسُنَ أُولَٰئِكَ رَفِيقًا",
             translation: "verse 19",
             audioUrl: "./data/004069.mp3",
 			subtitle: ""
@@ -5680,7 +5680,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ الْفَضْلُ مِنَ اللَّهِ وَكَفَىٰ بِاللَّهِ عَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004070.mp3",
 			subtitle: ""
@@ -5690,7 +5690,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا خُذُوا حِذْرَكُمْ فَانْفِرُوا ثُبَاتٍ أَوِ انْفِرُوا جَمِيعًا",
             translation: "verse 19",
             audioUrl: "./data/004071.mp3",
 			subtitle: ""
@@ -5700,7 +5700,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنَّ مِنْكُمْ لَمَنْ لَيُبَطِّئَنَّ فَإِنْ أَصَابَتْكُمْ مُصِيبَةٌ قَالَ قَدْ أَنْعَمَ اللَّهُ عَلَيَّ إِذْ لَمْ أَكُنْ مَعَهُمْ شَهِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004072.mp3",
 			subtitle: ""
@@ -5710,7 +5710,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَئِنْ أَصَابَكُمْ فَضْلٌ مِنَ اللَّهِ لَيَقُولَنَّ كَأَنْ لَمْ تَكُنْ بَيْنَكُمْ وَبَيْنَهُ مَوَدَّةٌ يَالَيْتَنِي كُنْتُ مَعَهُمْ فَأَفُوزَ فَوْزًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004073.mp3",
 			subtitle: ""
@@ -5720,7 +5720,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلْيُقَاتِلْ فِي سَبِيلِ اللَّهِ الَّذِينَ يَشْرُونَ الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ وَمَنْ يُقَاتِلْ فِي سَبِيلِ اللَّهِ فَيُقْتَلْ أَوْ يَغْلِبْ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004074.mp3",
 			subtitle: ""
@@ -5730,7 +5730,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا لَكُمْ لَا تُقَاتِلُونَ فِي سَبِيلِ اللَّهِ وَالْمُسْتَضْعَفِينَ مِنَ الرِّجَالِ وَالنِّسَاءِ وَالْوِلْدَانِ الَّذِينَ يَقُولُونَ رَبَّنَا أَخْرِجْنَا مِنْ هَٰذِهِ الْقَرْيَةِ الظَّالِمِ أَهْلُهَا وَاجْعَلْ لَنَا مِنْ لَدُنْكَ وَلِيًّا وَاجْعَلْ لَنَا مِنْ لَدُنْكَ نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004075.mp3",
 			subtitle: ""
@@ -5740,7 +5740,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ آمَنُوا يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ وَالَّذِينَ كَفَرُوا يُقَاتِلُونَ فِي سَبِيلِ الطَّاغُوتِ فَقَاتِلُوا أَوْلِيَاءَ الشَّيْطَانِ إِنَّ كَيْدَ الشَّيْطَانِ كَانَ ضَعِيفًا",
             translation: "verse 19",
             audioUrl: "./data/004076.mp3",
 			subtitle: ""
@@ -5750,7 +5750,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَرَ إِلَى الَّذِينَ قِيلَ لَهُمْ كُفُّوا أَيْدِيَكُمْ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ فَلَمَّا كُتِبَ عَلَيْهِمُ الْقِتَالُ إِذَا فَرِيقٌ مِنْهُمْ يَخْشَوْنَ النَّاسَ كَخَشْيَةِ اللَّهِ أَوْ أَشَدَّ خَشْيَةً وَقَالُوا رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا الْقِتَالَ لَوْلَا أَخَّرْتَنَا إِلَىٰ أَجَلٍ قَرِيبٍ قُلْ مَتَاعُ الدُّنْيَا قَلِيلٌ وَالْآخِرَةُ خَيْرٌ لِمَنِ اتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004077.mp3",
 			subtitle: ""
@@ -5760,7 +5760,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "أَيْنَمَا تَكُونُوا يُدْرِكْكُمُ الْمَوْتُ وَلَوْ كُنْتُمْ فِي بُرُوجٍ مُشَيَّدَةٍ وَإِنْ تُصِبْهُمْ حَسَنَةٌ يَقُولُوا هَٰذِهِ مِنْ عِنْدِ اللَّهِ وَإِنْ تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا هَٰذِهِ مِنْ عِنْدِكَ قُلْ كُلٌّ مِنْ عِنْدِ اللَّهِ فَمَالِ هَٰؤُلَاءِ الْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
             translation: "verse 19",
             audioUrl: "./data/004078.mp3",
 			subtitle: ""
@@ -5770,7 +5770,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللَّهِ وَمَا أَصَابَكَ مِنْ سَيِّئَةٍ فَمِنْ نَفْسِكَ وَأَرْسَلْنَاكَ لِلنَّاسِ رَسُولًا وَكَفَىٰ بِاللَّهِ شَهِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004079.mp3",
 			subtitle: ""
@@ -5780,7 +5780,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ وَمَنْ تَوَلَّىٰ فَمَا أَرْسَلْنَاكَ عَلَيْهِمْ حَفِيظًا",
             translation: "verse 19",
             audioUrl: "./data/004080.mp3",
 			subtitle: ""
@@ -5790,7 +5790,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيَقُولُونَ طَاعَةٌ فَإِذَا بَرَزُوا مِنْ عِنْدِكَ بَيَّتَ طَائِفَةٌ مِنْهُمْ غَيْرَ الَّذِي تَقُولُ وَاللَّهُ يَكْتُبُ مَا يُبَيِّتُونَ فَأَعْرِضْ عَنْهُمْ وَتَوَكَّلْ عَلَى اللَّهِ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004081.mp3",
 			subtitle: ""
@@ -5800,7 +5800,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ وَلَوْ كَانَ مِنْ عِنْدِ غَيْرِ اللَّهِ لَوَجَدُوا فِيهِ اخْتِلَافًا كَثِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004082.mp3",
 			subtitle: ""
@@ -5810,7 +5810,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا جَاءَهُمْ أَمْرٌ مِنَ الْأَمْنِ أَوِ الْخَوْفِ أَذَاعُوا بِهِ وَلَوْ رَدُّوهُ إِلَى الرَّسُولِ وَإِلَىٰ أُولِي الْأَمْرِ مِنْهُمْ لَعَلِمَهُ الَّذِينَ يَسْتَنْبِطُونَهُ مِنْهُمْ وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَاتَّبَعْتُمُ الشَّيْطَانَ إِلَّا قَلِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004083.mp3",
 			subtitle: ""
@@ -5820,7 +5820,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "فَقَاتِلْ فِي سَبِيلِ اللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ وَحَرِّضِ الْمُؤْمِنِينَ عَسَى اللَّهُ أَنْ يَكُفَّ بَأْسَ الَّذِينَ كَفَرُوا وَاللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنْكِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004084.mp3",
 			subtitle: ""
@@ -5830,7 +5830,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ يَشْفَعْ شَفَاعَةً حَسَنَةً يَكُنْ لَهُ نَصِيبٌ مِنْهَا وَمَنْ يَشْفَعْ شَفَاعَةً سَيِّئَةً يَكُنْ لَهُ كِفْلٌ مِنْهَا وَكَانَ اللَّهُ عَلَىٰ كُلِّ شَيْءٍ مُقِيتًا",
             translation: "verse 19",
             audioUrl: "./data/004085.mp3",
 			subtitle: ""
@@ -5840,7 +5840,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا حُيِّيتُمْ بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا إِنَّ اللَّهَ كَانَ عَلَىٰ كُلِّ شَيْءٍ حَسِيبًا",
             translation: "verse 19",
             audioUrl: "./data/004086.mp3",
 			subtitle: ""
@@ -5850,7 +5850,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ الْقِيَامَةِ لَا رَيْبَ فِيهِ وَمَنْ أَصْدَقُ مِنَ اللَّهِ حَدِيثًا",
             translation: "verse 19",
             audioUrl: "./data/004087.mp3",
 			subtitle: ""
@@ -5860,7 +5860,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَا لَكُمْ فِي الْمُنَافِقِينَ فِئَتَيْنِ وَاللَّهُ أَرْكَسَهُمْ بِمَا كَسَبُوا أَتُرِيدُونَ أَنْ تَهْدُوا مَنْ أَضَلَّ اللَّهُ وَمَنْ يُضْلِلِ اللَّهُ فَلَنْ تَجِدَ لَهُ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004088.mp3",
 			subtitle: ""
@@ -5870,7 +5870,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَدُّوا لَوْ تَكْفُرُونَ كَمَا كَفَرُوا فَتَكُونُونَ سَوَاءً فَلَا تَتَّخِذُوا مِنْهُمْ أَوْلِيَاءَ حَتَّىٰ يُهَاجِرُوا فِي سَبِيلِ اللَّهِ فَإِنْ تَوَلَّوْا فَخُذُوهُمْ وَاقْتُلُوهُمْ حَيْثُ وَجَدْتُمُوهُمْ وَلَا تَتَّخِذُوا مِنْهُمْ وَلِيًّا وَلَا نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004089.mp3",
 			subtitle: ""
@@ -5880,7 +5880,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا الَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ أَوْ جَاءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَنْ يُقَاتِلُوكُمْ أَوْ يُقَاتِلُوا قَوْمَهُمْ وَلَوْ شَاءَ اللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَاتَلُوكُمْ فَإِنِ اعْتَزَلُوكُمْ فَلَمْ يُقَاتِلُوكُمْ وَأَلْقَوْا إِلَيْكُمُ السَّلَمَ فَمَا جَعَلَ اللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004090.mp3",
 			subtitle: ""
@@ -5890,7 +5890,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "سَتَجِدُونَ آخَرِينَ يُرِيدُونَ أَنْ يَأْمَنُوكُمْ وَيَأْمَنُوا قَوْمَهُمْ كُلَّ مَا رُدُّوا إِلَى الْفِتْنَةِ أُرْكِسُوا فِيهَا فَإِنْ لَمْ يَعْتَزِلُوكُمْ وَيُلْقُوا إِلَيْكُمُ السَّلَمَ وَيَكُفُّوا أَيْدِيَهُمْ فَخُذُوهُمْ وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأُولَٰئِكُمْ جَعَلْنَا لَكُمْ عَلَيْهِمْ سُلْطَانًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004091.mp3",
 			subtitle: ""
@@ -5900,7 +5900,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا كَانَ لِمُؤْمِنٍ أَنْ يَقْتُلَ مُؤْمِنًا إِلَّا خَطَأً وَمَنْ قَتَلَ مُؤْمِنًا خَطَأً فَتَحْرِيرُ رَقَبَةٍ مُؤْمِنَةٍ وَدِيَةٌ مُسَلَّمَةٌ إِلَىٰ أَهْلِهِ إِلَّا أَنْ يَصَّدَّقُوا فَإِنْ كَانَ مِنْ قَوْمٍ عَدُوٍّ لَكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُؤْمِنَةٍ وَإِنْ كَانَ مِنْ قَوْمٍ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ فَدِيَةٌ مُسَلَّمَةٌ إِلَىٰ أَهْلِهِ وَتَحْرِيرُ رَقَبَةٍ مُؤْمِنَةٍ فَمَنْ لَمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِنَ اللَّهِ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004092.mp3",
 			subtitle: ""
@@ -5910,7 +5910,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ خَالِدًا فِيهَا وَغَضِبَ اللَّهُ عَلَيْهِ وَلَعَنَهُ وَأَعَدَّ لَهُ عَذَابًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004093.mp3",
 			subtitle: ""
@@ -5920,7 +5920,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِي سَبِيلِ اللَّهِ فَتَبَيَّنُوا وَلَا تَقُولُوا لِمَنْ أَلْقَىٰ إِلَيْكُمُ السَّلَامَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ الْحَيَاةِ الدُّنْيَا فَعِنْدَ اللَّهِ مَغَانِمُ كَثِيرَةٌ كَذَٰلِكَ كُنْتُمْ مِنْ قَبْلُ فَمَنَّ اللَّهُ عَلَيْكُمْ فَتَبَيَّنُوا إِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004094.mp3",
 			subtitle: ""
@@ -5930,7 +5930,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ غَيْرُ أُولِي الضَّرَرِ وَالْمُجَاهِدُونَ فِي سَبِيلِ اللَّهِ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ فَضَّلَ اللَّهُ الْمُجَاهِدِينَ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ عَلَى الْقَاعِدِينَ دَرَجَةً وَكُلًّا وَعَدَ اللَّهُ الْحُسْنَىٰ وَفَضَّلَ اللَّهُ الْمُجَاهِدِينَ عَلَى الْقَاعِدِينَ أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004095.mp3",
 			subtitle: ""
@@ -5940,7 +5940,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "دَرَجَاتٍ مِنْهُ وَمَغْفِرَةً وَرَحْمَةً وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004096.mp3",
 			subtitle: ""
@@ -5950,7 +5950,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ تَوَفَّاهُمُ الْمَلَائِكَةُ ظَالِمِي أَنْفُسِهِمْ قَالُوا فِيمَ كُنْتُمْ قَالُوا كُنَّا مُسْتَضْعَفِينَ فِي الْأَرْضِ قَالُوا أَلَمْ تَكُنْ أَرْضُ اللَّهِ وَاسِعَةً فَتُهَاجِرُوا فِيهَا فَأُولَٰئِكَ مَأْوَاهُمْ جَهَنَّمُ وَسَاءَتْ مَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004097.mp3",
 			subtitle: ""
@@ -5960,7 +5960,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا الْمُسْتَضْعَفِينَ مِنَ الرِّجَالِ وَالنِّسَاءِ وَالْوِلْدَانِ لَا يَسْتَطِيعُونَ حِيلَةً وَلَا يَهْتَدُونَ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004098.mp3",
 			subtitle: ""
@@ -5970,7 +5970,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَأُولَٰئِكَ عَسَى اللَّهُ أَنْ يَعْفُوَ عَنْهُمْ وَكَانَ اللَّهُ عَفُوًّا غَفُورًا",
             translation: "verse 19",
             audioUrl: "./data/004099.mp3",
 			subtitle: ""
@@ -5980,7 +5980,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يُهَاجِرْ فِي سَبِيلِ اللَّهِ يَجِدْ فِي الْأَرْضِ مُرَاغَمًا كَثِيرًا وَسَعَةً وَمَنْ يَخْرُجْ مِنْ بَيْتِهِ مُهَاجِرًا إِلَى اللَّهِ وَرَسُولِهِ ثُمَّ يُدْرِكْهُ الْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُ عَلَى اللَّهِ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004100.mp3",
 			subtitle: ""
@@ -5990,7 +5990,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا ضَرَبْتُمْ فِي الْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَنْ تَقْصُرُوا مِنَ الصَّلَاةِ إِنْ خِفْتُمْ أَنْ يَفْتِنَكُمُ الَّذِينَ كَفَرُوا إِنَّ الْكَافِرِينَ كَانُوا لَكُمْ عَدُوًّا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004101.mp3",
 			subtitle: ""
@@ -6000,7 +6000,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا كُنْتَ فِيهِمْ فَأَقَمْتَ لَهُمُ الصَّلَاةَ فَلْتَقُمْ طَائِفَةٌ مِنْهُمْ مَعَكَ وَلْيَأْخُذُوا أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا فَلْيَكُونُوا مِنْ وَرَائِكُمْ وَلْتَأْتِ طَائِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُمْ مَيْلَةً وَاحِدَةً وَلَا جُنَاحَ عَلَيْكُمْ إِنْ كَانَ بِكُمْ أَذًى مِنْ مَطَرٍ أَوْ كُنْتُمْ مَرْضَىٰ أَنْ تَضَعُوا أَسْلِحَتَكُمْ وَخُذُوا حِذْرَكُمْ إِنَّ اللَّهَ أَعَدَّ لِلْكَافِرِينَ عَذَابًا مُهِينًا",
             translation: "verse 19",
             audioUrl: "./data/004102.mp3",
 			subtitle: ""
@@ -6010,7 +6010,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٣',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِذَا قَضَيْتُمُ الصَّلَاةَ فَاذْكُرُوا اللَّهَ قِيَامًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ فَإِذَا اطْمَأْنَنْتُمْ فَأَقِيمُوا الصَّلَاةَ إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا",
             translation: "verse 19",
             audioUrl: "./data/004103.mp3",
 			subtitle: ""
@@ -6020,7 +6020,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَهِنُوا فِي ابْتِغَاءِ الْقَوْمِ إِنْ تَكُونُوا تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ وَتَرْجُونَ مِنَ اللَّهِ مَا لَا يَرْجُونَ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004104.mp3",
 			subtitle: ""
@@ -6030,7 +6030,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّا أَنْزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ لِتَحْكُمَ بَيْنَ النَّاسِ بِمَا أَرَاكَ اللَّهُ وَلَا تَكُنْ لِلْخَائِنِينَ خَصِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004105.mp3",
 			subtitle: ""
@@ -6040,7 +6040,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاسْتَغْفِرِ اللَّهَ إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004106.mp3",
 			subtitle: ""
@@ -6050,7 +6050,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تُجَادِلْ عَنِ الَّذِينَ يَخْتَانُونَ أَنْفُسَهُمْ إِنَّ اللَّهَ لَا يُحِبُّ مَنْ كَانَ خَوَّانًا أَثِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004107.mp3",
 			subtitle: ""
@@ -6060,7 +6060,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْتَخْفُونَ مِنَ النَّاسِ وَلَا يَسْتَخْفُونَ مِنَ اللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَىٰ مِنَ الْقَوْلِ وَكَانَ اللَّهُ بِمَا يَعْمَلُونَ مُحِيطًا",
             translation: "verse 19",
             audioUrl: "./data/004108.mp3",
 			subtitle: ""
@@ -6070,7 +6070,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٠٩',		
-            arabicText: "Arabic text here",
+            arabicText: "هَاأَنْتُمْ هَٰؤُلَاءِ جَادَلْتُمْ عَنْهُمْ فِي الْحَيَاةِ الدُّنْيَا فَمَنْ يُجَادِلُ اللَّهَ عَنْهُمْ يَوْمَ الْقِيَامَةِ أَمْ مَنْ يَكُونُ عَلَيْهِمْ وَكِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004109.mp3",
 			subtitle: ""
@@ -6080,7 +6080,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ ثُمَّ يَسْتَغْفِرِ اللَّهَ يَجِدِ اللَّهَ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004110.mp3",
 			subtitle: ""
@@ -6089,7 +6089,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَكْسِبْ إِثْمًا فَإِنَّمَا يَكْسِبُهُ عَلَىٰ نَفْسِهِ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004111.mp3",
 			subtitle: ""
@@ -6099,7 +6099,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَكْسِبْ خَطِيئَةً أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِ بَرِيئًا فَقَدِ احْتَمَلَ بُهْتَانًا وَإِثْمًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004112.mp3",
 			subtitle: ""
@@ -6109,7 +6109,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكَ وَرَحْمَتُهُ لَهَمَّتْ طَائِفَةٌ مِنْهُمْ أَنْ يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّا أَنْفُسَهُمْ وَمَا يَضُرُّونَكَ مِنْ شَيْءٍ وَأَنْزَلَ اللَّهُ عَلَيْكَ الْكِتَابَ وَالْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُنْ تَعْلَمُ وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004113.mp3",
 			subtitle: ""
@@ -6119,7 +6119,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢:١١٤)',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا خَيْرَ فِي كَثِيرٍ مِنْ نَجْوَاهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَاحٍ بَيْنَ النَّاسِ وَمَنْ يَفْعَلْ ذَٰلِكَ ابْتِغَاءَ مَرْضَاتِ اللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004114.mp3",
 			subtitle: ""
@@ -6129,7 +6129,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '٢:١١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يُشَاقِقِ الرَّسُولَ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُ الْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ الْمُؤْمِنِينَ نُوَلِّهِ مَا تَوَلَّىٰ وَنُصْلِهِ جَهَنَّمَ وَسَاءَتْ مَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004115.mp3",
 			subtitle: ""
@@ -6138,7 +6138,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ لَا يَغْفِرُ أَنْ يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَنْ يَشَاءُ وَمَنْ يُشْرِكْ بِاللَّهِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004116.mp3",
 			subtitle: ""
@@ -6148,7 +6148,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ يَدْعُونَ مِنْ دُونِهِ إِلَّا إِنَاثًا وَإِنْ يَدْعُونَ إِلَّا شَيْطَانًا مَرِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004117.mp3",
 			subtitle: ""
@@ -6158,7 +6158,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَعَنَهُ اللَّهُ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًا مَفْرُوضًا",
             translation: "verse 19",
             audioUrl: "./data/004118.mp3",
 			subtitle: ""
@@ -6168,7 +6168,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَآمُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ الْأَنْعَامِ وَلَآمُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ اللَّهِ وَمَنْ يَتَّخِذِ الشَّيْطَانَ وَلِيًّا مِنْ دُونِ اللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004119.mp3",
 			subtitle: ""
@@ -6178,7 +6178,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَعِدُهُمْ وَيُمَنِّيهِمْ وَمَا يَعِدُهُمُ الشَّيْطَانُ إِلَّا غُرُورًا",
             translation: "verse 19",
             audioUrl: "./data/004120.mp3",
 			subtitle: ""
@@ -6188,7 +6188,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ مَأْوَاهُمْ جَهَنَّمُ وَلَا يَجِدُونَ عَنْهَا مَحِيصًا",
             translation: "verse 19",
             audioUrl: "./data/004121.mp3",
 			subtitle: ""
@@ -6198,7 +6198,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا وَعْدَ اللَّهِ حَقًّا وَمَنْ أَصْدَقُ مِنَ اللَّهِ قِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004122.mp3",
 			subtitle: ""
@@ -6208,7 +6208,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسَ بِأَمَانِيِّكُمْ وَلَا أَمَانِيِّ أَهْلِ الْكِتَابِ مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ وَلَا يَجِدْ لَهُ مِنْ دُونِ اللَّهِ وَلِيًّا وَلَا نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004123.mp3",
 			subtitle: ""
@@ -6218,7 +6218,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ مِنْ ذَكَرٍ أَوْ أُنْثَىٰ وَهُوَ مُؤْمِنٌ فَأُولَٰئِكَ يَدْخُلُونَ الْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004124.mp3",
 			subtitle: ""
@@ -6228,7 +6228,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ أَحْسَنُ دِينًا مِمَّنْ أَسْلَمَ وَجْهَهُ لِلَّهِ وَهُوَ مُحْسِنٌ وَاتَّبَعَ مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004125.mp3",
 			subtitle: ""
@@ -6238,7 +6238,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَكَانَ اللَّهُ بِكُلِّ شَيْءٍ مُحِيطًا",
             translation: "verse 19",
             audioUrl: "./data/004126.mp3",
 			subtitle: ""
@@ -6248,7 +6248,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيَسْتَفْتُونَكَ فِي النِّسَاءِ قُلِ اللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِي الْكِتَابِ فِي يَتَامَى النِّسَاءِ الّٰتِیۡۤ لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ وَتَرْغَبُونَ أَنْ تَنْكِحُوهُنَّ وَالْمُسْتَضْعَفِينَ مِنَ الْوِلْدَانِ وَأَنْ تَقُومُوا لِلْيَتَامَىٰ بِالْقِسْطِ وَمَا تَفْعَلُوا مِنْ خَيْرٍ فَإِنَّ اللَّهَ كَانَ بِهِ عَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004127.mp3",
 			subtitle: ""
@@ -6258,7 +6258,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَا أَنْ يُصْلِحَا بَيْنَهُمَا صُلْحًا وَالصُّلْحُ خَيْرٌ وَأُحْضِرَتِ الْأَنْفُسُ الشُّحَّ وَإِنْ تُحْسِنُوا وَتَتَّقُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004128.mp3",
 			subtitle: ""
@@ -6268,7 +6268,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَنْ تَسْتَطِيعُوا أَنْ تَعْدِلُوا بَيْنَ النِّسَاءِ وَلَوْ حَرَصْتُمْ فَلَا تَمِيلُوا كُلَّ الْمَيْلِ فَتَذَرُوهَا كَالْمُعَلَّقَةِ وَإِنْ تُصْلِحُوا وَتَتَّقُوا فَإِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004129.mp3",
 			subtitle: ""
@@ -6278,7 +6278,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ يَتَفَرَّقَا يُغْنِ اللَّهُ كُلًّا مِنْ سَعَتِهِ وَكَانَ اللَّهُ وَاسِعًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004130.mp3",
 			subtitle: ""
@@ -6288,7 +6288,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَلَقَدْ وَصَّيْنَا الَّذِينَ أُوتُوا الْكِتَابَ مِنْ قَبْلِكُمْ وَإِيَّاكُمْ أَنِ اتَّقُوا اللَّهَ وَإِنْ تَكْفُرُوا فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَكَانَ اللَّهُ غَنِيًّا حَمِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004131.mp3",
 			subtitle: ""
@@ -6298,7 +6298,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004132.mp3",
 			subtitle: ""
@@ -6308,7 +6308,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ يَشَأْ يُذْهِبْكُمْ أَيُّهَا النَّاسُ وَيَأْتِ بِآخَرِينَ وَكَانَ اللَّهُ عَلَىٰ ذَٰلِكَ قَدِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004133.mp3",
 			subtitle: ""
@@ -6317,7 +6317,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ كَانَ يُرِيدُ ثَوَابَ الدُّنْيَا فَعِنْدَ اللَّهِ ثَوَابُ الدُّنْيَا وَالْآخِرَةِ وَكَانَ اللَّهُ سَمِيعًا بَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004134.mp3",
 			subtitle: ""
@@ -6327,7 +6327,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ بِالْقِسْطِ شُهَدَاءَ لِلَّهِ وَلَوْ عَلَىٰ أَنْفُسِكُمْ أَوِ الْوَالِدَيْنِ وَالْأَقْرَبِينَ إِنْ يَكُنْ غَنِيًّا أَوْ فَقِيرًا فَاللَّهُ أَوْلَىٰ بِهِمَا فَلَا تَتَّبِعُوا الْهَوَىٰ أَنْ تَعْدِلُوا وَإِنْ تَلْوُوا أَوْ تُعْرِضُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004135.mp3",
 			subtitle: ""
@@ -6337,7 +6337,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا آمِنُوا بِاللَّهِ وَرَسُولِهِ وَالْكِتَابِ الَّذِي نَزَّلَ عَلَىٰ رَسُولِهِ وَالْكِتَابِ الَّذِي أَنْزَلَ مِنْ قَبْلُ وَمَنْ يَكْفُرْ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ فَقَدْ ضَلَّ ضَلَالًا بَعِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004136.mp3",
 			subtitle: ""
@@ -6347,7 +6347,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ آمَنُوا ثُمَّ كَفَرُوا ثُمَّ آمَنُوا ثُمَّ كَفَرُوا ثُمَّ ازْدَادُوا كُفْرًا لَمْ يَكُنِ اللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004137.mp3",
 			subtitle: ""
@@ -6357,7 +6357,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "بَشِّرِ الْمُنَافِقِينَ بِأَنَّ لَهُمْ عَذَابًا أَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004138.mp3",
 			subtitle: ""
@@ -6366,7 +6366,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَتَّخِذُونَ الْكَافِرِينَ أَوْلِيَاءَ مِنْ دُونِ الْمُؤْمِنِينَ أَيَبْتَغُونَ عِنْدَهُمُ الْعِزَّةَ فَإِنَّ الْعِزَّةَ لِلَّهِ جَمِيعًا",
             translation: "verse 19",
             audioUrl: "./data/004139.mp3",
 			subtitle: ""
@@ -6376,7 +6376,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَدْ نَزَّلَ عَلَيْكُمْ فِي الْكِتَابِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ اللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا مَعَهُمْ حَتَّىٰ يَخُوضُوا فِي حَدِيثٍ غَيْرِهِ إِنَّكُمْ إِذًا مِثْلُهُمْ إِنَّ اللَّهَ جَامِعُ الْمُنَافِقِينَ وَالْكَافِرِينَ فِي جَهَنَّمَ جَمِيعًا",
             translation: "verse 19",
             audioUrl: "./data/004140.mp3",
 			subtitle: ""
@@ -6386,7 +6386,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِنْ كَانَ لَكُمْ فَتْحٌ مِنَ اللَّهِ قَالُوا أَلَمْ نَكُنْ مَعَكُمْ وَإِنْ كَانَ لِلْكَافِرِينَ نَصِيبٌ قَالُوا أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُمْ مِنَ الْمُؤْمِنِينَ فَاللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ الْقِيَامَةِ وَلَنْ يَجْعَلَ اللَّهُ لِلْكَافِرِينَ عَلَى الْمُؤْمِنِينَ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004141.mp3",
 			subtitle: ""
@@ -6396,7 +6396,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الْمُنَافِقِينَ يُخَادِعُونَ اللَّهَ وَهُوَ خَادِعُهُمْ وَإِذَا قَامُوا إِلَى الصَّلَاةِ قَامُوا كُسَالَىٰ يُرَاءُونَ النَّاسَ وَلَا يَذْكُرُونَ اللَّهَ إِلَّا قَلِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004142.mp3",
 			subtitle: ""
@@ -6406,7 +6406,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "مُذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَا إِلَىٰ هَٰؤُلَاءِ وَلَا إِلَىٰ هَٰؤُلَاءِ وَمَنْ يُضْلِلِ اللَّهُ فَلَنْ تَجِدَ لَهُ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004143.mp3",
 			subtitle: ""
@@ -6416,7 +6416,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا الْكَافِرِينَ أَوْلِيَاءَ مِنْ دُونِ الْمُؤْمِنِينَ أَتُرِيدُونَ أَنْ تَجْعَلُوا لِلَّهِ عَلَيْكُمْ سُلْطَانًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004144.mp3",
 			subtitle: ""
@@ -6426,7 +6426,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الْمُنَافِقِينَ فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ وَلَنْ تَجِدَ لَهُمْ نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004145.mp3",
 			subtitle: ""
@@ -6436,7 +6436,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا الَّذِينَ تَابُوا وَأَصْلَحُوا وَاعْتَصَمُوا بِاللَّهِ وَأَخْلَصُوا دِينَهُمْ لِلَّهِ فَأُولَٰئِكَ مَعَ الْمُؤْمِنِينَ وَسَوْفَ يُؤْتِ اللَّهُ الْمُؤْمِنِينَ أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004146.mp3",
 			subtitle: ""
@@ -6446,7 +6446,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا يَفْعَلُ اللَّهُ بِعَذَابِكُمْ إِنْ شَكَرْتُمْ وَآمَنْتُمْ وَكَانَ اللَّهُ شَاكِرًا عَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004147.mp3",
 			subtitle: ""
@@ -6456,7 +6456,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يُحِبُّ اللَّهُ الْجَهْرَ بِالسُّوءِ مِنَ الْقَوْلِ إِلَّا مَنْ ظُلِمَ وَكَانَ اللَّهُ سَمِيعًا عَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004148.mp3",
 			subtitle: ""
@@ -6466,7 +6466,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ تُبْدُوا خَيْرًا أَوْ تُخْفُوهُ أَوْ تَعْفُوا عَنْ سُوءٍ فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004149.mp3",
 			subtitle: ""
@@ -6476,7 +6476,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ يَكْفُرُونَ بِاللَّهِ وَرُسُلِهِ وَيُرِيدُونَ أَنْ يُفَرِّقُوا بَيْنَ اللَّهِ وَرُسُلِهِ وَيَقُولُونَ نُؤْمِنُ بِبَعْضٍ وَنَكْفُرُ بِبَعْضٍ وَيُرِيدُونَ أَنْ يَتَّخِذُوا بَيْنَ ذَٰلِكَ سَبِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004150.mp3",
 			subtitle: ""
@@ -6486,7 +6486,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ هُمُ الْكَافِرُونَ حَقًّا وَأَعْتَدْنَا لِلْكَافِرِينَ عَذَابًا مُهِينًا",
             translation: "verse 19",
             audioUrl: "./data/004151.mp3",
 			subtitle: ""
@@ -6496,7 +6496,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ آمَنُوا بِاللَّهِ وَرُسُلِهِ وَلَمْ يُفَرِّقُوا بَيْنَ أَحَدٍ مِنْهُمْ أُولَٰئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004152.mp3",
 			subtitle: ""
@@ -6506,7 +6506,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْأَلُكَ أَهْلُ الْكِتَابِ أَنْ تُنَزِّلَ عَلَيْهِمْ كِتَابًا مِنَ السَّمَاءِ فَقَدْ سَأَلُوا مُوسَىٰ أَكْبَرَ مِنْ ذَٰلِكَ فَقَالُوا أَرِنَا اللَّهَ جَهْرَةً فَأَخَذَتْهُمُ الصَّاعِقَةُ بِظُلْمِهِمْ ثُمَّ اتَّخَذُوا الْعِجْلَ مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَاتُ فَعَفَوْنَا عَنْ ذَٰلِكَ وَآتَيْنَا مُوسَىٰ سُلْطَانًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004153.mp3",
 			subtitle: ""
@@ -6516,7 +6516,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَرَفَعْنَا فَوْقَهُمُ الطُّورَ بِمِيثَاقِهِمْ وَقُلْنَا لَهُمُ ادْخُلُوا الْبَابَ سُجَّدًا وَقُلْنَا لَهُمْ لَا تَعْدُوا فِي السَّبْتِ وَأَخَذْنَا مِنْهُمْ مِيثَاقًا غَلِيظًا",
             translation: "verse 19",
             audioUrl: "./data/004154.mp3",
 			subtitle: ""
@@ -6526,7 +6526,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَبِمَا نَقْضِهِمْ مِيثَاقَهُمْ وَكُفْرِهِمْ بِآيَاتِ اللَّهِ وَقَتْلِهِمُ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ وَقَوْلِهِمْ قُلُوبُنَا غُلْفٌ بَلْ طَبَعَ اللَّهُ عَلَيْهَا بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004155.mp3",
 			subtitle: ""
@@ -6536,7 +6536,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَانًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004156.mp3",
 			subtitle: ""
@@ -6545,7 +6545,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِنْ شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُوا فِيهِ لَفِي شَكٍّ مِنْهُ مَا لَهُمْ بِهِ مِنْ عِلْمٍ إِلَّا اتِّبَاعَ الظَّنِّ وَمَا قَتَلُوهُ يَقِينًا",
             translation: "verse 19",
             audioUrl: "./data/004157.mp3",
 			subtitle: ""
@@ -6555,7 +6555,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلْ رَفَعَهُ اللَّهُ إِلَيْهِ وَكَانَ اللَّهُ عَزِيزًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004158.mp3",
 			subtitle: ""
@@ -6565,7 +6565,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ مِنْ أَهْلِ الْكِتَابِ إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ وَيَوْمَ الْقِيَامَةِ يَكُونُ عَلَيْهِمْ شَهِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004159.mp3",
 			subtitle: ""
@@ -6575,7 +6575,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فَبِظُلْمٍ مِنَ الَّذِينَ هَادُوا حَرَّمْنَا عَلَيْهِمْ طَيِّبَاتٍ أُحِلَّتْ لَهُمْ وَبِصَدِّهِمْ عَنْ سَبِيلِ اللَّهِ كَثِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004160.mp3",
 			subtitle: ""
@@ -6585,7 +6585,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَخْذِهِمُ الرِّبَا وَقَدْ نُهُوا عَنْهُ وَأَكْلِهِمْ أَمْوَالَ النَّاسِ بِالْبَاطِلِ وَأَعْتَدْنَا لِلْكَافِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004161.mp3",
 			subtitle: ""
@@ -6594,7 +6594,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "لَٰكِنِ الرَّاسِخُونَ فِي الْعِلْمِ مِنْهُمْ وَالْمُؤْمِنُونَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَالْمُقِيمِينَ الصَّلَاةَ وَالْمُؤْتُونَ الزَّكَاةَ وَالْمُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ أُولَٰئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004162.mp3",
 			subtitle: ""
@@ -6604,7 +6604,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَىٰ نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ وَأَوْحَيْنَا إِلَىٰ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ وَآتَيْنَا دَاوُودَ زَبُورًا",
             translation: "verse 19",
             audioUrl: "./data/004163.mp3",
 			subtitle: ""
@@ -6614,7 +6614,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَرُسُلًا قَدْ قَصَصْنَاهُمْ عَلَيْكَ مِنْ قَبْلُ وَرُسُلًا لَمْ نَقْصُصْهُمْ عَلَيْكَ وَكَلَّمَ اللَّهُ مُوسَىٰ تَكْلِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004164.mp3",
 			subtitle: ""
@@ -6624,7 +6624,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "رُسُلًا مُبَشِّرِينَ وَمُنْذِرِينَ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ وَكَانَ اللَّهُ عَزِيزًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004165.mp3",
 			subtitle: ""
@@ -6634,7 +6634,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "لَٰكِنِ اللَّهُ يَشْهَدُ بِمَا أَنْزَلَ إِلَيْكَ أَنْزَلَهُ بِعِلْمِهِ وَالْمَلَائِكَةُ يَشْهَدُونَ وَكَفَىٰ بِاللَّهِ شَهِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004166.mp3",
 			subtitle: ""
@@ -6644,7 +6644,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا",
             translation: "verse 19",
             audioUrl: "./data/004167.mp3",
 			subtitle: ""
@@ -6654,7 +6654,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا وَظَلَمُوا لَمْ يَكُنِ اللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ طَرِيقًا",
             translation: "verse 19",
             audioUrl: "./data/004168.mp3",
 			subtitle: ""
@@ -6664,7 +6664,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا طَرِيقَ جَهَنَّمَ خَالِدِينَ فِيهَا أَبَدًا وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004169.mp3",
 			subtitle: ""
@@ -6674,7 +6674,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا النَّاسُ قَدْ جَاءَكُمُ الرَّسُولُ بِالْحَقِّ مِنْ رَبِّكُمْ فَآمِنُوا خَيْرًا لَكُمْ وَإِنْ تَكْفُرُوا فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004170.mp3",
 			subtitle: ""
@@ -6684,7 +6684,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَهْلَ الْكِتَابِ لَا تَغْلُوا فِي دِينِكُمْ وَلَا تَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ إِنَّمَا الْمَسِيحُ عِيسَى ابْنُ مَرْيَمَ رَسُولُ اللَّهِ وَكَلِمَتُهُ أَلْقَاهَا إِلَىٰ مَرْيَمَ وَرُوحٌ مِنْهُ فَآمِنُوا بِاللَّهِ وَرُسُلِهِ وَلَا تَقُولُوا ثَلَاثَةٌ انْتَهُوا خَيْرًا لَكُمْ إِنَّمَا اللَّهُ إِلَٰهٌ وَاحِدٌ سُبْحَانَهُ أَنْ يَكُونَ لَهُ وَلَدٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
             translation: "verse 19",
             audioUrl: "./data/004171.mp3",
 			subtitle: ""
@@ -6694,7 +6694,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "لَنْ يَسْتَنْكِفَ الْمَسِيحُ أَنْ يَكُونَ عَبْدًا لِلَّهِ وَلَا الْمَلَائِكَةُ الْمُقَرَّبُونَ وَمَنْ يَسْتَنْكِفْ عَنْ عِبَادَتِهِ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
             translation: "verse 19",
             audioUrl: "./data/004172.mp3",
 			subtitle: ""
@@ -6704,7 +6704,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "فَأَمَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُمْ مِنْ فَضْلِهِ وَأَمَّا الَّذِينَ اسْتَنْكَفُوا وَاسْتَكْبَرُوا فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا وَلَا يَجِدُونَ لَهُمْ مِنْ دُونِ اللَّهِ وَلِيًّا وَلَا نَصِيرًا",
             translation: "verse 19",
             audioUrl: "./data/004173.mp3",
 			subtitle: ""
@@ -6714,7 +6714,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا النَّاسُ قَدْ جَاءَكُمْ بُرْهَانٌ مِنْ رَبِّكُمْ وَأَنْزَلْنَا إِلَيْكُمْ نُورًا مُبِينًا",
             translation: "verse 19",
             audioUrl: "./data/004174.mp3",
 			subtitle: ""
@@ -6724,7 +6724,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَأَمَّا الَّذِينَ آمَنُوا بِاللَّهِ وَاعْتَصَمُوا بِهِ فَسَيُدْخِلُهُمْ فِي رَحْمَةٍ مِنْهُ وَفَضْلٍ وَيَهْدِيهِمْ إِلَيْهِ صِرَاطًا مُسْتَقِيمًا",
             translation: "verse 19",
             audioUrl: "./data/004175.mp3",
 			subtitle: ""
@@ -6734,7 +6734,7 @@ surahData[4] = {
             surahNumber: 4,
 			surahNumberArabic: '٤',
 			ayatNumberArabic: '١٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَسْتَفْتُونَكَ قُلِ اللَّهُ يُفْتِيكُمْ فِي الْكَلَالَةِ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ وَهُوَ يَرِثُهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ مِمَّا تَرَكَ وَإِنْ كَانُوا إِخْوَةً رِجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ يُبَيِّنُ اللَّهُ لَكُمْ أَنْ تَضِلُّوا وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/004176.mp3",
 			subtitle: ""
@@ -6758,7 +6758,7 @@ surahData[5] = {
             audioUrl: "./data/005000.mp3",
 			subtitle: "",			
             footnotes: [
-                "Surah 5. "		
+                ""		
             ]
         },
         {
@@ -6766,8 +6766,8 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١',
-            arabicText: "الم",
-            translation: "A.L.M",
+            arabicText: "ياأَيُّهَا الَّذينَ آمَنوا أَوفوا بِالعُقودِ أُحِلَّت لَكُم بَهيمَةُ الأَنعامِ إِلّا ما يُتلىٰ عَلَيكُم غَيرَ مُحِلِّي الصَّيدِ وَأَنتُم حُرُمٌ إِنَّ اللَّهَ يَحكُمُ ما يُريدُ",
+            translation: "",
             audioUrl: "./data/005001.mp3",
 			subtitle: "",
 			footnote: ""
@@ -6777,7 +6777,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢',		
-            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تُحِلُّوا شَعَائِرَ اللَّهِ وَلَا الشَّهْرَ الْحَرَامَ وَلَا الْهَدْيَ وَلَا الْقَلَائِدَ وَلَا آمِّينَ الْبَيْتَ الْحَرَامَ يَبْتَغُونَ فَضْلًا مِنْ رَبِّهِمْ وَرِضْوَانًا وَإِذَا حَلَلْتُمْ فَاصْطَادُوا وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ أَنْ صَدُّوكُمْ عَنِ الْمَسْجِدِ الْحَرَامِ أَنْ تَعْتَدُوا وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
             translation: "",
             audioUrl: "./data/005002.mp3"
         },
@@ -6786,7 +6786,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣',	
-            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            arabicText: "حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ وَالدَّمُ وَلَحْمُ الْخِنْزِيرِ وَمَا أُهِلَّ لِغَيْرِ اللَّهِ بِهِ وَالْمُنْخَنِقَةُ وَالْمَوْقُوذَةُ وَالْمُتَرَدِّيَةُ وَالنَّطِيحَةُ وَمَا أَكَلَ السَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى النُّصُبِ وَأَنْ تَسْتَقْسِمُوا بِالْأَزْلَامِ ذَٰلِكُمْ فِسْقٌ الْيَوْمَ يَئِسَ الَّذِينَ كَفَرُوا مِنْ دِينِكُمْ فَلَا تَخْشَوْهُمْ وَاخْشَوْنِ الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا فَمَنِ اضْطُرَّ فِي مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِإِثْمٍ فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "",
             audioUrl: "./data/005003.mp3",
 			subtitle: "",
@@ -6797,7 +6797,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤',	
-            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            arabicText: "يَسْأَلُونَكَ مَاذَا أُحِلَّ لَهُمْ قُلْ أُحِلَّ لَكُمُ الطَّيِّبَاتُ وَمَا عَلَّمْتُمْ مِنَ الْجَوَارِحِ مُكَلِّبِينَ تُعَلِّمُونَهُنَّ مِمَّا عَلَّمَكُمُ اللَّهُ فَكُلُوا مِمَّا أَمْسَكْنَ عَلَيْكُمْ وَاذْكُرُوا اسْمَ اللَّهِ عَلَيْهِ وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
             translation: "",
             audioUrl: "./data/005004.mp3"
         },
@@ -6806,8 +6806,8 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥',	
-            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
             translation: "",
+            arabicText: "الْيَوْمَ أُحِلَّ لَكُمُ الطَّيِّبَاتُ وَطَعَامُ الَّذِينَ أُوتُوا الْكِتَابَ حِلٌّ لَكُمْ وَطَعَامُكُمْ حِلٌّ لَهُمْ وَالْمُحْصَنَاتُ مِنَ الْمُؤْمِنَاتِ وَالْمُحْصَنَاتُ مِنَ الَّذِينَ أُوتُوا الْكِتَابَ مِنْ قَبْلِكُمْ إِذَا آتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَافِحِينَ وَلَا مُتَّخِذِي أَخْدَانٍ وَمَنْ يَكْفُرْ بِالْإِيمَانِ فَقَدْ حَبِطَ عَمَلُهُ وَهُوَ فِي الْآخِرَةِ مِنَ الْخَاسِرِينَ",
             audioUrl: "./data/005005.mp3",
 			footnote: ""
         },
@@ -6816,7 +6816,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦',		
-            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ وَإِنْ كُنْتُمْ جُنُبًا فَاطَّهَّرُوا وَإِنْ كُنْتُمْ مَرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِنْكُمْ مِنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ مِنْهُ مَا يُرِيدُ اللَّهُ لِيَجْعَلَ عَلَيْكُمْ مِنْ حَرَجٍ وَلَٰكِنْ يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
             translation: "",
             audioUrl: "./data/005006.mp3",
 			subtitle: ""
@@ -6826,7 +6826,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧',		
-            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            arabicText: "وَاذْكُرُوا نِعْمَةَ اللَّهِ عَلَيْكُمْ وَمِيثَاقَهُ الَّذِي وَاثَقَكُمْ بِهِ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ عَلِيمٌ بِذَاتِ الصُّدُورِ",
             translation: "",
             audioUrl: "./data/005007.mp3",
 			subtitle: ""
@@ -6836,7 +6836,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ خَبِيرٌ بِمَا تَعْمَلُونَ",
             translation: "",
             audioUrl: "./data/005008.mp3",
 			subtitle: ""
@@ -6846,7 +6846,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَعَدَ اللَّهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ مَغْفِرَةٌ وَأَجْرٌ عَظِيمٌ",
             translation: "",
             audioUrl: "./data/005009.mp3",
 			subtitle: ""
@@ -6856,7 +6856,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ الْجَحِيمِ",
             translation: "",
             audioUrl: "./data/005010.mp3",
 			subtitle: ""
@@ -6866,7 +6866,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَنْ يَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنْكُمْ وَاتَّقُوا اللَّهَ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
             translation: "",
             audioUrl: "./data/005011.mp3",
 			subtitle: ""
@@ -6876,7 +6876,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ أَخَذَ اللَّهُ مِيثَاقَ بَنِي إِسْرَائِيلَ وَبَعَثْنَا مِنْهُمُ اثْنَيْ عَشَرَ نَقِيبًا وَقَالَ اللَّهُ إِنِّي مَعَكُمْ لَئِنْ أَقَمْتُمُ الصَّلَاةَ وَآتَيْتُمُ الزَّكَاةَ وَآمَنْتُمْ بِرُسُلِي وَعَزَّرْتُمُوهُمْ وَأَقْرَضْتُمُ اللَّهَ قَرْضًا حَسَنًا لَأُكَفِّرَنَّ عَنْكُمْ سَيِّئَاتِكُمْ وَلَأُدْخِلَنَّكُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ فَمَنْ كَفَرَ بَعْدَ ذَٰلِكَ مِنْكُمْ فَقَدْ ضَلَّ سَوَاءَ السَّبِيلِ",
             translation: "",
             audioUrl: "./data/005012.mp3",
 			subtitle: ""
@@ -6886,7 +6886,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "فَبِمَا نَقْضِهِمْ مِيثَاقَهُمْ لَعَنَّاهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَاسِيَةً يُحَرِّفُونَ الْكَلِمَ عَنْ مَوَاضِعِهِ وَنَسُوا حَظًّا مِمَّا ذُكِّرُوا بِهِ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَائِنَةٍ مِنْهُمْ إِلَّا قَلِيلًا مِنْهُمْ فَاعْفُ عَنْهُمْ وَاصْفَحْ إِنَّ اللَّهَ يُحِبُّ الْمُحْسِنِينَ",
             translation: "",
             audioUrl: "./data/005013.mp3",
 			subtitle: ""
@@ -6896,7 +6896,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنَ الَّذِينَ قَالُوا إِنَّا نَصَارَىٰ أَخَذْنَا مِيثَاقَهُمْ فَنَسُوا حَظًّا مِمَّا ذُكِّرُوا بِهِ فَأَغْرَيْنَا بَيْنَهُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ إِلَىٰ يَوْمِ الْقِيَامَةِ وَسَوْفَ يُنَبِّئُهُمُ اللَّهُ بِمَا كَانُوا يَصْنَعُونَ",
             translation: "",
             audioUrl: "./data/005014.mp3",
 			subtitle: ""
@@ -6906,7 +6906,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَهْلَ الْكِتَابِ قَدْ جَاءَكُمْ رَسُولُنَا يُبَيِّنُ لَكُمْ كَثِيرًا مِمَّا كُنْتُمْ تُخْفُونَ مِنَ الْكِتَابِ وَيَعْفُو عَنْ كَثِيرٍ قَدْ جَاءَكُمْ مِنَ اللَّهِ نُورٌ وَكِتَابٌ مُبِينٌ",
             translation: "",
             audioUrl: "./data/005015.mp3",
 			subtitle: ""
@@ -6916,7 +6916,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَهْدِي بِهِ اللَّهُ مَنِ اتَّبَعَ رِضْوَانَهُ سُبُلَ السَّلَامِ وَيُخْرِجُهُمْ مِنَ الظُّلُمَاتِ إِلَى النُّورِ بِإِذْنِهِ وَيَهْدِيهِمْ إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
             translation: "",
             audioUrl: "./data/005016.mp3",
 			subtitle: ""
@@ -6926,7 +6926,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "لَقَدْ كَفَرَ الَّذِينَ قَالُوا إِنَّ اللَّهَ هُوَ الْمَسِيحُ ابْنُ مَرْيَمَ قُلْ فَمَنْ يَمْلِكُ مِنَ اللَّهِ شَيْئًا إِنْ أَرَادَ أَنْ يُهْلِكَ الْمَسِيحَ ابْنَ مَرْيَمَ وَأُمَّهُ وَمَنْ فِي الْأَرْضِ جَمِيعًا وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا يَخْلُقُ مَا يَشَاءُ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "",
             audioUrl: "./data/005017.mp3",
 			subtitle: ""
@@ -6936,7 +6936,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَتِ الْيَهُودُ وَالنَّصَارَىٰ نَحْنُ أَبْنَاءُ اللَّهِ وَأَحِبَّاؤُهُ قُلْ فَلِمَ يُعَذِّبُكُمْ بِذُنُوبِكُمْ بَلْ أَنْتُمْ بَشَرٌ مِمَّنْ خَلَقَ يَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا وَإِلَيْهِ الْمَصِيرُ",
             translation: "",
             audioUrl: "./data/005018.mp3",
 			subtitle: ""
@@ -6946,7 +6946,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَهْلَ الْكِتَابِ قَدْ جَاءَكُمْ رَسُولُنَا يُبَيِّنُ لَكُمْ عَلَىٰ فَتْرَةٍ مِنَ الرُّسُلِ أَنْ تَقُولُوا مَا جَاءَنَا مِنْ بَشِيرٍ وَلَا نَذِيرٍ فَقَدْ جَاءَكُمْ بَشِيرٌ وَنَذِيرٌ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/005019.mp3",
 			subtitle: ""
@@ -6956,7 +6956,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَاقَوْمِ اذْكُرُوا نِعْمَةَ اللَّهِ عَلَيْكُمْ إِذْ جَعَلَ فِيكُمْ أَنْبِيَاءَ وَجَعَلَكُمْ مُلُوكًا وَآتَاكُمْ مَا لَمْ يُؤْتِ أَحَدًا مِنَ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005020.mp3",
 			subtitle: ""
@@ -6966,7 +6966,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاقَوْمِ ادْخُلُوا الْأَرْضَ الْمُقَدَّسَةَ الَّتِي كَتَبَ اللَّهُ لَكُمْ وَلَا تَرْتَدُّوا عَلَىٰ أَدْبَارِكُمْ فَتَنْقَلِبُوا خَاسِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/005021.mp3",
 			subtitle: ""
@@ -6976,7 +6976,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا يَامُوسَىٰ إِنَّ فِيهَا قَوْمًا جَبَّارِينَ وَإِنَّا لَنْ نَدْخُلَهَا حَتَّىٰ يَخْرُجُوا مِنْهَا فَإِنْ يَخْرُجُوا مِنْهَا فَإِنَّا دَاخِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005022.mp3",
 			subtitle: ""
@@ -6986,7 +6986,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ رَجُلَانِ مِنَ الَّذِينَ يَخَافُونَ أَنْعَمَ اللَّهُ عَلَيْهِمَا ادْخُلُوا عَلَيْهِمُ الْبَابَ فَإِذَا دَخَلْتُمُوهُ فَإِنَّكُمْ غَالِبُونَ وَعَلَى اللَّهِ فَتَوَكَّلُوا إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/005023.mp3",
 			subtitle: ""
@@ -6996,7 +6996,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا يَامُوسَىٰ إِنَّا لَنْ نَدْخُلَهَا أَبَدًا مَا دَامُوا فِيهَا فَاذْهَبْ أَنْتَ وَرَبُّكَ فَقَاتِلَا إِنَّا هَاهُنَا قَاعِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/005024.mp3",
 			subtitle: ""
@@ -7005,7 +7005,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ رَبِّ إِنِّي لَا أَمْلِكُ إِلَّا نَفْسِي وَأَخِي فَافْرُقْ بَيْنَنَا وَبَيْنَ الْقَوْمِ الْفَاسِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/005025.mp3",
 			subtitle: ""
@@ -7015,7 +7015,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً يَتِيهُونَ فِي الْأَرْضِ فَلَا تَأْسَ عَلَى الْقَوْمِ الْفَاسِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/005026.mp3",
 			subtitle: ""
@@ -7025,7 +7025,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَاتْلُ عَلَيْهِمْ نَبَأَ ابْنَيْ آدَمَ بِالْحَقِّ إِذْ قَرَّبَا قُرْبَانًا فَتُقُبِّلَ مِنْ أَحَدِهِمَا وَلَمْ يُتَقَبَّلْ مِنَ الْآخَرِ قَالَ لَأَقْتُلَنَّكَ قَالَ إِنَّمَا يَتَقَبَّلُ اللَّهُ مِنَ الْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/005027.mp3",
 			subtitle: ""
@@ -7035,7 +7035,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لَئِنْ بَسَطْتَ إِلَيَّ يَدَكَ لِتَقْتُلَنِي مَا أَنَا بِبَاسِطٍ يَدِيَ إِلَيْكَ لِأَقْتُلَكَ إِنِّي أَخَافُ اللَّهَ رَبَّ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005028.mp3",
 			subtitle: ""
@@ -7045,7 +7045,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنِّي أُرِيدُ أَنْ تَبُوءَ بِإِثْمِي وَإِثْمِكَ فَتَكُونَ مِنْ أَصْحَابِ النَّارِ وَذَٰلِكَ جَزَاءُ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005029.mp3",
 			subtitle: ""
@@ -7055,7 +7055,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "فَطَوَّعَتْ لَهُ نَفْسُهُ قَتْلَ أَخِيهِ فَقَتَلَهُ فَأَصْبَحَ مِنَ الْخَاسِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/005030.mp3",
 			subtitle: ""
@@ -7065,7 +7065,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ قَالَ يَاوَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005031.mp3",
 			subtitle: ""
@@ -7075,7 +7075,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "مِنْ أَجْلِ ذَٰلِكَ كَتَبْنَا عَلَىٰ بَنِي إِسْرَائِيلَ أَنَّهُ مَنْ قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا وَلَقَدْ جَاءَتْهُمْ رُسُلُنَا بِالْبَيِّنَاتِ ثُمَّ إِنَّ كَثِيرًا مِنْهُمْ بَعْدَ ذَٰلِكَ فِي الْأَرْضِ لَمُسْرِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/005032.mp3",
 			subtitle: ""
@@ -7085,7 +7085,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا جَزَاءُ الَّذِينَ يُحَارِبُونَ اللَّهَ وَرَسُولَهُ وَيَسْعَوْنَ فِي الْأَرْضِ فَسَادًا أَنْ يُقَتَّلُوا أَوْ يُصَلَّبُوا أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُمْ مِنْ خِلَافٍ أَوْ يُنْفَوْا مِنَ الْأَرْضِ ذَٰلِكَ لَهُمْ خِزْيٌ فِي الدُّنْيَا وَلَهُمْ فِي الْآخِرَةِ عَذَابٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005033.mp3",
 			subtitle: ""
@@ -7095,7 +7095,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "إِلَّا الَّذِينَ تَابُوا مِنْ قَبْلِ أَنْ تَقْدِرُوا عَلَيْهِمْ فَاعْلَمُوا أَنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005034.mp3",
 			subtitle: ""
@@ -7105,7 +7105,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَابْتَغُوا إِلَيْهِ الْوَسِيلَةَ وَجَاهِدُوا فِي سَبِيلِهِ لَعَلَّكُمْ تُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/005035.mp3",
 			subtitle: ""
@@ -7115,7 +7115,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ كَفَرُوا لَوْ أَنَّ لَهُمْ مَا فِي الْأَرْضِ جَمِيعًا وَمِثْلَهُ مَعَهُ لِيَفْتَدُوا بِهِ مِنْ عَذَابِ يَوْمِ الْقِيَامَةِ مَا تُقُبِّلَ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005036.mp3",
 			subtitle: ""
@@ -7125,7 +7125,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يُرِيدُونَ أَنْ يَخْرُجُوا مِنَ النَّارِ وَمَا هُمْ بِخَارِجِينَ مِنْهَا وَلَهُمْ عَذَابٌ مُقِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005037.mp3",
 			subtitle: ""
@@ -7135,7 +7135,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا جَزَاءً بِمَا كَسَبَا نَكَالًا مِنَ اللَّهِ وَاللَّهُ عَزِيزٌ حَكِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005038.mp3",
 			subtitle: ""
@@ -7145,7 +7145,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنْ تَابَ مِنْ بَعْدِ ظُلْمِهِ وَأَصْلَحَ فَإِنَّ اللَّهَ يَتُوبُ عَلَيْهِ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005039.mp3",
 			subtitle: ""
@@ -7155,7 +7155,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "أَلَمْ تَعْلَمْ أَنَّ اللَّهَ لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ يُعَذِّبُ مَنْ يَشَاءُ وَيَغْفِرُ لِمَنْ يَشَاءُ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/005040.mp3",
 			subtitle: ""
@@ -7165,7 +7165,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الرَّسُولُ لَا يَحْزُنْكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ مِنَ الَّذِينَ قَالُوا آمَنَّا بِأَفْوَاهِهِمْ وَلَمْ تُؤْمِنْ قُلُوبُهُمْ وَمِنَ الَّذِينَ هَادُوا سَمَّاعُونَ لِلْكَذِبِ سَمَّاعُونَ لِقَوْمٍ آخَرِينَ لَمْ يَأْتُوكَ يُحَرِّفُونَ الْكَلِمَ مِنْ بَعْدِ مَوَاضِعِهِ يَقُولُونَ إِنْ أُوتِيتُمْ هَٰذَا فَخُذُوهُ وَإِنْ لَمْ تُؤْتَوْهُ فَاحْذَرُوا وَمَنْ يُرِدِ اللَّهُ فِتْنَتَهُ فَلَنْ تَمْلِكَ لَهُ مِنَ اللَّهِ شَيْئًا أُولَٰئِكَ الَّذِينَ لَمْ يُرِدِ اللَّهُ أَنْ يُطَهِّرَ قُلُوبَهُمْ لَهُمْ فِي الدُّنْيَا خِزْيٌ وَلَهُمْ فِي الْآخِرَةِ عَذَابٌ عَظِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005041.mp3",
 			subtitle: ""
@@ -7175,7 +7175,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "سَمَّاعُونَ لِلْكَذِبِ أَكَّالُونَ لِلسُّحْتِ فَإِنْ جَاءُوكَ فَاحْكُمْ بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ وَإِنْ تُعْرِضْ عَنْهُمْ فَلَنْ يَضُرُّوكَ شَيْئًا وَإِنْ حَكَمْتَ فَاحْكُمْ بَيْنَهُمْ بِالْقِسْطِ إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ",
             translation: "verse 19",
             audioUrl: "./data/005042.mp3",
 			subtitle: ""
@@ -7185,7 +7185,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَيْفَ يُحَكِّمُونَكَ وَعِنْدَهُمُ التَّوْرَاةُ فِيهَا حُكْمُ اللَّهِ ثُمَّ يَتَوَلَّوْنَ مِنْ بَعْدِ ذَٰلِكَ وَمَا أُولَٰئِكَ بِالْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/005043.mp3",
 			subtitle: ""
@@ -7195,7 +7195,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّا أَنْزَلْنَا التَّوْرَاةَ فِيهَا هُدًى وَنُورٌ يَحْكُمُ بِهَا النَّبِيُّونَ الَّذِينَ أَسْلَمُوا لِلَّذِينَ هَادُوا وَالرَّبَّانِيُّونَ وَالْأَحْبَارُ بِمَا اسْتُحْفِظُوا مِنْ كِتَابِ اللَّهِ وَكَانُوا عَلَيْهِ شُهَدَاءَ فَلَا تَخْشَوُا النَّاسَ وَاخْشَوْنِ وَلَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا وَمَنْ لَمْ يَحْكُمْ بِمَا أَنْزَلَ اللَّهُ فَأُولَٰئِكَ هُمُ الْكَافِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/005044.mp3",
 			subtitle: ""
@@ -7205,7 +7205,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ وَالْأَنْفَ بِالْأَنْفِ وَالْأُذُنَ بِالْأُذُنِ وَالسِّنَّ بِالسِّنِّ وَالْجُرُوحَ قِصَاصٌ فَمَنْ تَصَدَّقَ بِهِ فَهُوَ كَفَّارَةٌ لَهُ وَمَنْ لَمْ يَحْكُمْ بِمَا أَنْزَلَ اللَّهُ فَأُولَٰئِكَ هُمُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/005045.mp3",
 			subtitle: ""
@@ -7215,7 +7215,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَفَّيْنَا عَلَىٰ آثَارِهِمْ بِعِيسَى ابْنِ مَرْيَمَ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ مِنَ التَّوْرَاةِ وَآتَيْنَاهُ الْإِنْجِيلَ فِيهِ هُدًى وَنُورٌ وَمُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ مِنَ التَّوْرَاةِ وَهُدًى وَمَوْعِظَةً لِلْمُتَّقِينَ",
             translation: "verse 19",
             audioUrl: "./data/005046.mp3",
 			subtitle: ""
@@ -7225,7 +7225,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلْيَحْكُمْ أَهْلُ الْإِنْجِيلِ بِمَا أَنْزَلَ اللَّهُ فِيهِ وَمَنْ لَمْ يَحْكُمْ بِمَا أَنْزَلَ اللَّهُ فَأُولَٰئِكَ هُمُ الْفَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/005047.mp3",
 			subtitle: ""
@@ -7235,7 +7235,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَنْزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ فَاحْكُمْ بَيْنَهُمْ بِمَا أَنْزَلَ اللَّهُ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ عَمَّا جَاءَكَ مِنَ الْحَقِّ لِكُلٍّ جَعَلْنَا مِنْكُمْ شِرْعَةً وَمِنْهَاجًا وَلَوْ شَاءَ اللَّهُ لَجَعَلَكُمْ أُمَّةً وَاحِدَةً وَلَٰكِنْ لِيَبْلُوَكُمْ فِي مَا آتَاكُمْ فَاسْتَبِقُوا الْخَيْرَاتِ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ فِيهِ تَخْتَلِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/005048.mp3",
 			subtitle: ""
@@ -7245,7 +7245,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَنِ احْكُمْ بَيْنَهُمْ بِمَا أَنْزَلَ اللَّهُ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ وَاحْذَرْهُمْ أَنْ يَفْتِنُوكَ عَنْ بَعْضِ مَا أَنْزَلَ اللَّهُ إِلَيْكَ فَإِنْ تَوَلَّوْا فَاعْلَمْ أَنَّمَا يُرِيدُ اللَّهُ أَنْ يُصِيبَهُمْ بِبَعْضِ ذُنُوبِهِمْ وَإِنَّ كَثِيرًا مِنَ النَّاسِ لَفَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/005049.mp3",
 			subtitle: ""
@@ -7255,7 +7255,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَحُكْمَ الْجَاهِلِيَّةِ يَبْغُونَ وَمَنْ أَحْسَنُ مِنَ اللَّهِ حُكْمًا لِقَوْمٍ يُوقِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/005050.mp3",
 			subtitle: ""
@@ -7265,7 +7265,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا الْيَهُودَ وَالنَّصَارَىٰ أَوْلِيَاءَ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ وَمَنْ يَتَوَلَّهُمْ مِنْكُمْ فَإِنَّهُ مِنْهُمْ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005051.mp3",
 			subtitle: ""
@@ -7275,7 +7275,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "فَتَرَى الَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ يُسَارِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰ أَنْ تُصِيبَنَا دَائِرَةٌ فَعَسَى اللَّهُ أَنْ يَأْتِيَ بِالْفَتْحِ أَوْ أَمْرٍ مِنْ عِنْدِهِ فَيُصْبِحُوا عَلَىٰ مَا أَسَرُّوا فِي أَنْفُسِهِمْ نَادِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005052.mp3",
 			subtitle: ""
@@ -7285,7 +7285,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيَقُولُ الَّذِينَ آمَنُوا أَهَٰؤُلَاءِ الَّذِينَ أَقْسَمُوا بِاللَّهِ جَهْدَ أَيْمَانِهِمْ إِنَّهُمْ لَمَعَكُمْ حَبِطَتْ أَعْمَالُهُمْ فَأَصْبَحُوا خَاسِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/005053.mp3",
 			subtitle: ""
@@ -7295,7 +7295,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا مَنْ يَرْتَدَّ مِنْكُمْ عَنْ دِينِهِ فَسَوْفَ يَأْتِي اللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُ أَذِلَّةٍ عَلَى الْمُؤْمِنِينَ أَعِزَّةٍ عَلَى الْكَافِرِينَ يُجَاهِدُونَ فِي سَبِيلِ اللَّهِ وَلَا يَخَافُونَ لَوْمَةَ لَائِمٍ ذَٰلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005054.mp3",
 			subtitle: ""
@@ -7305,7 +7305,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا وَلِيُّكُمُ اللَّهُ وَرَسُولُهُ وَالَّذِينَ آمَنُوا الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَهُمْ رَاكِعُونَ",
             translation: "verse 19",
             audioUrl: "./data/005055.mp3",
 			subtitle: ""
@@ -7315,7 +7315,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ يَتَوَلَّ اللَّهَ وَرَسُولَهُ وَالَّذِينَ آمَنُوا فَإِنَّ حِزْبَ اللَّهِ هُمُ الْغَالِبُونَ",
             translation: "verse 19",
             audioUrl: "./data/005056.mp3",
 			subtitle: ""
@@ -7325,7 +7325,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا الَّذِينَ اتَّخَذُوا دِينَكُمْ هُزُوًا وَلَعِبًا مِنَ الَّذِينَ أُوتُوا الْكِتَابَ مِنْ قَبْلِكُمْ وَالْكُفَّارَ أَوْلِيَاءَ وَاتَّقُوا اللَّهَ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/005057.mp3",
 			subtitle: ""
@@ -7335,7 +7335,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا نَادَيْتُمْ إِلَى الصَّلَاةِ اتَّخَذُوهَا هُزُوًا وَلَعِبًا ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَا يَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005058.mp3",
 			subtitle: ""
@@ -7345,7 +7345,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاأَهْلَ الْكِتَابِ هَلْ تَنْقِمُونَ مِنَّا إِلَّا أَنْ آمَنَّا بِاللَّهِ وَمَا أُنْزِلَ إِلَيْنَا وَمَا أُنْزِلَ مِنْ قَبْلُ وَأَنَّ أَكْثَرَكُمْ فَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/005059.mp3",
 			subtitle: ""
@@ -7355,7 +7355,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ هَلْ أُنَبِّئُكُمْ بِشَرٍّ مِنْ ذَٰلِكَ مَثُوبَةً عِنْدَ اللَّهِ مَنْ لَعَنَهُ اللَّهُ وَغَضِبَ عَلَيْهِ وَجَعَلَ مِنْهُمُ الْقِرَدَةَ وَالْخَنَازِيرَ وَعَبَدَ الطَّاغُوتَ أُولَٰئِكَ شَرٌّ مَكَانًا وَأَضَلُّ عَنْ سَوَاءِ السَّبِيلِ",
             translation: "verse 19",
             audioUrl: "./data/005060.mp3",
 			subtitle: ""
@@ -7365,7 +7365,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا جَاءُوكُمْ قَالُوا آمَنَّا وَقَدْ دَخَلُوا بِالْكُفْرِ وَهُمْ قَدْ خَرَجُوا بِهِ وَاللَّهُ أَعْلَمُ بِمَا كَانُوا يَكْتُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/005061.mp3",
 			subtitle: ""
@@ -7375,7 +7375,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَتَرَىٰ كَثِيرًا مِنْهُمْ يُسَارِعُونَ فِي الْإِثْمِ وَالْعُدْوَانِ وَأَكْلِهِمُ السُّحْتَ لَبِئْسَ مَا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005062.mp3",
 			subtitle: ""
@@ -7385,7 +7385,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَوْلَا يَنْهَاهُمُ الرَّبَّانِيُّونَ وَالْأَحْبَارُ عَنْ قَوْلِهِمُ الْإِثْمَ وَأَكْلِهِمُ السُّحْتَ لَبِئْسَ مَا كَانُوا يَصْنَعُونَ",
             translation: "verse 19",
             audioUrl: "./data/005063.mp3",
 			subtitle: ""
@@ -7395,7 +7395,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالَتِ الْيَهُودُ يَدُ اللَّهِ مَغْلُولَةٌ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا بِمَا قَالُوا بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنْفِقُ كَيْفَ يَشَاءُ وَلَيَزِيدَنَّ كَثِيرًا مِنْهُمْ مَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ طُغْيَانًا وَكُفْرًا وَأَلْقَيْنَا بَيْنَهُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ إِلَىٰ يَوْمِ الْقِيَامَةِ كُلَّمَا أَوْقَدُوا نَارًا لِلْحَرْبِ أَطْفَأَهَا اللَّهُ وَيَسْعَوْنَ فِي الْأَرْضِ فَسَادًا وَاللَّهُ لَا يُحِبُّ الْمُفْسِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/005064.mp3",
 			subtitle: ""
@@ -7405,7 +7405,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ أَنَّ أَهْلَ الْكِتَابِ آمَنُوا وَاتَّقَوْا لَكَفَّرْنَا عَنْهُمْ سَيِّئَاتِهِمْ وَلَأَدْخَلْنَاهُمْ جَنَّاتِ النَّعِيمِ",
             translation: "verse 19",
             audioUrl: "./data/005065.mp3",
 			subtitle: ""
@@ -7415,7 +7415,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ أَنَّهُمْ أَقَامُوا التَّوْرَاةَ وَالْإِنْجِيلَ وَمَا أُنْزِلَ إِلَيْهِمْ مِنْ رَبِّهِمْ لَأَكَلُوا مِنْ فَوْقِهِمْ وَمِنْ تَحْتِ أَرْجُلِهِمْ مِنْهُمْ أُمَّةٌ مُقْتَصِدَةٌ وَكَثِيرٌ مِنْهُمْ سَاءَ مَا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005066.mp3",
 			subtitle: ""
@@ -7425,7 +7425,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الرَّسُولُ بَلِّغْ مَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ وَإِنْ لَمْ تَفْعَلْ فَمَا بَلَّغْتَ رِسَالَتَهُ وَاللَّهُ يَعْصِمُكَ مِنَ النَّاسِ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/005067.mp3",
 			subtitle: ""
@@ -7435,7 +7435,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاأَهْلَ الْكِتَابِ لَسْتُمْ عَلَىٰ شَيْءٍ حَتَّىٰ تُقِيمُوا التَّوْرَاةَ وَالْإِنْجِيلَ وَمَا أُنْزِلَ إِلَيْكُمْ مِنْ رَبِّكُمْ وَلَيَزِيدَنَّ كَثِيرًا مِنْهُمْ مَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ طُغْيَانًا وَكُفْرًا فَلَا تَأْسَ عَلَى الْقَوْمِ الْكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/005068.mp3",
 			subtitle: ""
@@ -7445,7 +7445,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا وَالصَّابِئُونَ وَالنَّصَارَىٰ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَعَمِلَ صَالِحًا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/005069.mp3",
 			subtitle: ""
@@ -7455,7 +7455,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "لَقَدْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ وَأَرْسَلْنَا إِلَيْهِمْ رُسُلًا كُلَّمَا جَاءَهُمْ رَسُولٌ بِمَا لَا تَهْوَىٰ أَنْفُسُهُمْ فَرِيقًا كَذَّبُوا وَفَرِيقًا يَقْتُلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005070.mp3",
 			subtitle: ""
@@ -7465,7 +7465,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَحَسِبُوا أَلَّا تَكُونَ فِتْنَةٌ فَعَمُوا وَصَمُّوا ثُمَّ تَابَ اللَّهُ عَلَيْهِمْ ثُمَّ عَمُوا وَصَمُّوا كَثِيرٌ مِنْهُمْ وَاللَّهُ بَصِيرٌ بِمَا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005071.mp3",
 			subtitle: ""
@@ -7475,7 +7475,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "لَقَدْ كَفَرَ الَّذِينَ قَالُوا إِنَّ اللَّهَ هُوَ الْمَسِيحُ ابْنُ مَرْيَمَ وَقَالَ الْمَسِيحُ يَابَنِي إِسْرَائِيلَ اعْبُدُوا اللَّهَ رَبِّي وَرَبَّكُمْ إِنَّهُ مَنْ يُشْرِكْ بِاللَّهِ فَقَدْ حَرَّمَ اللَّهُ عَلَيْهِ الْجَنَّةَ وَمَأْوَاهُ النَّارُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ",
             translation: "verse 19",
             audioUrl: "./data/005072.mp3",
 			subtitle: ""
@@ -7485,7 +7485,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَقَدْ كَفَرَ الَّذِينَ قَالُوا إِنَّ اللَّهَ ثَالِثُ ثَلَاثَةٍ وَمَا مِنْ إِلَٰهٍ إِلَّا إِلَٰهٌ وَاحِدٌ وَإِنْ لَمْ يَنْتَهُوا عَمَّا يَقُولُونَ لَيَمَسَّنَّ الَّذِينَ كَفَرُوا مِنْهُمْ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005073.mp3",
 			subtitle: ""
@@ -7495,7 +7495,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَلَا يَتُوبُونَ إِلَى اللَّهِ وَيَسْتَغْفِرُونَهُ وَاللَّهُ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005074.mp3",
 			subtitle: ""
@@ -7505,7 +7505,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا الْمَسِيحُ ابْنُ مَرْيَمَ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ وَأُمُّهُ صِدِّيقَةٌ كَانَا يَأْكُلَانِ الطَّعَامَ انْظُرْ كَيْفَ نُبَيِّنُ لَهُمُ الْآيَاتِ ثُمَّ انْظُرْ أَنَّىٰ يُؤْفَكُونَ",
             translation: "verse 19",
             audioUrl: "./data/005075.mp3",
 			subtitle: ""
@@ -7515,7 +7515,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَتَعْبُدُونَ مِنْ دُونِ اللَّهِ مَا لَا يَمْلِكُ لَكُمْ ضَرًّا وَلَا نَفْعًا وَاللَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
             translation: "verse 19",
             audioUrl: "./data/005076.mp3",
 			subtitle: ""
@@ -7525,7 +7525,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاأَهْلَ الْكِتَابِ لَا تَغْلُوا فِي دِينِكُمْ غَيْرَ الْحَقِّ وَلَا تَتَّبِعُوا أَهْوَاءَ قَوْمٍ قَدْ ضَلُّوا مِنْ قَبْلُ وَأَضَلُّوا كَثِيرًا وَضَلُّوا عَنْ سَوَاءِ السَّبِيلِ",
             translation: "verse 19",
             audioUrl: "./data/005077.mp3",
 			subtitle: ""
@@ -7535,7 +7535,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "لُعِنَ الَّذِينَ كَفَرُوا مِنْ بَنِي إِسْرَائِيلَ عَلَىٰ لِسَانِ دَاوُودَ وَعِيسَى ابْنِ مَرْيَمَ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/005078.mp3",
 			subtitle: ""
@@ -7545,7 +7545,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "كَانُوا لَا يَتَنَاهَوْنَ عَنْ مُنْكَرٍ فَعَلُوهُ لَبِئْسَ مَا كَانُوا يَفْعَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005079.mp3",
 			subtitle: ""
@@ -7555,7 +7555,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "تَرَىٰ كَثِيرًا مِنْهُمْ يَتَوَلَّوْنَ الَّذِينَ كَفَرُوا لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنْفُسُهُمْ أَنْ سَخِطَ اللَّهُ عَلَيْهِمْ وَفِي الْعَذَابِ هُمْ خَالِدُونَ",
             translation: "verse 19",
             audioUrl: "./data/005080.mp3",
 			subtitle: ""
@@ -7565,7 +7565,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ كَانُوا يُؤْمِنُونَ بِاللَّهِ وَالنَّبِيِّ وَمَا أُنْزِلَ إِلَيْهِ مَا اتَّخَذُوهُمْ أَوْلِيَاءَ وَلَٰكِنَّ كَثِيرًا مِنْهُمْ فَاسِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/005081.mp3",
 			subtitle: ""
@@ -7575,7 +7575,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "لَتَجِدَنَّ أَشَدَّ النَّاسِ عَدَاوَةً لِلَّذِينَ آمَنُوا الْيَهُودَ وَالَّذِينَ أَشْرَكُوا وَلَتَجِدَنَّ أَقْرَبَهُمْ مَوَدَّةً لِلَّذِينَ آمَنُوا الَّذِينَ قَالُوا إِنَّا نَصَارَىٰ ذَٰلِكَ بِأَنَّ مِنْهُمْ قِسِّيسِينَ وَرُهْبَانًا وَأَنَّهُمْ لَا يَسْتَكْبِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/005082.mp3",
 			subtitle: ""
@@ -7585,7 +7585,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا سَمِعُوا مَا أُنْزِلَ إِلَى الرَّسُولِ تَرَىٰ أَعْيُنَهُمْ تَفِيضُ مِنَ الدَّمْعِ مِمَّا عَرَفُوا مِنَ الْحَقِّ يَقُولُونَ رَبَّنَا آمَنَّا فَاكْتُبْنَا مَعَ الشَّاهِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/005083.mp3",
 			subtitle: ""
@@ -7595,7 +7595,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا لَنَا لَا نُؤْمِنُ بِاللَّهِ وَمَا جَاءَنَا مِنَ الْحَقِّ وَنَطْمَعُ أَنْ يُدْخِلَنَا رَبُّنَا مَعَ الْقَوْمِ الصَّالِحِينَ",
             translation: "verse 19",
             audioUrl: "./data/005084.mp3",
 			subtitle: ""
@@ -7605,7 +7605,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَأَثَابَهُمُ اللَّهُ بِمَا قَالُوا جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا وَذَٰلِكَ جَزَاءُ الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/005085.mp3",
 			subtitle: ""
@@ -7615,7 +7615,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ الْجَحِيمِ",
             translation: "verse 19",
             audioUrl: "./data/005086.mp3",
 			subtitle: ""
@@ -7625,7 +7625,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تُحَرِّمُوا طَيِّبَاتِ مَا أَحَلَّ اللَّهُ لَكُمْ وَلَا تَعْتَدُوا إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ",
             translation: "verse 19",
             audioUrl: "./data/005087.mp3",
 			subtitle: ""
@@ -7635,7 +7635,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكُلُوا مِمَّا رَزَقَكُمُ اللَّهُ حَلَالًا طَيِّبًا وَاتَّقُوا اللَّهَ الَّذِي أَنْتُمْ بِهِ مُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/005088.mp3",
 			subtitle: ""
@@ -7645,7 +7645,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا يُؤَاخِذُكُمُ اللَّهُ بِاللَّغْوِ فِي أَيْمَانِكُمْ وَلَٰكِنْ يُؤَاخِذُكُمْ بِمَا عَقَّدْتُمُ الْأَيْمَانَ فَكَفَّارَتُهُ إِطْعَامُ عَشَرَةِ مَسَاكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ فَمَنْ لَمْ يَجِدْ فَصِيَامُ ثَلَاثَةِ أَيَّامٍ ذَٰلِكَ كَفَّارَةُ أَيْمَانِكُمْ إِذَا حَلَفْتُمْ وَاحْفَظُوا أَيْمَانَكُمْ كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/005089.mp3",
 			subtitle: ""
@@ -7655,7 +7655,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالْأَنْصَابُ وَالْأَزْلَامُ رِجْسٌ مِنْ عَمَلِ الشَّيْطَانِ فَاجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/005090.mp3",
 			subtitle: ""
@@ -7665,7 +7665,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا يُرِيدُ الشَّيْطَانُ أَنْ يُوقِعَ بَيْنَكُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ فِي الْخَمْرِ وَالْمَيْسِرِ وَيَصُدَّكُمْ عَنْ ذِكْرِ اللَّهِ وَعَنِ الصَّلَاةِ فَهَلْ أَنْتُمْ مُنْتَهُونَ",
             translation: "verse 19",
             audioUrl: "./data/005091.mp3",
 			subtitle: ""
@@ -7675,7 +7675,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَاحْذَرُوا فَإِنْ تَوَلَّيْتُمْ فَاعْلَمُوا أَنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ",
             translation: "verse 19",
             audioUrl: "./data/005092.mp3",
 			subtitle: ""
@@ -7685,7 +7685,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَيْسَ عَلَى الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ جُنَاحٌ فِيمَا طَعِمُوا إِذَا مَا اتَّقَوْا وَآمَنُوا وَعَمِلُوا الصَّالِحَاتِ ثُمَّ اتَّقَوْا وَآمَنُوا ثُمَّ اتَّقَوْا وَأَحْسَنُوا وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/005093.mp3",
 			subtitle: ""
@@ -7695,7 +7695,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَيَبْلُوَنَّكُمُ اللَّهُ بِشَيْءٍ مِنَ الصَّيْدِ تَنَالُهُ أَيْدِيكُمْ وَرِمَاحُكُمْ لِيَعْلَمَ اللَّهُ مَنْ يَخَافُهُ بِالْغَيْبِ فَمَنِ اعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُ عَذَابٌ أَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005094.mp3",
 			subtitle: ""
@@ -7705,7 +7705,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَقْتُلُوا الصَّيْدَ وَأَنْتُمْ حُرُمٌ وَمَنْ قَتَلَهُ مِنْكُمْ مُتَعَمِّدًا فَجَزَاءٌ مِثْلُ مَا قَتَلَ مِنَ النَّعَمِ يَحْكُمُ بِهِ ذَوَا عَدْلٍ مِنْكُمْ هَدْيًا بَالِغَ الْكَعْبَةِ أَوْ كَفَّارَةٌ طَعَامُ مَسَاكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِيَذُوقَ وَبَالَ أَمْرِهِ عَفَا اللَّهُ عَمَّا سَلَفَ وَمَنْ عَادَ فَيَنْتَقِمُ اللَّهُ مِنْهُ وَاللَّهُ عَزِيزٌ ذُو انْتِقَامٍ",
             translation: "verse 19",
             audioUrl: "./data/005095.mp3",
 			subtitle: ""
@@ -7715,7 +7715,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أُحِلَّ لَكُمْ صَيْدُ الْبَحْرِ وَطَعَامُهُ مَتَاعًا لَكُمْ وَلِلسَّيَّارَةِ وَحُرِّمَ عَلَيْكُمْ صَيْدُ الْبَرِّ مَا دُمْتُمْ حُرُمًا وَاتَّقُوا اللَّهَ الَّذِي إِلَيْهِ تُحْشَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/005096.mp3",
 			subtitle: ""
@@ -7725,7 +7725,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ قِيَامًا لِلنَّاسِ وَالشَّهْرَ الْحَرَامَ وَالْهَدْيَ وَالْقَلَائِدَ ذَٰلِكَ لِتَعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَأَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005097.mp3",
 			subtitle: ""
@@ -7735,7 +7735,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "اعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ وَأَنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005098.mp3",
 			subtitle: ""
@@ -7745,7 +7745,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ وَاللَّهُ يَعْلَمُ مَا تُبْدُونَ وَمَا تَكْتُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/005099.mp3",
 			subtitle: ""
@@ -7755,7 +7755,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ لَا يَسْتَوِي الْخَبِيثُ وَالطَّيِّبُ وَلَوْ أَعْجَبَكَ كَثْرَةُ الْخَبِيثِ فَاتَّقُوا اللَّهَ يَاأُولِي الْأَلْبَابِ لَعَلَّكُمْ تُفْلِحُونَ",
             translation: "verse 19",
             audioUrl: "./data/005100.mp3",
 			subtitle: ""
@@ -7765,7 +7765,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠١',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا لَا تَسْأَلُوا عَنْ أَشْيَاءَ إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ وَإِنْ تَسْأَلُوا عَنْهَا حِينَ يُنَزَّلُ الْقُرْآنُ تُبْدَ لَكُمْ عَفَا اللَّهُ عَنْهَا وَاللَّهُ غَفُورٌ حَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/005101.mp3",
 			subtitle: ""
@@ -7775,7 +7775,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ سَأَلَهَا قَوْمٌ مِنْ قَبْلِكُمْ ثُمَّ أَصْبَحُوا بِهَا كَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/005102.mp3",
 			subtitle: ""
@@ -7785,7 +7785,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٣',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلَا سَائِبَةٍ وَلَا وَصِيلَةٍ وَلَا حَامٍ وَلَٰكِنَّ الَّذِينَ كَفَرُوا يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ وَأَكْثَرُهُمْ لَا يَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005103.mp3",
 			subtitle: ""
@@ -7795,7 +7795,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا إِلَىٰ مَا أَنْزَلَ اللَّهُ وَإِلَى الرَّسُولِ قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا أَوَلَوْ كَانَ آبَاؤُهُمْ لَا يَعْلَمُونَ شَيْئًا وَلَا يَهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/005104.mp3",
 			subtitle: ""
@@ -7805,7 +7805,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٥',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا عَلَيْكُمْ أَنْفُسَكُمْ لَا يَضُرُّكُمْ مَنْ ضَلَّ إِذَا اهْتَدَيْتُمْ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/005105.mp3",
 			subtitle: ""
@@ -7815,7 +7815,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٦',		
-            arabicText: "Arabic text here",
+            arabicText: "يَاأَيُّهَا الَّذِينَ آمَنُوا شَهَادَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ الْمَوْتُ حِينَ الْوَصِيَّةِ اثْنَانِ ذَوَا عَدْلٍ مِنْكُمْ أَوْ آخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنْتُمْ ضَرَبْتُمْ فِي الْأَرْضِ فَأَصَابَتْكُمْ مُصِيبَةُ الْمَوْتِ تَحْبِسُونَهُمَا مِنْ بَعْدِ الصَّلَاةِ فَيُقْسِمَانِ بِاللَّهِ إِنِ ارْتَبْتُمْ لَا نَشْتَرِي بِهِ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ وَلَا نَكْتُمُ شَهَادَةَ اللَّهِ إِنَّا إِذًا لَمِنَ الْآثِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005106.mp3",
 			subtitle: ""
@@ -7825,7 +7825,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ عُثِرَ عَلَىٰ أَنَّهُمَا اسْتَحَقَّا إِثْمًا فَآخَرَانِ يَقُومَانِ مَقَامَهُمَا مِنَ الَّذِينَ اسْتَحَقَّ عَلَيْهِمُ الْأَوْلَيَانِ فَيُقْسِمَانِ بِاللَّهِ لَشَهَادَتُنَا أَحَقُّ مِنْ شَهَادَتِهِمَا وَمَا اعْتَدَيْنَا إِنَّا إِذًا لَمِنَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005107.mp3",
 			subtitle: ""
@@ -7835,7 +7835,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٨',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ أَدْنَىٰ أَنْ يَأْتُوا بِالشَّهَادَةِ عَلَىٰ وَجْهِهَا أَوْ يَخَافُوا أَنْ تُرَدَّ أَيْمَانٌ بَعْدَ أَيْمَانِهِمْ وَاتَّقُوا اللَّهَ وَاسْمَعُوا وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/005108.mp3",
 			subtitle: ""
@@ -7845,7 +7845,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٠٩',		
-            arabicText: "Arabic text here",
+            arabicText: "يَوْمَ يَجْمَعُ اللَّهُ الرُّسُلَ فَيَقُولُ مَاذَا أُجِبْتُمْ قَالُوا لَا عِلْمَ لَنَا إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ",
             translation: "verse 19",
             audioUrl: "./data/005109.mp3",
 			subtitle: ""
@@ -7855,7 +7855,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ قَالَ اللَّهُ يَاعِيسَى ابْنَ مَرْيَمَ اذْكُرْ نِعْمَتِي عَلَيْكَ وَعَلَىٰ وَالِدَتِكَ إِذْ أَيَّدْتُكَ بِرُوحِ الْقُدُسِ تُكَلِّمُ النَّاسَ فِي الْمَهْدِ وَكَهْلًا وَإِذْ عَلَّمْتُكَ الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنْجِيلَ وَإِذْ تَخْلُقُ مِنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ بِإِذْنِي فَتَنْفُخُ فِيهَا فَتَكُونُ طَيْرًا بِإِذْنِي وَتُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ بِإِذْنِي وَإِذْ تُخْرِجُ الْمَوْتَىٰ بِإِذْنِي وَإِذْ كَفَفْتُ بَنِي إِسْرَائِيلَ عَنْكَ إِذْ جِئْتَهُمْ بِالْبَيِّنَاتِ فَقَالَ الَّذِينَ كَفَرُوا مِنْهُمْ إِنْ هَٰذَا إِلَّا سِحْرٌ مُبِينٌ",
             translation: "verse 19",
             audioUrl: "./data/005110.mp3",
 			subtitle: ""
@@ -7864,7 +7864,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ أَوْحَيْتُ إِلَى الْحَوَارِيِّينَ أَنْ آمِنُوا بِي وَبِرَسُولِي قَالُوا آمَنَّا وَاشْهَدْ بِأَنَّنَا مُسْلِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/005111.mp3",
 			subtitle: ""
@@ -7874,7 +7874,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "إِذْ قَالَ الْحَوَارِيُّونَ يَاعِيسَى ابْنَ مَرْيَمَ هَلْ يَسْتَطِيعُ رَبُّكَ أَنْ يُنَزِّلَ عَلَيْنَا مَائِدَةً مِنَ السَّمَاءِ قَالَ اتَّقُوا اللَّهَ إِنْ كُنْتُمْ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/005112.mp3",
 			subtitle: ""
@@ -7884,7 +7884,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالُوا نُرِيدُ أَنْ نَأْكُلَ مِنْهَا وَتَطْمَئِنَّ قُلُوبُنَا وَنَعْلَمَ أَنْ قَدْ صَدَقْتَنَا وَنَكُونَ عَلَيْهَا مِنَ الشَّاهِدِينَ",
             translation: "verse 19",
             audioUrl: "./data/005113.mp3",
 			subtitle: ""
@@ -7894,7 +7894,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢:١١٤)',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ عِيسَى ابْنُ مَرْيَمَ اللَّهُمَّ رَبَّنَا أَنْزِلْ عَلَيْنَا مَائِدَةً مِنَ السَّمَاءِ تَكُونُ لَنَا عِيدًا لِأَوَّلِنَا وَآخِرِنَا وَآيَةً مِنْكَ وَارْزُقْنَا وَأَنْتَ خَيْرُ الرَّازِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/005114.mp3",
 			subtitle: ""
@@ -7904,7 +7904,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '٢:١١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ اللَّهُ إِنِّي مُنَزِّلُهَا عَلَيْكُمْ فَمَنْ يَكْفُرْ بَعْدُ مِنْكُمْ فَإِنِّي أُعَذِّبُهُ عَذَابًا لَا أُعَذِّبُهُ أَحَدًا مِنَ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/005115.mp3",
 			subtitle: ""
@@ -7913,7 +7913,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ اللَّهُ يَاعِيسَى ابْنَ مَرْيَمَ أَأَنْتَ قُلْتَ لِلنَّاسِ اتَّخِذُونِي وَأُمِّيَ إِلَٰهَيْنِ مِنْ دُونِ اللَّهِ قَالَ سُبْحَانَكَ مَا يَكُونُ لِي أَنْ أَقُولَ مَا لَيْسَ لِي بِحَقٍّ إِنْ كُنْتُ قُلْتُهُ فَقَدْ عَلِمْتَهُ تَعْلَمُ مَا فِي نَفْسِي وَلَا أَعْلَمُ مَا فِي نَفْسِكَ إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ",
             translation: "verse 19",
             audioUrl: "./data/005116.mp3",
 			subtitle: ""
@@ -7923,7 +7923,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "مَا قُلْتُ لَهُمْ إِلَّا مَا أَمَرْتَنِي بِهِ أَنِ اعْبُدُوا اللَّهَ رَبِّي وَرَبَّكُمْ وَكُنْتُ عَلَيْهِمْ شَهِيدًا مَا دُمْتُ فِيهِمْ فَلَمَّا تَوَفَّيْتَنِي كُنْتَ أَنْتَ الرَّقِيبَ عَلَيْهِمْ وَأَنْتَ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ",
             translation: "verse 19",
             audioUrl: "./data/005117.mp3",
 			subtitle: ""
@@ -7933,7 +7933,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنْ تُعَذِّبْهُمْ فَإِنَّهُمْ عِبَادُكَ وَإِنْ تَغْفِرْ لَهُمْ فَإِنَّكَ أَنْتَ الْعَزِيزُ الْحَكِيمُ",
             translation: "verse 19",
             audioUrl: "./data/005118.mp3",
 			subtitle: ""
@@ -7943,7 +7943,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قَالَ اللَّهُ هَٰذَا يَوْمُ يَنْفَعُ الصَّادِقِينَ صِدْقُهُمْ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
             translation: "verse 19",
             audioUrl: "./data/005119.mp3",
 			subtitle: ""
@@ -7953,7 +7953,7 @@ surahData[5] = {
             surahNumber: 5,
 			surahNumberArabic: '٥',
 			ayatNumberArabic: '١٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "لِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَمَا فِيهِنَّ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "verse 19",
             audioUrl: "./data/005120.mp3",
 			subtitle: ""
@@ -7985,8 +7985,8 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١',
-            arabicText: "الم",
-            translation: "A.L.M",
+            arabicText: "الحَمدُ لِلَّهِ الَّذي خَلَقَ السَّماواتِ وَالأَرضَ وَجَعَلَ الظُّلُماتِ وَالنّورَ ثُمَّ الَّذينَ كَفَروا بِرَبِّهِم يَعدِلونَ",
+            translation: "",
             audioUrl: "./data/006001.mp3",
 			subtitle: "",
 			footnote: ""
@@ -7996,7 +7996,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢',		
-            arabicText: "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ",
+            arabicText: "هُوَ الَّذِي خَلَقَكُمْ مِنْ طِينٍ ثُمَّ قَضَىٰ أَجَلًا وَأَجَلٌ مُسَمًّى عِنْدَهُ ثُمَّ أَنْتُمْ تَمْتَرُونَ",
             translation: "",
             audioUrl: "./data/006002.mp3"
         },
@@ -8005,7 +8005,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣',	
-            arabicText: "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ",
+            arabicText: "وَهُوَ اللَّهُ فِي السَّمَاوَاتِ وَفِي الْأَرْضِ يَعْلَمُ سِرَّكُمْ وَجَهْرَكُمْ وَيَعْلَمُ مَا تَكْسِبُونَ",
             translation: "",
             audioUrl: "./data/006003.mp3",
 			subtitle: "",
@@ -8016,7 +8016,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤',	
-            arabicText: "وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+            arabicText: "وَمَا تَأْتِيهِمْ مِنْ آيَةٍ مِنْ آيَاتِ رَبِّهِمْ إِلَّا كَانُوا عَنْهَا مُعْرِضِينَ",
             translation: "",
             audioUrl: "./data/006004.mp3"
         },
@@ -8025,7 +8025,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥',	
-            arabicText: "أُولَٰئِكَ عَلَىٰ هُدًى مِنْ رَبِّهِمْ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+            arabicText: "فَقَدْ كَذَّبُوا بِالْحَقِّ لَمَّا جَاءَهُمْ فَسَوْفَ يَأْتِيهِمْ أَنْبَاءُ مَا كَانُوا بِهِ يَسْتَهْزِئُونَ",
             translation: "",
             audioUrl: "./data/006005.mp3",
 			footnote: ""
@@ -8035,7 +8035,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦',		
-            arabicText: "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
+            arabicText: "أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا مِنْ قَبْلِهِمْ مِنْ قَرْنٍ مَكَّنَّاهُمْ فِي الْأَرْضِ مَا لَمْ نُمَكِّنْ لَكُمْ وَأَرْسَلْنَا السَّمَاءَ عَلَيْهِمْ مِدْرَارًا وَجَعَلْنَا الْأَنْهَارَ تَجْرِي مِنْ تَحْتِهِمْ فَأَهْلَكْنَاهُمْ بِذُنُوبِهِمْ وَأَنْشَأْنَا مِنْ بَعْدِهِمْ قَرْنًا آخَرِينَ",
             translation: "",
             audioUrl: "./data/006006.mp3",
 			subtitle: ""
@@ -8045,7 +8045,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧',		
-            arabicText: "خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            arabicText: "وَلَوْ نَزَّلْنَا عَلَيْكَ كِتَابًا فِي قِرْطَاسٍ فَلَمَسُوهُ بِأَيْدِيهِمْ لَقَالَ الَّذِينَ كَفَرُوا إِنْ هَٰذَا إِلَّا سِحْرٌ مُبِينٌ",
             translation: "",
             audioUrl: "./data/006007.mp3",
 			subtitle: ""
@@ -8055,7 +8055,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا لَوْلَا أُنْزِلَ عَلَيْهِ مَلَكٌ وَلَوْ أَنْزَلْنَا مَلَكًا لَقُضِيَ الْأَمْرُ ثُمَّ لَا يُنْظَرُونَ",
             translation: "",
             audioUrl: "./data/006008.mp3",
 			subtitle: ""
@@ -8065,7 +8065,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ جَعَلْنَاهُ مَلَكًا لَجَعَلْنَاهُ رَجُلًا وَلَلَبَسْنَا عَلَيْهِمْ مَا يَلْبِسُونَ",
             translation: "",
             audioUrl: "./data/006009.mp3",
 			subtitle: ""
@@ -8075,7 +8075,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدِ اسْتُهْزِئَ بِرُسُلٍ مِنْ قَبْلِكَ فَحَاقَ بِالَّذِينَ سَخِرُوا مِنْهُمْ مَا كَانُوا بِهِ يَسْتَهْزِئُونَ",
             translation: "",
             audioUrl: "./data/006010.mp3",
 			subtitle: ""
@@ -8085,7 +8085,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ سِيرُوا فِي الْأَرْضِ ثُمَّ انْظُرُوا كَيْفَ كَانَ عَاقِبَةُ الْمُكَذِّبِينَ",
             translation: "",
             audioUrl: "./data/006011.mp3",
 			subtitle: ""
@@ -8095,7 +8095,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ لِمَنْ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ قُلْ لِلَّهِ كَتَبَ عَلَىٰ نَفْسِهِ الرَّحْمَةَ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ الْقِيَامَةِ لَا رَيْبَ فِيهِ الَّذِينَ خَسِرُوا أَنْفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ",
             translation: "",
             audioUrl: "./data/006012.mp3",
 			subtitle: ""
@@ -8105,7 +8105,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَهُ مَا سَكَنَ فِي الَّيْلِ وَالنَّهَارِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
             translation: "",
             audioUrl: "./data/006013.mp3",
 			subtitle: ""
@@ -8115,7 +8115,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَغَيْرَ اللَّهِ أَتَّخِذُ وَلِيًّا فَاطِرِ السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ قُلْ إِنِّي أُمِرْتُ أَنْ أَكُونَ أَوَّلَ مَنْ أَسْلَمَ وَلَا تَكُونَنَّ مِنَ الْمُشْرِكِينَ",
             translation: "",
             audioUrl: "./data/006014.mp3",
 			subtitle: ""
@@ -8125,7 +8125,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنِّي أَخَافُ إِنْ عَصَيْتُ رَبِّي عَذَابَ يَوْمٍ عَظِيمٍ",
             translation: "",
             audioUrl: "./data/006015.mp3",
 			subtitle: ""
@@ -8135,7 +8135,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ يُصْرَفْ عَنْهُ يَوْمَئِذٍ فَقَدْ رَحِمَهُ وَذَٰلِكَ الْفَوْزُ الْمُبِينُ",
             translation: "",
             audioUrl: "./data/006016.mp3",
 			subtitle: ""
@@ -8145,7 +8145,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ يَمْسَسْكَ اللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُ إِلَّا هُوَ وَإِنْ يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
             translation: "",
             audioUrl: "./data/006017.mp3",
 			subtitle: ""
@@ -8155,7 +8155,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ وَهُوَ الْحَكِيمُ الْخَبِيرُ",
             translation: "",
             audioUrl: "./data/006018.mp3",
 			subtitle: ""
@@ -8165,7 +8165,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَيُّ شَيْءٍ أَكْبَرُ شَهَادَةً قُلِ اللَّهُ شَهِيدٌ بَيْنِي وَبَيْنَكُمْ وَأُوحِيَ إِلَيَّ هَٰذَا الْقُرْآنُ لِأُنْذِرَكُمْ بِهِ وَمَنْ بَلَغَ أَئِنَّكُمْ لَتَشْهَدُونَ أَنَّ مَعَ اللَّهِ آلِهَةً أُخْرَىٰ قُلْ لَا أَشْهَدُ قُلْ إِنَّمَا هُوَ إِلَٰهٌ وَاحِدٌ وَإِنَّنِي بَرِيءٌ مِمَّا تُشْرِكُونَ",
             translation: "verse 19",
             audioUrl: "./data/006019.mp3",
 			subtitle: ""
@@ -8175,7 +8175,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَعْرِفُونَهُ كَمَا يَعْرِفُونَ أَبْنَاءَهُمُ الَّذِينَ خَسِرُوا أَنْفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/006020.mp3",
 			subtitle: ""
@@ -8185,7 +8185,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ كَذَّبَ بِآيَاتِهِ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006021.mp3",
 			subtitle: ""
@@ -8195,7 +8195,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا أَيْنَ شُرَكَاؤُكُمُ الَّذِينَ كُنْتُمْ تَزْعُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006022.mp3",
 			subtitle: ""
@@ -8205,7 +8205,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ لَمْ تَكُنْ فِتْنَتُهُمْ إِلَّا أَنْ قَالُوا وَاللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/006023.mp3",
 			subtitle: ""
@@ -8215,7 +8215,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "انْظُرْ كَيْفَ كَذَبُوا عَلَىٰ أَنْفُسِهِمْ وَضَلَّ عَنْهُمْ مَا كَانُوا يَفْتَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006024.mp3",
 			subtitle: ""
@@ -8224,7 +8224,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْهُمْ مَنْ يَسْتَمِعُ إِلَيْكَ وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَنْ يَفْقَهُوهُ وَفِي آذَانِهِمْ وَقْرًا وَإِنْ يَرَوْا كُلَّ آيَةٍ لَا يُؤْمِنُوا بِهَا حَتَّىٰ إِذَا جَاءُوكَ يُجَادِلُونَكَ يَقُولُ الَّذِينَ كَفَرُوا إِنْ هَٰذَا إِلَّا أَسَاطِيرُ الْأَوَّلِينَ",
             translation: "verse 19",
             audioUrl: "./data/006025.mp3",
 			subtitle: ""
@@ -8234,7 +8234,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْأَوْنَ عَنْهُ وَإِنْ يُهْلِكُونَ إِلَّا أَنْفُسَهُمْ وَمَا يَشْعُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006026.mp3",
 			subtitle: ""
@@ -8244,7 +8244,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ تَرَىٰ إِذْ وُقِفُوا عَلَى النَّارِ فَقَالُوا يَالَيْتَنَا نُرَدُّ وَلَا نُكَذِّبَ بِآيَاتِ رَبِّنَا وَنَكُونَ مِنَ الْمُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/006027.mp3",
 			subtitle: ""
@@ -8254,7 +8254,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلْ بَدَا لَهُمْ مَا كَانُوا يُخْفُونَ مِنْ قَبْلُ وَلَوْ رُدُّوا لَعَادُوا لِمَا نُهُوا عَنْهُ وَإِنَّهُمْ لَكَاذِبُونَ",
             translation: "verse 19",
             audioUrl: "./data/006028.mp3",
 			subtitle: ""
@@ -8264,7 +8264,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا إِنْ هِيَ إِلَّا حَيَاتُنَا الدُّنْيَا وَمَا نَحْنُ بِمَبْعُوثِينَ",
             translation: "verse 19",
             audioUrl: "./data/006029.mp3",
 			subtitle: ""
@@ -8274,7 +8274,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ تَرَىٰ إِذْ وُقِفُوا عَلَىٰ رَبِّهِمْ قَالَ أَلَيْسَ هَٰذَا بِالْحَقِّ قَالُوا بَلَىٰ وَرَبِّنَا قَالَ فَذُوقُوا الْعَذَابَ بِمَا كُنْتُمْ تَكْفُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006030.mp3",
 			subtitle: ""
@@ -8284,7 +8284,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ خَسِرَ الَّذِينَ كَذَّبُوا بِلِقَاءِ اللَّهِ حَتَّىٰ إِذَا جَاءَتْهُمُ السَّاعَةُ بَغْتَةً قَالُوا يَاحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ أَلَا سَاءَ مَا يَزِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006031.mp3",
 			subtitle: ""
@@ -8294,7 +8294,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ وَلَلدَّارُ الْآخِرَةُ خَيْرٌ لِلَّذِينَ يَتَّقُونَ أَفَلَا تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006032.mp3",
 			subtitle: ""
@@ -8304,7 +8304,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ نَعْلَمُ إِنَّهُ لَيَحْزُنُكَ الَّذِي يَقُولُونَ فَإِنَّهُمْ لَا يُكَذِّبُونَكَ وَلَٰكِنَّ الظَّالِمِينَ بِآيَاتِ اللَّهِ يَجْحَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/006033.mp3",
 			subtitle: ""
@@ -8314,7 +8314,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ كُذِّبَتْ رُسُلٌ مِنْ قَبْلِكَ فَصَبَرُوا عَلَىٰ مَا كُذِّبُوا وَأُوذُوا حَتَّىٰ أَتَاهُمْ نَصْرُنَا وَلَا مُبَدِّلَ لِكَلِمَاتِ اللَّهِ وَلَقَدْ جَاءَكَ مِنْ نَبَإِ الْمُرْسَلِينَ",
             translation: "verse 19",
             audioUrl: "./data/006034.mp3",
 			subtitle: ""
@@ -8324,7 +8324,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ كَانَ كَبُرَ عَلَيْكَ إِعْرَاضُهُمْ فَإِنِ اسْتَطَعْتَ أَنْ تَبْتَغِيَ نَفَقًا فِي الْأَرْضِ أَوْ سُلَّمًا فِي السَّمَاءِ فَتَأْتِيَهُمْ بِآيَةٍ وَلَوْ شَاءَ اللَّهُ لَجَمَعَهُمْ عَلَى الْهُدَىٰ فَلَا تَكُونَنَّ مِنَ الْجَاهِلِينَ",
             translation: "verse 19",
             audioUrl: "./data/006035.mp3",
 			subtitle: ""
@@ -8334,7 +8334,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّمَا يَسْتَجِيبُ الَّذِينَ يَسْمَعُونَ وَالْمَوْتَىٰ يَبْعَثُهُمُ اللَّهُ ثُمَّ إِلَيْهِ يُرْجَعُونَ",
             translation: "verse 19",
             audioUrl: "./data/006036.mp3",
 			subtitle: ""
@@ -8344,7 +8344,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا لَوْلَا نُزِّلَ عَلَيْهِ آيَةٌ مِنْ رَبِّهِ قُلْ إِنَّ اللَّهَ قَادِرٌ عَلَىٰ أَنْ يُنَزِّلَ آيَةً وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006037.mp3",
 			subtitle: ""
@@ -8354,7 +8354,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا مِنْ دَابَّةٍ فِي الْأَرْضِ وَلَا طَائِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّا أُمَمٌ أَمْثَالُكُمْ مَا فَرَّطْنَا فِي الْكِتَابِ مِنْ شَيْءٍ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006038.mp3",
 			subtitle: ""
@@ -8364,7 +8364,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا صُمٌّ وَبُكْمٌ فِي الظُّلُمَاتِ مَنْ يَشَإِ اللَّهُ يُضْلِلْهُ وَمَنْ يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/006039.mp3",
 			subtitle: ""
@@ -8374,7 +8374,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَرَأَيْتَكُمْ إِنْ أَتَاكُمْ عَذَابُ اللَّهِ أَوْ أَتَتْكُمُ السَّاعَةُ أَغَيْرَ اللَّهِ تَدْعُونَ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/006040.mp3",
 			subtitle: ""
@@ -8384,7 +8384,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "بَلْ إِيَّاهُ تَدْعُونَ فَيَكْشِفُ مَا تَدْعُونَ إِلَيْهِ إِنْ شَاءَ وَتَنْسَوْنَ مَا تُشْرِكُونَ",
             translation: "verse 19",
             audioUrl: "./data/006041.mp3",
 			subtitle: ""
@@ -8394,7 +8394,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ أَرْسَلْنَا إِلَىٰ أُمَمٍ مِنْ قَبْلِكَ فَأَخَذْنَاهُمْ بِالْبَأْسَاءِ وَالضَّرَّاءِ لَعَلَّهُمْ يَتَضَرَّعُونَ",
             translation: "verse 19",
             audioUrl: "./data/006042.mp3",
 			subtitle: ""
@@ -8404,7 +8404,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَوْلَا إِذْ جَاءَهُمْ بَأْسُنَا تَضَرَّعُوا وَلَٰكِنْ قَسَتْ قُلُوبُهُمْ وَزَيَّنَ لَهُمُ الشَّيْطَانُ مَا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006043.mp3",
 			subtitle: ""
@@ -8414,7 +8414,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا نَسُوا مَا ذُكِّرُوا بِهِ فَتَحْنَا عَلَيْهِمْ أَبْوَابَ كُلِّ شَيْءٍ حَتَّىٰ إِذَا فَرِحُوا بِمَا أُوتُوا أَخَذْنَاهُمْ بَغْتَةً فَإِذَا هُمْ مُبْلِسُونَ",
             translation: "verse 19",
             audioUrl: "./data/006044.mp3",
 			subtitle: ""
@@ -8424,7 +8424,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَقُطِعَ دَابِرُ الْقَوْمِ الَّذِينَ ظَلَمُوا وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006045.mp3",
 			subtitle: ""
@@ -8434,7 +8434,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَرَأَيْتُمْ إِنْ أَخَذَ اللَّهُ سَمْعَكُمْ وَأَبْصَارَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُمْ مَنْ إِلَٰهٌ غَيْرُ اللَّهِ يَأْتِيكُمْ بِهِ انْظُرْ كَيْفَ نُصَرِّفُ الْآيَاتِ ثُمَّ هُمْ يَصْدِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/006046.mp3",
 			subtitle: ""
@@ -8444,7 +8444,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَرَأَيْتَكُمْ إِنْ أَتَاكُمْ عَذَابُ اللَّهِ بَغْتَةً أَوْ جَهْرَةً هَلْ يُهْلَكُ إِلَّا الْقَوْمُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006047.mp3",
 			subtitle: ""
@@ -8454,7 +8454,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا نُرْسِلُ الْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنْذِرِينَ فَمَنْ آمَنَ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
             translation: "verse 19",
             audioUrl: "./data/006048.mp3",
 			subtitle: ""
@@ -8464,7 +8464,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا يَمَسُّهُمُ الْعَذَابُ بِمَا كَانُوا يَفْسُقُونَ",
             translation: "verse 19",
             audioUrl: "./data/006049.mp3",
 			subtitle: ""
@@ -8474,7 +8474,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ لَا أَقُولُ لَكُمْ عِنْدِي خَزَائِنُ اللَّهِ وَلَا أَعْلَمُ الْغَيْبَ وَلَا أَقُولُ لَكُمْ إِنِّي مَلَكٌ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰ إِلَيَّ قُلْ هَلْ يَسْتَوِي الْأَعْمَىٰ وَالْبَصِيرُ أَفَلَا تَتَفَكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006050.mp3",
 			subtitle: ""
@@ -8484,7 +8484,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَنْذِرْ بِهِ الَّذِينَ يَخَافُونَ أَنْ يُحْشَرُوا إِلَىٰ رَبِّهِمْ لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ لَعَلَّهُمْ يَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/006051.mp3",
 			subtitle: ""
@@ -8494,7 +8494,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَطْرُدِ الَّذِينَ يَدْعُونَ رَبَّهُمْ بِالْغَدَاةِ وَالْعَشِيِّ يُرِيدُونَ وَجْهَهُ مَا عَلَيْكَ مِنْ حِسَابِهِمْ مِنْ شَيْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِمْ مِنْ شَيْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006052.mp3",
 			subtitle: ""
@@ -8504,7 +8504,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ فَتَنَّا بَعْضَهُمْ بِبَعْضٍ لِيَقُولُوا أَهَٰؤُلَاءِ مَنَّ اللَّهُ عَلَيْهِمْ مِنْ بَيْنِنَا أَلَيْسَ اللَّهُ بِأَعْلَمَ بِالشَّاكِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/006053.mp3",
 			subtitle: ""
@@ -8514,7 +8514,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا جَاءَكَ الَّذِينَ يُؤْمِنُونَ بِآيَاتِنَا فَقُلْ سَلَامٌ عَلَيْكُمْ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ الرَّحْمَةَ أَنَّهُ مَنْ عَمِلَ مِنْكُمْ سُوءًا بِجَهَالَةٍ ثُمَّ تَابَ مِنْ بَعْدِهِ وَأَصْلَحَ فَأَنَّهُ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006054.mp3",
 			subtitle: ""
@@ -8524,7 +8524,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ نُفَصِّلُ الْآيَاتِ وَلِتَسْتَبِينَ سَبِيلُ الْمُجْرِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006055.mp3",
 			subtitle: ""
@@ -8534,7 +8534,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنِّي نُهِيتُ أَنْ أَعْبُدَ الَّذِينَ تَدْعُونَ مِنْ دُونِ اللَّهِ قُلْ لَا أَتَّبِعُ أَهْوَاءَكُمْ قَدْ ضَلَلْتُ إِذًا وَمَا أَنَا مِنَ الْمُهْتَدِينَ",
             translation: "verse 19",
             audioUrl: "./data/006056.mp3",
 			subtitle: ""
@@ -8544,7 +8544,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنِّي عَلَىٰ بَيِّنَةٍ مِنْ رَبِّي وَكَذَّبْتُمْ بِهِ مَا عِنْدِي مَا تَسْتَعْجِلُونَ بِهِ إِنِ الْحُكْمُ إِلَّا لِلَّهِ يَقُصُّ الْحَقَّ وَهُوَ خَيْرُ الْفَاصِلِينَ",
             translation: "verse 19",
             audioUrl: "./data/006057.mp3",
 			subtitle: ""
@@ -8554,7 +8554,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ لَوْ أَنَّ عِنْدِي مَا تَسْتَعْجِلُونَ بِهِ لَقُضِيَ الْأَمْرُ بَيْنِي وَبَيْنَكُمْ وَاللَّهُ أَعْلَمُ بِالظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006058.mp3",
 			subtitle: ""
@@ -8564,7 +8564,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَعِنْدَهُ مَفَاتِحُ الْغَيْبِ لَا يَعْلَمُهَا إِلَّا هُوَ وَيَعْلَمُ مَا فِي الْبَرِّ وَالْبَحْرِ وَمَا تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِي ظُلُمَاتِ الْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِي كِتَابٍ مُبِينٍ",
             translation: "verse 19",
             audioUrl: "./data/006059.mp3",
 			subtitle: ""
@@ -8574,7 +8574,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي يَتَوَفَّاكُمْ بِالَّيْلِ وَيَعْلَمُ مَا جَرَحْتُمْ بِالنَّهَارِ ثُمَّ يَبْعَثُكُمْ فِيهِ لِيُقْضَىٰ أَجَلٌ مُسَمًّى ثُمَّ إِلَيْهِ مَرْجِعُكُمْ ثُمَّ يُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006060.mp3",
 			subtitle: ""
@@ -8584,7 +8584,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰ إِذَا جَاءَ أَحَدَكُمُ الْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ",
             translation: "verse 19",
             audioUrl: "./data/006061.mp3",
 			subtitle: ""
@@ -8594,7 +8594,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ رُدُّوا إِلَى اللَّهِ مَوْلَاهُمُ الْحَقِّ أَلَا لَهُ الْحُكْمُ وَهُوَ أَسْرَعُ الْحَاسِبِينَ",
             translation: "verse 19",
             audioUrl: "./data/006062.mp3",
 			subtitle: ""
@@ -8604,7 +8604,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ مَنْ يُنَجِّيكُمْ مِنْ ظُلُمَاتِ الْبَرِّ وَالْبَحْرِ تَدْعُونَهُ تَضَرُّعًا وَخُفْيَةً لَئِنْ أَنْجَانَا مِنْ هَٰذِهِ لَنَكُونَنَّ مِنَ الشَّاكِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/006063.mp3",
 			subtitle: ""
@@ -8614,7 +8614,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلِ اللَّهُ يُنَجِّيكُمْ مِنْهَا وَمِنْ كُلِّ كَرْبٍ ثُمَّ أَنْتُمْ تُشْرِكُونَ",
             translation: "verse 19",
             audioUrl: "./data/006064.mp3",
 			subtitle: ""
@@ -8624,7 +8624,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ هُوَ الْقَادِرُ عَلَىٰ أَنْ يَبْعَثَ عَلَيْكُمْ عَذَابًا مِنْ فَوْقِكُمْ أَوْ مِنْ تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعًا وَيُذِيقَ بَعْضَكُمْ بَأْسَ بَعْضٍ انْظُرْ كَيْفَ نُصَرِّفُ الْآيَاتِ لَعَلَّهُمْ يَفْقَهُونَ",
             translation: "verse 19",
             audioUrl: "./data/006065.mp3",
 			subtitle: ""
@@ -8634,7 +8634,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَّبَ بِهِ قَوْمُكَ وَهُوَ الْحَقُّ قُلْ لَسْتُ عَلَيْكُمْ بِوَكِيلٍ",
             translation: "verse 19",
             audioUrl: "./data/006066.mp3",
 			subtitle: ""
@@ -8644,7 +8644,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٧',		
-            arabicText: "Arabic text here",
+            arabicText: "لِكُلِّ نَبَإٍ مُسْتَقَرٌّ وَسَوْفَ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006067.mp3",
 			subtitle: ""
@@ -8654,7 +8654,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِي آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا فِي حَدِيثٍ غَيْرِهِ وَإِمَّا يُنْسِيَنَّكَ الشَّيْطَانُ فَلَا تَقْعُدْ بَعْدَ الذِّكْرَىٰ مَعَ الْقَوْمِ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006068.mp3",
 			subtitle: ""
@@ -8664,7 +8664,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٦٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا عَلَى الَّذِينَ يَتَّقُونَ مِنْ حِسَابِهِمْ مِنْ شَيْءٍ وَلَٰكِنْ ذِكْرَىٰ لَعَلَّهُمْ يَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/006069.mp3",
 			subtitle: ""
@@ -8674,7 +8674,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَذَرِ الَّذِينَ اتَّخَذُوا دِينَهُمْ لَعِبًا وَلَهْوًا وَغَرَّتْهُمُ الْحَيَاةُ الدُّنْيَا وَذَكِّرْ بِهِ أَنْ تُبْسَلَ نَفْسٌ بِمَا كَسَبَتْ لَيْسَ لَهَا مِنْ دُونِ اللَّهِ وَلِيٌّ وَلَا شَفِيعٌ وَإِنْ تَعْدِلْ كُلَّ عَدْلٍ لَا يُؤْخَذْ مِنْهَا أُولَٰئِكَ الَّذِينَ أُبْسِلُوا بِمَا كَسَبُوا لَهُمْ شَرَابٌ مِنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْفُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006070.mp3",
 			subtitle: ""
@@ -8684,7 +8684,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧١',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَنَدْعُو مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُنَا وَلَا يَضُرُّنَا وَنُرَدُّ عَلَىٰ أَعْقَابِنَا بَعْدَ إِذْ هَدَانَا اللَّهُ كَالَّذِي اسْتَهْوَتْهُ الشَّيَاطِينُ فِي الْأَرْضِ حَيْرَانَ لَهُ أَصْحَابٌ يَدْعُونَهُ إِلَى الْهُدَى ائْتِنَا قُلْ إِنَّ هُدَى اللَّهِ هُوَ الْهُدَىٰ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006071.mp3",
 			subtitle: ""
@@ -8694,7 +8694,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَنْ أَقِيمُوا الصَّلَاةَ وَاتَّقُوهُ وَهُوَ الَّذِي إِلَيْهِ تُحْشَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006072.mp3",
 			subtitle: ""
@@ -8704,7 +8704,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ وَيَوْمَ يَقُولُ كُنْ فَيَكُونُ قَوْلُهُ الْحَقُّ وَلَهُ الْمُلْكُ يَوْمَ يُنْفَخُ فِي الصُّورِ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ وَهُوَ الْحَكِيمُ الْخَبِيرُ",
             translation: "verse 19",
             audioUrl: "./data/006073.mp3",
 			subtitle: ""
@@ -8714,7 +8714,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذْ قَالَ إِبْرَاهِيمُ لِأَبِيهِ آزَرَ أَتَتَّخِذُ أَصْنَامًا آلِهَةً إِنِّي أَرَاكَ وَقَوْمَكَ فِي ضَلَالٍ مُبِينٍ",
             translation: "verse 19",
             audioUrl: "./data/006074.mp3",
 			subtitle: ""
@@ -8724,7 +8724,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ نُرِي إِبْرَاهِيمَ مَلَكُوتَ السَّمَاوَاتِ وَالْأَرْضِ وَلِيَكُونَ مِنَ الْمُوقِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/006075.mp3",
 			subtitle: ""
@@ -8734,7 +8734,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٦',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا جَنَّ عَلَيْهِ الَّيْلُ رَأَىٰ كَوْكَبًا قَالَ هَٰذَا رَبِّي فَلَمَّا أَفَلَ قَالَ لَا أُحِبُّ الْآفِلِينَ",
             translation: "verse 19",
             audioUrl: "./data/006076.mp3",
 			subtitle: ""
@@ -8744,7 +8744,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا رَأَى الْقَمَرَ بَازِغًا قَالَ هَٰذَا رَبِّي فَلَمَّا أَفَلَ قَالَ لَئِنْ لَمْ يَهْدِنِي رَبِّي لَأَكُونَنَّ مِنَ الْقَوْمِ الضَّالِّينَ",
             translation: "verse 19",
             audioUrl: "./data/006077.mp3",
 			subtitle: ""
@@ -8754,7 +8754,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٨',		
-            arabicText: "Arabic text here",
+            arabicText: "فَلَمَّا رَأَى الشَّمْسَ بَازِغَةً قَالَ هَٰذَا رَبِّي هَٰذَا أَكْبَرُ فَلَمَّا أَفَلَتْ قَالَ يَاقَوْمِ إِنِّي بَرِيءٌ مِمَّا تُشْرِكُونَ",
             translation: "verse 19",
             audioUrl: "./data/006078.mp3",
 			subtitle: ""
@@ -8764,7 +8764,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٧٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/006079.mp3",
 			subtitle: ""
@@ -8774,7 +8774,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَحَاجَّهُ قَوْمُهُ قَالَ أَتُحَاجُّونِّي فِي اللَّهِ وَقَدْ هَدَانِ وَلَا أَخَافُ مَا تُشْرِكُونَ بِهِ إِلَّا أَنْ يَشَاءَ رَبِّي شَيْئًا وَسِعَ رَبِّي كُلَّ شَيْءٍ عِلْمًا أَفَلَا تَتَذَكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006080.mp3",
 			subtitle: ""
@@ -8784,7 +8784,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَيْفَ أَخَافُ مَا أَشْرَكْتُمْ وَلَا تَخَافُونَ أَنَّكُمْ أَشْرَكْتُمْ بِاللَّهِ مَا لَمْ يُنَزِّلْ بِهِ عَلَيْكُمْ سُلْطَانًا فَأَيُّ الْفَرِيقَيْنِ أَحَقُّ بِالْأَمْنِ إِنْ كُنْتُمْ تَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006081.mp3",
 			subtitle: ""
@@ -8794,7 +8794,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٢',		
-            arabicText: "Arabic text here",
+            arabicText: "الَّذِينَ آمَنُوا وَلَمْ يَلْبِسُوا إِيمَانَهُمْ بِظُلْمٍ أُولَٰئِكَ لَهُمُ الْأَمْنُ وَهُمْ مُهْتَدُونَ",
             translation: "verse 19",
             audioUrl: "./data/006082.mp3",
 			subtitle: ""
@@ -8804,7 +8804,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَتِلْكَ حُجَّتُنَا آتَيْنَاهَا إِبْرَاهِيمَ عَلَىٰ قَوْمِهِ نَرْفَعُ دَرَجَاتٍ مَنْ نَشَاءُ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006083.mp3",
 			subtitle: ""
@@ -8814,7 +8814,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَىٰ وَهَارُونَ وَكَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/006084.mp3",
 			subtitle: ""
@@ -8824,7 +8824,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَزَكَرِيَّا وَيَحْيَىٰ وَعِيسَىٰ وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ",
             translation: "verse 19",
             audioUrl: "./data/006085.mp3",
 			subtitle: ""
@@ -8834,7 +8834,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006086.mp3",
 			subtitle: ""
@@ -8844,7 +8844,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنْ آبَائِهِمْ وَذُرِّيَّاتِهِمْ وَإِخْوَانِهِمْ وَاجْتَبَيْنَاهُمْ وَهَدَيْنَاهُمْ إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ",
             translation: "verse 19",
             audioUrl: "./data/006087.mp3",
 			subtitle: ""
@@ -8854,7 +8854,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٨',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ هُدَى اللَّهِ يَهْدِي بِهِ مَنْ يَشَاءُ مِنْ عِبَادِهِ وَلَوْ أَشْرَكُوا لَحَبِطَ عَنْهُمْ مَا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006088.mp3",
 			subtitle: ""
@@ -8864,7 +8864,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٨٩',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ فَإِنْ يَكْفُرْ بِهَا هَٰؤُلَاءِ فَقَدْ وَكَّلْنَا بِهَا قَوْمًا لَيْسُوا بِهَا بِكَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/006089.mp3",
 			subtitle: ""
@@ -8874,7 +8874,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٠',		
-            arabicText: "Arabic text here",
+            arabicText: "أُولَٰئِكَ الَّذِينَ هَدَى اللَّهُ فَبِهُدَاهُمُ اقْتَدِهْ قُلْ لَا أَسْأَلُكُمْ عَلَيْهِ أَجْرًا إِنْ هُوَ إِلَّا ذِكْرَىٰ لِلْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006090.mp3",
 			subtitle: ""
@@ -8884,7 +8884,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا قَدَرُوا اللَّهَ حَقَّ قَدْرِهِ إِذْ قَالُوا مَا أَنْزَلَ اللَّهُ عَلَىٰ بَشَرٍ مِنْ شَيْءٍ قُلْ مَنْ أَنْزَلَ الْكِتَابَ الَّذِي جَاءَ بِهِ مُوسَىٰ نُورًا وَهُدًى لِلنَّاسِ تَجْعَلُونَهُ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًا وَعُلِّمْتُمْ مَا لَمْ تَعْلَمُوا أَنْتُمْ وَلَا آبَاؤُكُمْ قُلِ اللَّهُ ثُمَّ ذَرْهُمْ فِي خَوْضِهِمْ يَلْعَبُونَ",
             translation: "verse 19",
             audioUrl: "./data/006091.mp3",
 			subtitle: ""
@@ -8894,7 +8894,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهَٰذَا كِتَابٌ أَنْزَلْنَاهُ مُبَارَكٌ مُصَدِّقُ الَّذِي بَيْنَ يَدَيْهِ وَلِتُنْذِرَ أُمَّ الْقُرَىٰ وَمَنْ حَوْلَهَا وَالَّذِينَ يُؤْمِنُونَ بِالْآخِرَةِ يُؤْمِنُونَ بِهِ وَهُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ",
             translation: "verse 19",
             audioUrl: "./data/006092.mp3",
 			subtitle: ""
@@ -8904,7 +8904,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ قَالَ أُوحِيَ إِلَيَّ وَلَمْ يُوحَ إِلَيْهِ شَيْءٌ وَمَنْ قَالَ سَأُنْزِلُ مِثْلَ مَا أَنْزَلَ اللَّهُ وَلَوْ تَرَىٰ إِذِ الظَّالِمُونَ فِي غَمَرَاتِ الْمَوْتِ وَالْمَلَائِكَةُ بَاسِطُو أَيْدِيهِمْ أَخْرِجُوا أَنْفُسَكُمُ الْيَوْمَ تُجْزَوْنَ عَذَابَ الْهُونِ بِمَا كُنْتُمْ تَقُولُونَ عَلَى اللَّهِ غَيْرَ الْحَقِّ وَكُنْتُمْ عَنْ آيَاتِهِ تَسْتَكْبِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006093.mp3",
 			subtitle: ""
@@ -8914,7 +8914,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَقَدْ جِئْتُمُونَا فُرَادَىٰ كَمَا خَلَقْنَاكُمْ أَوَّلَ مَرَّةٍ وَتَرَكْتُمْ مَا خَوَّلْنَاكُمْ وَرَاءَ ظُهُورِكُمْ وَمَا نَرَىٰ مَعَكُمْ شُفَعَاءَكُمُ الَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَاءُ لَقَدْ تَقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنْكُمْ مَا كُنْتُمْ تَزْعُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006094.mp3",
 			subtitle: ""
@@ -8924,7 +8924,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٥',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ اللَّهَ فَالِقُ الْحَبِّ وَالنَّوَىٰ يُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَمُخْرِجُ الْمَيِّتِ مِنَ الْحَيِّ ذَٰلِكُمُ اللَّهُ فَأَنَّىٰ تُؤْفَكُونَ",
             translation: "verse 19",
             audioUrl: "./data/006095.mp3",
 			subtitle: ""
@@ -8934,7 +8934,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٦',		
-            arabicText: "Arabic text here",
+            arabicText: "فَالِقُ الْإِصْبَاحِ وَجَعَلَ الَّيْلَ سَكَنًا وَالشَّمْسَ وَالْقَمَرَ حُسْبَانًا ذَٰلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ",
             translation: "verse 19",
             audioUrl: "./data/006096.mp3",
 			subtitle: ""
@@ -8944,7 +8944,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي جَعَلَ لَكُمُ النُّجُومَ لِتَهْتَدُوا بِهَا فِي ظُلُمَاتِ الْبَرِّ وَالْبَحْرِ قَدْ فَصَّلْنَا الْآيَاتِ لِقَوْمٍ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006097.mp3",
 			subtitle: ""
@@ -8954,7 +8954,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي أَنْشَأَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ قَدْ فَصَّلْنَا الْآيَاتِ لِقَوْمٍ يَفْقَهُونَ",
             translation: "verse 19",
             audioUrl: "./data/006098.mp3",
 			subtitle: ""
@@ -8964,7 +8964,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٩٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي أَنْزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجْنَا بِهِ نَبَاتَ كُلِّ شَيْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُخْرِجُ مِنْهُ حَبًّا مُتَرَاكِبًا وَمِنَ النَّخْلِ مِنْ طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّاتٍ مِنْ أَعْنَابٍ وَالزَّيْتُونَ وَالرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَابِهٍ انْظُرُوا إِلَىٰ ثَمَرِهِ إِذَا أَثْمَرَ وَيَنْعِهِ إِنَّ فِي ذَٰلِكُمْ لَآيَاتٍ لِقَوْمٍ يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/006099.mp3",
 			subtitle: ""
@@ -8974,7 +8974,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَجَعَلُوا لِلَّهِ شُرَكَاءَ الْجِنَّ وَخَلَقَهُمْ وَخَرَقُوا لَهُ بَنِينَ وَبَنَاتٍ بِغَيْرِ عِلْمٍ سُبْحَانَهُ وَتَعَالَىٰ عَمَّا يَصِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/006100.mp3",
 			subtitle: ""
@@ -8984,7 +8984,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠١',		
-            arabicText: "Arabic text here",
+            arabicText: "بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ أَنَّىٰ يَكُونُ لَهُ وَلَدٌ وَلَمْ تَكُنْ لَهُ صَاحِبَةٌ وَخَلَقَ كُلَّ شَيْءٍ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006101.mp3",
 			subtitle: ""
@@ -8994,7 +8994,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٢',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكُمُ اللَّهُ رَبُّكُمْ لَا إِلَٰهَ إِلَّا هُوَ خَالِقُ كُلِّ شَيْءٍ فَاعْبُدُوهُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ",
             translation: "verse 19",
             audioUrl: "./data/006102.mp3",
 			subtitle: ""
@@ -9004,7 +9004,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا تُدْرِكُهُ الْأَبْصَارُ وَهُوَ يُدْرِكُ الْأَبْصَارَ وَهُوَ اللَّطِيفُ الْخَبِيرُ",
             translation: "verse 19",
             audioUrl: "./data/006103.mp3",
 			subtitle: ""
@@ -9014,7 +9014,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ جَاءَكُمْ بَصَائِرُ مِنْ رَبِّكُمْ فَمَنْ أَبْصَرَ فَلِنَفْسِهِ وَمَنْ عَمِيَ فَعَلَيْهَا وَمَا أَنَا عَلَيْكُمْ بِحَفِيظٍ",
             translation: "verse 19",
             audioUrl: "./data/006104.mp3",
 			subtitle: ""
@@ -9024,7 +9024,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ نُصَرِّفُ الْآيَاتِ وَلِيَقُولُوا دَرَسْتَ وَلِنُبَيِّنَهُ لِقَوْمٍ يَعْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006105.mp3",
 			subtitle: ""
@@ -9034,7 +9034,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٦',		
-            arabicText: "Arabic text here",
+            arabicText: "اتَّبِعْ مَا أُوحِيَ إِلَيْكَ مِنْ رَبِّكَ لَا إِلَٰهَ إِلَّا هُوَ وَأَعْرِضْ عَنِ الْمُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/006106.mp3",
 			subtitle: ""
@@ -9044,7 +9044,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ شَاءَ اللَّهُ مَا أَشْرَكُوا وَمَا جَعَلْنَاكَ عَلَيْهِمْ حَفِيظًا وَمَا أَنْتَ عَلَيْهِمْ بِوَكِيلٍ",
             translation: "verse 19",
             audioUrl: "./data/006107.mp3",
 			subtitle: ""
@@ -9054,7 +9054,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَسُبُّوا الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْوًا بِغَيْرِ عِلْمٍ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِمْ مَرْجِعُهُمْ فَيُنَبِّئُهُمْ بِمَا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006108.mp3",
 			subtitle: ""
@@ -9064,7 +9064,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٠٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَقْسَمُوا بِاللَّهِ جَهْدَ أَيْمَانِهِمْ لَئِنْ جَاءَتْهُمْ آيَةٌ لَيُؤْمِنُنَّ بِهَا قُلْ إِنَّمَا الْآيَاتُ عِنْدَ اللَّهِ وَمَا يُشْعِرُكُمْ أَنَّهَا إِذَا جَاءَتْ لَا يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/006109.mp3",
 			subtitle: ""
@@ -9074,7 +9074,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَنُقَلِّبُ أَفْئِدَتَهُمْ وَأَبْصَارَهُمْ كَمَا لَمْ يُؤْمِنُوا بِهِ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ",
             translation: "verse 19",
             audioUrl: "./data/006110.mp3",
 			subtitle: ""
@@ -9083,7 +9083,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَوْ أَنَّنَا نَزَّلْنَا إِلَيْهِمُ الْمَلَائِكَةَ وَكَلَّمَهُمُ الْمَوْتَىٰ وَحَشَرْنَا عَلَيْهِمْ كُلَّ شَيْءٍ قُبُلًا مَا كَانُوا لِيُؤْمِنُوا إِلَّا أَنْ يَشَاءَ اللَّهُ وَلَٰكِنَّ أَكْثَرَهُمْ يَجْهَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006111.mp3",
 			subtitle: ""
@@ -9093,7 +9093,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ جَعَلْنَا لِكُلِّ نَبِيٍّ عَدُوًّا شَيَاطِينَ الْإِنْسِ وَالْجِنِّ يُوحِي بَعْضُهُمْ إِلَىٰ بَعْضٍ زُخْرُفَ الْقَوْلِ غُرُورًا وَلَوْ شَاءَ رَبُّكَ مَا فَعَلُوهُ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006112.mp3",
 			subtitle: ""
@@ -9103,7 +9103,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِتَصْغَىٰ إِلَيْهِ أَفْئِدَةُ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا مَا هُمْ مُقْتَرِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/006113.mp3",
 			subtitle: ""
@@ -9113,7 +9113,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢:١١٤)',		
-            arabicText: "Arabic text here",
+            arabicText: "أَفَغَيْرَ اللَّهِ أَبْتَغِي حَكَمًا وَهُوَ الَّذِي أَنْزَلَ إِلَيْكُمُ الْكِتَابَ مُفَصَّلًا وَالَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَعْلَمُونَ أَنَّهُ مُنَزَّلٌ مِنْ رَبِّكَ بِالْحَقِّ فَلَا تَكُونَنَّ مِنَ الْمُمْتَرِينَ",
             translation: "verse 19",
             audioUrl: "./data/006114.mp3",
 			subtitle: ""
@@ -9123,7 +9123,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '٢:١١٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًا وَعَدْلًا لَا مُبَدِّلَ لِكَلِمَاتِهِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
             translation: "verse 19",
             audioUrl: "./data/006115.mp3",
 			subtitle: ""
@@ -9132,7 +9132,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِنْ تُطِعْ أَكْثَرَ مَنْ فِي الْأَرْضِ يُضِلُّوكَ عَنْ سَبِيلِ اللَّهِ إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
             translation: "verse 19",
             audioUrl: "./data/006116.mp3",
 			subtitle: ""
@@ -9142,7 +9142,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٧',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ رَبَّكَ هُوَ أَعْلَمُ مَنْ يَضِلُّ عَنْ سَبِيلِهِ وَهُوَ أَعْلَمُ بِالْمُهْتَدِينَ",
             translation: "verse 19",
             audioUrl: "./data/006117.mp3",
 			subtitle: ""
@@ -9152,7 +9152,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٨',		
-            arabicText: "Arabic text here",
+            arabicText: "فَكُلُوا مِمَّا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ إِنْ كُنْتُمْ بِآيَاتِهِ مُؤْمِنِينَ",
             translation: "verse 19",
             audioUrl: "./data/006118.mp3",
 			subtitle: ""
@@ -9162,7 +9162,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١١٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمَا لَكُمْ أَلَّا تَأْكُلُوا مِمَّا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ وَقَدْ فَصَّلَ لَكُمْ مَا حَرَّمَ عَلَيْكُمْ إِلَّا مَا اضْطُرِرْتُمْ إِلَيْهِ وَإِنَّ كَثِيرًا لَيُضِلُّونَ بِأَهْوَائِهِمْ بِغَيْرِ عِلْمٍ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِالْمُعْتَدِينَ",
             translation: "verse 19",
             audioUrl: "./data/006119.mp3",
 			subtitle: ""
@@ -9172,7 +9172,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٠',		
-            arabicText: "Arabic text here",
+            arabicText: "وَذَرُوا ظَاهِرَ الْإِثْمِ وَبَاطِنَهُ إِنَّ الَّذِينَ يَكْسِبُونَ الْإِثْمَ سَيُجْزَوْنَ بِمَا كَانُوا يَقْتَرِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/006120.mp3",
 			subtitle: ""
@@ -9182,7 +9182,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَأْكُلُوا مِمَّا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ وَإِنَّهُ لَفِسْقٌ وَإِنَّ الشَّيَاطِينَ لَيُوحُونَ إِلَىٰ أَوْلِيَائِهِمْ لِيُجَادِلُوكُمْ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ",
             translation: "verse 19",
             audioUrl: "./data/006121.mp3",
 			subtitle: ""
@@ -9192,7 +9192,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٢',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوَمَنْ كَانَ مَيْتًا فَأَحْيَيْنَاهُ وَجَعَلْنَا لَهُ نُورًا يَمْشِي بِهِ فِي النَّاسِ كَمَنْ مَثَلُهُ فِي الظُّلُمَاتِ لَيْسَ بِخَارِجٍ مِنْهَا كَذَٰلِكَ زُيِّنَ لِلْكَافِرِينَ مَا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006122.mp3",
 			subtitle: ""
@@ -9202,7 +9202,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ جَعَلْنَا فِي كُلِّ قَرْيَةٍ أَكَابِرَ مُجْرِمِيهَا لِيَمْكُرُوا فِيهَا وَمَا يَمْكُرُونَ إِلَّا بِأَنْفُسِهِمْ وَمَا يَشْعُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006123.mp3",
 			subtitle: ""
@@ -9212,7 +9212,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَإِذَا جَاءَتْهُمْ آيَةٌ قَالُوا لَنْ نُؤْمِنَ حَتَّىٰ نُؤْتَىٰ مِثْلَ مَا أُوتِيَ رُسُلُ اللَّهِ اللَّهُ أَعْلَمُ حَيْثُ يَجْعَلُ رِسَالَتَهُ سَيُصِيبُ الَّذِينَ أَجْرَمُوا صَغَارٌ عِنْدَ اللَّهِ وَعَذَابٌ شَدِيدٌ بِمَا كَانُوا يَمْكُرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006124.mp3",
 			subtitle: ""
@@ -9222,7 +9222,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٥',		
-            arabicText: "Arabic text here",
+            arabicText: "فَمَنْ يُرِدِ اللَّهُ أَنْ يَهْدِيَهُ يَشْرَحْ صَدْرَهُ لِلْإِسْلَامِ وَمَنْ يُرِدْ أَنْ يُضِلَّهُ يَجْعَلْ صَدْرَهُ ضَيِّقًا حَرَجًا كَأَنَّمَا يَصَّعَّدُ فِي السَّمَاءِ كَذَٰلِكَ يَجْعَلُ اللَّهُ الرِّجْسَ عَلَى الَّذِينَ لَا يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/006125.mp3",
 			subtitle: ""
@@ -9232,7 +9232,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهَٰذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا قَدْ فَصَّلْنَا الْآيَاتِ لِقَوْمٍ يَذَّكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006126.mp3",
 			subtitle: ""
@@ -9242,7 +9242,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٧',		
-            arabicText: "Arabic text here",
+            arabicText: "لَهُمْ دَارُ السَّلَامِ عِنْدَ رَبِّهِمْ وَهُوَ وَلِيُّهُمْ بِمَا كَانُوا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006127.mp3",
 			subtitle: ""
@@ -9252,7 +9252,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَيَوْمَ يَحْشُرُهُمْ جَمِيعًا يَامَعْشَرَ الْجِنِّ قَدِ اسْتَكْثَرْتُمْ مِنَ الْإِنْسِ وَقَالَ أَوْلِيَاؤُهُمْ مِنَ الْإِنْسِ رَبَّنَا اسْتَمْتَعَ بَعْضُنَا بِبَعْضٍ وَبَلَغْنَا أَجَلَنَا الَّذِي أَجَّلْتَ لَنَا قَالَ النَّارُ مَثْوَاكُمْ خَالِدِينَ فِيهَا إِلَّا مَا شَاءَ اللَّهُ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006128.mp3",
 			subtitle: ""
@@ -9262,7 +9262,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٢٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ نُوَلِّي بَعْضَ الظَّالِمِينَ بَعْضًا بِمَا كَانُوا يَكْسِبُونَ",
             translation: "verse 19",
             audioUrl: "./data/006129.mp3",
 			subtitle: ""
@@ -9272,7 +9272,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٠',		
-            arabicText: "Arabic text here",
+            arabicText: "يَامَعْشَرَ الْجِنِّ وَالْإِنْسِ أَلَمْ يَأْتِكُمْ رُسُلٌ مِنْكُمْ يَقُصُّونَ عَلَيْكُمْ آيَاتِي وَيُنْذِرُونَكُمْ لِقَاءَ يَوْمِكُمْ هَٰذَا قَالُوا شَهِدْنَا عَلَىٰ أَنْفُسِنَا وَغَرَّتْهُمُ الْحَيَاةُ الدُّنْيَا وَشَهِدُوا عَلَىٰ أَنْفُسِهِمْ أَنَّهُمْ كَانُوا كَافِرِينَ",
             translation: "verse 19",
             audioUrl: "./data/006130.mp3",
 			subtitle: ""
@@ -9282,7 +9282,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣١',		
-            arabicText: "Arabic text here",
+            arabicText: "ذَٰلِكَ أَنْ لَمْ يَكُنْ رَبُّكَ مُهْلِكَ الْقُرَىٰ بِظُلْمٍ وَأَهْلُهَا غَافِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006131.mp3",
 			subtitle: ""
@@ -9292,7 +9292,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلِكُلٍّ دَرَجَاتٌ مِمَّا عَمِلُوا وَمَا رَبُّكَ بِغَافِلٍ عَمَّا يَعْمَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006132.mp3",
 			subtitle: ""
@@ -9302,7 +9302,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَرَبُّكَ الْغَنِيُّ ذُو الرَّحْمَةِ إِنْ يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنْ بَعْدِكُمْ مَا يَشَاءُ كَمَا أَنْشَأَكُمْ مِنْ ذُرِّيَّةِ قَوْمٍ آخَرِينَ",
             translation: "verse 19",
             audioUrl: "./data/006133.mp3",
 			subtitle: ""
@@ -9311,7 +9311,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٤',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ مَا تُوعَدُونَ لَآتٍ وَمَا أَنْتُمْ بِمُعْجِزِينَ",
             translation: "verse 19",
             audioUrl: "./data/006134.mp3",
 			subtitle: ""
@@ -9321,7 +9321,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ يَاقَوْمِ اعْمَلُوا عَلَىٰ مَكَانَتِكُمْ إِنِّي عَامِلٌ فَسَوْفَ تَعْلَمُونَ مَنْ تَكُونُ لَهُ عَاقِبَةُ الدَّارِ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006135.mp3",
 			subtitle: ""
@@ -9331,7 +9331,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَجَعَلُوا لِلَّهِ مِمَّا ذَرَأَ مِنَ الْحَرْثِ وَالْأَنْعَامِ نَصِيبًا فَقَالُوا هَٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَٰذَا لِشُرَكَائِنَا فَمَا كَانَ لِشُرَكَائِهِمْ فَلَا يَصِلُ إِلَى اللَّهِ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَائِهِمْ سَاءَ مَا يَحْكُمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006136.mp3",
 			subtitle: ""
@@ -9341,7 +9341,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٧',		
-            arabicText: "Arabic text here",
+            arabicText: "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِنَ الْمُشْرِكِينَ قَتْلَ أَوْلَادِهِمْ شُرَكَاؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا عَلَيْهِمْ دِينَهُمْ وَلَوْ شَاءَ اللَّهُ مَا فَعَلُوهُ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006137.mp3",
 			subtitle: ""
@@ -9351,7 +9351,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٨',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا هَٰذِهِ أَنْعَامٌ وَحَرْثٌ حِجْرٌ لَا يَطْعَمُهَا إِلَّا مَنْ نَشَاءُ بِزَعْمِهِمْ وَأَنْعَامٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَامٌ لَا يَذْكُرُونَ اسْمَ اللَّهِ عَلَيْهَا افْتِرَاءً عَلَيْهِ سَيَجْزِيهِمْ بِمَا كَانُوا يَفْتَرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006138.mp3",
 			subtitle: ""
@@ -9360,7 +9360,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٣٩',		
-            arabicText: "Arabic text here",
+            arabicText: "وَقَالُوا مَا فِي بُطُونِ هَٰذِهِ الْأَنْعَامِ خَالِصَةٌ لِذُكُورِنَا وَمُحَرَّمٌ عَلَىٰ أَزْوَاجِنَا وَإِنْ يَكُنْ مَيْتَةً فَهُمْ فِيهِ شُرَكَاءُ سَيَجْزِيهِمْ وَصْفَهُمْ إِنَّهُ حَكِيمٌ عَلِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006139.mp3",
 			subtitle: ""
@@ -9370,7 +9370,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قَدْ خَسِرَ الَّذِينَ قَتَلُوا أَوْلَادَهُمْ سَفَهًا بِغَيْرِ عِلْمٍ وَحَرَّمُوا مَا رَزَقَهُمُ اللَّهُ افْتِرَاءً عَلَى اللَّهِ قَدْ ضَلُّوا وَمَا كَانُوا مُهْتَدِينَ",
             translation: "verse 19",
             audioUrl: "./data/006140.mp3",
 			subtitle: ""
@@ -9380,7 +9380,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤١',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي أَنْشَأَ جَنَّاتٍ مَعْرُوشَاتٍ وَغَيْرَ مَعْرُوشَاتٍ وَالنَّخْلَ وَالزَّرْعَ مُخْتَلِفًا أُكُلُهُ وَالزَّيْتُونَ وَالرُّمَّانَ مُتَشَابِهًا وَغَيْرَ مُتَشَابِهٍ كُلُوا مِنْ ثَمَرِهِ إِذَا أَثْمَرَ وَآتُوا حَقَّهُ يَوْمَ حَصَادِهِ وَلَا تُسْرِفُوا إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ",
             translation: "verse 19",
             audioUrl: "./data/006141.mp3",
 			subtitle: ""
@@ -9390,7 +9390,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنَ الْأَنْعَامِ حَمُولَةً وَفَرْشًا كُلُوا مِمَّا رَزَقَكُمُ اللَّهُ وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ إِنَّهُ لَكُمْ عَدُوٌّ مُبِينٌ",
             translation: "verse 19",
             audioUrl: "./data/006142.mp3",
 			subtitle: ""
@@ -9400,7 +9400,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٣',		
-            arabicText: "Arabic text here",
+            arabicText: "ثَمَانِيَةَ أَزْوَاجٍ مِنَ الضَّأْنِ اثْنَيْنِ وَمِنَ الْمَعْزِ اثْنَيْنِ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ الْأُنْثَيَيْنِ أَمَّا اشْتَمَلَتْ عَلَيْهِ أَرْحَامُ الْأُنْثَيَيْنِ نَبِّئُونِي بِعِلْمٍ إِنْ كُنْتُمْ صَادِقِينَ",
             translation: "verse 19",
             audioUrl: "./data/006143.mp3",
 			subtitle: ""
@@ -9410,7 +9410,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٤',		
-            arabicText: "Arabic text here",
+            arabicText: "وَمِنَ الْإِبِلِ اثْنَيْنِ وَمِنَ الْبَقَرِ اثْنَيْنِ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ الْأُنْثَيَيْنِ أَمَّا اشْتَمَلَتْ عَلَيْهِ أَرْحَامُ الْأُنْثَيَيْنِ أَمْ كُنْتُمْ شُهَدَاءَ إِذْ وَصَّاكُمُ اللَّهُ بِهَٰذَا فَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا لِيُضِلَّ النَّاسَ بِغَيْرِ عِلْمٍ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006144.mp3",
 			subtitle: ""
@@ -9420,7 +9420,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٥',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ لَا أَجِدُ فِي مَا أُوحِيَ إِلَيَّ مُحَرَّمًا عَلَىٰ طَاعِمٍ يَطْعَمُهُ إِلَّا أَنْ يَكُونَ مَيْتَةً أَوْ دَمًا مَسْفُوحًا أَوْ لَحْمَ خِنْزِيرٍ فَإِنَّهُ رِجْسٌ أَوْ فِسْقًا أُهِلَّ لِغَيْرِ اللَّهِ بِهِ فَمَنِ اضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَإِنَّ رَبَّكَ غَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006145.mp3",
 			subtitle: ""
@@ -9430,7 +9430,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٦',		
-            arabicText: "Arabic text here",
+            arabicText: "وَعَلَى الَّذِينَ هَادُوا حَرَّمْنَا كُلَّ ذِي ظُفُرٍ وَمِنَ الْبَقَرِ وَالْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَا إِلَّا مَا حَمَلَتْ ظُهُورُهُمَا أَوِ الْحَوَايَا أَوْ مَا اخْتَلَطَ بِعَظْمٍ ذَٰلِكَ جَزَيْنَاهُمْ بِبَغْيِهِمْ وَإِنَّا لَصَادِقُونَ",
             translation: "verse 19",
             audioUrl: "./data/006146.mp3",
 			subtitle: ""
@@ -9440,7 +9440,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٧',		
-            arabicText: "Arabic text here",
+            arabicText: "فَإِنْ كَذَّبُوكَ فَقُلْ رَبُّكُمْ ذُو رَحْمَةٍ وَاسِعَةٍ وَلَا يُرَدُّ بَأْسُهُ عَنِ الْقَوْمِ الْمُجْرِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006147.mp3",
 			subtitle: ""
@@ -9450,7 +9450,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٨',		
-            arabicText: "Arabic text here",
+            arabicText: "سَيَقُولُ الَّذِينَ أَشْرَكُوا لَوْ شَاءَ اللَّهُ مَا أَشْرَكْنَا وَلَا آبَاؤُنَا وَلَا حَرَّمْنَا مِنْ شَيْءٍ كَذَٰلِكَ كَذَّبَ الَّذِينَ مِنْ قَبْلِهِمْ حَتَّىٰ ذَاقُوا بَأْسَنَا قُلْ هَلْ عِنْدَكُمْ مِنْ عِلْمٍ فَتُخْرِجُوهُ لَنَا إِنْ تَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ أَنْتُمْ إِلَّا تَخْرُصُونَ",
             translation: "verse 19",
             audioUrl: "./data/006148.mp3",
 			subtitle: ""
@@ -9460,7 +9460,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٤٩',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ فَلِلَّهِ الْحُجَّةُ الْبَالِغَةُ فَلَوْ شَاءَ لَهَدَاكُمْ أَجْمَعِينَ",
             translation: "verse 19",
             audioUrl: "./data/006149.mp3",
 			subtitle: ""
@@ -9470,7 +9470,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٠',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ هَلُمَّ شُهَدَاءَكُمُ الَّذِينَ يَشْهَدُونَ أَنَّ اللَّهَ حَرَّمَ هَٰذَا فَإِنْ شَهِدُوا فَلَا تَشْهَدْ مَعَهُمْ وَلَا تَتَّبِعْ أَهْوَاءَ الَّذِينَ كَذَّبُوا بِآيَاتِنَا وَالَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ وَهُمْ بِرَبِّهِمْ يَعْدِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006150.mp3",
 			subtitle: ""
@@ -9480,7 +9480,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥١',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ تَعَالَوْا أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ أَلَّا تُشْرِكُوا بِهِ شَيْئًا وَبِالْوَالِدَيْنِ إِحْسَانًا وَلَا تَقْتُلُوا أَوْلَادَكُمْ مِنْ إِمْلَاقٍ نَحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ وَلَا تَقْرَبُوا الْفَوَاحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ ذَٰلِكُمْ وَصَّاكُمْ بِهِ لَعَلَّكُمْ تَعْقِلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006151.mp3",
 			subtitle: ""
@@ -9490,7 +9490,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٢',		
-            arabicText: "Arabic text here",
+            arabicText: "وَلَا تَقْرَبُوا مَالَ الْيَتِيمِ إِلَّا بِالَّتِي هِيَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُ وَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ بِالْقِسْطِ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا وَإِذَا قُلْتُمْ فَاعْدِلُوا وَلَوْ كَانَ ذَا قُرْبَىٰ وَبِعَهْدِ اللَّهِ أَوْفُوا ذَٰلِكُمْ وَصَّاكُمْ بِهِ لَعَلَّكُمْ تَذَكَّرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006152.mp3",
 			subtitle: ""
@@ -9500,7 +9500,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٣',		
-            arabicText: "Arabic text here",
+            arabicText: "وَأَنَّ هَٰذَا صِرَاطِي مُسْتَقِيمًا فَاتَّبِعُوهُ وَلَا تَتَّبِعُوا السُّبُلَ فَتَفَرَّقَ بِكُمْ عَنْ سَبِيلِهِ ذَٰلِكُمْ وَصَّاكُمْ بِهِ لَعَلَّكُمْ تَتَّقُونَ",
             translation: "verse 19",
             audioUrl: "./data/006153.mp3",
 			subtitle: ""
@@ -9510,7 +9510,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٤',		
-            arabicText: "Arabic text here",
+            arabicText: "ثُمَّ آتَيْنَا مُوسَى الْكِتَابَ تَمَامًا عَلَى الَّذِي أَحْسَنَ وَتَفْصِيلًا لِكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً لَعَلَّهُمْ بِلِقَاءِ رَبِّهِمْ يُؤْمِنُونَ",
             translation: "verse 19",
             audioUrl: "./data/006154.mp3",
 			subtitle: ""
@@ -9520,7 +9520,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهَٰذَا كِتَابٌ أَنْزَلْنَاهُ مُبَارَكٌ فَاتَّبِعُوهُ وَاتَّقُوا لَعَلَّكُمْ تُرْحَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006155.mp3",
 			subtitle: ""
@@ -9530,7 +9530,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٦',		
-            arabicText: "Arabic text here",
+            arabicText: "أَنْ تَقُولُوا إِنَّمَا أُنْزِلَ الْكِتَابُ عَلَىٰ طَائِفَتَيْنِ مِنْ قَبْلِنَا وَإِنْ كُنَّا عَنْ دِرَاسَتِهِمْ لَغَافِلِينَ",
             translation: "verse 19",
             audioUrl: "./data/006156.mp3",
 			subtitle: ""
@@ -9539,7 +9539,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٧',		
-            arabicText: "Arabic text here",
+            arabicText: "أَوْ تَقُولُوا لَوْ أَنَّا أُنْزِلَ عَلَيْنَا الْكِتَابُ لَكُنَّا أَهْدَىٰ مِنْهُمْ فَقَدْ جَاءَكُمْ بَيِّنَةٌ مِنْ رَبِّكُمْ وَهُدًى وَرَحْمَةٌ فَمَنْ أَظْلَمُ مِمَّنْ كَذَّبَ بِآيَاتِ اللَّهِ وَصَدَفَ عَنْهَا سَنَجْزِي الَّذِينَ يَصْدِفُونَ عَنْ آيَاتِنَا سُوءَ الْعَذَابِ بِمَا كَانُوا يَصْدِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/006157.mp3",
 			subtitle: ""
@@ -9549,7 +9549,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٨',		
-            arabicText: "Arabic text here",
+            arabicText: "هَلْ يَنْظُرُونَ إِلَّا أَنْ تَأْتِيَهُمُ الْمَلَائِكَةُ أَوْ يَأْتِيَ رَبُّكَ أَوْ يَأْتِيَ بَعْضُ آيَاتِ رَبِّكَ يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ لَا يَنْفَعُ نَفْسًا إِيمَانُهَا لَمْ تَكُنْ آمَنَتْ مِنْ قَبْلُ أَوْ كَسَبَتْ فِي إِيمَانِهَا خَيْرًا قُلِ انْتَظِرُوا إِنَّا مُنْتَظِرُونَ",
             translation: "verse 19",
             audioUrl: "./data/006158.mp3",
 			subtitle: ""
@@ -9559,7 +9559,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٥٩',		
-            arabicText: "Arabic text here",
+            arabicText: "إِنَّ الَّذِينَ فَرَّقُوا دِينَهُمْ وَكَانُوا شِيَعًا لَسْتَ مِنْهُمْ فِي شَيْءٍ إِنَّمَا أَمْرُهُمْ إِلَى اللَّهِ ثُمَّ يُنَبِّئُهُمْ بِمَا كَانُوا يَفْعَلُونَ",
             translation: "verse 19",
             audioUrl: "./data/006159.mp3",
 			subtitle: ""
@@ -9569,7 +9569,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦٠',		
-            arabicText: "Arabic text here",
+            arabicText: "مَنْ جَاءَ بِالْحَسَنَةِ فَلَهُ عَشْرُ أَمْثَالِهَا وَمَنْ جَاءَ بِالسَّيِّئَةِ فَلَا يُجْزَىٰ إِلَّا مِثْلَهَا وَهُمْ لَا يُظْلَمُونَ",
             translation: "verse 19",
             audioUrl: "./data/006160.mp3",
 			subtitle: ""
@@ -9579,7 +9579,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦١',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنَّنِي هَدَانِي رَبِّي إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ دِينًا قِيَمًا مِلَّةَ إِبْرَاهِيمَ حَنِيفًا وَمَا كَانَ مِنَ الْمُشْرِكِينَ",
             translation: "verse 19",
             audioUrl: "./data/006161.mp3",
 			subtitle: ""
@@ -9588,7 +9588,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦٢',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006162.mp3",
 			subtitle: ""
@@ -9598,7 +9598,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦٣',		
-            arabicText: "Arabic text here",
+            arabicText: "لَا شَرِيكَ لَهُ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا أَوَّلُ الْمُسْلِمِينَ",
             translation: "verse 19",
             audioUrl: "./data/006163.mp3",
 			subtitle: ""
@@ -9608,7 +9608,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦٤',		
-            arabicText: "Arabic text here",
+            arabicText: "قُلْ أَغَيْرَ اللَّهِ أَبْغِي رَبًّا وَهُوَ رَبُّ كُلِّ شَيْءٍ وَلَا تَكْسِبُ كُلُّ نَفْسٍ إِلَّا عَلَيْهَا وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ ثُمَّ إِلَىٰ رَبِّكُمْ مَرْجِعُكُمْ فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ فِيهِ تَخْتَلِفُونَ",
             translation: "verse 19",
             audioUrl: "./data/006164.mp3",
 			subtitle: ""
@@ -9618,7 +9618,7 @@ surahData[6] = {
             surahNumber: 6,
 			surahNumberArabic: '٦',
 			ayatNumberArabic: '١٦٥',		
-            arabicText: "Arabic text here",
+            arabicText: "وَهُوَ الَّذِي جَعَلَكُمْ خَلَائِفَ الْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَاتٍ لِيَبْلُوَكُمْ فِي مَا آتَاكُمْ إِنَّ رَبَّكَ سَرِيعُ الْعِقَابِ وَإِنَّهُ لَغَفُورٌ رَحِيمٌ",
             translation: "verse 19",
             audioUrl: "./data/006165.mp3",
 			subtitle: ""
@@ -16619,7 +16619,7 @@ surahData[12] = {
 			surahNumberArabic: '١٢',
 			ayatNumberArabic: '٥٠',		
             arabicText: "Arabic text here",
-            translation: "verse 19",
+            translation: "Raja berkata, \"Bawa dia kepada aku.\" Apabila utusan (raja) datang kepada dia, dia (Yusuf) berkata, \"Pulang kepada tuan kamu dan minta dia menyiasat perempuan yang telah memotong tangan mereka. Tuhanku mengetahui tentang tipu daya mereka, Maha Mengetahui.\"",
             audioUrl: "./data/012050.mp3",
 			subtitle: ""
         },
