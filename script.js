@@ -143,20 +143,7 @@ function closeSurahList() {
 
 
 
-// Deklarasikan variabel untuk elemen ayah
-var ayahElement = document.querySelector('.ayah');
 
-// Gunakan Hammer.js untuk menangani gestur sentuh
-var hammer = new Hammer(ayahElement);
-
-// Tentukan fungsi untuk menangani gesekan (swipe)
-hammer.on('swipeleft', function () {
-    showNextAyat();
-});
-
-hammer.on('swiperight', function () {
-    showPreviousAyat();
-});
 
 // Fungsi untuk menampilkan ayat berikutnya
 function showNextAyat() {
@@ -236,6 +223,8 @@ function selectAyat(ayatData) {
 
     // Update the visibility of "Back" and "Next" buttons
     updateNavigationButtonsVisibility();
+	isAudioPlaying = false;
+    updatePlayStopButtonText();
 }
 
 
@@ -443,16 +432,25 @@ function togglePlayStop() {
         audioPlayer.pause();
     } else {
         audioPlayer.play();
+
+        // Add an event listener for the 'ended' event
+        audioPlayer.addEventListener('ended', function () {
+            // Audio has finished playing
+            isAudioPlaying = false;
+            updatePlayStopButtonText();
+        });
     }
 
+    // Update the play/stop button text immediately
     isAudioPlaying = !isAudioPlaying;
     updatePlayStopButtonText();
 }
 
+
 // Function to update the text of the play/stop button
 function updatePlayStopButtonText() {
     var playStopButton = document.getElementById("playStopButton");
-    playStopButton.textContent = isAudioPlaying ? "[ || ]" : "[ > ]";
+    playStopButton.textContent = isAudioPlaying ? "\u25A0" : "\u25B6";
 }
 
 // Fungsi untuk menghilangkan gambar audio player
@@ -465,7 +463,6 @@ function hideAudioPlayer() {
 
 
 
-// Call updatePlayStopButtonText after the page has loaded
 // Call updatePlayStopButtonText after the page has loaded
 window.onload = function () {
     // Assuming surahData is properly loaded from surah.js
