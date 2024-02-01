@@ -53,6 +53,7 @@ body {
     font-style: normal;
 	font-weight: bold;
     font-size: 150%;	
+	line-height: 40px;
     text-align: right;
     margin-bottom: 74px;
 }
