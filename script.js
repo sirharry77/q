@@ -459,11 +459,34 @@ function hideAudioPlayer() {
     audioPlayer.style.display = "none";
 }
 
+// Function to show a specific verse
+function showSurahVerse(surahNumber, ayatNumber) {
+    var surah = surahData[surahNumber];
 
+    if (surah && surah.ayat && surah.ayat.length > 0) {
+        // Update the current Ayat index to the specified Ayat
+        currentSurahData = surah;
+        currentAyatIndex = surah.ayat.findIndex(verse => verse.ayatNumber === ayatNumber);
 
+        if (currentAyatIndex === -1) {
+            console.error("Invalid ayat number:", ayatNumber);
+            return;
+        }
 
+        // Update the Ayat content
+        selectAyat(surah.ayat[currentAyatIndex]);
 
-// Call updatePlayStopButtonText after the page has loaded
+        // Update the displayed Surah names on the homepage
+        updateSurahNameDisplay(surah.surahNameMalay, surah.surahNameArabic);
+    } else {
+        console.error("Invalid surah number:", surahNumber);
+    }
+}
+
+window.addEventListener('hashchange', function() {
+    handleHashChange();
+});
+
 window.onload = function () {
     // Assuming surahData is properly loaded from surah.js
     console.log("Surah Data:", surahData); // Log the loaded data
@@ -472,13 +495,51 @@ window.onload = function () {
     currentSurahData = surahData[1]; // Assuming you want to start with Surah Al-Fatihah
     currentAyatIndex = 0;
 
-    if (currentSurahData && currentSurahData.ayat && currentSurahData.ayat.length > 0) {
-        // Select and display the first ayat of the current surah
-        selectAyat(currentSurahData.ayat[currentAyatIndex]);
+    // Handle the URL hash to show a specific verse
+    const hash = window.location.hash;
+
+    if (hash) {
+        // Remove the leading '#' character
+        const verseParam = hash.substring(1);
+
+        // Parse the verse parameter (e.g., "1:3")
+        const [surahNumber, ayatNumber] = verseParam.split(':').map(Number);
+
+        // Show the specified verse
+        showSurahVerse(surahNumber, ayatNumber);
     } else {
-        console.error("Invalid surah data structure.");
+        // Handle the case when there is no hash fragment
+        // Add your default behavior or show the last read verse
+        if (currentSurahData && currentSurahData.ayat && currentSurahData.ayat.length > 0) {
+            // Select and display the first ayat of the current surah
+            selectAyat(currentSurahData.ayat[currentAyatIndex]);
+        } else {
+            console.error("Invalid surah data structure.");
+        }
     }
 
     // Update the play/stop button text based on the current state
     updatePlayStopButtonText();
+	handleHashChange();
 };
+
+// Function to handle changes in the URL hash
+function handleHashChange() {
+    const hash = window.location.hash;
+
+    if (hash) {
+        // Remove the leading '#' character
+        const verseParam = hash.substring(1);
+
+        // Parse the verse parameter (e.g., "1:3")
+        const [surahNumber, ayatNumber] = verseParam.split(':').map(Number);
+
+        // Show the specified verse
+        showSurahVerse(surahNumber, ayatNumber);
+    } else {
+        // Handle the case when there is no hash fragment
+        // Add your default behavior or show the last read verse
+		console.error("Invalid surah data structure.");
+    }
+}
+
