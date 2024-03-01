@@ -485,6 +485,6 @@ function handleHashChange() {
         showSurahVerse(surahNumber, ayatNumber);
     } else {
         // Handle the case when there is no hash fragment
-		showSurahVerse(1, 1);
+	console.error("Invalid surah data structure.");
     }
 }
