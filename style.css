@@ -203,12 +203,12 @@ input[type="text"] {
 .hidden {
     display: none !important;
 }
-/* Gaya untuk tombol side navigation */
+
 #toggleSearchBox {
     cursor: pointer;
 }
 
-/* Gaya untuk side navigation menu */
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -243,7 +243,6 @@ input[type="text"] {
     margin-left: 50px;
 }
 
-/* Gaya untuk menggeser konten utama saat side navigation menu terbuka */
 #main {
     transition: margin-left .5s;
 }
@@ -336,4 +335,18 @@ input[type="text"] {
     font-style: italic;
     margin-bottom: 0em;
     margin-top: 1em;
-	font-size: 90%
+font-size: 90%;
+}
+
+#settingsModal {
+    background-color: #ccc;
+}
+
+#settingsModal h2,
+#settingsModal button {
+    color: #000; 
+}
+#settingsModal button {
+	width: 90%;
+	}
+
