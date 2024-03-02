@@ -58,6 +58,28 @@
     <div class="container border-bottom-0">
         <div class="row">
             <div class="col-md-6 offset-md-3">
+<div class="sidenav" id="mySidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">×</a>
+    <a href="#">Halaman Utama</a>
+    <a href="#">Lampiran</a>
+	<a href="#" id="openSettings">Settings</a>
+</div>
+
+<!-- Settings Modal -->
+<div id="settingsModal" class="sidenav">
+ <div style="margin-left: 19px;">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeModal()">&times;</a>
+    <h2>Settings</h2>
+    
+    <!-- Add a button to toggle transliteration visibility -->
+    <button id="toggleTransliterationButton" onclick="toggleTransliteration()">Toggle Transliteration</button>
+
+    <!-- Add a button to toggle footnotes visibility -->
+    <button id="toggleFootnotesButton" onclick="toggleFootnotes()">Toggle Footnotes</button>
+</div>	
+</div>
+
+
                 <div class="ayah mt-3">
                     <div class="arabic"><span class="loading"></span></div>
                     <div class="transliteration"></div>					
@@ -66,6 +88,104 @@
 					<div id="footnotes-container"></div>
                     <div class="footnote mt-2" id="footnote"></div>
                 </div>
+			
+<script>
+  // Function to toggle the visibility of elements
+  function toggleVisibility(elements) {
+    elements.forEach(function (element) {
+      if (element.style.display === 'block' || element.style.display === '') {
+        element.style.display = 'none';
+      } else {
+        element.style.display = 'block';
+      }
+    });
+  }
+
+  // Function to save the user's preference in localStorage
+  function saveUserPreference(key, elements) {
+    var isHidden = elements[0].style.display === 'none';
+    localStorage.setItem(key, isHidden);
+  }
+
+  // Function to check and apply the user's stored preference on page load
+  function applyUserPreference(key, elements) {
+    var isHidden = localStorage.getItem(key) === 'true';
+    elements.forEach(function (element) {
+      element.style.display = isHidden ? 'none' : 'block';
+    });
+  }
+
+  // Function to dynamically update the button text based on user preference
+  function updateButtonText(buttonId, key, elements) {
+    var button = document.getElementById(buttonId);
+    var isHidden = elements[0].style.display === 'none';
+
+    if (isHidden) {
+      button.textContent = 'Show ' + key;
+    } else {
+      button.textContent = 'Hide ' + key;
+    }
+  }
+
+  // Function to handle the transliteration toggle
+  function toggleTransliteration() {
+    var transliterationElements = document.querySelectorAll('.transliteration');
+    toggleVisibility(transliterationElements);
+    saveUserPreference('transliterationHidden', transliterationElements);
+    updateButtonText('toggleTransliterationButton', 'Transliteration', transliterationElements);
+  }
+
+  // Function to handle the footnotes toggle
+  function toggleFootnotes() {
+    var footnotesElements = document.querySelectorAll('#footnotes-container');
+    toggleVisibility(footnotesElements);
+    saveUserPreference('footnotesHidden', footnotesElements);
+    updateButtonText('toggleFootnotesButton', 'Footnotes', footnotesElements);
+  }
+
+  // Function to check and apply the user's preferences on page load
+  function checkUserPreferences() {
+    applyUserPreference('transliterationHidden', document.querySelectorAll('.transliteration'));
+    applyUserPreference('footnotesHidden', document.querySelectorAll('#footnotes-container'));
+    updateButtonText('toggleTransliterationButton', 'Transliteration', document.querySelectorAll('.transliteration'));
+    updateButtonText('toggleFootnotesButton', 'Footnotes', document.querySelectorAll('#footnotes-container'));
+  }
+
+  // Call the function to check and apply the preferences on page load
+  checkUserPreferences();
+</script>
+
+
+			
+<script>
+  // JavaScript code to handle the link click to open the modal
+  document.getElementById('openSettings').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of the anchor tag
+    document.getElementById('settingsModal').style.width = '250px'; // Slide in from the right
+  });
+
+  // JavaScript code to close the modal
+  function closeModal() {
+    document.getElementById('settingsModal').style.width = '0'; // Slide out to the right
+  }
+
+  // JavaScript code to open and close the modal
+  document.getElementById('openSettings').addEventListener('click', function() {
+    document.getElementById('settingsModal').style.width = '250px';
+  });
+
+  function closeModalOutside() {
+    var modal = document.getElementById('settingsModal');
+    if (event.target == modal) {
+      modal.style.width = '0';
+    }
+  }
+
+  // Close the modal if the user clicks outside of it
+  window.onclick = closeModalOutside;
+</script>
+
+			
 
                 <audio id="audioPlayer" controls hidden class="mt-3">
                     Your browser does not support the audio element.
@@ -654,11 +774,7 @@
     </a> 
 </div>
 
-<div class="sidenav" id="mySidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">×</a>
-    <a href="#">Halaman Utama</a>
-    <a href="#">Lampiran</a>
-</div>
+
 
     </div>
 </div>			
