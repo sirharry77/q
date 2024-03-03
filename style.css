@@ -350,3 +350,16 @@ font-size: 90%;
 	width: 90%;
 	}
 
+        /* Default style for h5 */
+        .h5-responsive {
+            font-size: normal; /* Normal text size */
+            font-weight: normal; /* Normal font weight */
+        }
+
+        /* Style for h5 on small screens */
+        @media only screen and (max-width: 414px) {
+            .h5-responsive {
+                font-size: 12px; /* Adjust as needed for small screens */
+                font-weight: bold; /* Bold font weight */
+            }
+        }
