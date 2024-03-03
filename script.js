@@ -209,8 +209,8 @@ function searchAyat() {
     if (!isNaN(surahNumber) && surahNumber >= 1 && surahNumber <= 114) {
         var surah = surahData[surahNumber];
 
-        // Validate verse number
-        if (surah && !isNaN(verseNumber) && verseNumber >= 0 && verseNumber <= surah.ayat.length) {
+        // Check if verse number is specified, otherwise default to 0 or 1
+        if (!isNaN(verseNumber) && verseNumber >= 0 && verseNumber <= surah.ayat.length) {
             // Adjust for 0-based index, except when verse number is 0
             var adjustedVerseNumber = (surahNumber === 1 || surahNumber === 9) ? verseNumber - 1 : verseNumber;
 
@@ -228,12 +228,24 @@ function searchAyat() {
                 updateAyatByIndex(surah, currentAyatIndex);
             }
         } else {
-            alert("Invalid verse number for the selected surah.");
+            // If no verse number specified, assume the first verse (0 or 1)
+            var defaultVerseNumber = (surahNumber === 1 || surahNumber === 9) ? 0 : 0;
+
+            // Valid surah number, call the function to show the ayat
+            console.log("Surah Data:", surah);
+            console.log("Default Verse Number:", defaultVerseNumber);
+
+            // Update the currentSurahData and currentAyatIndex
+            currentSurahData = surah;
+            currentAyatIndex = defaultVerseNumber;
+
+            updateAyatByIndex(surah, currentAyatIndex);
         }
     } else {
         alert("Invalid surah number. Please enter a number between 1 and 114.");
     }
 }
+
 
 
 function updateAyatByIndex(surah, index) {
@@ -289,8 +301,55 @@ function showNextAyat() {
         currentAyatIndex++;
     }
 
-    // Update the Surah content
+    // Log debug information
     console.log('Show next ayat. Current Ayat Index:', currentAyatIndex, 'Total Ayat:', currentSurahData.ayat.length);
+    console.log('Before Selecting Ayat:', currentSurahData.ayat[currentAyatIndex]);
+
+    // Update the Surah content
+    selectAyat(currentSurahData.ayat[currentAyatIndex]);
+    isAudioPlaying = false;
+    updatePlayStopButtonText();
+
+    // Move the updateNavigationButtonsVisibility() call here
+    updateNavigationButtonsVisibility();
+
+    // Get the updated surah number and ayat number
+    var surahNumber = currentSurahData.surahNumber;
+    var ayatNumber = currentSurahData.ayat[currentAyatIndex].ayatNumber;
+
+    // Log the selected ayat information
+    console.log('After Selecting Ayat:', currentSurahData.ayat[currentAyatIndex]);
+
+    // Update the URL hash to the next verse
+    updateUrlHash(surahNumber, ayatNumber);
+}
+
+
+
+
+function showPreviousAyat() {
+    pauseAudio();
+
+    // Check if it's the first ayat of the current surah
+    if (currentAyatIndex === 0) {
+        // If it's the first ayat, check if there is a previous surah
+        var prevSurahIndex = surahList.indexOf(currentSurahData) - 1;
+
+        if (prevSurahIndex >= 0) {
+            // Switch to the previous surah
+            currentSurahData = surahList[prevSurahIndex];
+            currentAyatIndex = currentSurahData.ayat.length - 1;
+        } else {
+            // If there is no previous surah, do nothing or handle as needed
+            return;
+        }
+    } else {
+        // Update the Surah content within the same surah
+        currentAyatIndex--;
+    }
+
+    // Update the Surah content
+    console.log('Show previous ayat. Current Ayat Index:', currentAyatIndex, 'Total Ayat:', currentSurahData.ayat.length);
 
     selectAyat(currentSurahData.ayat[currentAyatIndex]);
     isAudioPlaying = false;
@@ -298,31 +357,15 @@ function showNextAyat() {
 
     // Move the updateNavigationButtonsVisibility() call here
     updateNavigationButtonsVisibility();
+
+    // Get the updated surah number and ayat number
+    var surahNumber = currentSurahData.surahNumber;
+    var ayatNumber = currentSurahData.ayat[currentAyatIndex].ayatNumber;
+
+    // Update the URL hash to the previous verse
+    updateUrlHash(surahNumber, ayatNumber);
 }
 
-function showPreviousAyat() {
-    pauseAudio();
-
-    // Check if the currentAyatIndex is less than 0
-    if (currentAyatIndex > 0) {
-        // Update the Surah content within the same surah
-        currentAyatIndex--;
-        selectAyat(currentSurahData.ayat[currentAyatIndex]);
-    } else {
-        // Move to the previous surah if available
-        var previousSurahIndex = alFatihahData.surahNumber - 2; // Subtract 2 to move to the previous surah
-        var previousSurahData = getSurahData(previousSurahIndex);
-
-        if (previousSurahData) {
-            currentSurahData = previousSurahData;
-            currentAyatIndex = currentSurahData.ayat.length - 1;
-            selectAyat(currentSurahData.ayat[currentAyatIndex]);
-        }
-    }
-
-    isAudioPlaying = false;
-    updatePlayStopButtonText();
-}
 
 
 // Helper function to get surah data by surah index
@@ -425,10 +468,19 @@ function showSurahVerse(surahNumber, ayatNumber) {
 
         // Update the displayed Surah names on the homepage
         updateSurahNameDisplay(surah.surahNameMalay, surah.surahNameArabic);
+
+        // Update the URL hash
+        updateUrlHash(surahNumber, ayatNumber);
     } else {
         console.error("Invalid surah number:", surahNumber);
     }
 }
+
+// Function to update the URL hash
+function updateUrlHash(surahNumber, ayatNumber) {
+    window.location.hash = surahNumber + ":" + ayatNumber;
+}
+
 
 window.addEventListener('hashchange', function() {
     handleHashChange();
@@ -485,4 +537,5 @@ function handleHashChange() {
         showSurahVerse(surahNumber, ayatNumber);
     }
 }
+
 
