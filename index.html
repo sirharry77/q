@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css?a=c">
+    <link rel="stylesheet" href="./css/bootstrap.min.css?da=c">
     <link rel="stylesheet" href="./style.css?a=sw1">
-    <title>Laman Web Quran</title>
+    <title>Quran</title>
 </head>
 
 <body>
@@ -59,16 +59,40 @@
         <div class="row">
             <div class="col-md-6 offset-md-3">
 <div class="sidenav" id="mySidenav">
+ <div style="margin-top: 19px; margin-left: 19px;">
     <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">×</a>
-    <a href="#">Halaman Utama</a>
-    <a href="#">Lampiran</a>
-	<a href="#" id="openSettings">Settings</a>
+<a href="#" id="openLanguages" onclick="openModal('languagesModal')">Languages</a>
+<a href="#" id="openSettings" onclick="openModal('settingsModal')">Settings</a>
+<a href="#" id="openIntro" onclick="openModal('introModal')">Appendices</a>	
+</div>
+</div>
+
+<!-- Languages Modal -->
+<div id="languagesModal" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeModal('languagesModal')">&times;</a>
+  <!-- Modal content -->
+  <div  style="margin-top: 19px; margin-left: 19px;">
+
+    <p style="font-weight:bold">Languages:</p>	
+	
+<a href="/en">
+    <button id="englishButton" onclick="enlink()">English</button>
+</a>	
+	
+<a href="/">
+    <button id="malayButton" onclick="mlink()">Malay</button>
+</a>
+
+  </div>
 </div>
 
 <!-- Settings Modal -->
 <div id="settingsModal" class="sidenav">
- <div style="margin-left: 19px;">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeModal()">&times;</a>
+ <div style="margin-top: 19px; margin-left: 19px;">
+
+	
+	 <a href="javascript:void(0)" class="closebtn" onclick="closeModal('settingsModal')">&times;</a>
+	
     <p style="font-weight:bold">Settings</p>
     
     <!-- Add a button to toggle transliteration visibility -->
@@ -76,7 +100,24 @@
 
     <!-- Add a button to toggle footnotes visibility -->
     <button id="toggleFootnotesButton" onclick="toggleFootnotes()">Toggle Footnotes</button>
+
 </div>	
+</div>
+
+
+<!-- Intro Modal -->
+<div id="introModal" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeModal('introModal')">&times;</a>
+  <!-- Modal content -->
+  <div style="margin-top: 19px; margin-left: 5px;" class="introModaltext">
+    <!-- Add content for the Intro modal here -->
+	 <p style="font-weight:bold">Appendices</p>
+	<a href="">Introduction</a>
+	<br>
+	<a href="">1. One of the great miracles [74:35]</a>
+	<a href="">2. God's Messenger of the Covenant [3:81]</a>
+  </div>
 </div>
 
 
@@ -158,31 +199,30 @@
 
 			
 <script>
-  // JavaScript code to handle the link click to open the modal
-  document.getElementById('openSettings').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default behavior of the anchor tag
-    document.getElementById('settingsModal').style.width = '250px'; // Slide in from the right
-  });
-
-  // JavaScript code to close the modal
-  function closeModal() {
-    document.getElementById('settingsModal').style.width = '0'; // Slide out to the right
+  // Function to open the modal
+  function openModal(modalId) {
+    document.getElementById(modalId).style.width = '250px';
   }
 
-  // JavaScript code to open and close the modal
-  document.getElementById('openSettings').addEventListener('click', function() {
-    document.getElementById('settingsModal').style.width = '250px';
-  });
+  // Function to close the modal
+  function closeModal(modalId) {
+    document.getElementById(modalId).style.width = '0';
+  }
 
-  function closeModalOutside() {
-    var modal = document.getElementById('settingsModal');
+  // Function to close the modal if the user clicks outside of it
+  function closeModalOutside(event, modalId) {
+    var modal = document.getElementById(modalId);
     if (event.target == modal) {
       modal.style.width = '0';
     }
   }
 
-  // Close the modal if the user clicks outside of it
-  window.onclick = closeModalOutside;
+  // Close the modal if the user clicks outside of it for each modal
+  window.onclick = function(event) {
+    closeModalOutside(event, 'settingsModal');
+    closeModalOutside(event, 'languagesModal');
+    closeModalOutside(event, 'introModal');
+  };
 </script>
 
 			
