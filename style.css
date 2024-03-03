@@ -349,6 +349,49 @@ font-size: 90%;
 #settingsModal button {
 	width: 90%;
 	}
+	
+#languagesModal {
+    background-color: #bbb;
+}
+
+#languagesModal h2,
+#languagesModal button {
+    color: #000; 
+}
+#languagesModal button {
+	width: 90%;
+	}
+
+#introModal {
+    background-color: #193857;
+}
+
+#introModal h2,
+#introModal button {
+    color: #000; 
+}
+#introModal button {
+	width: 90%;
+	}	
+	
+#introModal a {
+	font-size: normal;
+	}	
+.introModaltext p {
+    color: #fff;
+}
+.introModaltext a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 13px;
+}
+
+/* Style for the text links on hover */
+.introModaltext a:hover {
+    color: #007bff; /* Change text color on hover */
+}	
         /* Default style for h5 */
         .h5-responsive {
             font-size: normal; /* Normal text size */
