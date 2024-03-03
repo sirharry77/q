@@ -544,12 +544,3 @@ document.getElementById('englishButton').onclick = function() {
     enlink();
 };
 
-function mlink() {
-    var currentHash = window.location.hash;
-    window.location.href = "/" + currentHash;
-}
-
-function enlink() {
-    var currentHash = window.location.hash;
-    window.location.href = "/en" + currentHash;
-}
