@@ -536,13 +536,20 @@ function handleHashChange() {
         showSurahVerse(surahNumber, ayatNumber);
     }
 }
-    function mlink() {
-        // Add any specific functionality for Malay button click if needed
-        window.location.href = "/";
-    }
+document.getElementById('malayButton').onclick = function() {
+    mlink();
+};
 
-    function enlink() {
-        // Add any specific functionality for English button click if needed
-        window.location.href = "/en";
-    }
+document.getElementById('englishButton').onclick = function() {
+    enlink();
+};
 
+function mlink() {
+    var currentHash = window.location.hash;
+    window.location.href = "/" + currentHash;
+}
+
+function enlink() {
+    var currentHash = window.location.hash;
+    window.location.href = "/en" + currentHash;
+}
