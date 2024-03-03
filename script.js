@@ -13,20 +13,20 @@ function showSurah(surahNumber) {
         closeSurahList();
 
         // Update the displayed Surah names on the homepage
-        updateSurahNameDisplay(surah.surahNameMalay, surah.surahNameArabic);
+        updateSurahNameDisplay(surah.surahName, surah.surahNameArabic);
     } else {
         console.error("Invalid surah number:", surahNumber);
     }
 }
 
 
-function updateSurahNameDisplay(surahNameMalay, surahNameArabic) {
+function updateSurahNameDisplay(surahName, surahNameArabic) {
 
     var surahNameDisplay = document.getElementById("surahNameDisplay");
     var surahNameArabicDisplay = document.getElementById("surahNameArabicDisplay");
 
     if (surahNameDisplay) {
-        surahNameDisplay.textContent = surahNameMalay;
+        surahNameDisplay.textContent = surahName;
     }
 
     if (surahNameArabicDisplay) {
@@ -149,7 +149,6 @@ function selectAyat(ayatData) {
     // Add debug logs
     console.log("ayatData.ayatNumber:", ayatData.ayatNumber);
     console.log("ayatData.surahNumber:", ayatData.surahNumber);	
-
     document.querySelector(".arabic").textContent = ayatData.arabicText;
     document.querySelector(".translation").textContent = ayatData.translation;
     document.querySelector(".transliteration").textContent = ayatData.transliteration;
@@ -215,7 +214,7 @@ function searchAyat() {
             var adjustedVerseNumber = (surahNumber === 1 || surahNumber === 9) ? verseNumber - 1 : verseNumber;
 
             if (adjustedVerseNumber < 0) {
-                alert("Verse number cannot be 0 for Surah " + surah.surahNameMalay + ". Please enter a valid verse number.");
+                alert("Verse number cannot be 0 for Surah " + surah.surahName + ". Please enter a valid verse number.");
             } else {
                 // Valid surah and verse numbers, call the function to show the ayat
                 console.log("Surah Data:", surah);
@@ -263,7 +262,7 @@ function updateAyatByIndex(surah, index) {
     selectAyat(surah.ayat[currentAyatIndex]);
 
     // Update the Surah name display
-    document.getElementById("surahNameDisplay").innerText = surah.surahNameMalay;
+    document.getElementById("surahNameDisplay").innerText = surah.surahName;
 
     // Update the Surah name Arabic display
     document.getElementById("surahNameArabicDisplay").innerText = surah.surahNameArabic;
@@ -467,7 +466,7 @@ function showSurahVerse(surahNumber, ayatNumber) {
         selectAyat(surah.ayat[currentAyatIndex]);
 
         // Update the displayed Surah names on the homepage
-        updateSurahNameDisplay(surah.surahNameMalay, surah.surahNameArabic);
+        updateSurahNameDisplay(surah.surahName, surah.surahNameArabic);
 
         // Update the URL hash
         updateUrlHash(surahNumber, ayatNumber);
@@ -537,5 +536,13 @@ function handleHashChange() {
         showSurahVerse(surahNumber, ayatNumber);
     }
 }
+    function mlink() {
+        // Add any specific functionality for Malay button click if needed
+        window.location.href = "/";
+    }
 
+    function enlink() {
+        // Add any specific functionality for English button click if needed
+        window.location.href = "/en";
+    }
 
