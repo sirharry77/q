@@ -349,7 +349,6 @@ font-size: 90%;
 #settingsModal button {
 	width: 90%;
 	}
-
         /* Default style for h5 */
         .h5-responsive {
             font-size: normal; /* Normal text size */
@@ -359,7 +358,9 @@ font-size: 90%;
         /* Style for h5 on small screens */
         @media only screen and (max-width: 414px) {
             .h5-responsive {
-                font-size: 12px; /* Adjust as needed for small screens */
+                font-size: 13px; /* Adjust as needed for small screens */
                 font-weight: bold; /* Bold font weight */
             }
         }
+
+.surah-name-al { font-size: 74%;font-style: italic;" }
