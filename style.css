@@ -259,6 +259,7 @@ input[type="text"] {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+	z-index: 999;
 }
 
 .sidenav a {
@@ -443,10 +444,4 @@ font-size: 90%;
             }
         }
 		
-
 .surah-name-al { font-size: 74%;font-style: italic;" }
-
-
-
-
-
