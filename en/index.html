@@ -12,6 +12,17 @@
     button {
         touch-action: manipulation;
     }
+	
+/* CSS for the verse container animation */
+.ayah {
+    transition: transform 13s ease; /* Define the transition property */
+}
+
+/* Class to trigger animation */
+.slide-transition {
+    transition: transform 13s ease; /* You can define specific animation properties here if needed */
+}
+
 </style>	
 </head>
 
@@ -155,6 +166,7 @@
         <div style="clear: both;"></div> <!-- Clear float -->
     </div>
 </div>
+
 			
 <script>
   // Function to toggle the visibility of elements
