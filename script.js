@@ -333,6 +333,7 @@ function showNextAyat() {
 
     // Update the URL hash to the next verse
     updateUrlHash(surahNumber, ayatNumber);
+	
 }
 
 
@@ -680,11 +681,13 @@ function handleTouchEnd(event) {
     // If swipe distance is greater than the threshold and it was a touch slide action, perform the slide
     if (Math.abs(swipeDistance) > swipeThreshold && isTouchSlide) {
         if (swipeDistance > 0) {
-            // Swipe left, move to the next verse
+            // Swipe left, move to the next verse and trigger animation
             showNextAyat();
+            document.querySelector('.ayah').classList.add('slide-transition');
         } else {
-            // Swipe right, move to the previous verse
+            // Swipe right, move to the previous verse and trigger animation
             showPreviousAyat();
+            document.querySelector('.ayah').classList.add('slide-transition');
         }
     }
 }
