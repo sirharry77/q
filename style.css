@@ -329,7 +329,7 @@ input[type="text"] {
     width: 100%;
     background-color: #111;
     color: #fff;
-    z-index: 1; /* Set a higher z-index to bring it to the front */
+    z-index: 1000; /* Set a higher z-index to bring it to the front */
 }
 
 .surah-list a {
@@ -445,3 +445,8 @@ font-size: 90%;
 		
 
 .surah-name-al { font-size: 74%;font-style: italic;" }
+
+
+
+
+
