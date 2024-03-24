@@ -17,6 +17,11 @@ body {
     padding: 0;
     background-color: #fff;
 }
+.ayah {
+    position: relative; /* Ensure proper positioning */
+    z-index: 1; /* Set a higher z-index value */
+	will-change: transform;
+}
 @keyframes slideInFromLeft {
     from {
         transform: translateX(-100%);
@@ -36,11 +41,11 @@ body {
 }
 
 .slide-left {
-    animation: slideInFromLeft 0.7s forwards;
+    animation: slideInFromLeft 0.5s forwards;
 }
 
 .slide-right {
-    animation: slideInFromRight 0.7s forwards;
+    animation: slideInFromRight 0.5s forwards;
 }
 /* Hide scrollbar for mobile devices */
 @media screen and (max-width: 767px) {
@@ -361,10 +366,6 @@ input[type="text"] {
 .input-group-text:hover {
   background-color: #e0e0e0; /* Adjust the background color on hover as needed */
 }
-.ayah {
-    position: relative; /* Ensure proper positioning */
-    z-index: 1; /* Set a higher z-index value */
-}
 
 .ayah-container {
     max-height: calc(100vh - 120px); /* Adjust according to the height of the fixed header and bottom buttons */
@@ -444,4 +445,5 @@ font-size: 90%;
             }
         }
 		
+
 .surah-name-al { font-size: 74%;font-style: italic;" }
