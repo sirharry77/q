@@ -154,6 +154,7 @@ input[type="text"] {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    z-index: 999; /* Set a higher z-index value */
 }
 
 .button-container button {
@@ -444,8 +445,3 @@ font-size: 90%;
 		
 
 .surah-name-al { font-size: 74%;font-style: italic;" }
-
-
-
-
-
