@@ -446,15 +446,6 @@ font-size: 90%;
 .surah-name-al { font-size: 74%;font-style: italic;" }
 
 
-.fixed-bottom {
-    position: fixed !important;
-    bottom: 0 !important;
-    width: 100%;
-    background-color: #fff; /* Adjust as needed */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000; /* Ensure buttons stay above other content */
-    transition: bottom 0.3s ease; /* Add smooth transition */
-}
 
 
 
