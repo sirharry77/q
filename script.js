@@ -219,44 +219,83 @@ function searchAyat() {
     if (!isNaN(surahNumber) && surahNumber >= 1 && surahNumber <= 114) {
         var surah = surahData[surahNumber];
 
-        if (!isNaN(verseNumber) && verseNumber >= 0 && verseNumber <= surah.ayat.length) {
-            var adjustedVerseNumber = (surahNumber === 1 || surahNumber === 9) ? verseNumber - 1 : verseNumber;
+        // Check if verse number is specified
+        if (!isNaN(verseNumber) && verseNumber >= 1 && verseNumber <= surah.ayat.length) {
+            var adjustedVerseNumber = verseNumber - 1; // Adjust verse number for array index
 
-            if (adjustedVerseNumber < 0) {
-                // Show error modal with specific error message
-                showErrorModal("Verse number cannot be 0 for Surah " + surah.surahName + ". Please enter a valid verse number.");
+            // Valid surah and verse numbers, call the function to show the ayat
+            console.log("Surah Data:", surah);
+            console.log("Adjusted Verse Number:", adjustedVerseNumber);
+
+            // Update the currentSurahData and currentAyatIndex
+            currentSurahData = surah;
+            currentAyatIndex = adjustedVerseNumber;
+
+            updateAyatByIndex(surah, currentAyatIndex);
+
+            // Update URL hash with the correct verse number
+            updateUrlHash(surahNumber, verseNumber);
+        } else {
+            // If no verse number specified or out of range, and the surah is surah 1 or surah 9,
+            // keep the current verse number in the URL hash and display the content of verse 1.
+            if (surahNumber === 1 || surahNumber === 9) {
+                // Get the current URL hash
+                var currentHash = window.location.hash.substr(1);
+                var hashParts = currentHash.split(":");
+                var currentSurahNumber = parseInt(hashParts[0]);
+                var currentVerseNumber = parseInt(hashParts[1]);
+
+                // Check if the user is already on verse 1 of surah 1 or surah 9
+                if (currentSurahNumber === surahNumber && currentVerseNumber === 1) {
+                    // Update the currentSurahData and currentAyatIndex
+                    currentSurahData = surah;
+                    currentAyatIndex = 0; // Verse 1
+
+                    // Update the content to display verse 1
+                    updateAyatByIndex(surah, currentAyatIndex);
+                } else {
+                    // Proceed to the first verse
+                    var defaultVerseNumber = 1;
+
+                    // Update current surah data and ayat index
+                    currentSurahData = surah;
+                    currentAyatIndex = defaultVerseNumber - 1; // Adjust for array index
+
+                    // Update content to display verse 1
+                    updateAyatByIndex(surah, currentAyatIndex);
+
+                    // Update URL hash with the correct verse number
+                    updateUrlHash(surahNumber, defaultVerseNumber);
+                }
             } else {
-                // Valid surah and verse numbers, call the function to show the ayat
-                console.log("Surah Data:", surah);
-                console.log("Adjusted Verse Number:", adjustedVerseNumber);
+                // For other surahs, proceed to the first verse
+                var defaultVerseNumber = 0;
 
-                // Update the currentSurahData and currentAyatIndex
+                // Update current surah data and ayat index
                 currentSurahData = surah;
-                currentAyatIndex = adjustedVerseNumber;
+                currentAyatIndex = defaultVerseNumber;
 
+                // Update content to display verse 1
                 updateAyatByIndex(surah, currentAyatIndex);
 
-                // Update URL hash
-                updateUrlHash(surahNumber, verseNumber);
+                // Update URL hash with the correct verse number
+                updateUrlHash(surahNumber, defaultVerseNumber);
             }
-        } else {
-            // Show error modal with specific error message
-            showErrorModal("Invalid verse number for Surah " + surah.surahName + ". Please enter a valid verse number.");
         }
     } else {
         // Show error modal with specific error message
         showErrorModal("Invalid surah number. Please enter a number between 1 and 114.");
     }
-var surahInput = document.getElementById("searchSurah");
-var verseInput = document.getElementById("searchVerse");
 
-// Clearing the values of the input elements
-surahInput.value = "";
-verseInput.value = "";
+    // Clear input values after processing
+    document.getElementById("searchSurah").value = "";
+    document.getElementById("searchVerse").value = "";
 
     // Hide the surah list
     hideSurahList();
 }
+
+
 
 // Function to show error modal with custom error message
 function showErrorModal(errorMessage) {
@@ -504,7 +543,10 @@ function showSurahVerse(surahNumber, ayatNumber) {
         currentAyatIndex = surah.ayat.findIndex(verse => verse.ayatNumber === ayatNumber);
 
         if (currentAyatIndex === -1) {
+            // Show error modal with specific error message
+            showErrorModal("Invalid ayat number: " + ayatNumber + ".");
             console.error("Invalid ayat number:", ayatNumber);
+			showSurahVerse(1, 1);
             return;
         }
 
@@ -517,9 +559,16 @@ function showSurahVerse(surahNumber, ayatNumber) {
         // Update the URL hash
         updateUrlHash(surahNumber, ayatNumber);
     } else {
-        console.error("Invalid surah number:", surahNumber);
+        // Show error modal with specific error message
+        showErrorModal("Invalid surah number: " + surahNumber + ".");
+        console.error("Invalid surah number:", surahNumber, ayatNumber);
+
+        // Call showSurahVerse with parameters set to Surah 1, Verse 1
+        showSurahVerse(1, 1);
     }
 }
+
+
 
 
 // Function to update the URL hash
