@@ -665,12 +665,18 @@ function handleTouchEnd(event) {
 
     // Define a threshold for swipe distance
     const swipeThreshold = 50; // Adjust this value based on your preference
+    
+    // Retrieve the user preference setting for swipeWithAudio
+    const isSwipeWithAudioEnabled = localStorage.getItem('swipeWithAudio') === 'true';
 
     // If swipe distance is greater than the threshold and it was a touch slide action, perform the slide
     if (Math.abs(swipeDistance) > swipeThreshold && isTouchSlide) {
         if (swipeDistance > 0) {
             // Swipe left, move to the next verse and trigger animation
             showNextAyat();
+            if (isSwipeWithAudioEnabled) {
+                setTimeout(() => playAudioWithUserGesture(), 100); // Play audio with a delay to avoid interrupting previous play requests
+            }           
             const ayahElement = document.querySelector('.ayah');
             ayahElement.classList.remove('slide-left');
             ayahElement.classList.remove('slide-right'); // Remove any existing slide class
@@ -679,6 +685,9 @@ function handleTouchEnd(event) {
         } else {
             // Swipe right, move to the previous verse and trigger animation
             showPreviousAyat();
+            if (isSwipeWithAudioEnabled) {
+                setTimeout(() => playAudioWithUserGesture(), 100); // Play audio with a delay to avoid interrupting previous play requests
+            }
             const ayahElement = document.querySelector('.ayah');
             ayahElement.classList.remove('slide-left');
             ayahElement.classList.remove('slide-right'); // Remove any existing slide class
@@ -686,6 +695,32 @@ function handleTouchEnd(event) {
             ayahElement.classList.add('slide-left');
         }
     }
+}
+
+// Function to play audio with user gesture
+function playAudioWithUserGesture() {
+    // Check if the user has interacted with the document
+    if (document.visibilityState === 'visible') {
+        // Play the audio
+        playAudio();
+    } else {
+        // Wait for the document to become visible before playing audio
+        document.addEventListener('visibilitychange', function handleVisibilityChange() {
+            if (document.visibilityState === 'visible') {
+                // Remove the event listener and play the audio
+                document.removeEventListener('visibilitychange', handleVisibilityChange);
+                playAudio();
+            }
+        });
+    }
+}
+
+
+
+// Function to play audio
+function playAudio() {
+    var audioPlayer = document.getElementById("audioPlayer");
+    audioPlayer.play();
 }
 
 // Function to remove the slide class after the animation ends
