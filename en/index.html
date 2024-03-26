@@ -109,6 +109,10 @@
     <!-- Add a button to toggle footnotes visibility -->
     <button id="toggleFootnotesButton" onclick="toggleFootnotes()">Toggle Footnotes</button>
 
+<!-- Add a checkbox to enable/disable swipe with audio -->
+<label for="swipeWithAudioCheckbox">Swipe with Audio</label>
+<input type="checkbox" id="swipeWithAudioCheckbox" onchange="toggleSwipeWithAudio()">
+
 </div>	
 </div>
 
@@ -160,7 +164,7 @@
 
 
 			
-<script>
+<!--script>
   // Function to toggle the visibility of elements
   function toggleVisibility(elements) {
     elements.forEach(function (element) {
@@ -224,7 +228,99 @@
 
   // Call the function to check and apply the preferences on page load
   checkUserPreferences();
+</script-->
+
+<script>
+  // Function to toggle the visibility of elements
+  function toggleVisibility(elements) {
+    elements.forEach(function (element) {
+      if (element.style.display === 'block' || element.style.display === '') {
+        element.style.display = 'none';
+      } else {
+        element.style.display = 'block';
+      }
+    });
+  }
+
+  // Function to save the user's preference in localStorage
+  function saveUserPreference(key, value) {
+    localStorage.setItem(key, value);
+  }
+
+  // Function to retrieve the user's preference from localStorage
+  function getUserPreference(key) {
+    return localStorage.getItem(key);
+  }
+
+  // Function to check and apply the user's stored preference on page load
+  function applyUserPreference(key, elements) {
+    var value = getUserPreference(key);
+    if (value === 'true') {
+      elements.forEach(function (element) {
+        element.style.display = 'none';
+      });
+    } else {
+      elements.forEach(function (element) {
+        element.style.display = 'block';
+      });
+    }
+  }
+
+  // Function to dynamically update the button text based on user preference
+  function updateButtonText(buttonId, key, elements) {
+    var button = document.getElementById(buttonId);
+    var isHidden = elements[0].style.display === 'none';
+
+    if (isHidden) {
+      button.textContent = 'Show ' + key;
+    } else {
+      button.textContent = 'Hide ' + key;
+    }
+  }
+
+  // Function to handle the transliteration toggle
+  function toggleTransliteration() {
+    var transliterationElements = document.querySelectorAll('.transliteration');
+    toggleVisibility(transliterationElements);
+    saveUserPreference('transliterationHidden', transliterationElements[0].style.display === 'none');
+    updateButtonText('toggleTransliterationButton', 'Transliteration', transliterationElements);
+  }
+
+  // Function to handle the footnotes toggle
+  function toggleFootnotes() {
+    var footnotesElements = document.querySelectorAll('#footnotes-container');
+    toggleVisibility(footnotesElements);
+    saveUserPreference('footnotesHidden', footnotesElements[0].style.display === 'none');
+    updateButtonText('toggleFootnotesButton', 'Footnotes', footnotesElements);
+  }
+
+  // Function to toggle swipe with audio preference
+  function toggleSwipeWithAudio() {
+    var swipeWithAudioCheckbox = document.getElementById("swipeWithAudioCheckbox");
+    saveUserPreference("swipeWithAudio", swipeWithAudioCheckbox.checked);
+  }
+
+  // Function to apply the swipe with audio preference on page load
+  function applySwipeWithAudioPreference() {
+    var swipeWithAudioCheckbox = document.getElementById("swipeWithAudioCheckbox");
+    var swipeWithAudioEnabled = getUserPreference("swipeWithAudio") === 'true';
+    swipeWithAudioCheckbox.checked = swipeWithAudioEnabled;
+  }
+
+  // Function to check and apply the user's preferences on page load
+  function checkUserPreferences() {
+    applyUserPreference('transliterationHidden', document.querySelectorAll('.transliteration'));
+    applyUserPreference('footnotesHidden', document.querySelectorAll('#footnotes-container'));
+    applySwipeWithAudioPreference(); // Apply swipe with audio preference
+    updateButtonText('toggleTransliterationButton', 'Transliteration', document.querySelectorAll('.transliteration'));
+    updateButtonText('toggleFootnotesButton', 'Footnotes', document.querySelectorAll('#footnotes-container'));
+  }
+
+  // Call the function to check and apply the preferences on page load
+  checkUserPreferences();
 </script>
+
+
 
 
 			
