@@ -12,7 +12,6 @@
       font-style: normal;
     }
 	
-
 /* Arabic text */
 .arabic-verse{
     direction: rtl; /* Right-to-left text direction for Arabic */
@@ -98,37 +97,36 @@
     margin-bottom: 40px;
 }
 
-/* Style for Arabic text */
 .arabic-verse {
-  text-align: right; /* Align text to the right */
-  width: calc(100% - 10px); /* Take up full width minus padding */
-  display: block; /* Ensure it's a block-level element */
-  line-height: 40px;
+    text-align: right;
+    width: calc(100% - 10px);
+    display: block;
+    line-height: 40px;
+    margin-bottom: 40px;
 }
 
-/* Style for subtitle */
 .subtitle {
-  width: 100%; /* Take up full width */
-  display: block; /* Ensure it's a block-level element */
-  margin-bottom: 5px; /* Add margin to separate from translation */
-  color: #5f005f; 
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 90%;
+    font-style: italic;
 }
 
-/* Style for footnotes */
 .footnotes {
-  color: #5f005f; 
-  padding-top: 10px; /* Add padding top to separate from translation */
+    color: #000;
+    margin-bottom: 40px;
+    border-top: 1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
+    font-style: italic;
+    font-size: 90%;
 }
 
 /* Adjust spacing */
 .col-md-6 {
   padding-right: 15px;
   padding-left: 15px;
-}
-
-/* Add padding to container */
-.container {
-  padding-top: 50px; /* Adjust as needed */
 }
 
 .disabled {
@@ -150,4 +148,25 @@
     padding: 0px 2px;
     border-radius: 5px;
     margin: 0 0 0 5px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .desktop-top-bar {
+    display: none; /* Hide desktop top bar on mobile */
+  }
+
+  .mobile-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1001;
+    background: linear-gradient(to right, #dcdcdc, #a0a0a0); 	
+  }
+}
+/* Media query for desktop devices */
+@media (min-width: 769px) {
+  .mobile-bottom-bar {
+    display: none; /* Hide mobile bottom bar on desktop */
+  }
 }
