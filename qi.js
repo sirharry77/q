@@ -51,7 +51,6 @@ function updateURL(surahNumber) {
   window.history.pushState({path:newURL},'',newURL);
 }
 
-
 function loadSurah(surahNumber, verseRange) {
     console.log("Loading Surah:", surahNumber);
     console.log("Verse Range:", verseRange);
@@ -120,44 +119,44 @@ function loadSurah(surahNumber, verseRange) {
                 translationColumn.appendChild(subtitleContainer); // Append subtitle directly to translation column
             }
 
-// Create translation verse container
-var translationVerse = document.createElement('div');
-translationVerse.classList.add('translation-verse');
-translationVerse.setAttribute('data-verse-number', surah.ayat[i].surahNumber + ':' + surah.ayat[i].ayatNumber);
-translationVerse.innerHTML = surah.ayat[i].translation;
+
+            // Create translation verse container
+            var translationVerse = document.createElement('div');
+            translationVerse.classList.add('translation-verse');
+            translationVerse.setAttribute('data-verse-number', surah.ayat[i].surahNumber + ':' + surah.ayat[i].ayatNumber);
+            translationVerse.innerHTML = surah.ayat[i].translation;
+
+            // Append translation verse container to verse wrapper
+            verseWrapper.appendChild(translationVerse);
+			
+            // Create Arabic text container
+            var arabicVerse = document.createElement('div');
+            arabicVerse.classList.add('arabic-verse');
+            arabicVerse.setAttribute('data-arabic-verse-number', surah.ayat[i].surahNumberArabic + ':' + surah.ayat[i].ayatNumberArabic);
+            arabicVerse.innerHTML = surah.ayat[i].arabicText;
+
+            // Append Arabic text container to verse wrapper
+            verseWrapper.appendChild(arabicVerse);			
+
+            // Append verse wrapper to translation column
+            translationColumn.appendChild(verseWrapper);
 
             // Include footnotes if available
             if (surah.ayat[i].footnotes && surah.ayat[i].footnotes.length > 0) {
                 var footnotesContainer = document.createElement('div');
                 footnotesContainer.classList.add('footnotes');
-                for (var j = 0; j < surah.ayat[i].footnotes.length; j++) {
-                    footnotesContainer.innerHTML += '<p>' + surah.ayat[i].footnotes[j] + '</p>';
-                }
-                translationVerse.appendChild(footnotesContainer); // Append footnotes to translation verse
+                footnotesContainer.innerHTML = '<p>' + surah.ayat[i].footnotes.join('</p><p>') + '</p>';
+                translationColumn.appendChild(footnotesContainer); // Append footnotes to translation column
             }
-
-            // Append translation verse container to verse wrapper
-            verseWrapper.appendChild(translationVerse);
-
-// Create Arabic text container
-var arabicVerse = document.createElement('div');
-arabicVerse.classList.add('arabic-verse');
-arabicVerse.setAttribute('data-arabic-verse-number', surah.ayat[i].surahNumberArabic + ':' + surah.ayat[i].ayatNumberArabic);
-arabicVerse.innerHTML = surah.ayat[i].arabicText;
-
-            // Append Arabic text container to verse wrapper
-            verseWrapper.appendChild(arabicVerse);
-
-            // Append verse wrapper to respective columns
-            translationColumn.appendChild(verseWrapper);
-			
-			
         }
     } else {
         console.error('Surah data not found for surah number: ' + surahNumber);
         window.location.href = '#/contents'; // Redirect to contents page
     }
 }
+
+
+
 
 
 
@@ -216,6 +215,10 @@ function hideSurahContent() {
 
 // Add click event listener to contents button
 document.getElementById('contents-btn').addEventListener('click', function() {
+  showSurahList();
+});
+
+document.getElementById('contents-btn-mobile').addEventListener('click', function() {
   showSurahList();
 });
 
@@ -409,4 +412,66 @@ document.getElementById('search-input').addEventListener('keypress', function(e)
     search(query);
   }
 });
+
+// Add event listener to search button
+document.getElementById('search-btn-modal').addEventListener('click', function() {
+  var query = document.getElementById('search-input-mobile-modal').value;
+  search(query);
+
+  $('#searchModal').modal('hide');
+});
+
+// Show modal when the Search button is clicked
+document.getElementById('search-btn-mobile').addEventListener('click', function() {
+    $('#searchModal').modal('show');
+});
+
+
+
+// Close modal when "x" button is clicked
+document.querySelector('#searchModal .close').addEventListener('click', function() {
+    $('#searchModal').modal('hide');
+});
+
+// Close modal when "Close" button is clicked
+document.querySelector('#searchModal .modal-footer .btn-secondary').addEventListener('click', function() {
+    $('#searchModal').modal('hide');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the container element
+    var container = document.querySelector('.container');
+
+    // Check if the top navbar is visible or hidden
+    var topNavBar = document.getElementById('top-bar');
+    var isTopNavBarVisible = window.getComputedStyle(topNavBar).display !== 'none';
+
+    // Add padding to the container only if the top navbar is visible
+    if (isTopNavBarVisible) {
+        container.style.paddingTop = '50px'; // Adjust as needed
+    }
+});
+
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var scrollButton = document.querySelector('.scroll-to-top');
+
+    // If scroll position is greater than 100 (adjust this value as needed)
+    // Show the scroll to top button, otherwise hide it
+    if (scrollPosition > 100) {
+        scrollButton.style.display = 'block';
+    } else {
+        scrollButton.style.display = 'none';
+    }
+});
+
+// Add click event listener to the scroll to top button
+document.querySelector('.scroll-to-top').addEventListener('click', function() {
+    // Scroll to the top of the page
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scrolling behavior
+    });
+});
+
 
