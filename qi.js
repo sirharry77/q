@@ -108,10 +108,23 @@ function loadSurah(surahNumber, verseRange) {
         console.log("End Verse:", endVerse + 1); // Adjust back to 1-based indexing for logging
 
         for (var i = startVerse; i <= endVerse; i++) {
-            // Create translation verse container
-            var translationVerse = document.createElement('div');
-            translationVerse.classList.add('translation-verse');
-            translationVerse.innerHTML = surah.ayat[i].surahNumber + ':' + surah.ayat[i].ayatNumber + ' ' + surah.ayat[i].translation;
+            // Create verse wrapper to hold both translation and Arabic text
+            var verseWrapper = document.createElement('div');
+            verseWrapper.classList.add('verse-wrapper');
+
+            // Include subtitles if available
+            if (surah.ayat[i].subtitle) {
+                var subtitleContainer = document.createElement('div');
+                subtitleContainer.classList.add('subtitle');
+                subtitleContainer.innerHTML = '<p>' + surah.ayat[i].subtitle + '</p>';
+                translationColumn.appendChild(subtitleContainer); // Append subtitle directly to translation column
+            }
+
+// Create translation verse container
+var translationVerse = document.createElement('div');
+translationVerse.classList.add('translation-verse');
+translationVerse.setAttribute('data-verse-number', surah.ayat[i].surahNumber + ':' + surah.ayat[i].ayatNumber);
+translationVerse.innerHTML = surah.ayat[i].translation;
 
             // Include footnotes if available
             if (surah.ayat[i].footnotes && surah.ayat[i].footnotes.length > 0) {
@@ -123,19 +136,22 @@ function loadSurah(surahNumber, verseRange) {
                 translationVerse.appendChild(footnotesContainer); // Append footnotes to translation verse
             }
 
-            // Create Arabic text container
-            var arabicVerse = document.createElement('div');
-            arabicVerse.classList.add('arabic-verse');
-            arabicVerse.innerHTML = surah.ayat[i].surahNumberArabic + ':' + surah.ayat[i].ayatNumberArabic + ' ' + surah.ayat[i].arabicText;
-
-            // Create verse wrapper to hold both translation and Arabic text
-            var verseWrapper = document.createElement('div');
-            verseWrapper.classList.add('verse-wrapper');
+            // Append translation verse container to verse wrapper
             verseWrapper.appendChild(translationVerse);
+
+// Create Arabic text container
+var arabicVerse = document.createElement('div');
+arabicVerse.classList.add('arabic-verse');
+arabicVerse.setAttribute('data-arabic-verse-number', surah.ayat[i].surahNumberArabic + ':' + surah.ayat[i].ayatNumberArabic);
+arabicVerse.innerHTML = surah.ayat[i].arabicText;
+
+            // Append Arabic text container to verse wrapper
             verseWrapper.appendChild(arabicVerse);
 
             // Append verse wrapper to respective columns
             translationColumn.appendChild(verseWrapper);
+			
+			
         }
     } else {
         console.error('Surah data not found for surah number: ' + surahNumber);
@@ -393,3 +409,4 @@ document.getElementById('search-input').addEventListener('keypress', function(e)
     search(query);
   }
 });
+
