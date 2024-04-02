@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quran</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css?dda=c">
+  <!-- Custom CSS -->
+  <style>
+    /* Add custom styles here */
+    .arabic-text {
+      direction: rtl; /* Right-to-left text direction for Arabic */
+    }
+    #top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #190000; 
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1001; /* Ensure the top bar is above other content */
+    }
+    .search-container {
+      display: inline-flex; /* Changed to inline-flex */
+      align-items: center; /* Align items vertically */
+    }
+    .search-container input[type=text] {
+      padding: 6px;
+      font-size: 17px;
+      border: none;
+      width: 195px; /* Adjusted width for search input */
+    }
+    .search-container button,
+    #contents-btn,
+    #prev-chapter-btn,
+    #next-chapter-btn {
+      padding: 6px 10px;
+      margin-left: 10px;
+      background: #193857;
+      color: #fff; /* Text color changed to white */
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    /* Style for disabled state */
+    #prev-chapter-btn.disabled,
+    #next-chapter-btn.disabled {
+      background-color: #999;
+    }
+    /* Custom CSS for Surah List layout */
+    .surah-grid {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+    }
+    .surah-item {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .surah-info {
+      text-align: left;
+    }
+    /* Style for the container holding translation and Arabic text */
+    .verse-wrapper {
+      display: flex; /* Use flexbox */
+      justify-content: space-between; /* Align items with space between */
+    }
+    /* Style for translation verse */
+    .translation-verse,
+    .arabic-verse {
+      width: calc(50% - 15px); /* Take up half of the available space */
+    }
+    /* Style for Arabic text */
+    .arabic-verse {
+      text-align: right; /* Align text to the right */
+    }
+    /* Adjust spacing */
+    .col-md-6 {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    /* Add padding to container */
+    .container {
+      padding-top: 50px; /* Adjust as needed */
+    }
+    .disabled {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Fixed top bar -->
+<nav id="top-bar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="search-container">
+    <span style="color: white; padding-left: 4px;">Find:</span> <!-- Added text before the input -->
+    <input type="text" id="search-input" placeholder="Search Surah or Verse">
+    <button id="search-btn" class="btn btn-primary">Search</button>
+  </div>
+  <button id="contents-btn" class="btn">Contents</button>
+  <button id="prev-chapter-btn" class="btn btn-primary disabled" style="display: none;">Prev. Chapter</button>
+  <button id="next-chapter-btn" class="btn btn-primary" style="display: none;">Next Chapter</button>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- Translation Column -->
+      <div id="translation-column">
+        <!-- Translation content will be dynamically added here -->
+      </div>
+      <!-- Footnotes Column -->
+      <div id="footnotes-column">
+        <!-- Footnotes will be dynamically added here -->
+      </div>  	  
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- Surah List -->
+      <div id="surah-list-section" style="display: none;">
+        <h2>Surah List</h2>
+        <div id="surah-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and any custom scripts -->
+<script src="./js/jquery-3.3.1.slim.min.js"></script>
+<script src="./js/popper.min.js"></script>  
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+<!-- Your custom JavaScript -->
+<script src="surah.js"></script> <!-- Assuming your data is in surah.js -->
+<script src="qi.js?2=2"></script> 
+
+</body>
+</html>
