@@ -51,10 +51,15 @@ function updateURL(surahNumber) {
   window.history.pushState({path:newURL},'',newURL);
 }
 
+
 function loadSurah(surahNumber, verseRange) {
     console.log("Loading Surah:", surahNumber);
     console.log("Verse Range:", verseRange);
-    var surah = surahData[surahNumber];
+
+    // Convert surahNumber to integer (if it's a string)
+    surahNumber = parseInt(surahNumber);
+
+    var surah = surahData[surahNumber]; // Accessing surah data without subtracting 1
     console.log("Surah Data:", surah);
     if (surah) {
         console.log("Surah Data Found:", surah);
@@ -71,34 +76,26 @@ function loadSurah(surahNumber, verseRange) {
         // Determine which verses to load
         var startVerse, endVerse;
 
-        // Check if it's a single verse request or full surah request
-        if (verseRange && verseRange.length === 1) {
-            // Single verse request
-            var verse = parseInt(verseRange[0]);
-            if (verse > 0 && verse <= totalVerses) {
-                // Adjusting to 0-based indexing for Surah 1 and Surah 9
-                startVerse = surahNumber === 1 || surahNumber === 9 ? verse - 1 : verse;
-                endVerse = startVerse;
-            } else {
-                console.error('Invalid verse range for surah number ' + surahNumber);
-                window.location.href = '#/contents'; // Redirect to contents page
-                return;
-            }
-        } else if (verseRange && verseRange.length === 2) {
-            // Verse range request
+        // Check if verseRange is provided and has valid values
+        if (verseRange && verseRange.length === 2 && !isNaN(parseInt(verseRange[0])) && !isNaN(parseInt(verseRange[1]))) {
             var start = parseInt(verseRange[0]);
             var end = parseInt(verseRange[1]);
-            
-            // Adjust verse numbers for Surah 1 and Surah 9
-            startVerse = surahNumber === 1 || surahNumber === 9 ? start - 1 : start;
-            endVerse = surahNumber === 1 || surahNumber === 9 ? end - 1 : end;
-
-            // Adjust endVerse if it exceeds totalVerses
-            if (endVerse >= totalVerses) {
-                endVerse = totalVerses - 1;
-            }
+            startVerse = surahNumber === 1 || surahNumber === 9 ? start - 1 : start; // Adjust start verse for Surah 1 and Surah 9
+            endVerse = surahNumber === 1 || surahNumber === 9 ? end - 1 : end; // Adjust end verse for Surah 1 and Surah 9
+        } else if (verseRange && verseRange.length === 1 && verseRange[0] === '1') {
+            // Handle special case where only a single verse number is provided
+            startVerse = parseInt(verseRange[0]) - 1;
+            endVerse = parseInt(verseRange[0]) - 1;
+        } else if (verseRange && verseRange.length === 1 && verseRange[0] === '0' && (surahNumber !== 1 && surahNumber !== 9)) {
+            // Handle special case where verse range is '0' for surahs other than surah 1 and surah 9
+            startVerse = 0;
+            endVerse = 0;
+        } else if (verseRange && verseRange.length === 1 && verseRange[0] === '0') {
+            // Handle invalid case where verse range is '0' for surah 1 and surah 9
+            console.error('Invalid verse range: ' + verseRange);
+            window.location.href = '#/contents'; // Redirect to contents page
+            return;
         } else {
-            // Full surah request
             startVerse = 0;
             endVerse = totalVerses - 1;
         }
@@ -112,13 +109,12 @@ function loadSurah(surahNumber, verseRange) {
             verseWrapper.classList.add('verse-wrapper');
 
             // Include subtitles if available
-            if (surah.ayat[i].subtitle) {
+            if (surah.ayat[i] && surah.ayat[i].subtitle) {
                 var subtitleContainer = document.createElement('div');
                 subtitleContainer.classList.add('subtitle');
                 subtitleContainer.innerHTML = '<p>' + surah.ayat[i].subtitle + '</p>';
                 translationColumn.appendChild(subtitleContainer); // Append subtitle directly to translation column
             }
-
 
             // Create translation verse container
             var translationVerse = document.createElement('div');
@@ -128,7 +124,7 @@ function loadSurah(surahNumber, verseRange) {
 
             // Append translation verse container to verse wrapper
             verseWrapper.appendChild(translationVerse);
-			
+
             // Create Arabic text container
             var arabicVerse = document.createElement('div');
             arabicVerse.classList.add('arabic-verse');
@@ -136,13 +132,13 @@ function loadSurah(surahNumber, verseRange) {
             arabicVerse.innerHTML = surah.ayat[i].arabicText;
 
             // Append Arabic text container to verse wrapper
-            verseWrapper.appendChild(arabicVerse);			
+            verseWrapper.appendChild(arabicVerse);
 
             // Append verse wrapper to translation column
             translationColumn.appendChild(verseWrapper);
 
             // Include footnotes if available
-            if (surah.ayat[i].footnotes && surah.ayat[i].footnotes.length > 0) {
+            if (surah.ayat[i] && surah.ayat[i].footnotes && surah.ayat[i].footnotes.length > 0) {
                 var footnotesContainer = document.createElement('div');
                 footnotesContainer.classList.add('footnotes');
                 footnotesContainer.innerHTML = '<p>' + surah.ayat[i].footnotes.join('</p><p>') + '</p>';
@@ -151,12 +147,11 @@ function loadSurah(surahNumber, verseRange) {
         }
     } else {
         console.error('Surah data not found for surah number: ' + surahNumber);
-        window.location.href = '#/contents'; // Redirect to contents page
+        if (surahNumber !== 1 && surahNumber !== 9) {
+            window.location.href = '#/contents'; // Redirect to contents page for invalid surah numbers
+        }
     }
 }
-
-
-
 
 
 
@@ -294,20 +289,21 @@ function handleHashChange() {
             if (surah) {
                 var totalVerses = surah.ayat.length;
                 console.log("Total Verses:", totalVerses);
-                if (!verseRange) { // Check if verseRange is null
-                    // Load all verses of the surah if no verse range is specified
-                    loadSurah(surahNumber);
-                } else {
-                    var startVerse = parseInt(verseRange[0]);
-                    var endVerse = parseInt(verseRange[1]) || startVerse; // If end verse is not provided, assume single verse
-                    console.log("Start Verse:", startVerse);
-                    console.log("End Verse:", endVerse);
-                    if (startVerse > totalVerses || endVerse > totalVerses || startVerse < 1 || endVerse < 1) {
-                        console.error('Invalid verse range for surah number ' + surahNumber);
+                if (verseRange && verseRange.length >= 1 && !isNaN(parseInt(verseRange[0]))) {
+                    var start = parseInt(verseRange[0]);
+                    var end = verseRange.length === 2 ? parseInt(verseRange[1]) : start; // If end verse is not provided, assume single verse
+
+                    if (end < start) {
+                        console.error('Invalid verse range: End verse is less than start verse');
                         window.location.href = '#/contents'; // Redirect to contents page
                         return;
                     }
-                    loadSurah(surahNumber, [startVerse, endVerse]);
+
+                    // Load the surah with the specified verse range
+                    loadSurah(surahNumber, [start, end]);
+                } else {
+                    // Load the entire surah if no verse range is specified
+                    loadSurah(surahNumber);
                 }
                 hideSurahList();
                 toggleChapterButtons(surahNumber); // Toggle visibility of chapter buttons
@@ -321,6 +317,11 @@ function handleHashChange() {
         showSurahList();
     }
 }
+
+
+
+
+
 
 
 // Call handleHashChange() initially to handle the initial URL
