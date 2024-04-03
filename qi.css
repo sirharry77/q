@@ -40,10 +40,12 @@
 }
 
 .search-container input[type=text] {
-  padding: 6px;
-  font-size: 17px;
-  border: none;
-  width: 195px; /* Adjusted width for search input */
+    padding: 6px;
+    font-size: 17px;
+    width: 190px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    height: 30px;
 }
 
 .search-container button,
@@ -52,7 +54,7 @@
 #next-chapter-btn {
   padding: 6px 10px;
   margin-left: 10px;
-  background: #193857;
+  background: #007bff;
   color: #fff; /* Text color changed to white */
   font-size: 17px;
   border: none;
@@ -95,6 +97,7 @@
     width: calc(100% - 10px);
     display: block;
     margin-bottom: 40px;
+	padding-right: 7px;
 }
 
 .arabic-verse {
@@ -103,6 +106,7 @@
     display: block;
     line-height: 40px;
     margin-bottom: 40px;
+	padding-left: 7px;
 }
 
 .subtitle {
@@ -112,6 +116,7 @@
     text-align: center;
     font-size: 90%;
     font-style: italic;
+	color: #0000ff;
 }
 
 .footnotes {
