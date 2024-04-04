@@ -175,3 +175,7 @@
     display: none; /* Hide mobile bottom bar on desktop */
   }
 }
+
+.highlight {
+    background-color: #20c997;
+}
