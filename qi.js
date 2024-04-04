@@ -147,9 +147,8 @@ function loadSurah(surahNumber, verseRange) {
         }
     } else {
         console.error('Surah data not found for surah number: ' + surahNumber);
-        if (surahNumber !== 1 && surahNumber !== 9) {
-            window.location.href = '#/contents'; // Redirect to contents page for invalid surah numbers
-        }
+        
+		window.location.href = '#/contents'; // Redirect to contents page
     }
 }
 
@@ -268,7 +267,6 @@ window.onload = function() {
   }
 };
 
-// Function to handle hash changes
 function handleHashChange() {
     var hash = window.location.hash;
     console.log("Hash:", hash);
@@ -279,38 +277,46 @@ function handleHashChange() {
         var verseRange = hashParts[1] ? hashParts[1].split('-') : null; // Split verse range by '-'
         console.log("Verse Range:", verseRange);
 
-        if (surahNumber === 'contents') {
-            console.log('Contents page loaded');
-            // Handle loading contents page
-            showSurahList();
-        } else {
+        if ((surahNumber === '1' || surahNumber === '9') && verseRange && verseRange.length === 1 && verseRange[0] === '0') {
+            console.log('Redirecting to contents page');
+            window.location.href = '#/contents';
+            return; // Exit the function after redirecting
+        }
+
+        // Check if the surahNumber is a valid surah number
+        if (!isNaN(surahNumber) && surahNumber >= 1 && surahNumber <= 114) {
             var surah = surahData[surahNumber];
             console.log("Surah Data:", surah);
-            if (surah) {
+            if (surah && surah.surahNumber) { // Check if surah and surahNumber are defined
                 var totalVerses = surah.ayat.length;
                 console.log("Total Verses:", totalVerses);
-                if (verseRange && verseRange.length >= 1 && !isNaN(parseInt(verseRange[0]))) {
-                    var start = parseInt(verseRange[0]);
-                    var end = verseRange.length === 2 ? parseInt(verseRange[1]) : start; // If end verse is not provided, assume single verse
-
-                    if (end < start) {
-                        console.error('Invalid verse range: End verse is less than start verse');
-                        window.location.href = '#/contents'; // Redirect to contents page
-                        return;
-                    }
-
-                    // Load the surah with the specified verse range
-                    loadSurah(surahNumber, [start, end]);
-                } else {
-                    // Load the entire surah if no verse range is specified
+                if (!verseRange) { // Check if verseRange is null
+                    // Load all verses of the surah if no verse range is specified
                     loadSurah(surahNumber);
+                } else {
+                    var startVerse = parseInt(verseRange[0]);
+                    var endVerse = parseInt(verseRange[1]) || startVerse; // If end verse is not provided, assume single verse
+                    console.log("Start Verse:", startVerse);
+                    console.log("End Verse:", endVerse);
+                    if (startVerse > totalVerses || endVerse > totalVerses || startVerse < 0 || endVerse < 0) {
+                        console.error('Invalid verse range for surah number ' + surahNumber);
+                        return; // Exit the function if the verse range is invalid
+                    }
+                    loadSurah(surahNumber, [startVerse, endVerse]);
                 }
                 hideSurahList();
                 toggleChapterButtons(surahNumber); // Toggle visibility of chapter buttons
             } else {
                 console.error('Surah data not found for surah number: ' + surahNumber);
-                window.location.href = '#/contents'; // Redirect to contents page
+                return;
             }
+        } else {
+            // Handle keyword search
+            console.log('Performing keyword search:', surahNumber);
+            // Update URL with search query
+            updateURL(surahNumber);
+            // Display search results or handle accordingly
+            displaySearchResults(surahNumber);
         }
     } else {
         // Show surah list if no hash in URL (initial page load)
@@ -324,11 +330,24 @@ function handleHashChange() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Call handleHashChange() initially to handle the initial URL
 handleHashChange();
 
 // Add event listener for hash changes
 window.onhashchange = handleHashChange;
+
 
 function search(q) {
     var query = q.trim();
@@ -373,28 +392,141 @@ function search(q) {
         }
     } else {
         // Keyword search
-        // Iterate through all verses to find matching keywords
-        var matchingVerses = [];
-        for (var i = 1; i <= 114; i++) {
-            var surah = surahData[i];
-            if (surah) {
-                for (var j = 0; j < surah.ayat.length; j++) {
-                    var verse = surah.ayat[j];
-                    if (verse.translation.toLowerCase().includes(query.toLowerCase())) {
-                        matchingVerses.push({ surah: i, verse: j + 1 });
-                    }
+        // Update URL with search query
+        updateURL(query);
+        hideSurahList();
+
+        // Perform keyword search
+        searchQuery = query; // Store the search query in a variable accessible to other functions
+        var matchingVerses = performKeywordSearch(query);
+
+        // Display the matching verses
+        displaySearchResults(matchingVerses, query);
+    }
+}
+
+function performKeywordSearch(query) {
+    // Convert the query to lowercase for case-insensitive matching
+    var searchTerm = query.toLowerCase();
+
+    // Array to store matching verses
+    var matchingVerses = [];
+
+    // Iterate through all verses to find matching keywords
+    for (var i = 1; i <= 114; i++) {
+        var surah = surahData[i];
+        if (surah) {
+            for (var j = 0; j < surah.ayat.length; j++) {
+                var verse = surah.ayat[j];
+                // Convert the verse translation to lowercase for case-insensitive matching
+                var verseText = verse.translation.toLowerCase();
+                // Check if the verse contains the search term
+                if (verseText.includes(searchTerm)) {
+                    matchingVerses.push({ surah: i, verse: j + 1 });
                 }
             }
         }
-        // Display the matching verses or handle the search results accordingly
-        if (matchingVerses.length > 0) {
-            // Process and display the matching verses
-            console.log('Matching verses:', matchingVerses);
-        } else {
-            console.log('No matching verses found for query:', query);
-        }
     }
+
+    return matchingVerses;
 }
+
+
+function displaySearchResults(matchingVerses, searchQuery) {
+    // Check if matchingVerses is not an array or if it's empty
+    if (!Array.isArray(matchingVerses) || matchingVerses.length === 0) {
+        // Display message indicating no matching verses found
+        console.log('No matching verses found.');
+        return; // Exit the function
+    }
+
+    // Clear previous search results
+    clearSearchResults();
+
+    // Get the translation column container
+    var translationColumn = document.getElementById('translation-column');
+
+    // Iterate over matchingVerses array
+    matchingVerses.forEach(function(verse) {
+        var surah = surahData[verse.surah]; // Retrieve the surah data for the matching verse
+
+        if (surah && surah.ayat[verse.verse - 1]) { // Check if surah and verse are valid
+            var verseData = surah.ayat[verse.verse - 1]; // Get the verse data
+
+            // Include subtitles if available
+            if (verseData.subtitle) {
+                var subtitleContainer = document.createElement('div');
+                subtitleContainer.classList.add('subtitle');
+                subtitleContainer.innerHTML = '<p>' + verseData.subtitle + '</p>';
+                translationColumn.appendChild(subtitleContainer); // Append subtitle directly to translation column
+            }
+
+            // Create verse wrapper to hold both translation and Arabic text
+            var verseWrapper = document.createElement('div');
+            verseWrapper.classList.add('verse-wrapper');
+
+            // Create translation verse container
+            var translationVerse = document.createElement('div');
+            translationVerse.classList.add('translation-verse');
+            translationVerse.setAttribute('data-verse-number',  verseData.surahNumber + ':' + verseData.ayatNumber);
+
+            // Highlight the search term within the translation text
+            var highlightedTranslation = highlightSearchTerm(verseData.translation, searchQuery);
+
+            // Set the inner HTML of the translation verse container with the highlighted text
+            translationVerse.innerHTML = highlightedTranslation;
+
+            // Append translation verse container to verse wrapper
+            verseWrapper.appendChild(translationVerse);
+
+            // Create Arabic verse container
+            var arabicVerse = document.createElement('div');
+            arabicVerse.classList.add('arabic-verse');
+            arabicVerse.setAttribute('data-arabic-verse-number', verseData.surahNumberArabic + ':' + verseData.ayatNumberArabic);
+            arabicVerse.innerHTML = verseData.arabicText;
+
+            // Append Arabic verse container to verse wrapper
+            verseWrapper.appendChild(arabicVerse);
+
+            // Append verse wrapper to translation column
+            translationColumn.appendChild(verseWrapper);
+
+            // Include footnotes if available
+            if (verseData.footnotes && verseData.footnotes.length > 0) {
+                var footnotesContainer = document.createElement('div');
+                footnotesContainer.classList.add('footnotes');
+                footnotesContainer.innerHTML = '<p>' + verseData.footnotes.join('</p><p>') + '</p>';
+                translationColumn.appendChild(footnotesContainer); // Append footnotes to translation column
+            }
+        }
+    });
+}
+
+
+
+function highlightSearchTerm(text, searchTerm) {
+    // Escape special characters in the search term to avoid regex errors
+    var escapedSearchTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Create a regular expression with the search term and flags for case insensitivity
+    var regex = new RegExp(escapedSearchTerm, 'gi');
+    // Use the replace method with a callback function to wrap the search term with a <span> element
+    var highlightedText = text.replace(regex, function(match) {
+        return '<span class="highlight">' + match + '</span>';
+    });
+    return highlightedText;
+}
+
+
+
+
+
+// Function to clear search results
+function clearSearchResults() {
+    // Clear previous search results from the HTML content
+    document.getElementById('translation-column').innerHTML = '';
+}
+
+
 
 
 
