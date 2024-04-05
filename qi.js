@@ -271,52 +271,56 @@ function handleHashChange() {
     var hash = window.location.hash;
     console.log("Hash:", hash);
     if (hash) {
-        var hashParts = hash.substring(2).split(':'); // Remove the '#/' and split by ':'
-        var surahNumber = hashParts[0]; // Extract the surah number part
-        console.log("Surah Number:", surahNumber);
-        var verseRange = hashParts[1] ? hashParts[1].split('-') : null; // Split verse range by '-'
-        console.log("Verse Range:", verseRange);
+        if (hash.startsWith('#/search?q=')) {
+            var searchQuery = hash.substring('#/search?q='.length); // Extract the search query
+            console.log("Search Query:", searchQuery);
+            
+            // Perform keyword search
+            search(searchQuery);
+        } else {
+            var hashParts = hash.substring(2).split(':'); // Remove the '#/' and split by ':'
+            var surahNumber = hashParts[0]; // Extract the surah number part
+            console.log("Surah Number:", surahNumber);
+            var verseRange = hashParts[1] ? hashParts[1].split('-') : null; // Split verse range by '-'
+            console.log("Verse Range:", verseRange);
 
-        if ((surahNumber === '1' || surahNumber === '9') && verseRange && verseRange.length === 1 && verseRange[0] === '0') {
-            console.log('Redirecting to contents page');
-            window.location.href = '#/contents';
-            return; // Exit the function after redirecting
-        }
+            if ((surahNumber === '1' || surahNumber === '9') && verseRange && verseRange.length === 1 && verseRange[0] === '0') {
+                console.log('Redirecting to contents page');
+                window.location.href = '#/contents';
+                return; // Exit the function after redirecting
+            }
 
-        // Check if the surahNumber is a valid surah number
-        if (!isNaN(surahNumber) && surahNumber >= 1 && surahNumber <= 114) {
-            var surah = surahData[surahNumber];
-            console.log("Surah Data:", surah);
-            if (surah && surah.surahNumber) { // Check if surah and surahNumber are defined
-                var totalVerses = surah.ayat.length;
-                console.log("Total Verses:", totalVerses);
-                if (!verseRange) { // Check if verseRange is null
-                    // Load all verses of the surah if no verse range is specified
-                    loadSurah(surahNumber);
-                } else {
-                    var startVerse = parseInt(verseRange[0]);
-                    var endVerse = parseInt(verseRange[1]) || startVerse; // If end verse is not provided, assume single verse
-                    console.log("Start Verse:", startVerse);
-                    console.log("End Verse:", endVerse);
-                    if (startVerse > totalVerses || endVerse > totalVerses || startVerse < 0 || endVerse < 0) {
-                        console.error('Invalid verse range for surah number ' + surahNumber);
-                        return; // Exit the function if the verse range is invalid
+            // Check if the surahNumber is a valid surah number
+            if (!isNaN(surahNumber) && surahNumber >= 1 && surahNumber <= 114) {
+                var surah = surahData[surahNumber];
+                console.log("Surah Data:", surah);
+                if (surah && surah.surahNumber) { // Check if surah and surahNumber are defined
+                    var totalVerses = surah.ayat.length;
+                    console.log("Total Verses:", totalVerses);
+                    if (!verseRange) { // Check if verseRange is null
+                        // Load all verses of the surah if no verse range is specified
+                        loadSurah(surahNumber);
+                    } else {
+                        var startVerse = parseInt(verseRange[0]);
+                        var endVerse = parseInt(verseRange[1]) || startVerse; // If end verse is not provided, assume single verse
+                        console.log("Start Verse:", startVerse);
+                        console.log("End Verse:", endVerse);
+                        if (startVerse > totalVerses || endVerse > totalVerses || startVerse < 0 || endVerse < 0) {
+                            console.error('Invalid verse range for surah number ' + surahNumber);
+                            return; // Exit the function if the verse range is invalid
+                        }
+                        loadSurah(surahNumber, [startVerse, endVerse]);
                     }
-                    loadSurah(surahNumber, [startVerse, endVerse]);
+                    hideSurahList();
+                    toggleChapterButtons(surahNumber); // Toggle visibility of chapter buttons
+                } else {
+                    console.error('Surah data not found for surah number: ' + surahNumber);
+                    return;
                 }
-                hideSurahList();
-                toggleChapterButtons(surahNumber); // Toggle visibility of chapter buttons
             } else {
-                console.error('Surah data not found for surah number: ' + surahNumber);
+                console.error('Invalid surah number:', surahNumber);
                 return;
             }
-        } else {
-            // Handle keyword search
-            console.log('Performing keyword search:', surahNumber);
-            // Update URL with search query
-            updateURL(surahNumber);
-            // Display search results or handle accordingly
-            displaySearchResults(surahNumber);
         }
     } else {
         // Show surah list if no hash in URL (initial page load)
@@ -325,28 +329,12 @@ function handleHashChange() {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Call handleHashChange() initially to handle the initial URL
 handleHashChange();
 
 // Add event listener for hash changes
 window.onhashchange = handleHashChange;
+
 
 
 function search(q) {
@@ -393,21 +381,22 @@ function search(q) {
     } else {
         // Keyword search
         // Update URL with search query
-        updateURL(query);
+        updateURL('search?q=' + encodeURIComponent(query));
         hideSurahList();
 
         // Perform keyword search
-        searchQuery = query; // Store the search query in a variable accessible to other functions
+        searchQuery = q.trim(); // Store the search query in a variable accessible to other functions
         var matchingVerses = performKeywordSearch(query);
 
         // Display the matching verses
         displaySearchResults(matchingVerses, query);
+			
     }
 }
 
 function performKeywordSearch(query) {
     // Convert the query to lowercase for case-insensitive matching
-    var searchTerm = query.toLowerCase();
+    var searchTerm = query.trim().toLowerCase();
 
     // Array to store matching verses
     var matchingVerses = [];
@@ -420,8 +409,10 @@ function performKeywordSearch(query) {
                 var verse = surah.ayat[j];
                 // Convert the verse translation to lowercase for case-insensitive matching
                 var verseText = verse.translation.toLowerCase();
-                // Check if the verse contains the search term
-                if (verseText.includes(searchTerm)) {
+                // Convert the Arabic text to lowercase for case-insensitive matching
+                var arabicText = verse.arabicText.toLowerCase();
+                // Check if the verse contains the search term in translation or Arabic text
+                if (verseText.includes(searchTerm) || arabicText.includes(searchTerm)) {
                     matchingVerses.push({ surah: i, verse: j + 1 });
                 }
             }
@@ -430,7 +421,6 @@ function performKeywordSearch(query) {
 
     return matchingVerses;
 }
-
 
 function displaySearchResults(matchingVerses, searchQuery) {
     // Check if matchingVerses is not an array or if it's empty
@@ -445,6 +435,11 @@ function displaySearchResults(matchingVerses, searchQuery) {
 
     // Get the translation column container
     var translationColumn = document.getElementById('translation-column');
+	
+    // Display the search query
+    var searchQueryElement = document.createElement('div');
+    searchQueryElement.textContent = 'Search results for: ' + searchQuery;
+    translationColumn.appendChild(searchQueryElement);	
 
     // Iterate over matchingVerses array
     matchingVerses.forEach(function(verse) {
@@ -485,6 +480,13 @@ function displaySearchResults(matchingVerses, searchQuery) {
             arabicVerse.setAttribute('data-arabic-verse-number', verseData.surahNumberArabic + ':' + verseData.ayatNumberArabic);
             arabicVerse.innerHTML = verseData.arabicText;
 
+
+            // Highlight the search term within the Arabic text
+            var highlightedArabicText = highlightSearchTerm(verseData.arabicText, searchQuery);
+
+            // Set the inner HTML of the Arabic verse container with the highlighted text
+            arabicVerse.innerHTML = highlightedArabicText;				
+
             // Append Arabic verse container to verse wrapper
             verseWrapper.appendChild(arabicVerse);
 
@@ -502,8 +504,6 @@ function displaySearchResults(matchingVerses, searchQuery) {
     });
 }
 
-
-
 function highlightSearchTerm(text, searchTerm) {
     // Escape special characters in the search term to avoid regex errors
     var escapedSearchTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -516,21 +516,11 @@ function highlightSearchTerm(text, searchTerm) {
     return highlightedText;
 }
 
-
-
-
-
 // Function to clear search results
 function clearSearchResults() {
     // Clear previous search results from the HTML content
     document.getElementById('translation-column').innerHTML = '';
 }
-
-
-
-
-
-
 
 // Add event listener to search button
 document.getElementById('search-btn').addEventListener('click', function() {
@@ -560,7 +550,6 @@ document.getElementById('search-btn-mobile').addEventListener('click', function(
 });
 
 
-
 // Close modal when "x" button is clicked
 document.querySelector('#searchModal .close').addEventListener('click', function() {
     $('#searchModal').modal('hide');
@@ -571,19 +560,6 @@ document.querySelector('#searchModal .modal-footer .btn-secondary').addEventList
     $('#searchModal').modal('hide');
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Get the container element
-    var container = document.querySelector('.container');
-
-    // Check if the top navbar is visible or hidden
-    var topNavBar = document.getElementById('top-bar');
-    var isTopNavBarVisible = window.getComputedStyle(topNavBar).display !== 'none';
-
-    // Add padding to the container only if the top navbar is visible
-    if (isTopNavBarVisible) {
-        container.style.paddingTop = '50px'; // Adjust as needed
-    }
-});
 
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
@@ -591,7 +567,7 @@ window.addEventListener('scroll', function() {
 
     // If scroll position is greater than 100 (adjust this value as needed)
     // Show the scroll to top button, otherwise hide it
-    if (scrollPosition > 100) {
+    if (scrollPosition > 1900) {
         scrollButton.style.display = 'block';
     } else {
         scrollButton.style.display = 'none';
@@ -606,5 +582,4 @@ document.querySelector('.scroll-to-top').addEventListener('click', function() {
         behavior: 'smooth' // Smooth scrolling behavior
     });
 });
-
 
