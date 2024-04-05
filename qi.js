@@ -218,22 +218,27 @@ document.getElementById('contents-btn-mobile').addEventListener('click', functio
 
 // Function to toggle visibility of chapter buttons based on the surah number
 function toggleChapterButtons(surahNumber) {
-  var prevChapterBtn = document.getElementById('prev-chapter-btn');
-  var nextChapterBtn = document.getElementById('next-chapter-btn');
+    var prevChapterBtn = document.getElementById('prev-chapter-btn');
+    var nextChapterBtn = document.getElementById('next-chapter-btn');
 
-  if (surahNumber <= 1) {
-    prevChapterBtn.classList.add('disabled'); // Disable prev chapter button on first surah or invalid surah
-    nextChapterBtn.classList.remove('disabled'); // Enable next chapter button on first surah or invalid surah
-  } else if (surahNumber >= 114) {
-    prevChapterBtn.classList.remove('disabled'); // Enable prev chapter button on last surah
-    nextChapterBtn.classList.add('disabled'); // Disable next chapter button on last surah
-  } else {
-    prevChapterBtn.classList.remove('disabled'); // Enable prev chapter button
-    nextChapterBtn.classList.remove('disabled'); // Enable next chapter button
-  }
-  prevChapterBtn.style.display = 'inline-block'; // Show prev chapter button
-  nextChapterBtn.style.display = 'inline-block'; // Show next chapter button
+    // Check if the surahNumber is not a valid number
+    if (isNaN(surahNumber) || surahNumber < 1 || surahNumber > 114) {
+        prevChapterBtn.classList.add('disabled');
+        nextChapterBtn.classList.add('disabled');
+    } else if (surahNumber <= 1) {
+        prevChapterBtn.classList.add('disabled'); // Disable prev chapter button on first surah
+        nextChapterBtn.classList.remove('disabled'); // Enable next chapter button on first surah
+    } else if (surahNumber >= 114) {
+        prevChapterBtn.classList.remove('disabled'); // Enable prev chapter button on last surah
+        nextChapterBtn.classList.add('disabled'); // Disable next chapter button on last surah
+    } else {
+        prevChapterBtn.classList.remove('disabled'); // Enable prev chapter button
+        nextChapterBtn.classList.remove('disabled'); // Enable next chapter button
+    }
+    prevChapterBtn.style.display = 'inline-block'; // Show prev chapter button
+    nextChapterBtn.style.display = 'inline-block'; // Show next chapter button
 }
+
 
 // Add click event listener to prev chapter button
 document.getElementById('prev-chapter-btn').addEventListener('click', function() {
