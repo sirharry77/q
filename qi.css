@@ -175,7 +175,11 @@
     display: none; /* Hide mobile bottom bar on desktop */
   }
 }
-
+@media (min-width: 768px) {
+  .container {
+    padding-top: 60px; /* Adjust this value according to the height of your top bar */
+  }
+}
 .highlight {
     background-color: #20c997;
 }
