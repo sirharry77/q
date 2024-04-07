@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quran</title>
+    <!-- Preload font files -->
+  <link rel="preload" href="./static/Vazirmatn-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="./static/Vazirmatn-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="qi.css?c=1d">
@@ -21,12 +25,17 @@
   <button id="contents-btn" class="btn">Contents</button>
   <button id="prev-chapter-btn" class="btn btn-primary disabled" style="display: none;">Prev. Chapter</button>
   <button id="next-chapter-btn" class="btn btn-primary" style="display: none;">Next Chapter</button>
+<button id="prev-verse-btn" class="btn btn-primary" style="display: none;">Prev. Verse</button>
+<button id="next-verse-btn" class="btn btn-primary" style="display: none;">Next Verse</button>
+</div>  
 </nav>
 
 <!-- New bottom bar (for mobile) -->
 <nav id="bottom-bar" class="navbar navbar-expand-lg navbar-dark fixed-bottom mobile-bottom-bar">
   <button id="search-btn-mobile" class="btn btn-primary">Find</button>
   <button class="scroll-to-top" style="display: none;">Scroll to Top</button>
+  <button id="prev-verse-btn-mobile" class="btn btn-primary" style="display: none;">Prev. Verse</button>
+<button id="next-verse-btn-mobile" class="btn btn-primary" style="display: none;">Next Verse</button>
   <button id="contents-btn-mobile" class="btn btn-primary">Contents</button>
 </nav>
 
