@@ -103,13 +103,17 @@ function loadSurah(surahNumber, verseRange) {
         console.log("Start Verse:", startVerse + 1); // Adjust back to 1-based indexing for logging
         console.log("End Verse:", endVerse + 1); // Adjust back to 1-based indexing for logging
 
-        for (var i = startVerse; i <= endVerse; i++) {
+// Check if surah and surah.ayat are defined
+if (surah && surah.ayat) {
+    for (var i = startVerse; i <= endVerse; i++) {
+        // Check if surah.ayat[i] is defined
+        if (surah.ayat[i]) {
             // Create verse wrapper to hold both translation and Arabic text
             var verseWrapper = document.createElement('div');
             verseWrapper.classList.add('verse-wrapper');
 
             // Include subtitles if available
-            if (surah.ayat[i] && surah.ayat[i].subtitle) {
+            if (surah.ayat[i].subtitle) {
                 var subtitleContainer = document.createElement('div');
                 subtitleContainer.classList.add('subtitle');
                 subtitleContainer.innerHTML = '<p>' + surah.ayat[i].subtitle + '</p>';
@@ -138,26 +142,95 @@ function loadSurah(surahNumber, verseRange) {
             translationColumn.appendChild(verseWrapper);
 
             // Include footnotes if available
-            if (surah.ayat[i] && surah.ayat[i].footnotes && surah.ayat[i].footnotes.length > 0) {
+            if (surah.ayat[i].footnotes && surah.ayat[i].footnotes.length > 0) {
                 var footnotesContainer = document.createElement('div');
                 footnotesContainer.classList.add('footnotes');
                 footnotesContainer.innerHTML = '<p>' + surah.ayat[i].footnotes.join('</p><p>') + '</p>';
                 translationColumn.appendChild(footnotesContainer); // Append footnotes to translation column
             }
         }
-    } else {
-        console.error('Surah data not found for surah number: ' + surahNumber);
-        
-		window.location.href = '#/contents'; // Redirect to contents page
     }
 }
 
 
+// For desktop top-bar buttons
+var prevVerseBtnDesktop = document.getElementById('prev-verse-btn');
+var nextVerseBtnDesktop = document.getElementById('next-verse-btn');
+
+// For mobile bottom-bar buttons
+var prevVerseBtnMobile = document.getElementById('prev-verse-btn-mobile');
+var nextVerseBtnMobile = document.getElementById('next-verse-btn-mobile');
+
+if (verseRange && verseRange.length === 2 && !isNaN(parseInt(verseRange[0])) && !isNaN(parseInt(verseRange[1]))) {
+    var startVerseNumber = parseInt(verseRange[0]);
+    var endVerseNumber = parseInt(verseRange[1]);
+    
+    if (startVerseNumber === endVerseNumber) {
+        // Only one verse is being displayed
+        var isFirstVerse = startVerseNumber === 0 || startVerseNumber === 1; // Adjust for Surah 1 and Surah 9
+        var isLastVerse = (surahNumber === 1 || surahNumber === 9) ? endVerseNumber === totalVerses : endVerseNumber === totalVerses - 1;
+
+        if (isFirstVerse) {
+            prevVerseBtnDesktop.style.display = 'none';
+            nextVerseBtnDesktop.style.display = 'inline-block';
+            nextVerseBtnDesktop.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (endVerseNumber + 1);
+            };
+            prevVerseBtnMobile.style.display = 'none';
+            nextVerseBtnMobile.style.display = 'inline-block';
+            nextVerseBtnMobile.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (endVerseNumber + 1);
+            };
+        } else if (isLastVerse) {
+            prevVerseBtnDesktop.style.display = 'inline-block';
+            nextVerseBtnDesktop.style.display = 'none';
+            prevVerseBtnDesktop.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (startVerseNumber - 1);
+            };
+            prevVerseBtnMobile.style.display = 'inline-block';
+            nextVerseBtnMobile.style.display = 'none';
+            prevVerseBtnMobile.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (startVerseNumber - 1);
+            };
+        } else {
+            prevVerseBtnDesktop.style.display = 'inline-block';
+            nextVerseBtnDesktop.style.display = 'inline-block';
+            prevVerseBtnDesktop.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (startVerseNumber - 1);
+            };
+            nextVerseBtnDesktop.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (endVerseNumber + 1);
+            };
+            prevVerseBtnMobile.style.display = 'inline-block';
+            nextVerseBtnMobile.style.display = 'inline-block';
+            prevVerseBtnMobile.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (startVerseNumber - 1);
+            };
+            nextVerseBtnMobile.onclick = function() {
+                window.location.href = '#/' + surahNumber + ':' + (endVerseNumber + 1);
+            };
+        }
+    } else {
+        // Multiple verses are being displayed
+        prevVerseBtnDesktop.style.display = 'none';
+        nextVerseBtnDesktop.style.display = 'none';
+        prevVerseBtnMobile.style.display = 'none';
+        nextVerseBtnMobile.style.display = 'none';
+    }
+} else {
+    // Verse range is not provided or invalid
+    prevVerseBtnDesktop.style.display = 'none';
+    nextVerseBtnDesktop.style.display = 'none';
+    prevVerseBtnMobile.style.display = 'none';
+    nextVerseBtnMobile.style.display = 'none';
+}
 
 
-
-
-
+    } else {
+        console.error('Surah data not found for surah number: ' + surahNumber);
+        window.location.href = '#/contents'; // Redirect to contents page
+    }
+}
 
 
 // Function to hide the surah list
@@ -178,19 +251,11 @@ function showSurahList() {
     
     // Update URL to include '#/contents'
     updateURL('contents');
-    
+    hideButtonsForContentsPage();
+	toggleChapterButtons();
     // Hide the current displayed surah content
     hideSurahContent();
-
-    // Hide the "Prev. Chapter" and "Next Chapter" buttons
-    var prevChapterBtn = document.getElementById('prev-chapter-btn');
-    var nextChapterBtn = document.getElementById('next-chapter-btn');
-    if (prevChapterBtn && nextChapterBtn) {
-      prevChapterBtn.style.display = 'none';
-      nextChapterBtn.style.display = 'none';
-    } else {
-      console.error('Prev chapter button or next chapter button not found.');
-    }
+	
   } else {
     console.error('Surah list section not found.');
   }
@@ -282,6 +347,7 @@ function handleHashChange() {
             
             // Perform keyword search
             search(searchQuery);
+
         } else {
             var hashParts = hash.substring(2).split(':'); // Remove the '#/' and split by ':'
             var surahNumber = hashParts[0]; // Extract the surah number part
@@ -333,12 +399,12 @@ function handleHashChange() {
     }
 }
 
-
+window.addEventListener('hashchange', handleHashChange);
 // Call handleHashChange() initially to handle the initial URL
 handleHashChange();
 
 // Add event listener for hash changes
-window.onhashchange = handleHashChange;
+//window.onhashchange = handleHashChange;
 
 
 
@@ -388,7 +454,8 @@ function search(q) {
         // Update URL with search query
         updateURL('search?q=' + encodeURIComponent(query));
         hideSurahList();
-
+        hideButtonsForContentsPage();
+		toggleChapterButtons(surahNumber);
         // Perform keyword search
         searchQuery = q.trim(); // Store the search query in a variable accessible to other functions
         var matchingVerses = performKeywordSearch(query);
@@ -586,5 +653,22 @@ document.querySelector('.scroll-to-top').addEventListener('click', function() {
         top: 0,
         behavior: 'smooth' // Smooth scrolling behavior
     });
+});
+
+// Function to hide buttons if hash is #/contents
+function hideButtonsForContentsPage() {
+    var hash = window.location.hash;
+    console.log('Current hash:', hash);
+    if (hash === '#/contents' || hash.startsWith('#/search?q=')) {
+        document.getElementById('prev-verse-btn').style.display = 'none';
+        document.getElementById('next-verse-btn').style.display = 'none';
+        document.getElementById('prev-verse-btn-mobile').style.display = 'none';
+        document.getElementById('next-verse-btn-mobile').style.display = 'none';		
+    }
+}
+
+// Add an event listener for the hashchange event
+window.addEventListener('hashchange', function() {
+    hideButtonsForContentsPage();
 });
 
