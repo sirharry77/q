@@ -1,24 +1,34 @@
-    @font-face {
-      font-family: 'Vazir Matn';
-      src: url('./static/Vazirmatn-Regular.ttf') format('truetype'); /* Adjust the path accordingly */
-      font-weight: normal;
-      font-style: normal;
-    }
-
-    @font-face {
-      font-family: 'Vazir Matn';
-      src: url('./static/Vazirmatn-Bold.ttf') format('truetype'); /* Adjust the path accordingly */
-      font-weight: bold;
-      font-style: normal;
-    }
-	
-/* Arabic text */
-.arabic-verse{
-    direction: rtl; /* Right-to-left text direction for Arabic */
-    font-family: 'Vazir Matn', sans-serif;
-    font-style: normal;
-    font-size: 140%; 
+@font-face {
+  font-family: 'Vazir Matn';
+  src: url('./static/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* or fallback */
 }
+
+@font-face {
+  font-family: 'Vazir Matn';
+  src: url('./static/Vazirmatn-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* or fallback */
+}
+
+
+/* Arabic text */
+.arabic-verse {
+    direction: rtl;
+    font-family: 'Vazir Matn', Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.9;
+    font-weight: normal;
+    text-align: right;
+    width: calc(100% - 10px);
+    display: block;
+    margin-bottom: 40px;
+    padding-left: 7px;
+}
+
 
 /* Fixed top bar */
 #top-bar {
@@ -39,19 +49,14 @@
   align-items: center; /* Align items vertically */
 }
 
-.search-container input[type=text] {
-    padding: 6px;
-    font-size: 17px;
-    width: 190px;
-    border: 1px solid #999;
-    border-radius: 5px;
-    height: 30px;
-}
+
 
 .search-container button,
 #contents-btn,
 #prev-chapter-btn,
-#next-chapter-btn {
+#next-chapter-btn,
+#prev-verse-btn,
+#next-verse-btn {
   padding: 6px 10px;
   margin-left: 10px;
   background: #007bff;
@@ -66,6 +71,7 @@
 #next-chapter-btn.disabled {
   background-color: #999;
 }
+
 
 /* Custom CSS for Surah List layout */
 .surah-grid {
@@ -98,15 +104,6 @@
     display: block;
     margin-bottom: 40px;
 	padding-right: 7px;
-}
-
-.arabic-verse {
-    text-align: right;
-    width: calc(100% - 10px);
-    display: block;
-    line-height: 40px;
-    margin-bottom: 40px;
-	padding-left: 7px;
 }
 
 .subtitle {
