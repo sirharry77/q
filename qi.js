@@ -49,6 +49,7 @@ function buildSurahList() {
 function updateURL(surahNumber) {
   var newURL = window.location.origin + window.location.pathname + '#/' + surahNumber;
   window.history.pushState({path:newURL},'',newURL);
+  scrollToTop();
 }
 
 
@@ -252,9 +253,9 @@ function showSurahList() {
     // Update URL to include '#/contents'
     updateURL('contents');
     hideButtonsForContentsPage();
-	toggleChapterButtons();
     // Hide the current displayed surah content
     hideSurahContent();
+	scrollToTop();
 	
   } else {
     console.error('Surah list section not found.');
@@ -588,6 +589,7 @@ function highlightSearchTerm(text, searchTerm) {
     return highlightedText;
 }
 
+
 // Function to clear search results
 function clearSearchResults() {
     // Clear previous search results from the HTML content
@@ -627,33 +629,9 @@ document.querySelector('#searchModal .close').addEventListener('click', function
     $('#searchModal').modal('hide');
 });
 
-// Close modal when "Close" button is clicked
-document.querySelector('#searchModal .modal-footer .btn-secondary').addEventListener('click', function() {
-    $('#searchModal').modal('hide');
-});
 
 
-window.addEventListener('scroll', function() {
-    var scrollPosition = window.scrollY;
-    var scrollButton = document.querySelector('.scroll-to-top');
 
-    // If scroll position is greater than 100 (adjust this value as needed)
-    // Show the scroll to top button, otherwise hide it
-    if (scrollPosition > 1900) {
-        scrollButton.style.display = 'block';
-    } else {
-        scrollButton.style.display = 'none';
-    }
-});
-
-// Add click event listener to the scroll to top button
-document.querySelector('.scroll-to-top').addEventListener('click', function() {
-    // Scroll to the top of the page
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // Smooth scrolling behavior
-    });
-});
 
 // Function to hide buttons if hash is #/contents
 function hideButtonsForContentsPage() {
@@ -664,6 +642,8 @@ function hideButtonsForContentsPage() {
         document.getElementById('next-verse-btn').style.display = 'none';
         document.getElementById('prev-verse-btn-mobile').style.display = 'none';
         document.getElementById('next-verse-btn-mobile').style.display = 'none';		
+        document.getElementById('prev-chapter-btn').style.display = 'none';
+        document.getElementById('next-chapter-btn').style.display = 'none';			
     }
 }
 
@@ -671,4 +651,10 @@ function hideButtonsForContentsPage() {
 window.addEventListener('hashchange', function() {
     hideButtonsForContentsPage();
 });
+
+// Function to scroll to the top of the page
+function scrollToTop() {
+    window.scrollTo(0, 0);
+}
+
 
