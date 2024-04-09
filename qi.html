@@ -10,7 +10,7 @@
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="qi.css?c=1d">
+  <link rel="stylesheet" href="qi.css?c=1Ssd">
   <!-- Custom CSS -->
 </head>
 <body>
@@ -18,7 +18,7 @@
 <!-- Fixed top bar (for desktop) -->
 <nav id="top-bar" class="navbar navbar-expand-lg navbar-dark fixed-top desktop-top-bar">
   <div class="search-container">
-    <span style="color: #000; padding-left: 4px;">Find:</span> <!-- Added text before the input -->
+    <span style="padding-left: 4px;">Find:</span> <!-- Added text before the input -->
     <input type="text" id="search-input" class="form-control">
     <button id="search-btn" class="btn btn-primary">Go!</button>
   </div>
@@ -34,8 +34,8 @@
 <nav id="bottom-bar" class="navbar navbar-expand-lg navbar-dark fixed-bottom mobile-bottom-bar">
   <button id="search-btn-mobile" class="btn btn-primary">Find</button>
   <button class="scroll-to-top" style="display: none;">Scroll to Top</button>
-  <button id="prev-verse-btn-mobile" class="btn btn-primary" style="display: none;">Prev. Verse</button>
-<button id="next-verse-btn-mobile" class="btn btn-primary" style="display: none;">Next Verse</button>
+  <button id="prev-verse-btn-mobile" class="btn btn-primary" style="display: none;">&lt;&lt;</button>
+<button id="next-verse-btn-mobile" class="btn btn-primary" style="display: none;">&gt;&gt;</button>
   <button id="contents-btn-mobile" class="btn btn-primary">Contents</button>
 </nav>
 
@@ -53,7 +53,7 @@
         <input type="text" id="search-input-mobile-modal" class="form-control" placeholder="e.g., 2, 2:3, 2:2-5, الم, word">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
         <button id="search-btn-modal" class="btn btn-primary">Go!</button>
       </div>
     </div>
@@ -81,7 +81,7 @@
     <div class="col-md-12">
       <!-- Surah List -->
       <div id="surah-list-section" style="display: none;">
-        <h2>Surah List</h2>
+        <h2>Contents</h2>
         <div id="surah-list"></div>
       </div>
     </div>
