@@ -14,6 +14,10 @@
   font-display: swap; /* or fallback */
 }
 
+body {	
+	font-family: sans-serif, "Liberation Sans", Arial, Helvetica;
+    font-style: normal;
+}
 
 /* Arabic text */
 .arabic-verse {
@@ -28,16 +32,15 @@
     margin-bottom: 40px;
     padding-left: 7px;
 }
-
-
+.surah-link { cursor: pointer; }
 /* Fixed top bar */
 #top-bar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(to right, #dcdcdc, #a0a0a0); 
-  color: #000;
+  background: #4CAF50; 
+  color: #FFFFFF;
   padding: 10px 0;
   text-align: center;
   z-index: 1001; /* Ensure the top bar is above other content */
@@ -51,25 +54,40 @@
 
 
 
-.search-container button,
+#search-btn,
 #contents-btn,
 #prev-chapter-btn,
 #next-chapter-btn,
 #prev-verse-btn,
-#next-verse-btn {
-  padding: 6px 10px;
-  margin-left: 10px;
-  background: #007bff;
-  color: #fff; /* Text color changed to white */
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+#next-verse-btn,
+#search-btn-mobile,
+#prev-verse-btn-mobile,
+#next-verse-btn-mobile,
+#contents-btn-mobile,
+#search-btn-modal {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4CAF50; /* Lighter shade of green */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px; /* Larger border radius for a more rounded button */
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Style for disabled state */
 #prev-chapter-btn.disabled,
 #next-chapter-btn.disabled {
-  background-color: #999;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #CCCCCC; /* Disabled button background color (light gray) */
+    color: #666666; /* Disabled button text color (dark gray) */
+    border: none;
+    border-radius: 25px; /* Larger border radius for a more rounded button */
+    cursor: not-allowed; /* Change cursor to indicate button is not clickable */
+    box-shadow: none; /* Remove box shadow for disabled button */
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
 }
 
 
@@ -113,14 +131,12 @@
     text-align: center;
     font-size: 90%;
     font-style: italic;
-	color: #0000ff;
+	color: #007F00;
 }
 
 .footnotes {
-    color: #000;
+    color: #007F00;
     margin-bottom: 40px;
-    border-top: 1px solid #a1a1a1;
-    border-bottom: 1px solid #a1a1a1;
     font-style: italic;
     font-size: 90%;
 }
@@ -163,7 +179,7 @@
     bottom: 0;
     width: 100%;
     z-index: 1001;
-    background: linear-gradient(to right, #dcdcdc, #a0a0a0); 	
+    background: #4CAF50; 	
   }
 }
 /* Media query for desktop devices */
@@ -178,5 +194,5 @@
   }
 }
 .highlight {
-    background-color: #20c997;
+    background-color: #C8E6C9;
 }
