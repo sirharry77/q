@@ -59,7 +59,17 @@ body {
 #prev-chapter-btn,
 #next-chapter-btn,
 #prev-verse-btn,
-#next-verse-btn,
+#next-verse-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4CAF50; /* Lighter shade of green */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px; /* Larger border radius for a more rounded button */
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
 #search-btn-mobile,
 #prev-verse-btn-mobile,
 #next-verse-btn-mobile,
@@ -67,7 +77,7 @@ body {
 #search-btn-modal {
     padding: 10px 20px;
     margin-left: 10px;
-    background-color: #4CAF50; /* Lighter shade of green */
+    background-color: #388E3C; /* Slightly darker shade of green */
     color: #FFFFFF;
     border: none;
     border-radius: 25px; /* Larger border radius for a more rounded button */
