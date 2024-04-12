@@ -51,17 +51,47 @@ body {
   display: inline-flex; /* Changed to inline-flex */
   align-items: center; /* Align items vertically */
 }
+#top-bar .search-container {
+    display: flex;
+    align-items: center;
+}
 
+#top-bar .search-container span {
+    padding-left: 4px;
+    color: #FFFFFF; /* Text color for the added text */
+}
 
+#top-bar #search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF; /* White background color */
+    color: #333333; /* Text color */
+    width: 200px; /* Adjust width as needed */
+    box-sizing: border-box; /* Include padding in width */
+}
 
-#search-btn,
+#top-bar #search-input:focus {
+    outline: none;
+    border: 2px solid #FFFFFF; /* Border color on focus */
+}
+
+#top-bar #search-btn {
+    background-color: #388E3C; /* Button green */
+    color: #FFFFFF; /* Text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+	margin-left: 3px;
+}
+
 #contents-btn,
 #prev-chapter-btn,
 #next-chapter-btn,
 #prev-verse-btn,
 #next-verse-btn {
-    padding: 10px 20px;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: #4CAF50; /* Lighter shade of green */
     color: #FFFFFF;
     border: none;
@@ -75,8 +105,6 @@ body {
 #next-verse-btn-mobile,
 #contents-btn-mobile,
 #search-btn-modal {
-    padding: 10px 20px;
-    margin-left: 10px;
     background-color: #388E3C; /* Slightly darker shade of green */
     color: #FFFFFF;
     border: none;
@@ -89,8 +117,7 @@ body {
 /* Style for disabled state */
 #prev-chapter-btn.disabled,
 #next-chapter-btn.disabled {
-    padding: 10px 20px;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: #CCCCCC; /* Disabled button background color (light gray) */
     color: #666666; /* Disabled button text color (dark gray) */
     border: none;
@@ -206,3 +233,5 @@ body {
 .highlight {
     background-color: #C8E6C9;
 }
+
+
