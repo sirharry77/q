@@ -59,14 +59,16 @@ body {
         display: none; /* Chrome, Safari, and Opera */
     }
 }
+.cl {
+    border-image: linear-gradient(to right, #DCDCDC, #A0A0A0) 1; /* Change the colors to your desired gradient */
+    border-bottom: 1px solid; 	
+	
+}
 .container {
     margin: 7px auto;
     background-color: #fff;
     padding: 20px;
     margin-bottom: 7px;
-    border-image: linear-gradient(to right, #dcdcdc, #a0a0a0); /* Change the colors to your desired gradient */
-    border-image-slice: 1;
-    border-bottom: 7px solid;
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
@@ -124,21 +126,7 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-#playStopButton,
-button {
-    display: block;
-    width: 30%;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-button:hover {
-    background-color: #2980b9;
-}
 
 input[type="text"] {
     width: 80%;
@@ -163,16 +151,9 @@ input[type="text"] {
 }
 
 .button-container button {
-    width: 30%;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-.button-container button:hover {
-    background-color: #2980b9;
-}
 
 #backButton {
     margin-right: auto;
@@ -202,17 +183,15 @@ input[type="text"] {
 }
 #goButton {
     width: 25%;
-    padding: 10px;
-    background-color: #3498db;
+    padding: 7px;
+    background-color: #388E3C;
     color: #fff;
     border: none;
     border-radius: 5px;
+	margin-bottom: 10px;
     cursor: pointer;
 }
 
-#goButton:hover {
-    background-color: #2980b9;
-}
 
 #searchButton,
 #surahListButton {
@@ -223,10 +202,6 @@ input[type="text"] {
     cursor: pointer;
 }
 
-#searchButton:hover,
-#surahListButton:hover {
-    background-color: #2980b9;
-}
 
 .surah-name-malay {
     margin-left: 10px;
@@ -260,7 +235,7 @@ input[type="text"] {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #d5d5d5;
+    background-color: #4CAF50;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -271,7 +246,7 @@ input[type="text"] {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
-    color: #000;
+    color: #FFFFFF;
     display: block;
     transition: 0.3s;
 }
@@ -295,33 +270,6 @@ input[type="text"] {
     .sidenav a {font-size: 18px;}
 }
 
-/* Styles for Surah List */
-/*.surah-list {
-    max-height: 300px;
-    overflow-y: auto;
-    transition: max-height 0.5s;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #111;
-    color: #fff;
-    z-index: 1; /* Set a higher z-index to bring it to the front */
-}
-
-
-/*.surah-list a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-    transition: background-color 0.3s;
-}
-
-.surah-list a:hover {
-    background-color: #333;
-}
-*/
 .container-fluid {
   padding-top: 10px; /* Adjust the top padding as needed */
 }
@@ -380,38 +328,15 @@ input[type="text"] {
 font-size: 90%;
 }
 
-#settingsModal {
-    background-color: #ccc;
-}
-
-#settingsModal h2,
-#settingsModal button {
-    color: #000; 
-}
 #settingsModal button {
 	width: 90%;
+	margin-bottom: 10px;
 	}
-	
-#languagesModal {
-    background-color: #bbb;
-}
 
-#languagesModal h2,
-#languagesModal button {
-    color: #000; 
-}
 #languagesModal button {
 	width: 90%;
 	}
 
-#introModal {
-    background-color: #193857;
-}
-
-#introModal h2,
-#introModal button {
-    color: #000; 
-}
 #introModal button {
 	width: 90%;
 	}	
@@ -446,4 +371,24 @@ font-size: 90%;
         }
 		
 
-.surah-name-al { font-size: 74%;font-style: italic;" }
+.surah-name-al { font-size: 74%;font-style: italic; }
+
+.lb {
+    padding: 10px 20px;
+    background-color: #388E3C; /* Button green */
+    color: #FFFFFF; /* White text color */
+    border: none;
+	width: 30%;
+    border-radius: 25px;
+    cursor: pointer;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* CSS for Font Awesome icons in the top bar with white background */
+.top-button {
+    color: #333333; /* Dark text color for good contrast on white background */
+    font-size: 18px; /* Adjust size as needed */
+    margin-right: 5px; /* Add some spacing between icons and adjacent elements */
+	cursor: pointer;
+}
