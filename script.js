@@ -108,10 +108,12 @@ document.addEventListener('click', function (event) {
 
 
 
+// Function to toggle Surah list
 function toggleSurahList() {
     var surahList = document.getElementById("surahList");
     var searchContainer = document.getElementById("searchContainer");
 
+    // Toggle visibility of the Surah list and search container
     if (surahList.style.height === "300px") {
         surahList.style.height = "0";
         searchContainer.style.visibility = "hidden";
@@ -119,11 +121,9 @@ function toggleSurahList() {
         surahList.style.height = "300px";
         searchContainer.style.visibility = "visible";
     }
-
-    // Toggle the 'hidden' class for the child elements
-
 }
 
+// Function to close Surah list
 function closeSurahList() {
     var surahList = document.getElementById("surahList");
     var searchContainer = document.getElementById("searchContainer");
@@ -131,6 +131,16 @@ function closeSurahList() {
     surahList.style.height = "0";
     searchContainer.style.visibility = "hidden";
 }
+
+// Event listener to toggle Surah list when clicking on surahNameDisplay or toggleSurahList
+document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('toggle-surah-list') || event.target.id === 'toggleSurahList') {
+        toggleSurahList();
+    } 
+});
+
+
+
 
 
 function goToSuraPage() {
@@ -524,7 +534,7 @@ function togglePlayStop() {
 // Function to update the text of the play/stop button
 function updatePlayStopButtonText() {
     var playStopButton = document.getElementById("playStopButton");
-    playStopButton.textContent = isAudioPlaying ? "\u25A0" : "L";
+    playStopButton.innerHTML = isAudioPlaying ? '<i class="fas fa-stop"></i>' : '<i class="fas fa-play"></i>';
 }
 
 // Fungsi untuk menghilangkan gambar audio player
@@ -730,4 +740,3 @@ function removeSlideClass(event) {
     ayahElement.classList.remove('slide-right');
     ayahElement.removeEventListener('animationend', removeSlideClass);
 }
-
