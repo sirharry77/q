@@ -204,7 +204,7 @@ var hasFootnotes = footnotesContainer.children.length > 0;
 
 // Add or remove top and bottom borders based on footnotes existence
 var containerStyle = footnotesContainer.style;
-containerStyle.borderTop = hasFootnotes ? "1px solid rgb(161, 161, 161)" : "none";
+// containerStyle.borderTop = hasFootnotes ? "1px solid rgb(161, 161, 161)" : "none";
 containerStyle.borderBottom = "1px solid rgb(161, 161, 161)";
 
 
