@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./css/bootstrap.min.css?dda=c">
-    <link rel="stylesheet" href="./style.css?a=sw1">
+    <link rel="stylesheet" href="./style.css?a=1342024">
+	<link rel="stylesheet" href="./font-awesome/all.min.css">
     <title>Quran</title>
 	
 <style>
@@ -25,27 +26,27 @@
 <body>
 
 	    <div class="navigation" id="main"></div>
-        <div class="container">
+        <div class="container cl">
             <div class="row">
 	<div class="col-2 text-left">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="toggleSideNav" onclick="toggleSideNav()">|||</span>
+        <span class="top-button fas fa-bars" id="toggleSideNav" onclick="toggleSideNav()"></span>
       </div>
     </div>
     <div class="col-8 d-flex justify-content-center align-items-center">
       <div class="input-group-prepend">
-        <h5 class="h5-responsive"><span id="surahNameDisplay">Kunci (Al-Fãtehah)</span></h5>
+        <h5 class="h5-responsive"><span id="surahNameDisplay" class="toggle-surah-list">Kunci (Al-Fãtehah)</span></h5>
       </div>
     </div>
     <div class="col-2 text-right">
       <div class="input-group-prepend">
-        <span class="input-group-text" id="toggleSurahList" onclick="toggleSurahList()">&#8964;</span>
+        <span class="top-button fas fa-chevron-down" id="toggleSurahList"></span>
       </div>
     </div>
             </div>
         </div>
 		
-<div class="container">
+<div class="container cl">
     <div class="row">
         <div class="col-2 text-left">
             <div class="input-group-prepend">
@@ -72,17 +73,17 @@
 <div class="sidenav" id="mySidenav">
  <div style="margin-top: 19px; margin-left: 19px;">
     <a href="javascript:void(0)" class="closebtn" onclick="closeSideNav()">×</a>
-<a href="javascript:void(0)" id="openLanguages" onclick="openModal('languagesModal')">Languages</a>
-<a href="javascript:void(0)" id="openSettings" onclick="openModal('settingsModal')">Settings</a>
-<a href="javascript:void(0)" id="openIntro" onclick="openModal('introModal')">Appendices</a>
+<a href="javascript:void(0)" id="openLanguages" onclick="openModal('languagesModal')">Bahasa</a>
+<a href="javascript:void(0)" id="openSettings" onclick="openModal('settingsModal')">Tetapan</a>
 <br>
-    <p style="color: #000; font-weight:bold">Languages:</p>	
+    <p style="color: #000; font-weight:bold">Bahasa:</p>	
 <a href="/en">
-    <button style="width: 90%; color: #000;" onclick="enlink()">English</button>
+    <button class="lb" style="width: 90%;" onclick="enlink()">English</button>
 </a>	
 <a href="/">
-    <button style="width: 90%; color: #000;" onclick="mlink()">Malay</button>
-</a>	
+    <button class="lb" style="width: 90%;" onclick="mlink()">Malay</button>
+</a>
+
 </div>
 </div>
 
@@ -92,14 +93,14 @@
   <!-- Modal content -->
   <div  style="margin-top: 19px; margin-left: 19px;">
 
-    <p style="font-weight:bold">Languages:</p>	
+    <p style="font-weight:bold">Bahasa</p>	
 	
 <a href="/en">
-    <button id="englishButton" onclick="enlink()">English</button>
+    <button class="lb" id="englishButton" onclick="enlink()">English</button>
 </a>	
 	
 <a href="/">
-    <button id="malayButton" onclick="mlink()">Malay</button>
+    <button class="lb" id="malayButton" onclick="mlink()">Malay</button>
 </a>
 
   </div>
@@ -115,74 +116,20 @@
     <p style="font-weight:bold">Settings</p>
     
     <!-- Add a button to toggle transliteration visibility -->
-    <button id="toggleTransliterationButton" onclick="toggleTransliteration()">Toggle Transliteration</button>
-
+    <button class="lb" id="toggleTransliterationButton" onclick="toggleTransliteration()">Toggle Transliteration</button>
+<br>
     <!-- Add a button to toggle footnotes visibility -->
-    <button id="toggleFootnotesButton" onclick="toggleFootnotes()">Toggle Footnotes</button>
-	
-	<button id="toggleEngTranslationButton" onclick="toggleEngTranslation()">Toggle Eng Translation</button>
+    <button class="lb" id="toggleFootnotesButton" onclick="toggleFootnotes()">Toggle Footnotes</button>
+<br>	
+	<button class="lb" id="toggleEngTranslationButton" onclick="toggleEngTranslation()">Toggle Eng Translation</button>
+<br>
 
+<!-- Add a checkbox to enable/disable swipe with audio -->
+<label for="swipeWithAudioCheckbox">Swipe with Audio</label>
+<input type="checkbox" id="swipeWithAudioCheckbox" onchange="toggleSwipeWithAudio()">
 </div>	
 </div>
 
-
-<!-- Intro Modal -->
-<div id="introModal" class="sidenav">
-
-    <a href="javascript:void(0)" class="closebtn" onclick="closeModal('introModal')">&times;</a>
-  <!-- Modal content -->
-  <div style="margin-top: 19px; margin-left: 5px;" class="introModaltext">
-    <!-- Add content for the Intro modal here -->
-	 <p style="font-weight:bold;">Appendices</p>
-	 <p style="font-weight:norma; font-size: 12px;">
-     Quran The Final Testament<br>
-     Authorized English version Translated from the Original By: Rashad Khalifa, Ph.D. (Copyright © Islamic Productions)
-	 <br>
-     <br>
-	<a href="">Introduction</a>
-	<br>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>
-	<a href="">1. One of the great miracles [74:35]</a>
-	<a href="">2. God's Messenger of the Covenant [3:81]</a>	
-  </div>
-</div>
 				
 <div class="ayah mt-3">
     <div class="arabic"><span class="loading"></span></div>
@@ -226,28 +173,28 @@
   }
 
   // Function to save the user's preference in localStorage
-  function saveUserPreference(key, elements) {
-    var isHidden = elements[0].style.display === 'none';
-    localStorage.setItem(key, isHidden);
+  function saveUserPreference(key, value) {
+    localStorage.setItem(key, value);
   }
 
-	
-// Function to check and apply the user's stored preference on page load
-function applyUserPreference(key, elements) {
-  var storedPreference = localStorage.getItem(key);
-  
-  // Check if there is a stored user preference
-  if (storedPreference !== null) {
-    var isHidden = storedPreference === 'true';
-
-    elements.forEach(function (element) {
-      // Only update the style if there is a stored preference
-      element.style.display = isHidden ? 'none' : 'block';
-    });
+  // Function to retrieve the user's preference from localStorage
+  function getUserPreference(key) {
+    return localStorage.getItem(key);
   }
-  // If there is no stored preference, the element's style remains unchanged
-}
 
+  // Function to check and apply the user's stored preference on page load
+  function applyUserPreference(key, elements) {
+    var value = getUserPreference(key);
+    if (value === 'true') {
+      elements.forEach(function (element) {
+        element.style.display = 'none';
+      });
+    } else {
+      elements.forEach(function (element) {
+        element.style.display = 'block';
+      });
+    }
+  }
 
   // Function to dynamically update the button text based on user preference
   function updateButtonText(buttonId, key, elements) {
@@ -260,29 +207,42 @@ function applyUserPreference(key, elements) {
       button.textContent = 'Hide ' + key;
     }
   }
-
+  
   // Function to handle the transliteration toggle
   function toggleTransliteration() {
     var transliterationElements = document.querySelectorAll('.transliteration');
     toggleVisibility(transliterationElements);
-    saveUserPreference('transliterationHidden', transliterationElements);
-    updateButtonText('toggleTransliterationButton', 'Transliteration', transliterationElements);
+    saveUserPreference('transliterationHidden', transliterationElements[0].style.display === 'none');
+    updateButtonText('toggleTransliterationButton', 'Transliterations', transliterationElements);
   }
 
   // Function to handle the footnotes toggle
   function toggleFootnotes() {
     var footnotesElements = document.querySelectorAll('#footnotes-container');
     toggleVisibility(footnotesElements);
-    saveUserPreference('footnotesHidden', footnotesElements);
+    saveUserPreference('footnotesHidden', footnotesElements[0].style.display === 'none');
     updateButtonText('toggleFootnotesButton', 'Footnotes', footnotesElements);
   }
+ 
+  // Function to toggle swipe with audio preference
+  function toggleSwipeWithAudio() {
+    var swipeWithAudioCheckbox = document.getElementById("swipeWithAudioCheckbox");
+    saveUserPreference("swipeWithAudio", swipeWithAudioCheckbox.checked);
+  }
+
+  // Function to apply the swipe with audio preference on page load
+  function applySwipeWithAudioPreference() {
+    var swipeWithAudioCheckbox = document.getElementById("swipeWithAudioCheckbox");
+    var swipeWithAudioEnabled = getUserPreference("swipeWithAudio") === 'true';
+    swipeWithAudioCheckbox.checked = swipeWithAudioEnabled;
+  }  
 
     // Function to handle the engtranslation toggle
     function toggleEngTranslation() {
         var engTranslationElements = document.querySelectorAll('.engtranslation');
         toggleVisibility(engTranslationElements);
-        saveUserPreference('engTranslationHidden', engTranslationElements);
-        updateButtonText('toggleEngTranslationButton', 'Eng Translation', engTranslationElements);
+        saveUserPreference('engTranslationHidden', engTranslationElements[0].style.display === 'none');		
+        updateButtonText('toggleEngTranslationButton', 'English Translation', engTranslationElements);
     }
 	
 
@@ -291,9 +251,10 @@ function applyUserPreference(key, elements) {
     applyUserPreference('transliterationHidden', document.querySelectorAll('.transliteration'));
     applyUserPreference('footnotesHidden', document.querySelectorAll('#footnotes-container'));
 	applyUserPreference('engTranslationHidden', document.querySelectorAll('.engtranslation'));
-    updateButtonText('toggleTransliterationButton', 'Transliteration', document.querySelectorAll('.transliteration'));
+    applySwipeWithAudioPreference(); // Apply swipe with audio preference
+    updateButtonText('toggleTransliterationButton', 'Transliterations', document.querySelectorAll('.transliteration'));
     updateButtonText('toggleFootnotesButton', 'Footnotes', document.querySelectorAll('#footnotes-container'));
-	updateButtonText('toggleEngTranslationButton', 'Eng Translation', document.querySelectorAll('.engtranslation'));
+	updateButtonText('toggleEngTranslationButton', 'English Translation', document.querySelectorAll('.engtranslation'));
   }
 
   // Call the function to check and apply the preferences on page load
@@ -326,7 +287,6 @@ function applyUserPreference(key, elements) {
   window.onclick = function(event) {
     closeModalOutside(event, 'settingsModal');
     closeModalOutside(event, 'languagesModal');
-    closeModalOutside(event, 'introModal');
   };
 </script>
 
@@ -933,9 +893,9 @@ function applyUserPreference(key, elements) {
             <div class="col-md-6 offset-md-3">
                 <div class="d-flex justify-content-center mt-3">
 <div class="button-container">
-    <button class="btn btn-secondary mr-1" style="display: none;" id="backButton" onclick="showPreviousAyat()">&lt;</button>
-    <button class="btn btn-secondary mr-1" id="nextButton" onclick="showNextAyat()">&gt;</button>
-    <button class="btn btn-secondary" id="playStopButton" onclick="togglePlayStop()">...</button>
+    <button class="lb mr-1 fas fa-chevron-left" style="display: none;" id="backButton" onclick="showPreviousAyat()"></button>
+    <button class="lb mr-1 fas fa-chevron-right" id="nextButton" onclick="showNextAyat()"></button>
+    <button class="lb" id="playStopButton" onclick="togglePlayStop()">...</button>
 </div>
 
                 </div>
