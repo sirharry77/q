@@ -108,7 +108,7 @@ body {
 .translation {
     font-size: 16px;
     text-align: left;
-    margin-bottom: 74px;
+    margin-bottom: 19px;
 }
 
 
@@ -321,11 +321,17 @@ input[type="text"] {
 }
 
 .subtitle {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 0em;
-    margin-top: 1em;
+text-align: center;
+font-style: italic;
+margin-bottom: 0em;
+margin-top: 1em;
 font-size: 90%;
+color: #007F00;
+}
+#footnotes-container {
+	color: #007F00;
+	font-style: italic;
+	font-size: 90%;
 }
 
 #settingsModal button {
@@ -392,4 +398,6 @@ font-size: 90%;
     margin-right: 5px; /* Add some spacing between icons and adjacent elements */
 	cursor: pointer;
 }
+
+
 
