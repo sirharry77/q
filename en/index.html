@@ -70,7 +70,8 @@
 <a href="/">
     <button class="lb" style="width: 90%;" onclick="mlink()">Malay</button>
 </a>
-
+<br>
+<a href="javascript:void(0)" class="ly" id="openLayoutModal">Choose Layout</a>
 </div>
 </div>
 
@@ -280,7 +281,7 @@
     <div class="search-container mt-2 ml-2 mr-2" id="searchContainer">
         <input type="text" id="searchSurah" class="form-control mr-1" placeholder="Sura">
         <input type="text" id="searchVerse" class="form-control mr-1" placeholder="Verse">
-        <button id="goButton" class="btn btn-primary btn-block" type="button" onclick="searchAyat()">GO</button>
+        <button id="goButton" class="btn btn-primary btn-block fas fa-search" type="button" onclick="searchAyat()"></button>
     </div>
 
     <a href="#1:1" onclick="showSurah(1)">
@@ -897,7 +898,8 @@
 
     <script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>		
+    <script src="../js/bootstrap.bundle.min.js"></script>	
+    <script src="../l.js"></script>		
     <!--script src="./surah.js"></script>	
     <script src="./script.js"></script-->
     <!--script>
