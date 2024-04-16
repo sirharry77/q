@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,11 +20,11 @@
     box-sizing: border-box;
     padding-right: 20px; 
 }
+
 </style>
 </head>
 
 <body>
-
 	    <div class="navigation" id="main"></div>
         <div class="container cl">
             <div class="row">
@@ -65,7 +66,6 @@
     </div>
 </div>		
 
-
     <div class="container border-bottom-0">
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -82,7 +82,8 @@
 <a href="/">
     <button class="lb" style="width: 90%;" onclick="mlink()">Malay</button>
 </a>
-
+<br>
+<a href="javascript:void(0)" class="ly" id="openLayoutModal">Pilih Paparan</a>
 </div>
 </div>
 
@@ -139,7 +140,6 @@
         <div class="translation mt-2"><span class="loading"></span></div>
     </div>
     <div id="footnotes-container"></div>
-    <!--div class="footnote" id="footnote"></div-->
     <!-- New elements -->
     <div class="cumulative-info">
         <div style="float: left; width: 40%"><span style="font-size: 12px;">Cumulative frequency of the word "Allah"</span>
@@ -201,7 +201,7 @@
     var isHidden = elements[0].style.display === 'none';
 
     if (isHidden) {
-      button.textContent = 'Show ' + key;
+      button.textContent = 'Display ' + key;
     } else {
       button.textContent = 'Hide ' + key;
     }
@@ -304,7 +304,7 @@
     <div class="search-container mt-2 ml-2 mr-2" id="searchContainer">
         <input type="text" id="searchSurah" class="form-control mr-1" placeholder="Sura">
         <input type="text" id="searchVerse" class="form-control mr-1" placeholder="Ayat">
-        <button id="goButton" class="btn btn-primary btn-block" type="button" onclick="searchAyat()">Search</button>
+        <button id="goButton" class="btn btn-primary btn-block fas fa-search" type="button" onclick="searchAyat()"></button>
     </div>
 
     <a href="#1:1" onclick="showSurah(1)">
@@ -923,6 +923,7 @@
     <script src="./js/jquery-3.3.1.slim.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>	
+    <script src="l.js"></script>		
     <!--script src="./surah.js"></script>	
     <script src="./script.js"></script-->
     <!--script>
@@ -937,7 +938,7 @@
     <script>
         document.body.appendChild(Object.assign(document.createElement('script'), {src: 'surah.js?t=' + Date.now()}));
         document.body.appendChild(Object.assign(document.createElement('script'), {src: 'script.js?t=' + Date.now()}));
-		document.body.appendChild(Object.assign(document.createElement('script'), {src: 'c.js?t=' + Date.now()}));
+		document.body.appendChild(Object.assign(document.createElement('script'), {src: 'c.js?t=' + Date.now()}));	
     </script>	
 </body>
 
