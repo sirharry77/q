@@ -45,7 +45,10 @@ body {
   text-align: center;
   z-index: 1001; /* Ensure the top bar is above other content */
 }
-
+/* Disable zooming on certain elements */
+button {
+  touch-action: manipulation;
+}
 /* Search container */
 .search-container {
   display: inline-flex; /* Changed to inline-flex */
@@ -80,7 +83,7 @@ body {
     background-color: #388E3C; /* Button green */
     color: #FFFFFF; /* Text color */
     border: none;
-    padding: 8px 16px;
+    padding: 11px 16px;
     border-radius: 5px;
     cursor: pointer;
 	margin-left: 3px;
@@ -90,7 +93,8 @@ body {
 #prev-chapter-btn,
 #next-chapter-btn,
 #prev-verse-btn,
-#next-verse-btn {
+#next-verse-btn,
+#lh {
     margin-left: 5px;
     background-color: #4CAF50; /* Lighter shade of green */
     color: #FFFFFF;
@@ -104,7 +108,8 @@ body {
 #prev-verse-btn-mobile,
 #next-verse-btn-mobile,
 #contents-btn-mobile,
-#search-btn-modal {
+#search-btn-modal,
+#lh-mobile {
     background-color: #388E3C; /* Slightly darker shade of green */
     color: #FFFFFF;
     border: none;
@@ -218,18 +223,23 @@ body {
     z-index: 1001;
     background: #4CAF50; 	
   }
+  .surah-list-table {
+	  margin-top: 36px;	  
+  }
 }
 /* Media query for desktop devices */
 @media (min-width: 769px) {
   .mobile-bottom-bar {
     display: none; /* Hide mobile bottom bar on desktop */
   }
-}
-@media (min-width: 768px) {
-  .container {
-    padding-top: 60px; /* Adjust this value according to the height of your top bar */
+   .surah-list-table {
+	  margin-top: 72px;	  
   }
+  .container {
+    padding-top: 36px; /* Adjust this value according to the height of your top bar */
+  }  
 }
+
 .highlight {
     background-color: #C8E6C9;
 }
