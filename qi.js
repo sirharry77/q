@@ -3,7 +3,7 @@
 // Function to build the surah list
 function buildSurahList() {
   var surahListContainer = document.getElementById('surah-list');
-  var surahListHTML = '<table class="table">';
+  var surahListHTML = '<table class="table surah-list-table">';
   surahListHTML += '<thead><tr><th></th><th>Chapter</th><th></th><th>Verses</th></tr></thead>';
   surahListHTML += '<tbody>';
   for (var i = 1; i <= 114; i++) {
