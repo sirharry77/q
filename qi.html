@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Quran</title>
     <!-- Preload font files -->
   <link rel="preload" href="./static/Vazirmatn-Regular.ttf" as="font" type="font/ttf" crossorigin>
@@ -10,6 +10,7 @@
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome/all.min.css">
   <link rel="stylesheet" href="qi.css?c=1Ssd">
   <!-- Custom CSS -->
 </head>
@@ -20,22 +21,24 @@
   <div class="search-container">
     <span style="padding-left: 4px;">Find:</span> <!-- Added text before the input -->
     <input type="text" id="search-input" class="form-control">
-    <button id="search-btn" class="btn btn-primary">Go!</button>
+    <button id="search-btn" class="btn btn-primary fas fa-search"></button>
+	<a href="/" id="lh" class="btn btn-primary fas fa-home"></a>
   </div>
   <button id="contents-btn" class="btn">Contents</button>
   <button id="prev-chapter-btn" class="btn btn-primary disabled" style="display: none;">Prev. Chapter</button>
   <button id="next-chapter-btn" class="btn btn-primary" style="display: none;">Next Chapter</button>
-<button id="prev-verse-btn" class="btn btn-primary" style="display: none;">Prev. Verse</button>
-<button id="next-verse-btn" class="btn btn-primary" style="display: none;">Next Verse</button>
+<button id="prev-verse-btn" class="btn btn-primary fas fa-chevron-left" style="display: none;"></button>
+<button id="next-verse-btn" class="btn btn-primary fas fa-chevron-right" style="display: none;"></button>
 </div>  
 </nav>
 
 <!-- New bottom bar (for mobile) -->
 <nav id="bottom-bar" class="navbar navbar-expand-lg navbar-dark fixed-bottom mobile-bottom-bar">
   <button id="search-btn-mobile" class="btn btn-primary">Find</button>
+  <a href="/" id="lh-mobile" class="btn btn-primary fas fa-home"></a>
   <button class="scroll-to-top" style="display: none;">Scroll to Top</button>
-  <button id="prev-verse-btn-mobile" class="btn btn-primary" style="display: none;">&lt; &lt;</button>
-<button id="next-verse-btn-mobile" class="btn btn-primary" style="display: none;">&gt; &gt;</button>
+  <button id="prev-verse-btn-mobile" class="btn btn-primary fas fa-chevron-left" style="display: none;"></button>
+<button id="next-verse-btn-mobile" class="btn btn-primary fas fa-chevron-right" style="display: none;"></button>
   <button id="contents-btn-mobile" class="btn btn-primary">Contents</button>
 </nav>
 
@@ -54,14 +57,25 @@
       </div>
       <div class="modal-footer">
 
-        <button id="search-btn-modal" class="btn btn-primary">Go!</button>
+        <button id="search-btn-modal" class="btn btn-primary fas fa-search"></button>
       </div>
     </div>
   </div>
 </div>
 
 
-<div class="container mt-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <!-- Surah List -->
+      <div id="surah-list-section" style="display: none;">
+        <div id="surah-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5" style="padding-bottom: 70px;">
   <div class="row">
     <div class="col-md-12">
       <!-- Translation Column -->
@@ -76,17 +90,6 @@
   </div>
 </div>
 
-<div class="container" style="padding-bottom: 70px;">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- Surah List -->
-      <div id="surah-list-section" style="display: none;">
-        <h2>Contents</h2>
-        <div id="surah-list"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Bootstrap JS and any custom scripts -->
 <script src="./js/jquery-3.3.1.slim.min.js"></script>
@@ -94,7 +97,7 @@
 <script src="./js/bootstrap.bundle.min.js"></script>
 
 <!-- Your custom JavaScript -->
-<script src="./en/surah_en.js"></script>
+<script src="./en/surah_en.js?2=1"></script>
 <script src="qi.js"></script> 
 </body>
 </html>
