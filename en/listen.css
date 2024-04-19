@@ -1,0 +1,67 @@
+ @font-face {
+  font-family: 'Vazir Matn';
+  src: url('../static/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* or fallback */
+}
+
+@font-face {
+  font-family: 'Vazir Matn';
+  src: url('../static/Vazirmatn-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* or fallback */
+}
+
+        body {
+	font-family: sans-serif, "Liberation Sans", Arial, Helvetica;
+    font-style: normal;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #surahSelect {
+            width: 100%;
+            padding: 10px;
+            margin: 20px auto;
+            display: block;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #surahInfo {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        #audioPlayer {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            #surahInfo {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+		
+.active-verse {
+    background-color: #ccffcc;
+}
+
+#audioPlayer {
+    display: none;
+}
