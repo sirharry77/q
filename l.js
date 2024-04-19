@@ -24,7 +24,7 @@ function createLayoutModal() {
                   </div>
                   <div class="col-md-4">
                     <div class="layout-option">
-                      <a href="qi.html">
+                      <a href="/q/qi.html">
                         <img src="layout2.PNG" alt="Layout B">
                         Layout B
                       </a>
@@ -32,8 +32,8 @@ function createLayoutModal() {
                   </div>
                   <div class="col-md-4">
                     <div class="layout-option">
-                      <a href="/listen.html">
-                        <img src="layout2.PNG" alt="Layout C">
+                      <a href="/q/listen.html">
+                        <img src="layout3.PNG" alt="Layout C">
                         Layout C
                       </a>
                     </div>
