@@ -1,6 +1,22 @@
- 
+ @font-face {
+  font-family: 'Vazir Matn';
+  src: url('./static/Vazirmatn-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* or fallback */
+}
+
+@font-face {
+  font-family: 'Vazir Matn';
+  src: url('./static/Vazirmatn-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* or fallback */
+}
+
         body {
-            font-family: Arial, sans-serif;
+	font-family: sans-serif, "Liberation Sans", Arial, Helvetica;
+    font-style: normal;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
