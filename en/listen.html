@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran</title>
+    <!-- Preload font files -->
+  <link rel="preload" href="../static/Vazirmatn-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="../static/Vazirmatn-Bold.ttf" as="font" type="font/ttf" crossorigin>	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome/all.min.css">
+    <link rel="stylesheet" href="../listen.css?c=1Sssd"> <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            margin-bottom: 70px; /* Adjust to accommodate the sticky bottom bar */
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+        .tab-content {
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-top: none;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+        }
+        .form-control {
+            width: 100%;
+            margin-top: 10px;
+        }
+        #surahInfo {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+
+        #playButton,
+        #stopButton {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #playButton:hover,
+        #stopButton:hover {
+            background-color: #45a049;
+        }
+        /* Sticky bottom bar */
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    padding: 5px; /* Adjust the padding to reduce the height */
+}
+
+        .sticky-bottom .container {
+            display: flex;
+            justify-content: center;
+        }
+/* CSS for spacing between verses */
+.verse {
+    margin-bottom: 19px; /* Adjust the margin as needed */
+}
+/* CSS for Arabic verses */
+.arabic-verse {
+    direction: rtl;
+    font-family: 'Vazir Matn', Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.9;
+    text-align: right;
+}
+
+
+/* Style for the verse numbers */
+.verse-number {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0px 2px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    font-size: 1rem;
+}
+
+/* Style for the text spans */
+.ayah-text {
+    margin-left: 5px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+#surahInfo h2 {
+    text-align: center;
+    color: #4CAF50;
+    border-bottom: 1px dashed #dee2e6;
+    font-family: 'Vazir Matn', Arial, sans-serif;
+    font-size: 19px;
+    padding: 7px;
+    margin-bottom: 27px;
+}
+#surahSelectArabic {
+    padding-inline-end: 20px; /* Adjust the padding as needed */
+}
+/* CSS for slow blinking animation */
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+    </style>
+</head>
+<body>
+    <h1>Quran</h1>
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="arabic-tab" data-toggle="tab" href="#arabic" role="tab" aria-controls="arabic" aria-selected="true">Arabic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="translation-tab" data-toggle="tab" href="#translation" role="tab" aria-controls="translation" aria-selected="false">Translation</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="arabic" role="tabpanel" aria-labelledby="arabic-tab">
+                <select id="surahSelectArabic" class="form-control" style="padding-right: 10px;">
+                    <option value="0" style="direction: rtl;">Select Sura</option>
+                    <!-- Populate options dynamically using JavaScript -->
+                </select>
+            </div>
+            <div class="tab-pane fade" id="translation" role="tabpanel" aria-labelledby="translation-tab">
+                <select id="surahSelectTranslation" class="form-control">
+                    <option value="0">Select Sura</option>
+                    <!-- Populate options dynamically using JavaScript -->
+                </select>
+            </div>
+        </div>
+    </div>
+<div id="surahInfo">
+    <p style="text-align: center;">No Sura selected</p>
+</div>
+    <!-- Sticky bottom bar -->
+    <div class="sticky-bottom">
+        <div class="container">
+
+<button id="playButton"><i class="fas fa-play"></i></button>
+<button id="stopButton"><i class="fas fa-stop"></i></button>
+
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS and any custom scripts -->
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="surah_en.js"></script>
+    <script src="listen.js?2=c"></script> 
+</body>
+</html>
